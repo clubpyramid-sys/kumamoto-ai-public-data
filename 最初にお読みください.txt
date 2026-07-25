@@ -1,0 +1,21 @@
+note・YouTube公開情報自動配信基盤
+
+推奨配置先:
+  ~/Desktop/AI_Agent/kumamoto-ai-public-data
+
+初回は次の順番でダブルクリックしてください。
+
+1. commands/01_初期セットアップ.command
+2. commands/02_GitHub公開リポジトリを作成.command
+3. commands/03_手動更新.command
+4. commands/07_毎日04時50分にスリープ解除.command
+5. commands/04_毎日1回の自動実行を登録.command
+
+1日2回（05:00・17:00）にする場合は、5の代わりに
+commands/04B_1日2回の自動実行を登録.command
+を実行してください。
+
+macOSが開くのを止めた場合:
+Finderで.commandを右クリック →「開く」を選択してください。
+
+詳細はREADME.mdをご覧ください。

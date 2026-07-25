@@ -1,0 +1,12 @@
+{
+  "project": "kumamoto-ai-public-data",
+  "release": "starter-1.0.0",
+  "built_at": "2026-07-25",
+  "target": "macOS / Mac Studio",
+  "default_schedule": {
+    "wake": "04:50",
+    "run": "05:00",
+    "timezone": "Asia/Tokyo"
+  },
+  "default_repository": "clubpyramid-sys/kumamoto-ai-public-data"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "http": {
+    "timeout_seconds": 25,
+    "user_agent": "KumamotoPublicDataBot/1.0 (+public metadata collector; contact via repository)",
+    "retries": 3
+  },
+  "safety": {
+    "minimum_items": 1,
+    "maximum_drop_ratio": 0.60,
+    "strict_remote_image_check": false
+  },
+  "git": {
+    "auto_push": true,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "note": [
+    {
+      "enabled": true,
+      "source_id": "note-account-club-pyramid",
+      "type": "account",
+      "account_id": "club_pyramid",
+      "title": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "url": "https://note.com/club_pyramid/",
+      "rss_url": "https://note.com/club_pyramid/rss",
+      "output": "note/account_latest.json",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "source_id": "note-magazine-ai-future",
+      "type": "magazine",
+      "magazine_key": "m28cf0da750b4",
+      "title": "AI｜知性の拡張と未来社会の設計図",
+      "url": "https://note.com/club_pyramid/m/m28cf0da750b4",
+      "output": "note/magazines/m28cf0da750b4.json",
+      "max_items": 20
+    }
+  ],
+  "youtube": [
+    {
+      "enabled": true,
+      "source_id": "youtube-channel-clubpyramid",
+      "type": "channel",
+      "title": "CLUB PYRAMID",
+      "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
+      "handle": "CLUBPYRAMID",
+      "output": "youtube/channel_latest.json",
+      "max_items": 20,
+      "mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "sites": {
+    "kumamoto_ai_laboratory": {
+      "title": "熊本AI研究所",
+      "output": "sites/kumamoto_ai_laboratory.json",
+      "note_source_ids": ["note-magazine-ai-future", "note-account-club-pyramid"],
+      "youtube_source_ids": ["youtube-channel-clubpyramid"],
+      "note_keywords": ["AI", "ChatGPT", "Codex", "Gemini", "NotebookLM", "ローカルAI", "LLM", "Claude", "Fable", "Grok", "Hermes", "自動化", "YouTube"],
+      "youtube_keywords": ["AI", "ChatGPT", "Codex", "Gemini", "NotebookLM", "ローカルAI", "LLM", "Claude", "Fable", "Grok", "Hermes", "自動化"],
+      "exclude_keywords": [],
+      "note_limit": 10,
+      "youtube_limit": 10
+    },
+    "cosanostra": {
+      "title": "COSA NOSTRA JAPAN",
+      "output": "sites/cosanostra.json",
+      "note_source_ids": ["note-account-club-pyramid"],
+      "youtube_source_ids": ["youtube-channel-clubpyramid"],
+      "note_keywords": [],
+      "youtube_keywords": [],
+      "exclude_keywords": [],
+      "note_limit": 10,
+      "youtube_limit": 10
+    },
+    "kumamotoevent": {
+      "title": "熊本イベント",
+      "output": "sites/kumamotoevent.json",
+      "note_source_ids": ["note-account-club-pyramid"],
+      "youtube_source_ids": ["youtube-channel-clubpyramid"],
+      "note_keywords": [],
+      "youtube_keywords": [],
+      "exclude_keywords": [],
+      "note_limit": 10,
+      "youtube_limit": 10
+    }
+  }
+}

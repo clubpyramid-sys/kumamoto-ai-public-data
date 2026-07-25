@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "id": "pending",
+    "type": "pending",
+    "title": "初回取得前",
+    "url": "https://example.com/"
+  },
+  "items": [],
+  "item_count": 0,
+  "content_hash": "",
+  "generated_at": null
+}

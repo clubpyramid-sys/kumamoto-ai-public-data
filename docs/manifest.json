@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "project": "kumamoto-ai-public-data",
+  "public_base_url": "https://clubpyramid-sys.github.io/kumamoto-ai-public-data/",
+  "feeds": {
+    "note_account": "note/account_latest.json",
+    "note_ai_magazine": "note/magazines/m28cf0da750b4.json",
+    "youtube_channel": "youtube/channel_latest.json",
+    "kumamoto_ai_laboratory": "sites/kumamoto_ai_laboratory.json",
+    "cosanostra": "sites/cosanostra.json",
+    "kumamotoevent": "sites/kumamotoevent.json"
+  },
+  "generated_at": null,
+  "content_hash": ""
+}
