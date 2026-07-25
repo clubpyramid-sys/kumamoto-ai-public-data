@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+import warnings
+from bs4 import MarkupResemblesLocatorWarning
+warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
+
 import hashlib
 import html
 import json
