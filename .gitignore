@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 .env
 private/
+data/cache/
 runtime/*
 !runtime/.gitkeep
 logs/*

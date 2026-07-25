@@ -13,9 +13,10 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_sites import build_site_payloads
 from common import append_jsonl, atomic_write_json, copy_tree, load_json, now_iso, prepare_payload
-from fetch_note import fetch_note
+from fetch_note import NoteThumbnailResolver, fetch_note
 from fetch_youtube import fetch_youtube
 from import_hermes_x import import_hermes_x
+from merge_note_thumbnails import backfill_magazine_thumbnails, build_account_article_index
 from publish_git import publish
 from validate import suspicious_drop, validate_public_tree, validate_source_payload, validate_site_payload
 
@@ -61,6 +62,44 @@ def _promote(staging_docs: Path, public_docs: Path) -> list[str]:
     return changed
 
 
+def _backfill_magazine_thumbnail_outputs(
+    staging_docs: Path,
+    public_docs: Path,
+    note_sources: list[dict],
+    safety: dict,
+    outcomes: list[dict],
+) -> int:
+    account_payloads = [
+        load_json(staging_docs / source["output"], {})
+        for source in note_sources
+        if source.get("enabled", True) and source.get("type") == "account"
+    ]
+    account_index = build_account_article_index(account_payloads)
+    changed_count = 0
+    for source in note_sources:
+        if not source.get("enabled", True) or source.get("type") != "magazine":
+            continue
+        rel = Path(source["output"])
+        candidate = load_json(staging_docs / rel, {})
+        merged, filled_ids = backfill_magazine_thumbnails(candidate, account_index)
+        existing = load_json(public_docs / rel, {})
+        drop_error = suspicious_drop(existing, merged, safety)
+        if drop_error:
+            raise RuntimeError(drop_error)
+        prepared, changed = prepare_payload(merged, existing)
+        errors = validate_source_payload(prepared)
+        if errors:
+            raise RuntimeError(" / ".join(errors))
+        atomic_write_json(staging_docs / rel, prepared)
+        changed_count += int(changed)
+        for outcome in outcomes:
+            if outcome.get("source_id") == source.get("source_id"):
+                outcome["changed"] = bool(outcome.get("changed") or changed)
+                outcome["thumbnail_backfilled_from_account"] = len(filled_ids)
+                break
+    return changed_count
+
+
 def run(dry_run: bool = False, no_push: bool = False) -> int:
     started = now_iso()
     sources = load_json(ROOT / "config" / "sources.json", {})
@@ -71,6 +110,11 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
     staging = ROOT / "runtime" / "staging_docs"
     runtime_status = ROOT / "runtime" / "status.json"
     copy_tree(docs, staging)
+    note_resolver = NoteThumbnailResolver(
+        ROOT / "data" / "cache" / "note_thumbnail_cache.json",
+        sources.get("http", {}),
+    )
+    note_resolver.seed_from_public_docs(docs)
 
     outcomes: list[dict] = []
     source_changes = 0
@@ -78,12 +122,20 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
         if not source.get("enabled", True):
             continue
         try:
-            payload = fetch_note(source, sources.get("http", {}))
+            payload = fetch_note(source, sources.get("http", {}), note_resolver)
             changed = _source_update(staging, docs, source, payload, sources.get("safety", {}))
             source_changes += int(changed)
             outcomes.append({"source_id": source["source_id"], "status": "success", "changed": changed})
         except Exception as exc:
             outcomes.append({"source_id": source.get("source_id"), "status": "failed", "error": str(exc)})
+    note_resolver.save()
+    source_changes += _backfill_magazine_thumbnail_outputs(
+        staging,
+        docs,
+        sources.get("note", []),
+        sources.get("safety", {}),
+        outcomes,
+    )
 
     for source in sources.get("youtube", []):
         if not source.get("enabled", True):
