@@ -15,6 +15,7 @@ from build_sites import build_site_payloads
 from common import append_jsonl, atomic_write_json, copy_tree, load_json, now_iso, prepare_payload
 from fetch_note import fetch_note
 from fetch_youtube import fetch_youtube
+from import_hermes_x import import_hermes_x
 from publish_git import publish
 from validate import suspicious_drop, validate_public_tree, validate_source_payload, validate_site_payload
 
@@ -44,7 +45,6 @@ def _promote(staging_docs: Path, public_docs: Path) -> list[str]:
     timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
     backup_root = ROOT / "backups" / timestamp
     staging_files = {p.relative_to(staging_docs): p for p in staging_docs.rglob("*") if p.is_file()}
-    public_files = {p.relative_to(public_docs): p for p in public_docs.rglob("*") if p.is_file()}
     for rel, src in staging_files.items():
         dst = public_docs / rel
         if dst.exists() and src.read_bytes() == dst.read_bytes():
@@ -58,13 +58,13 @@ def _promote(staging_docs: Path, public_docs: Path) -> list[str]:
         shutil.copy2(src, tmp)
         os.replace(tmp, dst)
         changed.append(str(rel))
-    # stagingにない公開ファイルは削除しない。事故防止を優先。
     return changed
 
 
 def run(dry_run: bool = False, no_push: bool = False) -> int:
     started = now_iso()
     sources = load_json(ROOT / "config" / "sources.json", {})
+    x_config = load_json(ROOT / "config" / "x_sources.json", {})
     filters = load_json(ROOT / "config" / "site_filters.json", {})
     manual = load_json(ROOT / "config" / "manual_selections.json", {})
     docs = ROOT / "docs"
@@ -96,6 +96,16 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
         except Exception as exc:
             outcomes.append({"source_id": source.get("source_id"), "status": "failed", "error": str(exc)})
 
+    if x_config.get("enabled", False):
+        try:
+            payload = import_hermes_x(ROOT, x_config)
+            x_source = {"output": x_config.get("output", "x/all_latest.json")}
+            changed = _source_update(staging, docs, x_source, payload, sources.get("safety", {}))
+            source_changes += int(changed)
+            outcomes.append({"source_id": "x-hermes-grok", "status": "success", "changed": changed})
+        except Exception as exc:
+            outcomes.append({"source_id": "x-hermes-grok", "status": "failed", "error": str(exc)})
+
     site_payloads = build_site_payloads(staging, filters, manual)
     for site_id, payload in site_payloads.items():
         rel = Path(filters["sites"][site_id]["output"])
@@ -115,6 +125,7 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
             "note_account": "note/account_latest.json",
             "note_ai_magazine": "note/magazines/m28cf0da750b4.json",
             "youtube_channel": "youtube/channel_latest.json",
+            "x_all": "x/all_latest.json",
             "kumamoto_ai_laboratory": "sites/kumamoto_ai_laboratory.json",
             "cosanostra": "sites/cosanostra.json",
             "kumamotoevent": "sites/kumamotoevent.json"
@@ -159,7 +170,7 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="note・YouTube公開JSONを更新")
+    parser = argparse.ArgumentParser(description="note・YouTube・X公開JSONを更新")
     parser.add_argument("--dry-run", action="store_true", help="取得・検証のみでdocsを書き換えない")
     parser.add_argument("--no-push", action="store_true", help="commitはするがpushしない")
     args = parser.parse_args()
