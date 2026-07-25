@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hermes Agent＋Grok 4.5で取得したCOSA NOSTRA JAPAN関連Xアカウントの公開投稿プレビューです。">
+  <title>X投稿フィード｜Kumamoto AI Public Data</title>
+  <style>
+    :root{color-scheme:light;--bg:#f4f7f5;--surface:#fff;--text:#17221c;--muted:#657169;--line:#dbe5df;--accent:#176b45;--accent2:#0f4e33}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.75}
+    main{width:min(1120px,calc(100% - 32px));margin:0 auto;padding:48px 0 80px}
+    header{margin-bottom:36px}
+    h1{font-size:clamp(30px,5vw,52px);line-height:1.15;margin:0 0 16px}
+    h2{font-size:clamp(22px,3vw,30px);margin:56px 0 20px}
+    p{margin:0 0 14px}
+    .lead{font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:780px}
+    .status{display:inline-flex;gap:8px;align-items:center;margin-top:14px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:14px;color:var(--muted)}
+    .status::before{content:"";width:9px;height:9px;border-radius:50%;background:#20a365;box-shadow:0 0 0 4px rgba(32,163,101,.12)}
+    .cnj-x-feed{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .cnj-x-feed__card{display:flex;flex-direction:column;gap:14px;min-width:0;padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 10px 30px rgba(25,65,43,.06)}
+    .cnj-x-feed__meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;color:var(--muted);font-size:13px}
+    .cnj-x-feed__meta strong{width:100%;color:var(--text);font-size:15px}
+    .cnj-x-feed__card p{white-space:pre-wrap;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:8;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+    .cnj-x-feed__image{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;background:#e7ece9}
+    .cnj-x-feed__card a,.more a,.back{color:var(--accent);font-weight:700;text-decoration:none}
+    .cnj-x-feed__card a{margin-top:auto}
+    .cnj-x-feed__card a:hover,.more a:hover,.back:hover{text-decoration:underline}
+    .account-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+    .account-panel{min-width:0}
+    .account-panel h2{margin-top:0}
+    .account-panel .cnj-x-feed{grid-template-columns:1fr}
+    .more{margin-top:22px;text-align:center}
+    .note{margin-top:46px;padding:20px;border-radius:16px;background:#eaf2ed;color:var(--muted)}
+    .back{display:inline-block;margin-bottom:22px}
+    @media(max-width:900px){.cnj-x-feed{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:700px){main{width:min(100% - 24px,1120px);padding-top:28px}.cnj-x-feed,.account-grid{grid-template-columns:1fr}.cnj-x-feed__card{padding:17px}}
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../">← 公開データ一覧へ</a>
+    <header>
+      <h1>X投稿フィード</h1>
+      <p class="lead">Hermes Agent＋Grok 4.5が取得し、Mac Studioで検証した公開済みX投稿を、GitHub Pagesから配信しています。</p>
+      <span class="status">公開データを自動読込中</span>
+    </header>
+
+    <section aria-labelledby="latest-heading">
+      <h2 id="latest-heading">全アカウントの最新投稿</h2>
+      <div class="cnj-x-feed" data-cnj-x-feed data-limit="12"></div>
+      <p class="more"><a href="https://x.com/club_kumamoto" target="_blank" rel="noopener noreferrer">リアルタイムの最新情報をXで見る →</a></p>
+    </section>
+
+    <div class="account-grid">
+      <section class="account-panel" aria-labelledby="club-heading">
+        <h2 id="club-heading">@club_kumamoto</h2>
+        <div class="cnj-x-feed" data-cnj-x-feed data-limit="3" data-handles="club_kumamoto"></div>
+      </section>
+
+      <section class="account-panel" aria-labelledby="support-heading">
+        <h2 id="support-heading">@kumamonsupport</h2>
+        <div class="cnj-x-feed" data-cnj-x-feed data-limit="3" data-handles="kumamonsupport"></div>
+      </section>
+
+      <section class="account-panel" aria-labelledby="luna-heading">
+        <h2 id="luna-heading">@kumamoto_luna</h2>
+        <div class="cnj-x-feed" data-cnj-x-feed data-limit="3" data-handles="kumamoto_luna"></div>
+      </section>
+
+      <section class="account-panel" aria-labelledby="gentleman-heading">
+        <h2 id="gentleman-heading">@K_Ero_Gentleman</h2>
+        <div class="cnj-x-feed" data-cnj-x-feed data-limit="3" data-handles="K_Ero_Gentleman"></div>
+      </section>
+    </div>
+
+    <p class="note">このページは表示検証用です。Webサイトには必要なアカウントと件数だけを指定して同じウィジェットを組み込みます。更新が止まった場合も、GitHub Pages上の最後の正常データを表示し続けます。</p>
+  </main>
+  <script src="widget.js" defer></script>
+</body>
+</html>
