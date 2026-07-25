@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-25T09:00:00+09:00",
+  "items": [
+    {
+      "id": "1234567890123456789",
+      "handle": "club_kumamoto",
+      "display_name": "Kumamoto Secret Club",
+      "published_at": "2026-07-25T08:30:00+09:00",
+      "text": "Web表示テスト用のサンプル投稿です。",
+      "url": "https://x.com/club_kumamoto/status/1234567890123456789",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    }
+  ]
+}
