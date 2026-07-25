@@ -35,6 +35,14 @@ def validate_item(item: dict, kind: str) -> list[str]:
                 errors.append(f"{prefix} duration_secondsが負数です")
         except Exception:
             errors.append(f"{prefix} duration_secondsが整数ではありません")
+    if kind == "x":
+        if not str(item.get("handle") or "").strip():
+            errors.append(f"{prefix} handleがありません")
+        if not str(item.get("text") or "").strip():
+            errors.append(f"{prefix} textがありません")
+        for media in item.get("media", []):
+            if not isinstance(media, dict) or not valid_public_url(media.get("url")):
+                errors.append(f"{prefix} media URLが不正です")
     return errors
 
 
@@ -53,7 +61,13 @@ def validate_source_payload(payload: dict) -> list[str]:
     ids = [str(item.get("id")) for item in items if item.get("id")]
     if len(ids) != len(set(ids)):
         errors.append("重複IDがあります")
-    kind = "youtube" if str(source.get("type", "")).startswith("youtube") else "note"
+    source_type = str(source.get("type", ""))
+    if source_type.startswith("youtube"):
+        kind = "youtube"
+    elif source_type.startswith("x-"):
+        kind = "x"
+    else:
+        kind = "note"
     for item in items:
         errors.extend(validate_item(item, kind))
     return errors
@@ -67,6 +81,8 @@ def validate_site_payload(payload: dict) -> list[str]:
         errors.extend(validate_item(item, "note"))
     for item in payload.get("youtube_items", []):
         errors.extend(validate_item(item, "youtube"))
+    for item in payload.get("x_items", []):
+        errors.extend(validate_item(item, "x"))
     return errors
 
 

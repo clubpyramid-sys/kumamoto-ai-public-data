@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "enabled": true,
+  "input": "runtime/x/hermes_latest.json",
+  "output": "x/all_latest.json",
+  "max_items": 80,
+  "max_items_per_account": 20,
+  "exclude_replies": true,
+  "exclude_reposts": true,
+  "accounts": [
+    {
+      "handle": "club_kumamoto",
+      "enabled": true,
+      "label": "Kumamoto Secret Club"
+    },
+    {
+      "handle": "kumamonsupport",
+      "enabled": true,
+      "label": "Kumamoto Support"
+    },
+    {
+      "handle": "kumamoto_luna",
+      "enabled": true,
+      "label": "Private Salon LUNA"
+    },
+    {
+      "handle": "K_Ero_Gentleman",
+      "enabled": true,
+      "label": "Kumamoto Ero Gentleman"
+    }
+  ]
+}
