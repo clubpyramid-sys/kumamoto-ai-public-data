@@ -1,13 +1,235 @@
 {
   "schema_version": "1.0",
   "source": {
-    "id": "pending",
-    "type": "pending",
-    "title": "初回取得前",
-    "url": "https://example.com/"
+    "id": "note-account-club-pyramid",
+    "type": "note_account",
+    "title": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+    "url": "https://note.com/club_pyramid/",
+    "rss_url": "https://note.com/club_pyramid/rss"
   },
-  "items": [],
-  "item_count": 0,
-  "content_hash": "",
-  "generated_at": null
+  "items": [
+    {
+      "id": "na4c321a60420",
+      "title": "熊本AI研究所が、これまで実際にやってきたこと｜数千件の文章、数百本の動画、長時間の音声を、次の仕事へつなぐ",
+      "url": "https://note.com/club_pyramid/n/na4c321a60420",
+      "published_at": "2026-07-24T12:59:24+09:00",
+      "summary": "AIという言葉は、いまや珍しいものではなくなりました。 文章を書く。画像を作る。質問へ答える。資料を要約する。そうした使い方は、すでに多くの人が体験しています。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297066779/rectangle_large_type_2_dacba85e510fcf7ddab8ad76615b0325.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nfe91a5230710",
+      "title": "最高知能のClaude Fable 5を、数百円で「外部コンサルタント」として使う｜月額契約せず、必要な瞬間だけ最高峰の知性を呼び出す",
+      "url": "https://note.com/club_pyramid/n/nfe91a5230710",
+      "published_at": "2026-07-24T10:43:48+09:00",
+      "summary": "AIサービスが増え続けている。 ChatGPT、Gemini、Claude、Grok。さらにCodex、Claude Code、Antigravity、Hermes Agent、NotebookLM、ローカルLLM。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297036389/rectangle_large_type_2_aa0b3c6e5169167fbe032b5eaf0f7ca1.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n0887b4c3b4bd",
+      "title": "月額数千円を中心に「自分専用のAI制作会社」をつくる｜ChatGPT、Fable 5、Codex、Antigravity、Gemini、NotebookLM、Grok、Hermes Agent、Ollamaを組織として動かす",
+      "url": "https://note.com/club_pyramid/n/n0887b4c3b4bd",
+      "published_at": "2026-07-23T14:05:00+09:00",
+      "summary": "AIを使って大きな仕事を進めようとすると、すぐに「APIで全部つなげよう」という話になりがちです。 複数のAIモデルをAPIで接続し、メインエージェントがサブエージェントへ自動で仕事を割り振り、成果物を回収して統合する。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296805453/rectangle_large_type_2_ebb2cd77633f37e8add809c1d0f2aa78.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n39ca0675622e",
+      "title": "5,234本のブログ記事から、7冊の本をつくる｜ローカルAIで、故人の思想を「記事の山」から「読める体系」へ変える試み",
+      "url": "https://note.com/club_pyramid/n/n39ca0675622e",
+      "published_at": "2026-07-21T15:21:49+09:00",
+      "summary": "一人の人間が、十数年にわたって書き続けたブログがある。 政治、経済、原発、東アジア、古代史、宗教、地域社会、農、食、エネルギー、宇宙観、そして「イノチ」について。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296263059/rectangle_large_type_2_cdfa5397cf68db14bbf63edabdbc33aa.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nf94d42e1349b",
+      "title": "AI時代のFDEは「企業のDNA」を読む｜創業者の思想、組織の記憶、物語をAIで再構築するという仕事",
+      "url": "https://note.com/club_pyramid/n/nf94d42e1349b",
+      "published_at": "2026-07-20T23:02:54+09:00",
+      "summary": "AIによって、プログラムを書くことのハードルが急速に下がっています。 これまでは、企業向けの業務システムを作ろうと思えば、専門的な知識を持つエンジニアへ依頼し、長い時間と大きな費用をかけなければなりませんでした。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296110799/rectangle_large_type_2_50fdadb3869bae109dac1c0bb1eef295.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n56cb5e8e1be4",
+      "title": "YouTubeは未来の書斎になる｜NotebookLM、Gemini、ChatGPTで数百本の動画から一冊の本をつくる方法",
+      "url": "https://note.com/club_pyramid/n/n56cb5e8e1be4",
+      "published_at": "2026-07-20T13:43:42+09:00",
+      "summary": "YouTubeには、まだ「本になっていない知識」が大量に眠っている。 研究者の講義、経営者の経験談、地域活動の記録、職人の技術、思想家の時事解説、故人が残した長時間の語り。一本ずつ視聴すれば興味深い。しかし、それが数百本、数千時間という規模になると、全体像を把握することは難しくなる。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/295947237/rectangle_large_type_2_98bca5659b13f504dab1f3d1a4289229.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n1bbf66aa84f3",
+      "title": "【実践検証】Google Drive×Gemini×ChatGPTで、レシート写真から月次経費Excelを作る方法",
+      "url": "https://note.com/club_pyramid/n/n1bbf66aa84f3",
+      "published_at": "2026-07-19T15:26:50+09:00",
+      "summary": "はじめに――レシート整理は、AIに任せられるところまで来た 個人事業主や小規模事業者にとって、経理は避けて通れない仕事です。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/295675322/rectangle_large_type_2_e349603426aae904551940ebb07a2d74.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nd64ff35a12a9",
+      "title": "あなたの人生を、本にしませんか？AIでつくる「自動自叙伝」という新しい文化",
+      "url": "https://note.com/club_pyramid/n/nd64ff35a12a9",
+      "published_at": "2026-07-14T12:06:09+09:00",
+      "summary": "自叙伝を書く。 そう聞くと、多くの人は少し身構えるかもしれません。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/294231098/rectangle_large_type_2_60ac6a07e3ca330becb53a72b3bc6fa8.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n5b8fe70ec3db",
+      "title": "自分がいままでに書いた数百の文章から、自動で思想書や自伝、物語などを出版する｜AIで過去の文章を再編集し、Amazonから本が届くまで",
+      "url": "https://note.com/club_pyramid/n/n5b8fe70ec3db",
+      "published_at": "2026-07-13T22:33:25+09:00",
+      "summary": "気づけば、文章が大量に残っている。 昔のブログ。 noteの記事。 SNSに投稿した長文。 日記。 仕事の記録。 企画書。 イベントの報告。 失敗した事業の振り返り。 誰かに送った長いメール。 会議や対話の文字起こし。 その時々に考えていたこと。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/294105307/rectangle_large_type_2_12adec1aa7cca1154f10c18a42fed168.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n2f094d76f44b",
+      "title": "ChatGPTを司令官、Codexを実働部隊として使う｜AIエージェントの覇権争い",
+      "url": "https://note.com/club_pyramid/n/n2f094d76f44b",
+      "published_at": "2026-07-13T09:25:42+09:00",
+      "summary": "2026年、AIをめぐる競争の意味が変わり始めた。 これまで私たちは、AIモデルを主に「質問に答える頭脳」として比較してきた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293908454/rectangle_large_type_2_b48d3b66a657260df16468ff714cda74.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n5762237ce012",
+      "title": "【アジト戦記】200円のグラスの向こう側にあった、熊本の小さな反乱軍基地",
+      "url": "https://note.com/club_pyramid/n/n5762237ce012",
+      "published_at": "2026-07-12T18:44:21+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293751309/rectangle_large_type_2_1dc769efc1f0941b2cfea69bca48a94f.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n7caeb658bb7c",
+      "title": "月額5,000円で、個人・事業者はどこまで行けるのか｜ChatGPT・Google AI・ローカルLLMで構築する「現時点で最高峰のAI要塞」",
+      "url": "https://note.com/club_pyramid/n/n7caeb658bb7c",
+      "published_at": "2026-07-11T13:42:25+09:00",
+      "summary": "少し前まで、AIを仕事に導入するという話は、企業のDX部門やIT企業のためのものだった。 専門のエンジニアを雇い、クラウド環境を契約し、APIの利用料金を払い、データベースを整備し、社内向けのシステムを開発する。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293363835/rectangle_large_type_2_1831ae0b6d5757265085632c8c2b455b.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n04683219dba2",
+      "title": "【実践レポート】無料のローカルAIで動画編集を自動化したら、字幕付け・無音カット・ダイジェスト版・ショート動画まで一気に作れた",
+      "url": "https://note.com/club_pyramid/n/n04683219dba2",
+      "published_at": "2026-07-10T14:56:46+09:00",
+      "summary": "動画編集は、長いあいだ「人間が画面の前に張り付いて行う作業」でした。 素材を再生しながら無音部分を探し、不要な箇所を切り、音量を整え、文字起こしを行い、字幕を修正し、見どころを抜き出し、縦動画へ変換する。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293109576/rectangle_large_type_2_b71672177b5e922ab73e5472e66d6160.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nc05efcaf7195",
+      "title": "GPT-5.6は「賢いチャットボット」の終わりを告げた｜ChatGPT・Work・Codexを仕事のOSとして使い分ける実践論",
+      "url": "https://note.com/club_pyramid/n/nc05efcaf7195",
+      "published_at": "2026-07-10T12:37:49+09:00",
+      "summary": "2026年7月9日、OpenAIは新しいモデルファミリー「GPT-5.6」を正式に発表した。 こうした新モデルが登場するたびに、決まって繰り返される言葉がある。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293081182/rectangle_large_type_2_961eea78f931bbf642673f30f21ea791.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n5dc89336830c",
+      "title": "NotebookLMの音声解説から、CodexでYouTube動画を作る方法｜音声・画像・スライドPDF・BGMを統合して、AIで解説動画を自動生成する制作ワークフロー",
+      "url": "https://note.com/club_pyramid/n/n5dc89336830c",
+      "published_at": "2026-07-10T00:52:34+09:00",
+      "summary": "AIで動画を作る時代になった。 しかし、ここで大事なのは、いきなり動画生成AIに「いい感じの動画を作って」と投げることではない。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292978261/rectangle_large_type_2_5faa9577884542c66e3b091f83d2cee8.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n031ab73e59b2",
+      "title": "「歴史の狡知」とアンコントロールの終局――AI動画が暴く全体主義のフィナーレ",
+      "url": "https://note.com/club_pyramid/n/n031ab73e59b2",
+      "published_at": "2026-07-09T15:46:50+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292841738/rectangle_large_type_2_2a7e8f5d0f1968a40538f48c5170fe47.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n5b3b2f32d60a",
+      "title": "AIで「漫画動画」を作る時代が来た｜ChatGPT・Codex・Vrew・Sunoで作る、実写再現ドラマ風YouTube動画の制作記録",
+      "url": "https://note.com/club_pyramid/n/n5b3b2f32d60a",
+      "published_at": "2026-07-09T12:30:00+09:00",
+      "summary": "AI動画制作で最初にやるべきことは、いきなり画像を作ることでも、動画編集を始めることでもない。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292794979/rectangle_large_type_2_8d5f45a0b17ba5a9c9d18a41d82a1204.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n0cf87d1ebfc7",
+      "title": "外山恒一3.0｜革命・クーデターへの道",
+      "url": "https://note.com/club_pyramid/n/n0cf87d1ebfc7",
+      "published_at": "2026-07-08T13:07:33+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292512867/rectangle_large_type_2_ca75fd5c98a1c6016a9155b332de642c.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n56e11f77ea7f",
+      "title": "動画リメイク",
+      "url": "https://note.com/club_pyramid/n/n56e11f77ea7f",
+      "published_at": "2026-07-07T18:09:07+09:00",
+      "summary": "このYouTube動画をリメイク 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292284990/rectangle_large_type_2_478130a79de133947ca4c321f405ed7b.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nd23f19b6c7d8",
+      "title": "ChatGPTを参謀にCivilization VIIを攻略する｜これぞ計算資源の無駄遣い（笑）",
+      "url": "https://note.com/club_pyramid/n/nd23f19b6c7d8",
+      "published_at": "2026-07-07T09:52:07+09:00",
+      "summary": "文明を導く者には、参謀が必要である。 古代の王には軍師がいた。 皇帝には宰相がいた。 近代国家には官僚機構があり、現代企業にはコンサルタントがいる。 そして令和の私は、Civilization VIIをプレイしながら、画面のスクリーンショットをChatGPTに投げている。 「この街、再建できる？」 「幸福度はどのくらいまで上げればいい？」 「どの町を都市にすべき？」 「相手は戦争を仕掛けてくる？」 「核兵器を開発する可能性は？」 もはやゲーム攻略なのか、国家運営シミュレーションなのか、AI軍事顧問会議なのか分からない。 だが、これが意外と面白い。 いや、正直に言う。 かなり面白い。 そして同時に、こう思う。 これぞ計算資源の無駄遣い（笑） 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292180297/rectangle_large_type_2_033ea8870e05135578195261fb34e889.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    }
+  ],
+  "item_count": 20,
+  "content_hash": "43db70f7b00047e9b14c20baaf8eaa49e8055a5c49f29b6fa392bf6712d2b021",
+  "generated_at": "2026-07-25T07:18:08Z"
 }
