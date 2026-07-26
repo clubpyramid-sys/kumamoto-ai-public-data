@@ -29,8 +29,8 @@ DEFAULT_OUTPUT = ROOT / "docs" / "events" / "kumamoto_secret_club_current.json"
 DEFAULT_SCHEMA = ROOT / "schemas" / "kumamoto_secret_club_current.schema.json"
 DEFAULT_LOG_DIR = ROOT / "logs" / "kumamoto_secret_club_events"
 JST = ZoneInfo("Asia/Tokyo")
-ALLOWED_STATUSES = {"scheduled", "accepting", "updated", "cancelled", "finished", "unknown"}
-PUBLIC_STATUSES = ALLOWED_STATUSES - {"finished", "unknown"}
+ALLOWED_STATUSES = {"scheduled", "accepting", "updated", "finished", "cancelled", "postponed", "unknown"}
+CURRENT_EVENT_STATUSES = {"scheduled", "accepting", "updated"}
 
 SOURCE = {
     "name": "熊本秘密クラブ 開催情報BLOG",
@@ -39,10 +39,13 @@ SOURCE = {
     "blog_url": BLOG_URL,
 }
 
-REPORT_WORDS = re.compile(r"(?:開催レポート|活動報告|参加レポート|振り返り|終了しました|開催しました|御礼|お礼)")
-CANCEL_WORDS = re.compile(r"(?:中止|延期|取り止め|取りやめ)")
-UPDATE_WORDS = re.compile(r"(?:変更|訂正|更新|時間変更|会場変更|直前のお知らせ)")
-ACCEPTING_WORDS = re.compile(r"(?:受付中|募集中|参加者募集|面談会|予約受付|申込受付)")
+REPORT_WORDS = re.compile(r"(?:開催レポート|活動報告|参加レポート|振り返り|御礼|お礼)")
+CANCEL_WORDS = re.compile(r"(?:中止|取り止め|取りやめ)")
+POSTPONED_WORDS = re.compile(r"(?:延期|日程を改め)")
+UPDATE_WORDS = re.compile(r"(?:変更|訂正|更新|時間変更|会場変更|直前のお知らせ|受付終了)")
+ACCEPTING_WORDS = re.compile(r"(?:受付中|募集中|参加者募集|予約受付|申込受付)")
+FINISHED_WORDS = re.compile(r"(?:開催終了|開催済み|終了しました|開催しました)")
+EVENT_ARTICLE_WORDS = re.compile(r"(?:開催|面談|受付|中止|延期|変更|訂正|募集)")
 TIME_PATTERN = re.compile(r"(?<!\d)([01]?\d|2[0-3])[:：]([0-5]\d)(?!\d)")
 DATE_PATTERN = re.compile(r"(?:(20\d{2})年)?\s*(1[0-2]|0?[1-9])月\s*(3[01]|[12]?\d)日")
 URL_DATE_PATTERN = re.compile(r"/(20\d{2})-(\d{2})-(\d{2})(?:[./_-]|$)")
@@ -161,18 +164,18 @@ def generalize_area(text: str) -> str | None:
 def classify(text: str, event_date: date | None, today: date) -> tuple[str, str | None]:
     if FORBIDDEN_CONTENT.search(text):
         return "unknown", "inappropriate_content"
-    if REPORT_WORDS.search(text):
-        return "finished", "report_or_finished"
-    if not event_date:
-        return "unknown", "date_unknown"
-    if event_date < today:
-        return "finished", "past_event"
     if CANCEL_WORDS.search(text):
         return "cancelled", None
+    if POSTPONED_WORDS.search(text):
+        return "postponed", None
     if UPDATE_WORDS.search(text):
         return "updated", None
+    if FINISHED_WORDS.search(text) or (event_date and event_date < today):
+        return "finished", "past_event"
     if ACCEPTING_WORDS.search(text):
         return "accepting", None
+    if not event_date:
+        return "unknown", "date_unknown"
     return "scheduled", None
 
 
@@ -187,10 +190,12 @@ def normalize_entry(entry: Any, today: date) -> tuple[dict[str, Any] | None, str
         return None, "invalid_article_url"
     if FORBIDDEN_CONTENT.search(combined_raw):
         return None, "inappropriate_content"
+    if REPORT_WORDS.search(combined_raw):
+        return None, "event_report"
+    if not EVENT_ARTICLE_WORDS.search(combined_raw):
+        return None, "not_event_article"
     event_date = extract_event_date(f"{title} {plain_text(raw_summary, 1000)}", url, today)
     status, reason = classify(combined_raw, event_date, today)
-    if status not in PUBLIC_STATUSES:
-        return None, reason or status
     summary = plain_text(raw_summary, 260)
     item = {
         "title": title,
@@ -223,13 +228,15 @@ def validate_payload(payload: Any) -> list[str]:
         errors.append("invalid top-level status")
     current = payload.get("current_event")
     recent = payload.get("recent_items")
-    if not isinstance(recent, list) or len(recent) > 5:
-        errors.append("recent_items must be an array with at most 5 items")
+    if not isinstance(recent, list) or len(recent) > 4:
+        errors.append("recent_items must be an array with at most 4 items")
         recent = []
     if payload.get("status") == "ok" and not isinstance(current, dict):
         errors.append("status ok requires current_event")
-    if payload.get("status") == "no_current_event" and (current is not None or recent):
-        errors.append("no_current_event requires null current_event and empty recent_items")
+    if payload.get("status") == "no_current_event" and current is not None:
+        errors.append("no_current_event requires null current_event")
+    if isinstance(current, dict) and current.get("status") not in CURRENT_EVENT_STATUSES:
+        errors.append("current_event.status is invalid")
     for index, item in enumerate(([current] if isinstance(current, dict) else []) + recent):
         prefix = f"item[{index}]"
         required = {"title", "published_at", "updated_at", "event_date", "event_time", "area", "summary", "status", "url", "source_type"}
@@ -240,7 +247,7 @@ def validate_payload(payload: Any) -> list[str]:
             errors.append(f"{prefix}.title is invalid")
         if not isinstance(item.get("summary"), str) or len(item["summary"]) > 260:
             errors.append(f"{prefix}.summary is invalid")
-        if item.get("status") not in PUBLIC_STATUSES:
+        if item.get("status") not in ALLOWED_STATUSES:
             errors.append(f"{prefix}.status is invalid")
         if safe_article_url(item.get("url")) != item.get("url"):
             errors.append(f"{prefix}.url is invalid")
@@ -249,6 +256,9 @@ def validate_payload(payload: Any) -> list[str]:
         raw = json.dumps(item, ensure_ascii=False)
         if FORBIDDEN_CONTENT.search(raw) or any(pattern.search(raw) for pattern in PII_PATTERNS):
             errors.append(f"{prefix} contains prohibited content")
+    recent_urls = [item.get("url") for item in recent if isinstance(item, dict)]
+    if len(recent_urls) != len(set(recent_urls)):
+        errors.append("recent_items.url is duplicated")
     return errors
 
 
@@ -270,20 +280,28 @@ def build_payload(feed_content: bytes, generated_at: datetime | None = None) -> 
             continue
         seen_urls.add(item["url"])
         accepted.append(item)
-    accepted.sort(key=lambda item: (item["event_date"], item["published_at"] or "", item["url"]))
-    recent = accepted[:5]
+    accepted.sort(key=lambda item: (item["published_at"] or "", item["updated_at"] or "", item["url"]), reverse=True)
+    recent = accepted[:4]
+    current_candidates = [
+        item for item in accepted
+        if item["status"] in CURRENT_EVENT_STATUSES
+        and item["event_date"]
+        and item["event_date"] >= today.isoformat()
+    ]
+    current_candidates.sort(key=lambda item: (item["event_date"], item["published_at"] or "", item["url"]))
+    current_event = current_candidates[0] if current_candidates else None
     stamp = (generated_at or now_jst()).astimezone(JST).replace(microsecond=0).isoformat()
     payload = {
         "schema_version": 1,
         "source": SOURCE,
         "generated_at": stamp,
-        "status": "ok" if recent else "no_current_event",
-        "current_event": recent[0] if recent else None,
+        "status": "ok" if current_event else "no_current_event",
+        "current_event": current_event,
         "recent_items": recent,
     }
     diagnostics = {
         "fetched_items": len(parsed.entries),
-        "current_candidates": len(recent),
+        "current_candidates": len(current_candidates),
         "excluded_items": sum(excluded.values()),
         "excluded_reasons": dict(sorted(excluded.items())),
     }

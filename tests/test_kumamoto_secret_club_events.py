@@ -32,8 +32,15 @@ def rss(items: list[str]) -> bytes:
     <description>test</description>{content}</channel></rss>'''.encode()
 
 
-def item(title: str, link: str, description: str = "", pub_date: str = "Sun, 26 Jul 2026 01:00:00 GMT") -> str:
-    return f"<item><title>{title}</title><link>{link}</link><description><![CDATA[{description}]]></description><pubDate>{pub_date}</pubDate></item>"
+def item(
+    title: str,
+    link: str,
+    description: str = "",
+    pub_date: str = "Sun, 26 Jul 2026 01:00:00 GMT",
+    updated: str | None = None,
+) -> str:
+    updated_xml = f"<updated>{updated}</updated>" if updated else ""
+    return f"<item><title>{title}</title><link>{link}</link><description><![CDATA[{description}]]></description><pubDate>{pub_date}</pubDate>{updated_xml}</item>"
 
 
 class FakeResponse:
@@ -75,24 +82,84 @@ class KumamotoSecretClubEventTests(unittest.TestCase):
         self.assertEqual(diagnostics["current_candidates"], 1)
         self.assertEqual(validate_payload(payload), [])
 
-    def test_past_report_and_unknown_date_are_excluded(self):
+    def test_past_event_announcements_are_recent_but_reports_and_general_articles_are_excluded(self):
         source = rss([
-            item("7月20日 開催レポート", "https://kumamotosecretclub.jp/blog2/2026-07-20.html"),
+            item("7月20日 開催済みのお知らせ", "https://kumamotosecretclub.jp/blog2/2026-07-20.html"),
+            item("7月20日 開催レポート", "https://kumamotosecretclub.jp/blog2/report.html"),
             item("読み物", "https://kumamotosecretclub.jp/blog2/essay.html"),
         ])
         payload, diagnostics = build_payload(source, self.NOW)
         self.assertEqual(payload["status"], "no_current_event")
         self.assertIsNone(payload["current_event"])
+        self.assertEqual([entry["status"] for entry in payload["recent_items"]], ["finished"])
         self.assertEqual(diagnostics["excluded_items"], 2)
         self.assertEqual(validate_payload(payload), [])
 
-    def test_cancel_and_update_are_current_public_statuses(self):
+    def test_recent_items_are_newest_four_in_published_order_without_duplicate_urls(self):
         source = rss([
-            item("7月27日 開催中止のお知らせ", "https://kumamotosecretclub.jp/blog2/2026-07-27.html"),
-            item("7月28日 時間変更", "https://kumamotosecretclub.jp/blog2/2026-07-28.html"),
+            item("7月31日 開催延期のお知らせ", "https://kumamotosecretclub.jp/blog2/postponed.html", pub_date="Fri, 31 Jul 2026 01:00:00 GMT"),
+            item("7月30日 開催中止のお知らせ", "https://kumamotosecretclub.jp/blog2/cancelled.html", pub_date="Thu, 30 Jul 2026 01:00:00 GMT"),
+            item("7月20日 開催済みのお知らせ", "https://kumamotosecretclub.jp/blog2/finished.html", pub_date="Wed, 29 Jul 2026 01:00:00 GMT"),
+            item("7月29日 時間変更", "https://kumamotosecretclub.jp/blog2/updated.html", pub_date="Tue, 28 Jul 2026 01:00:00 GMT"),
+            item("7月28日 受付中の開催案内", "https://kumamotosecretclub.jp/blog2/accepting.html", pub_date="Mon, 27 Jul 2026 01:00:00 GMT"),
+            item("7月28日 受付中の開催案内（重複）", "https://kumamotosecretclub.jp/blog2/accepting.html", pub_date="Sat, 01 Aug 2026 01:00:00 GMT"),
+        ])
+        payload, diagnostics = build_payload(source, self.NOW)
+        self.assertEqual(len(payload["recent_items"]), 4)
+        self.assertEqual([entry["status"] for entry in payload["recent_items"]], ["postponed", "cancelled", "finished", "updated"])
+        self.assertEqual(len({entry["url"] for entry in payload["recent_items"]}), 4)
+        self.assertEqual(diagnostics["excluded_reasons"], {"duplicate_url": 1})
+
+    def test_current_event_excludes_finished_cancelled_and_postponed_items(self):
+        source = rss([
+            item("7月20日 開催済みのお知らせ", "https://kumamotosecretclub.jp/blog2/finished.html"),
+            item("7月27日 開催中止のお知らせ", "https://kumamotosecretclub.jp/blog2/cancelled.html"),
+            item("7月28日 開催延期のお知らせ", "https://kumamotosecretclub.jp/blog2/postponed.html"),
+            item("7月29日 受付中の開催案内", "https://kumamotosecretclub.jp/blog2/accepting.html"),
         ])
         payload, _ = build_payload(source, self.NOW)
-        self.assertEqual([entry["status"] for entry in payload["recent_items"]], ["cancelled", "updated"])
+        self.assertEqual(payload["current_event"]["url"], "https://kumamotosecretclub.jp/blog2/accepting.html")
+        self.assertEqual(payload["current_event"]["status"], "accepting")
+        self.assertEqual(
+            {entry["status"] for entry in payload["recent_items"]},
+            {"finished", "cancelled", "postponed", "accepting"},
+        )
+
+    def test_recent_items_use_updated_at_as_the_published_at_tiebreaker(self):
+        source = rss([
+            item(
+                "7月30日 開催案内 A",
+                "https://kumamotosecretclub.jp/blog2/a.html",
+                pub_date="Sun, 26 Jul 2026 01:00:00 GMT",
+                updated="Mon, 27 Jul 2026 01:00:00 GMT",
+            ),
+            item(
+                "7月31日 開催案内 B",
+                "https://kumamotosecretclub.jp/blog2/b.html",
+                pub_date="Sun, 26 Jul 2026 01:00:00 GMT",
+                updated="Tue, 28 Jul 2026 01:00:00 GMT",
+            ),
+        ])
+        payload, _ = build_payload(source, self.NOW)
+        self.assertEqual(
+            [entry["url"] for entry in payload["recent_items"]],
+            ["https://kumamotosecretclub.jp/blog2/b.html", "https://kumamotosecretclub.jp/blog2/a.html"],
+        )
+
+    def test_explicit_statuses_take_priority_and_unknown_event_articles_are_kept(self):
+        source = rss([
+            item("開催中止のお知らせ", "https://kumamotosecretclub.jp/blog2/cancelled.html", pub_date="Sun, 26 Jul 2026 01:00:00 GMT"),
+            item("開催延期のお知らせ", "https://kumamotosecretclub.jp/blog2/postponed.html", pub_date="Mon, 27 Jul 2026 01:00:00 GMT"),
+            item("開催時間変更のお知らせ", "https://kumamotosecretclub.jp/blog2/updated.html", pub_date="Tue, 28 Jul 2026 01:00:00 GMT"),
+            item("入会面談会のお知らせ", "https://kumamotosecretclub.jp/blog2/unknown.html", pub_date="Wed, 29 Jul 2026 01:00:00 GMT"),
+        ])
+        payload, _ = build_payload(source, self.NOW)
+        self.assertEqual(
+            [entry["status"] for entry in payload["recent_items"]],
+            ["unknown", "updated", "postponed", "cancelled"],
+        )
+        self.assertIsNone(payload["current_event"])
+        self.assertEqual(payload["status"], "no_current_event")
 
     def test_html_and_personal_details_are_removed(self):
         raw = "<script>bad()</script><style>x</style><p>集合場所：秘密の建物 田中さん 090-1234-5678 a@example.com LINE ID: abcd1234</p>"
