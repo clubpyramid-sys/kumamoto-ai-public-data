@@ -3,7 +3,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 LABEL="jp.cosanostra.kumamoto-public-data.ksc-events.3-hourly"
 TARGET="$HOME/Library/LaunchAgents/$LABEL.plist"
-TEMPLATE="$ROOT/launchd/$LABEL.3-hourly.plist.template"
+TEMPLATE="$ROOT/launchd/$LABEL.plist.template"
 mkdir -p "$HOME/Library/LaunchAgents" "$ROOT/logs"
 python3 - "$TEMPLATE" "$TARGET" "$ROOT" <<'PY'
 from pathlib import Path
