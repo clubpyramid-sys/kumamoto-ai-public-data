@@ -1,6 +1,7 @@
 requests>=2.32,<3
 feedparser>=6.0,<7
 beautifulsoup4>=4.12,<5
+jsonschema>=4.23,<5
 python-dateutil>=2.9,<3
 isodate>=0.7,<1
 yt-dlp>=2025.1.1
