@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -19,6 +20,7 @@ from fetch_kumamoto_secret_club_events import (  # noqa: E402
     run,
     validate_payload,
 )
+from publish_git import publish  # noqa: E402
 
 JST = ZoneInfo("Asia/Tokyo")
 
@@ -140,6 +142,94 @@ class KumamotoSecretClubEventTests(unittest.TestCase):
             record = json.loads(next((root / "logs").glob("*.jsonl")).read_text(encoding="utf-8"))
             self.assertEqual(record["fetch_result"], "error")
             self.assertEqual(record["github_push"], "not_attempted")
+
+    def test_targeted_publish_does_not_stage_unrelated_x_change(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            subprocess.run(["git", "init", "-q", "-b", "main"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.name", "Test"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=root, check=True)
+            event_path = root / "docs" / "events" / "current.json"
+            x_path = root / "docs" / "x" / "all_latest.json"
+            event_path.parent.mkdir(parents=True)
+            x_path.parent.mkdir(parents=True)
+            event_path.write_text('{"version":1}\n', encoding="utf-8")
+            x_path.write_text('{"version":1}\n', encoding="utf-8")
+            subprocess.run(["git", "add", "docs"], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-qm", "initial"], cwd=root, check=True)
+            event_path.write_text('{"version":2}\n', encoding="utf-8")
+            x_path.write_text('{"version":2}\n', encoding="utf-8")
+
+            result = publish(root, {"auto_push": False}, paths=["docs/events/current.json"])
+            committed = subprocess.run(
+                ["git", "show", "--pretty=format:", "--name-only", "HEAD"],
+                cwd=root,
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout.splitlines()
+            status = subprocess.run(
+                ["git", "status", "--short"],
+                cwd=root,
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout
+            self.assertEqual(result["status"], "committed")
+            self.assertEqual(committed, ["docs/events/current.json"])
+            self.assertIn(" M docs/x/all_latest.json", status)
+
+    def test_publish_stops_when_unrelated_file_is_already_staged(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            subprocess.run(["git", "init", "-q", "-b", "main"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.name", "Test"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=root, check=True)
+            event_path = root / "docs" / "events" / "current.json"
+            x_path = root / "docs" / "x" / "all_latest.json"
+            event_path.parent.mkdir(parents=True)
+            x_path.parent.mkdir(parents=True)
+            event_path.write_text('{"version":1}\n', encoding="utf-8")
+            x_path.write_text('{"version":1}\n', encoding="utf-8")
+            subprocess.run(["git", "add", "docs"], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-qm", "initial"], cwd=root, check=True)
+            event_path.write_text('{"version":2}\n', encoding="utf-8")
+            x_path.write_text('{"version":2}\n', encoding="utf-8")
+            subprocess.run(["git", "add", "docs/x/all_latest.json"], cwd=root, check=True)
+
+            with self.assertRaisesRegex(RuntimeError, "stage"):
+                publish(root, {"auto_push": False}, paths=["docs/events/current.json"])
+            head = subprocess.run(
+                ["git", "log", "-1", "--pretty=%s"],
+                cwd=root,
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout.strip()
+            self.assertEqual(head, "initial")
+
+    def test_publish_does_nothing_when_target_is_unchanged(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            subprocess.run(["git", "init", "-q", "-b", "main"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.name", "Test"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=root, check=True)
+            event_path = root / "docs" / "events" / "current.json"
+            event_path.parent.mkdir(parents=True)
+            event_path.write_text('{"version":1}\n', encoding="utf-8")
+            subprocess.run(["git", "add", "docs"], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-qm", "initial"], cwd=root, check=True)
+
+            result = publish(root, {"auto_push": False}, paths=["docs/events/current.json"])
+            count = subprocess.run(
+                ["git", "rev-list", "--count", "HEAD"],
+                cwd=root,
+                check=True,
+                text=True,
+                capture_output=True,
+            ).stdout.strip()
+            self.assertEqual(result["status"], "no_changes")
+            self.assertEqual(count, "1")
 
 
 if __name__ == "__main__":

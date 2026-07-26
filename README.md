@@ -18,6 +18,7 @@ Mac Studioを毎日スリープ解除し、noteとYouTubeの公開情報を取�
 - `docs/note/account_latest.json`
 - `docs/note/magazines/m28cf0da750b4.json`
 - `docs/youtube/channel_latest.json`
+- `docs/events/kumamoto_secret_club_current.json`
 - `docs/sites/kumamoto_ai_laboratory.json`
 - `docs/sites/cosanostra.json`
 - `docs/sites/kumamotoevent.json`
@@ -68,7 +69,13 @@ APIキーはリポジトリへ保存しません。通常はAPIキーなしで�
 ./bin/run_update.sh
 ./bin/run_update.sh --dry-run
 ./bin/run_update.sh --no-push
+./bin/run_ksc_event_update.sh
 ```
+
+KSC開催情報だけは、公開確認後に
+`commands/09_KSC開催情報を3時間ごとに自動更新.command` で10800秒（3時間）間隔へ登録できます。
+note・YouTube・Xの通常ジョブとは別ラベルで動作し、イベントJSON以外をcommit対象にしません。
+解除は `commands/10_KSC開催情報の自動更新を解除.command` を使用します。
 
 ## ログ
 

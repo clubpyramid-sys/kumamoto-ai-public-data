@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>jp.cosanostra.kumamoto-public-data.ksc-events.3-hourly</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__ROOT__/bin/run_ksc_event_update.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__ROOT__</string>
+  <key>StartInterval</key>
+  <integer>10800</integer>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>StandardOutPath</key>
+  <string>__ROOT__/logs/ksc-events.launchd.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>__ROOT__/logs/ksc-events.launchd.stderr.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>GIT_TERMINAL_PROMPT</key>
+    <string>0</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>
