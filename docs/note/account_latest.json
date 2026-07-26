@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n46bd6014c9ea",
+      "title": "note・YouTube・Xの最新投稿をWebサイトに自動表示する方法｜Mac Studio＋GitHub Pages＋JavaScriptで、FTP不要の更新基盤をつくる",
+      "url": "https://note.com/club_pyramid/n/n46bd6014c9ea",
+      "published_at": "2026-07-26T16:50:24+09:00",
+      "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "na4c321a60420",
       "title": "熊本AI研究所が、これまで実際にやってきたこと｜数千件の文章、数百本の動画、長時間の音声を、次の仕事へつなぐ",
       "url": "https://note.com/club_pyramid/n/na4c321a60420",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nd23f19b6c7d8",
-      "title": "ChatGPTを参謀にCivilization VIIを攻略する｜これぞ計算資源の無駄遣い（笑）",
-      "url": "https://note.com/club_pyramid/n/nd23f19b6c7d8",
-      "published_at": "2026-07-07T09:52:07+09:00",
-      "summary": "文明を導く者には、参謀が必要である。 古代の王には軍師がいた。 皇帝には宰相がいた。 近代国家には官僚機構があり、現代企業にはコンサルタントがいる。 そして令和の私は、Civilization VIIをプレイしながら、画面のスクリーンショットをChatGPTに投げている。 「この街、再建できる？」 「幸福度はどのくらいまで上げればいい？」 「どの町を都市にすべき？」 「相手は戦争を仕掛けてくる？」 「核兵器を開発する可能性は？」 もはやゲーム攻略なのか、国家運営シミュレーションなのか、AI軍事顧問会議なのか分からない。 だが、これが意外と面白い。 いや、正直に言う。 かなり面白い。 そして同時に、こう思う。 これぞ計算資源の無駄遣い（笑） 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292180297/rectangle_large_type_2_033ea8870e05135578195261fb34e889.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "43db70f7b00047e9b14c20baaf8eaa49e8055a5c49f29b6fa392bf6712d2b021",
-  "generated_at": "2026-07-25T07:18:08Z"
+  "content_hash": "c5eb89567063ab3d155d66107407196e33e47112c5af8998c806cdb2872584ac",
+  "generated_at": "2026-07-26T20:00:02Z"
 }

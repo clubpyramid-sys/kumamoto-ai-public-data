@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n46bd6014c9ea",
+      "title": "note・YouTube・Xの最新投稿をWebサイトに自動表示する方法｜Mac Studio＋GitHub Pages＋JavaScriptで、FTP不要の更新基盤をつくる",
+      "url": "https://note.com/club_pyramid/n/n46bd6014c9ea",
+      "published_at": "2026-07-26T16:50:24+09:00",
+      "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "na4c321a60420",
       "title": "熊本AI研究所が、これまで実際にやってきたこと｜数千件の文章、数百本の動画、長時間の音声を、次の仕事へつなぐ",
       "url": "https://note.com/club_pyramid/n/na4c321a60420",
@@ -120,6 +132,18 @@
       "published_at": "2026-07-13T09:25:42+09:00",
       "summary": "2026年、AIをめぐる競争の意味が変わり始めた。 これまで私たちは、AIモデルを主に「質問に答える頭脳」として比較してきた。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293908454/rectangle_large_type_2_b48d3b66a657260df16468ff714cda74.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "n5762237ce012",
+      "title": "【アジト戦記】200円のグラスの向こう側にあった、熊本の小さな反乱軍基地",
+      "url": "https://note.com/club_pyramid/n/n5762237ce012",
+      "published_at": "2026-07-12T18:44:21+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293751309/rectangle_large_type_2_1dc769efc1f0941b2cfea69bca48a94f.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -278,8 +302,8 @@
       "selection_mode": "automatic"
     }
   ],
-  "note_count": 10,
+  "note_count": 12,
   "youtube_count": 10,
-  "content_hash": "63981504e73d408eaa26dd5bd4e0f8f902d672ebe267a91e8cede2e81499bf24",
-  "generated_at": "2026-07-25T07:18:29Z"
+  "content_hash": "1f73e0c68504f0547aac0953a436ab4a80d850d28752699537a080d86ed32ab4",
+  "generated_at": "2026-07-26T20:00:29Z"
 }
