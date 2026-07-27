@@ -5,6 +5,12 @@ import re
 from typing import Any
 
 ANSI_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
+TOKEN_RE = re.compile(
+    r"(?i)(bearer\s+[A-Za-z0-9._~+/=-]+|"
+    r"(?:xai|sk|ghp|github_pat)_[A-Za-z0-9._-]{12,}|"
+    r"access[_-]?token\s*[:=]\s*[^\s,}\]]+)"
+)
+LOCAL_PATH_RE = re.compile(r"/(?:Users|Volumes)/[^\s,}\]]+")
 
 
 def _json_values(text: str) -> list[Any]:
@@ -167,12 +173,59 @@ def _to_payload(value: Any) -> dict[str, Any] | None:
     return None
 
 
+def _safe_text(value: Any, limit: int = 700) -> str:
+    if isinstance(value, str):
+        text = value
+    else:
+        try:
+            text = json.dumps(value, ensure_ascii=False, sort_keys=True)
+        except TypeError:
+            text = str(value)
+    text = ANSI_RE.sub("", text)
+    text = TOKEN_RE.sub("[credential removed]", text)
+    text = LOCAL_PATH_RE.sub("[local path removed]", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:limit]
+
+
+def _provider_error(value: Any) -> tuple[str, str] | None:
+    value = _unwrap_json_string(value)
+    if not isinstance(value, dict) or "error" not in value:
+        return None
+
+    code = value.get("code") or value.get("status") or value.get("status_code") or "unknown"
+    error = value.get("error")
+    if isinstance(error, dict):
+        nested_code = error.get("code") or error.get("type")
+        if nested_code and str(code) == "unknown":
+            code = nested_code
+        message = (
+            error.get("message")
+            or error.get("detail")
+            or error.get("error")
+            or error
+        )
+    else:
+        message = error
+
+    return _safe_text(code, 120), _safe_text(message)
+
+
 def extract_hermes_payload(text: str) -> dict[str, Any]:
     candidates = _json_values(text)
+    provider_errors: list[tuple[str, str]] = []
+
     for candidate in reversed(candidates):
         payload = _to_payload(candidate)
         if payload is not None and isinstance(payload.get("items"), list):
             return payload
+        provider_error = _provider_error(candidate)
+        if provider_error is not None:
+            provider_errors.append(provider_error)
+
+    if provider_errors:
+        code, message = provider_errors[0]
+        raise RuntimeError(f"Hermes provider error [{code}]: {message}")
 
     shapes: list[str] = []
     for candidate in candidates[-6:]:
