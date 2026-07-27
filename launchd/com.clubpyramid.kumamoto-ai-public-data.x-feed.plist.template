@@ -24,10 +24,6 @@
     <string>/opt/homebrew/bin:/usr/local/bin:__HOME__/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
     <key>HERMES_BIN</key>
     <string>__HERMES_BIN__</string>
-    <key>GROK_PROVIDER</key>
-    <string>xai-oauth</string>
-    <key>GROK_MODEL</key>
-    <string>grok-build-0.1</string>
     <key>HERMES_TIMEOUT_SECONDS</key>
     <string>900</string>
   </dict>
