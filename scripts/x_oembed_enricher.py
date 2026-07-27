@@ -166,7 +166,7 @@ def enrich_discovered_item(
             "published_at": timestamp_from_snowflake(post_id),
             "text": text,
             "url": post_url,
-            "media": [],
+            "media": raw.get("media") or raw.get("media_urls") or [],
             "is_reply": bool(raw.get("is_reply", False)),
             "is_repost": bool(raw.get("is_repost", raw.get("is_retweet", False))),
             "content_source": "x-oembed",
@@ -196,6 +196,7 @@ x_searchの指定:
 重要:
 - 投稿本文や投稿日時は推測・翻訳・要約しない
 - 最終JSONには本文や日時を入れず、citationで確認した投稿IDとURLだけを返す
+- 画像・動画がcitationから確認できる場合だけ、X公式配信URLをmediaへ含める
 - URLは https://x.com/<handle>/status/<numeric-id> 形式に正規化する
 - DM、下書き、Cookie、認証情報、ローカルパスを含めない
 
@@ -212,7 +213,10 @@ x_searchの指定:
       "handle": "account handle without @",
       "url": "https://x.com/handle/status/id",
       "is_reply": false,
-      "is_repost": false
+      "is_repost": false,
+      "media": [
+        {{"type": "image or video", "url": "https://pbs.twimg.com/... or https://video.twimg.com/..."}}
+      ]
     }}
   ]
 }}"""
