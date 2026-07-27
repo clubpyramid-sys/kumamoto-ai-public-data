@@ -116,6 +116,8 @@ def normalize_discovery_items_with_oembed(
 
         # Never trust model-supplied text or timestamps. Force the exact public
         # post body through X's official oEmbed endpoint and derive time from ID.
+        # Media candidates are retained, then the existing normalizer limits
+        # them to official pbs.twimg.com/video.twimg.com hosts.
         discovery = dict(raw) if isinstance(raw, dict) else raw
         if isinstance(discovery, dict):
             for key in (
@@ -126,8 +128,6 @@ def normalize_discovery_items_with_oembed(
                 "date",
                 "display_name",
                 "name",
-                "media",
-                "media_urls",
             ):
                 discovery.pop(key, None)
 
