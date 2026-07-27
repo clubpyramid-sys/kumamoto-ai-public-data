@@ -60,6 +60,28 @@ class HermesResponseParserTests(unittest.TestCase):
         payload = extract_hermes_payload(json.dumps({"club_kumamoto": [raw_post]}))
         self.assertEqual(payload["items"][0]["handle"], "club_kumamoto")
 
+    def test_reports_provider_error(self) -> None:
+        raw = json.dumps({"code": 403, "error": "subscription tier not allowed"})
+        with self.assertRaisesRegex(
+            RuntimeError,
+            r"Hermes provider error \[403\]: subscription tier not allowed",
+        ):
+            extract_hermes_payload(raw)
+
+    def test_redacts_provider_credentials(self) -> None:
+        raw = json.dumps(
+            {
+                "code": "unauthorized",
+                "error": "Bearer secret-token-value access_token=supersecret",
+            }
+        )
+        with self.assertRaises(RuntimeError) as context:
+            extract_hermes_payload(raw)
+        message = str(context.exception)
+        self.assertIn("[credential removed]", message)
+        self.assertNotIn("secret-token-value", message)
+        self.assertNotIn("supersecret", message)
+
 
 if __name__ == "__main__":
     unittest.main()
