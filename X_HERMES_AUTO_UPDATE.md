@@ -25,7 +25,9 @@ launchd（00:00／06:00／12:00／18:00）
 ↓
 Hermes CLI one-shotモード
 ↓
-xai-oauth／GrokによるXライブ検索
+Hermes Desktop／CLIで保存済みのprovider・model設定
+↓
+Xライブ検索
 ↓
 JSON抽出・アカウント検証・投稿ID検証
 ↓
@@ -55,22 +57,33 @@ GitHub Pages
 - `docs/` に未処理のローカル変更がある場合は、自動commitを行わず停止
 - 二重起動をロックディレクトリで防止
 - `main` ブランチ以外では自動実行しない
+- provider側エラーは認証情報を伏せてコードとメッセージを記録
 
 ## 使用するHermes設定
 
-```text
-provider: xai-oauth
-model: grok-build-0.1
-mode: hermes -z
+通常は、Hermes Desktopまたは次のコマンドで選択済みのprovider・modelをそのまま利用します。
+
+```bash
+hermes model
 ```
 
-モデル名はlaunchdのplistで変更できます。Hermes側で利用可能なモデル名が変わった場合は、生成済みの次のファイルを編集してください。
+自動更新側では、通常の実行時に `--provider` と `--model` を強制しません。
+
+これにより、Hermes Desktopで実際に動作確認済みのGrok設定、OAuth状態、モデル選択をlaunchdからも利用します。
+
+診断時だけ一時的に強制する場合は、次の環境変数を使えます。
 
 ```text
-~/Library/LaunchAgents/com.clubpyramid.kumamoto-ai-public-data.x-feed.plist
+HERMES_PROVIDER_OVERRIDE
+HERMES_MODEL_OVERRIDE
 ```
 
-変更後は再登録コマンドを実行します。
+旧設定の次の環境変数は使用しません。
+
+```text
+GROK_PROVIDER
+GROK_MODEL
+```
 
 ## 登録
 
@@ -88,6 +101,8 @@ zsh commands/10_X投稿自動更新を登録.command
 3. plist構文を検証
 4. LaunchAgentを登録
 5. 初回更新を即時実行
+
+既に登録済みの場合でも、テンプレートの環境変数を更新するため、修正版取得後に登録コマンドを再実行して構いません。
 
 ## 実行時刻
 
@@ -111,11 +126,21 @@ zsh commands/11_X投稿自動更新状態を確認.command
 
 - launchdの登録状態
 - Hermes取得の成功・失敗
+- provider側エラーコードと安全なエラーメッセージ
 - 取得件数とアカウント別件数
 - 最新投稿ID
 - 公開処理の結果
 - Git commit・push状態
 - 標準出力・標準エラーログ
+
+## Hermesの認証・モデル確認
+
+```bash
+hermes doctor
+hermes model
+```
+
+`hermes doctor` で認証状態を確認し、`hermes model` でHermes Desktopと同じprovider・modelを選択します。
 
 ## ログ
 
@@ -155,5 +180,8 @@ print("最新投稿:", latest.get("handle"), latest.get("id"), latest.get("publi
 
 ```bash
 python3 -m unittest tests/test_fetch_x_with_hermes.py -v
+python3 -m unittest tests/test_hermes_response_parser.py -v
 python3 -m py_compile scripts/fetch_x_with_hermes.py
+python3 -m py_compile scripts/run_fetch_x_with_hermes.py
+python3 -m py_compile scripts/hermes_response_parser.py
 ```
