@@ -39,7 +39,7 @@ if [[ "$BEHIND" -gt 0 ]]; then
   git pull --ff-only origin main
 fi
 
-"$ROOT/.venv/bin/python" "$ROOT/scripts/fetch_x_with_hermes.py"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/run_fetch_x_with_hermes.py"
 "$ROOT/bin/run_update.sh"
 
 "$ROOT/.venv/bin/python" - <<'PY'
