@@ -6,6 +6,19 @@
   },
   "note_items": [
     {
+      "id": "nb7a0d72c6846",
+      "title": "月額数千円で、個人事業者の「AI要塞」ができてしまった｜ChatGPT、Gemini、Grok、5TBストレージ、動画生成、6人分のAI環境まで含めた新しい事業基盤",
+      "url": "https://note.com/club_pyramid/n/nb7a0d72c6846",
+      "published_at": "2026-07-28T05:18:02+09:00",
+      "summary": "少し前まで、AIを本格的に仕事へ導入するには、かなりの費用が必要だと思っていた。 高性能なAIを使う。 大量のデータを保存する。 動画を生成する。 Webサイトを作る。 SNSを運営する。 資料を整理する。 プログラムを書く。 自分以外のスタッフにもAIを使ってもらう。 これらをすべて実現しようとすれば、複数の法人向けサービスを契約し、専任のIT担当者や外部の制作会社も必要になる。 ところが、実際に現在の契約とAI環境を整理してみると、驚くことが分かった。",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298153451/rectangle_large_type_2_0ba5dd02a6b6652b5adafdfd52367466.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 0,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "nad0354b5d8a7",
       "title": "全てのタスクをFable 5で実行するのは、スーパーへフェラーリで買い物に行くようなもの｜最高性能のAIを常用して分かった、費用・通信・役割分担の現実",
       "url": "https://note.com/club_pyramid/n/nad0354b5d8a7",
@@ -13,7 +26,7 @@
       "summary": "最高性能のAIが使えるようになると、つい考えてしまう。 文章作成も、調査も、プログラミングも、事業分析も、Webサイトの監査も、過去の会話履歴の整理も、すべて最高性能のモデルへ任せる。 性能だけを見れば、確かに魅力的だ。 しかし実際にClaudeの最高知能モデル「Fable 5」を使ってみると、その考え方が経済的にも運用的にも正しくないことが分かった。 Fable 5は確かに賢い。 長い資料を読み、複数の専門領域を横断し、こちらが見落としていた構造的な問題を発見する",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298079512/rectangle_large_type_2_2cc392ba5c06f763daa65341b92432e6.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 1,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -26,7 +39,7 @@
       "summary": "結論から言う。 Claude Fable 5は、外部コンサルタントとして十分に使える。 ただし、日常的なチャット相手として気軽に会話を続けるモデルではない。 使い方を間違えると、知性と一緒に残高も猛烈な勢いで消えていく（笑）。 今回、ある小規模事業の運営改善について、Claude Fable 5に本格的な外部コンサルティングを依頼してみた。 守秘のため、この記事では事業名、サービス名、所在地、具体的な運営内容は伏せる。 依頼したのは、単なる文章作成ではない。 経",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297970525/rectangle_large_type_2_25ea359f0e7247260730f4931260204d.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 2,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -39,7 +52,7 @@
       "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 そのたびに複数のWebサイトを開き、記事タイトル、URL、画像、投稿日をコピーし、HTMLへ追記する。 サイトが一つなら対応できます。 しかし、運営サイトが増えてくると、更新漏れや表示の食い違いが必ず起こります。 そこで私は、Mac Studi",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -52,7 +65,7 @@
       "summary": "AIという言葉は、いまや珍しいものではなくなりました。 文章を書く。画像を作る。質問へ答える。資料を要約する。そうした使い方は、すでに多くの人が体験しています。 けれども、熊本AI研究所が取り組んできたのは、AIへ一度だけ何かを頼むことではありません。 長年蓄積された文章、動画、音声、写真、Webサイト、会議記録、レシートなどを集め、整理し、読み直し、別の形へ作り直す。その途中でAIが間違えることを前提に、元の資料へ戻って確認し、変更前のデータを保存し、公開前に人間が最",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297066779/rectangle_large_type_2_dacba85e510fcf7ddab8ad76615b0325.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 3,
+      "magazine_position": 4,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -65,7 +78,7 @@
       "summary": "AIサービスが増え続けている。 ChatGPT、Gemini、Claude、Grok。さらにCodex、Claude Code、Antigravity、Hermes Agent、NotebookLM、ローカルLLM。 それぞれに強みがあり、使い分ければ非常に強力だ。しかし、すべての上位プランへ加入していくと、月額料金は簡単に数万円へ達する。 個人や小規模事業者にとって、これは決して小さな負担ではない。 そこで発想を変える。 最高性能のAIを毎日使い続ける必要はない。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297036389/rectangle_large_type_2_aa0b3c6e5169167fbe032b5eaf0f7ca1.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 4,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -78,7 +91,7 @@
       "summary": "AIを使って大きな仕事を進めようとすると、すぐに「APIで全部つなげよう」という話になりがちです。 複数のAIモデルをAPIで接続し、メインエージェントがサブエージェントへ自動で仕事を割り振り、成果物を回収して統合する。 技術的には、それが最も分かりやすい方法でしょう。 しかし、すべてを高性能なクラウドAIとAPIで動かすと、仕事が増えるほど料金も増えていきます。 AIエージェントは、一度の指示で終わるとは限りません。 資料を読む。 計画を立てる。 ファイルを作",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296805453/rectangle_large_type_2_ebb2cd77633f37e8add809c1d0f2aa78.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 6,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -91,7 +104,7 @@
       "summary": "一人の人間が、十数年にわたって書き続けたブログがある。 政治、経済、原発、東アジア、古代史、宗教、地域社会、農、食、エネルギー、宇宙観、そして「イノチ」について。 記事数は、5,234本。 短い告知もあれば、長い論考もある。ニュース記事の引用、講演案内、時事分析、後年の再掲載、第三者による文章も混ざっている。 話題は一見すると散らばっているが、長い時間をかけて読み進めると、同じ問題意識が何度も姿を変えて現れる。 この膨大なブログは、故・新井信介氏が残した思想の地層で",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296263059/rectangle_large_type_2_cdfa5397cf68db14bbf63edabdbc33aa.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -104,7 +117,7 @@
       "summary": "AIによって、プログラムを書くことのハードルが急速に下がっています。 これまでは、企業向けの業務システムを作ろうと思えば、専門的な知識を持つエンジニアへ依頼し、長い時間と大きな費用をかけなければなりませんでした。 ところが、Claude CodeやCodexをはじめとするAIエージェントの登場によって、専門のプログラマーでなくても、AIと対話しながらソフトウェアや業務ツールを作れる時代が始まっています。 これから重要になるのは、単にプログラムを書けることではありません。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296110799/rectangle_large_type_2_50fdadb3869bae109dac1c0bb1eef295.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -116,19 +129,6 @@
       "published_at": "2026-07-20T13:43:42+09:00",
       "summary": "YouTubeには、まだ「本になっていない知識」が大量に眠っている。 研究者の講義、経営者の経験談、地域活動の記録、職人の技術、思想家の時事解説、故人が残した長時間の語り。一本ずつ視聴すれば興味深い。しかし、それが数百本、数千時間という規模になると、全体像を把握することは難しくなる。 検索しても、欲しい発言がどの動画にあったのか分からない。同じ人物が10年間にわたって語り続けていても、時系列やテーマごとの変化を追える人は限られる。 ところが現在は、文字起こしと生成AIを",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/295947237/rectangle_large_type_2_98bca5659b13f504dab1f3d1a4289229.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 8,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n1bbf66aa84f3",
-      "title": "【実践検証】Google Drive×Gemini×ChatGPTで、レシート写真から月次経費Excelを作る方法",
-      "url": "https://note.com/club_pyramid/n/n1bbf66aa84f3",
-      "published_at": "2026-07-19T15:26:50+09:00",
-      "summary": "はじめに――レシート整理は、AIに任せられるところまで来た個人事業主や小規模事業者にとって、経理は避けて通れない仕事です。 特に面倒なのが、財布や机にたまっていくレシートです。 日付、店名、購入品、金額、消費税率、インボイス登録番号、支払方法などを一枚ずつ確認し、Excelや会計ソフトへ入力する。件数が少ないうちは何とかなっても、数十枚、数百枚となれば、かなりの時間を奪われます。 そこで今回、Google Drive、GoogleのGemini、ChatGPTを組み合わ",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/295675322/rectangle_large_type_2_e349603426aae904551940ebb07a2d74.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
@@ -290,6 +290,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "543e0f993a95509b756569f8d239e516d937ed6c4247dce0e59a5c061fbcbd62",
-  "generated_at": "2026-07-27T20:00:34Z"
+  "content_hash": "d7fd5694374b946519bb99aa723d2267ae40cbf2c1cf6d78020d1811a37de119",
+  "generated_at": "2026-07-27T23:33:46Z"
 }

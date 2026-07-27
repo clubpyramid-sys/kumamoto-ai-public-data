@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-07-25T17:29:06+09:00",
+  "last_source_update_at": "2026-07-28T08:27:35+09:00",
   "items": [
+    {
+      "id": "2081839549874077869",
+      "title": "https://t.co/Jlp2ZHzwKT",
+      "text": "https://t.co/Jlp2ZHzwKT",
+      "url": "https://x.com/club_kumamoto/status/2081839549874077869",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-07-27T20:30:02Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2080906743169863994",
       "title": "こんにちは😊 7月30日（木）開催のご案内です🎤✨ 西銀座通りでカラオケ女子会やります。 熊本・西銀座通りエリアのBARにて、開場は19:00、カラオケ女子会は",
@@ -973,18 +985,6 @@
       "media": []
     },
     {
-      "id": "2067314326780936267",
-      "title": "今夜、新たな開催協力店のお申し出をいただきました✨カラオケの充実した下通のバーでしす💡近々、開催できると思いいます みなさまお楽しみに❤️",
-      "text": "今夜、新たな開催協力店のお申し出をいただきました✨カラオケの充実した下通のバーでしす💡近々、開催できると思いいます みなさまお楽しみに❤️",
-      "url": "https://x.com/club_kumamoto/status/2067314326780936267",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-06-17T18:31:59Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2066540538887811135",
       "title": "【完全保存版】AI×公的資金で実現する「超・生存型」BAR開業・経営バイブル 〜内向型の強みをマネタイズする傾聴戦略と最新リサーチ〜｜海のピラミッド▲熊本／CO",
       "text": "【完全保存版】AI×公的資金で実現する「超・生存型」BAR開業・経営バイブル 〜内向型の強みをマネタイズする傾聴戦略と最新リサーチ〜｜海のピラミッド▲熊本／COSA NOSTRA JAPAN @club_kumamoto https://note.com/club_pyramid/n/na2ef0cd3b732",
@@ -1119,6 +1119,6 @@
     }
   ],
   "item_count": 74,
-  "content_hash": "f842c693f4b1481076cdc521c9ab94c1c0ea887517733e53e1bb554907b43421",
-  "generated_at": "2026-07-25T08:45:58Z"
+  "content_hash": "b9bbaeb7f8fab2c3f7a7f65a2831bbf287df05572e7d4c1f104475cdc1e19fd9",
+  "generated_at": "2026-07-27T23:33:46Z"
 }

@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "nb7a0d72c6846",
+      "title": "月額数千円で、個人事業者の「AI要塞」ができてしまった｜ChatGPT、Gemini、Grok、5TBストレージ、動画生成、6人分のAI環境まで含めた新しい事業基盤",
+      "url": "https://note.com/club_pyramid/n/nb7a0d72c6846",
+      "published_at": "2026-07-28T05:18:02+09:00",
+      "summary": "少し前まで、AIを本格的に仕事へ導入するには、かなりの費用が必要だと思っていた。 高性能なAIを使う。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298153451/rectangle_large_type_2_0ba5dd02a6b6652b5adafdfd52367466.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "nad0354b5d8a7",
       "title": "全てのタスクをFable 5で実行するのは、スーパーへフェラーリで買い物に行くようなもの｜最高性能のAIを常用して分かった、費用・通信・役割分担の現実",
       "url": "https://note.com/club_pyramid/n/nad0354b5d8a7",
@@ -132,18 +144,6 @@
       "published_at": "2026-07-14T12:06:09+09:00",
       "summary": "自叙伝を書く。 そう聞くと、多くの人は少し身構えるかもしれません。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/294231098/rectangle_large_type_2_60ac6a07e3ca330becb53a72b3bc6fa8.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n5b8fe70ec3db",
-      "title": "自分がいままでに書いた数百の文章から、自動で思想書や自伝、物語などを出版する｜AIで過去の文章を再編集し、Amazonから本が届くまで",
-      "url": "https://note.com/club_pyramid/n/n5b8fe70ec3db",
-      "published_at": "2026-07-13T22:33:25+09:00",
-      "summary": "気づけば、文章が大量に残っている。 昔のブログ。 noteの記事。 SNSに投稿した長文。 日記。 仕事の記録。 企画書。 イベントの報告。 失敗した事業の振り返り。 誰かに送った長いメール。 会議や対話の文字起こし。 その時々に考えていたこと。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/294105307/rectangle_large_type_2_12adec1aa7cca1154f10c18a42fed168.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -304,6 +304,6 @@
   ],
   "note_count": 12,
   "youtube_count": 10,
-  "content_hash": "dbc12d34371f5015d92518058c7c46fb96eb8842fd6020076a2cc2dbb93051db",
-  "generated_at": "2026-07-27T20:00:34Z"
+  "content_hash": "3627172d27580e8f07bfe916058b4fdedc8c5c8c7ae21b25d2fd912398ef3346",
+  "generated_at": "2026-07-27T23:33:46Z"
 }
