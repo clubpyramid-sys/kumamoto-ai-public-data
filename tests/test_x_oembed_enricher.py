@@ -44,6 +44,12 @@ class XOEmbedEnricherTests(unittest.TestCase):
             "url": "https://x.com/club_kumamoto/status/2081839549874077869",
             "is_reply": False,
             "is_repost": False,
+            "media": [
+                {
+                    "type": "image",
+                    "url": "https://pbs.twimg.com/media/example.jpg?name=orig",
+                }
+            ],
         }
 
         def fake_fetcher(url: str):
@@ -68,6 +74,7 @@ class XOEmbedEnricherTests(unittest.TestCase):
         self.assertEqual(enriched["display_name"], "熊本シークレットクラブ")
         self.assertTrue(enriched["published_at"].endswith("Z"))
         self.assertEqual(enriched["content_source"], "x-oembed")
+        self.assertEqual(enriched["media"], raw["media"])
 
     def test_reuses_previous_normalized_item_without_network(self) -> None:
         previous = {
@@ -93,6 +100,7 @@ class XOEmbedEnricherTests(unittest.TestCase):
         self.assertIn("必ずx_searchツールを使用", prompt)
         self.assertIn('"degraded": false', prompt)
         self.assertIn("本文や日時を入れず", prompt)
+        self.assertIn("X公式配信URLをmediaへ含める", prompt)
         self.assertIn("club_kumamoto", prompt)
 
 
