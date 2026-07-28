@@ -22,6 +22,8 @@ class XDailyGroupTests(unittest.TestCase):
         self.assertEqual(config["output"], "x/daily_latest.json")
         self.assertEqual(config["max_items_per_account"], 10)
         self.assertEqual(config["minimum_accounts_with_items"], 3)
+        self.assertTrue(config["retry_missing_accounts_individually"])
+        self.assertTrue(config["allow_missing_accounts_after_retry"])
         handles = [account["handle"] for account in config["accounts"]]
         self.assertEqual(
             handles,
