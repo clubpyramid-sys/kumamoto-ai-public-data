@@ -10,6 +10,8 @@
   "minimum_accounts_with_items": 3,
   "exclude_replies": true,
   "exclude_reposts": true,
+  "retry_missing_accounts_individually": true,
+  "allow_missing_accounts_after_retry": true,
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
   "source": {
     "id": "x-hermes-grok-daily",
