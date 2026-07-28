@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T03:43:33.880434+09:00",
+  "generated_at": "2026-07-29T03:58:40.294481+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,11 +26,11 @@
         "percent": 5.0
       },
       "chunks": {
-        "completed": 500,
+        "completed": 512,
         "total": 3959,
-        "percent": 12.6
+        "percent": 12.9
       },
-      "last_checkpoint_at": "2026-07-29T03:43:12.915595+09:00"
+      "last_checkpoint_at": "2026-07-29T03:58:14.009823+09:00"
     },
     "projects_meta": {
       "count": 52,
