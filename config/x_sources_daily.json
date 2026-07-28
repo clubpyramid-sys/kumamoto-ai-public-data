@@ -7,6 +7,7 @@
   "publish_status": "runtime/x/hermes_daily_publish_status.json",
   "max_items": 40,
   "max_items_per_account": 10,
+  "minimum_accounts_with_items": 3,
   "exclude_replies": true,
   "exclude_reposts": true,
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
@@ -20,22 +21,22 @@
     {
       "handle": "SEA_PYRAMID",
       "enabled": true,
-      "label": "SEA_PYRAMID"
+      "label": "海のピラミッド"
     },
     {
       "handle": "CLUB_PYRAMID",
       "enabled": true,
-      "label": "CLUB_PYRAMID"
+      "label": "CLUB PYRAMID"
     },
     {
       "handle": "STARLIGHT_CAFE_",
       "enabled": true,
-      "label": "STARLIGHT_CAFE_"
+      "label": "STARLIGHT CAFE"
     },
     {
       "handle": "kumamotodeai",
       "enabled": true,
-      "label": "kumamotodeai"
+      "label": "熊本出会い"
     }
   ]
 }
