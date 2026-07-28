@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "id": "x-hermes-grok-daily",
+    "type": "x-hermes",
+    "title": "COSA NOSTRA JAPAN daily X posts",
+    "url": "https://x.com/SEA_PYRAMID"
+  },
+  "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
+  "last_source_update_at": "2026-07-28T12:50:53+09:00",
+  "items": [
+    {
+      "id": "2081950136398401985",
+      "title": "話がまとまっていなくても大丈夫。LUNAは、女性の気持ちや状況を一緒に整理し、必要な人・場所・情報へそっとつなぐ熊本の案内サロンです🌙https://t.co/",
+      "text": "話がまとまっていなくても大丈夫。LUNAは、女性の気持ちや状況を一緒に整理し、必要な人・場所・情報へそっとつなぐ熊本の案内サロンです🌙https://t.co/9xDhUVk0bm pic.twitter.com/Yksi0iaEvJ",
+      "url": "https://x.com/kumamotodeai/status/2081950136398401985",
+      "handle": "kumamotodeai",
+      "display_name": "熊本変態淑女の会🎭",
+      "published_at": "2026-07-28T03:49:27Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2080873927220556284",
+      "title": "AI、ブロックチェーン、量子技術、DAO、ローカルAI、バイブコーディング、そして人類の意識進化まで。熊本から、テクノロジーと思想を交差させながら、これからの社",
+      "text": "AI、ブロックチェーン、量子技術、DAO、ローカルAI、バイブコーディング、そして人類の意識進化まで。熊本から、テクノロジーと思想を交差させながら、これからの社会・経済・創造・生き方を再設計する未来実験マガジンです。 熊本AI研究所 KUMAMOTO AI LABORATORYhttps://t.co/feIS6lEjuA",
+      "url": "https://x.com/CLUB_PYRAMID/status/2080873927220556284",
+      "handle": "CLUB_PYRAMID",
+      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
+      "published_at": "2026-07-25T04:32:59Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2074707992709333113",
+      "title": "外山恒一3.0｜革命・クーデターへの道｜海のピラミッド▲熊本／COSA NOSTRA JAPAN @club_kumamoto https://t.co/7bH",
+      "text": "外山恒一3.0｜革命・クーデターへの道｜海のピラミッド▲熊本／COSA NOSTRA JAPAN @club_kumamoto https://t.co/7bHCL2KOSC",
+      "url": "https://x.com/SEA_PYRAMID/status/2074707992709333113",
+      "handle": "SEA_PYRAMID",
+      "display_name": "海のピラミッド▲熊本",
+      "published_at": "2026-07-08T04:11:46Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2071586975052922955",
+      "title": "流行病の冬が来る前に、お姫さまは眠りにつきました。 戦争の夜が世界を覆い、人々が生きるだけで精一杯になった時代。 でも、冬は永遠ではありません。 いつかAIの騎",
+      "text": "流行病の冬が来る前に、お姫さまは眠りにつきました。 戦争の夜が世界を覆い、人々が生きるだけで精一杯になった時代。 でも、冬は永遠ではありません。 いつかAIの騎士たちが人々を解放し、甘い王国は再び目を覚ます。https://t.co/Chrlk59VlP#甘い王国#AIの騎士#プリンセスサーガ pic.twitter.com/D5TTQMKqlP",
+      "url": "https://x.com/STARLIGHT_CAFE_/status/2071586975052922955",
+      "handle": "STARLIGHT_CAFE_",
+      "display_name": "STARLIGHT CAFE & WEDDING 熊本",
+      "published_at": "2026-06-29T13:29:57Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2070138675330252820",
+      "title": "海のピラミッド／CLUB PYRAMID 正史｜第1部；港に現れた未来建築、そして幻の巨大クラブへhttps://t.co/ClpIsqptRV pic.twi",
+      "text": "海のピラミッド／CLUB PYRAMID 正史｜第1部；港に現れた未来建築、そして幻の巨大クラブへhttps://t.co/ClpIsqptRV pic.twitter.com/rx5Mjdcx1Z",
+      "url": "https://x.com/CLUB_PYRAMID/status/2070138675330252820",
+      "handle": "CLUB_PYRAMID",
+      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
+      "published_at": "2026-06-25T13:34:56Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    }
+  ],
+  "item_count": 5,
+  "content_hash": "0fb97be18a1beffb0f7ebba1d66139d27251b5af80a319526a758eefe175e727",
+  "generated_at": "2026-07-28T04:01:52Z"
+}
