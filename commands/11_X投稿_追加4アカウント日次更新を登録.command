@@ -52,11 +52,9 @@ echo
 echo "登録完了: $TARGET"
 echo "対象: @SEA_PYRAMID / @CLUB_PYRAMID / @STARLIGHT_CAFE_ / @kumamotodeai"
 echo "実行時刻: 毎日 05:00"
-echo
-echo "初回更新を開始します。"
-launchctl kickstart -k "$DOMAIN/$LABEL"
+echo "登録時の即時実行は行いません。次回05:00から実行します。"
 
-sleep 3
+echo
 launchctl print "$DOMAIN/$LABEL" | sed -n '1,90p'
 echo
 echo "ログ:"
