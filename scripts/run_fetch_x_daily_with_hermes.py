@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys
 from collections import Counter
 from pathlib import Path
-from typing import Mapping
+from typing import Any, Mapping
 
 import fetch_x_with_hermes
 import run_fetch_x_with_hermes
@@ -50,6 +50,23 @@ def validate_account_coverage(
     return missing
 
 
+def fetch_accounts(
+    handles: list[str],
+    per_account_limit: int,
+) -> list[dict[str, Any]]:
+    """Fetch one group and reset the one-time oEmbed discovery pass."""
+
+    allowed = {handle.lower(): handle for handle in handles}
+    run_fetch_x_with_hermes._DISCOVERY_PASS_PENDING = True
+    raw_output = fetch_x_with_hermes.run_hermes(
+        fetch_x_with_hermes.build_prompt(handles, per_account_limit)
+    )
+    response = fetch_x_with_hermes.extract_json(raw_output)
+    if not isinstance(response, dict):
+        raise RuntimeError("Hermes出力のルートがJSONオブジェクトではありません。")
+    return fetch_x_with_hermes.normalize_items(response.get("items"), allowed)
+
+
 def main() -> int:
     configure_daily_pipeline()
 
@@ -72,16 +89,34 @@ def main() -> int:
         previous_payload.get("items", []) if isinstance(previous_payload, dict) else []
     )
 
-    raw_output = fetch_x_with_hermes.run_hermes(
-        fetch_x_with_hermes.build_prompt(accounts, per_account_limit)
-    )
-    response = fetch_x_with_hermes.extract_json(raw_output)
-    if not isinstance(response, dict):
-        raise RuntimeError("Hermes出力のルートがJSONオブジェクトではありません。")
+    fresh_items = fetch_accounts(accounts, per_account_limit)
+    first_counts = Counter(item["handle"] for item in fresh_items)
+    missing_initial = [handle for handle in accounts if first_counts[handle] == 0]
 
-    fresh_items = fetch_x_with_hermes.normalize_items(response.get("items"), allowed)
+    retried_accounts: list[str] = []
+    retry_errors: dict[str, str] = {}
+    if config.get("retry_missing_accounts_individually", True):
+        for handle in missing_initial:
+            retried_accounts.append(handle)
+            try:
+                fresh_items.extend(fetch_accounts([handle], per_account_limit))
+            except Exception as exc:
+                retry_errors[handle] = f"{type(exc).__name__}: {exc}"
+
+    # Discovery is complete. All later normalization must be local-only.
+    run_fetch_x_with_hermes._DISCOVERY_PASS_PENDING = False
+    fresh_items = run_fetch_x_with_hermes._ORIGINAL_NORMALIZE_ITEMS(
+        fresh_items,
+        allowed,
+    )
     fresh_counts = Counter(item["handle"] for item in fresh_items)
     missing = validate_account_coverage(accounts, fresh_counts, minimum_accounts)
+
+    if missing and not config.get("allow_missing_accounts_after_retry", False):
+        raise RuntimeError(
+            "個別再検索後も取得結果が0件のアカウントがあります: "
+            + ", ".join(f"@{handle}" for handle in missing)
+        )
 
     merged = fetch_x_with_hermes.merge_items(
         fresh_items,
@@ -97,8 +132,10 @@ def main() -> int:
         per_account_limit,
         total_limit,
     )
-    changed = merged != previous_normalized
+    if not merged:
+        raise RuntimeError("日次X入力から公開可能な投稿を1件も生成できませんでした。")
 
+    changed = merged != previous_normalized
     if changed:
         fetch_x_with_hermes.atomic_write_json(
             INPUT_PATH,
@@ -115,10 +152,13 @@ def main() -> int:
     fetch_x_with_hermes.write_status(
         "success",
         changed=changed,
+        partial=bool(missing),
         fresh_item_count=len(fresh_items),
         merged_item_count=len(merged),
         minimum_accounts_with_items=minimum_accounts,
         missing_accounts=missing,
+        retried_accounts=retried_accounts,
+        retry_errors=retry_errors,
         per_account=per_account,
         newest_post=merged[0] if merged else None,
     )
@@ -127,10 +167,16 @@ def main() -> int:
     print(f"新規取得候補: {len(fresh_items)}件")
     print(f"統合後: {len(merged)}件")
     print(f"入力JSON更新: {'yes' if changed else 'no'}")
+    if retried_accounts:
+        print("個別再検索: " + ", ".join(f"@{h}" for h in retried_accounts))
     for handle in accounts:
         print(f"- @{handle}: {per_account[handle]}件")
     if missing:
         print("今回0件（次回も継続確認）: " + ", ".join(f"@{h}" for h in missing))
+    if retry_errors:
+        print("個別再検索エラー:", file=sys.stderr)
+        for handle, error in retry_errors.items():
+            print(f"- @{handle}: {error}", file=sys.stderr)
     return 0
 
 
