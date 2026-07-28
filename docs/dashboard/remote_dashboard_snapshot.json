@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T08:00:10.655112+09:00",
+  "generated_at": "2026-07-29T08:06:20.507142+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,11 +26,11 @@
         "percent": 10.0
       },
       "chunks": {
-        "completed": 751,
+        "completed": 757,
         "total": 3959,
-        "percent": 19.0
+        "percent": 19.1
       },
-      "last_checkpoint_at": "2026-07-29T07:59:48.493897+09:00"
+      "last_checkpoint_at": "2026-07-29T08:05:34.235992+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -39,7 +39,7 @@
       "selected_path": "$.workstreams",
       "sanitizer_version": "project-public-safe-v3",
       "policy_mode": "sanitized-auto",
-      "publication_detector_version": "publication-status-v2",
+      "publication_detector_version": "publication-status-v3",
       "publication_registry_entries": 0
     },
     "publication_summary": {
@@ -57,7 +57,7 @@
       "unknown": 22
     },
     "publication_meta": {
-      "detector_version": "publication-status-v2",
+      "detector_version": "publication-status-v3",
       "registry_entries": 0,
       "source_entries": 58,
       "row_count": 52,
@@ -265,7 +265,7 @@
         "detail": "指定されたURLのnoteマガジン画像（1280 × 670px）を生成する。",
         "publication_status": "published_probable",
         "publication_label": "公開済みの可能性大",
-        "publication_platform": "note",
+        "publication_platform": "Web",
         "publication_url": "https://tsuki.theshop.jp/",
         "published_at": "",
         "publication_confidence": 82,
@@ -284,7 +284,7 @@
         "detail": "Antigravity向けに、フォルダ整理後の新ルール確認、FTP用フォルダ検証、noteサムネイル問題の最終切り分けを含む詳細な指示書を作成した。",
         "publication_status": "published_probable",
         "publication_label": "公開済みの可能性大",
-        "publication_platform": "note",
+        "publication_platform": "Web",
         "publication_url": "https://tsuki.theshop.jp/",
         "published_at": "",
         "publication_confidence": 82,
@@ -664,7 +664,7 @@
         "detail": "02_WORKING_SOURCE/から01_UPLOAD_TO_SERVER_FTP_ONLY/へ同期済み。 .DS_Storeも削除済み。",
         "publication_status": "published_probable",
         "publication_label": "公開済みの可能性大",
-        "publication_platform": "note",
+        "publication_platform": "Web",
         "publication_url": "https://tsuki.theshop.jp/",
         "published_at": "",
         "publication_confidence": 82,
