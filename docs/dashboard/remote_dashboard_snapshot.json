@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-28T21:51:10.266208+09:00",
+  "generated_at": "2026-07-28T22:06:15.217814+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -25,11 +25,11 @@
         "percent": 1.1
       },
       "chunks": {
-        "completed": 150,
+        "completed": 162,
         "total": 3959,
-        "percent": 3.8
+        "percent": 4.1
       },
-      "last_checkpoint_at": "2026-07-28T21:50:18.085535+09:00"
+      "last_checkpoint_at": "2026-07-28T22:06:08.165653+09:00"
     }
   },
   "sns": {
