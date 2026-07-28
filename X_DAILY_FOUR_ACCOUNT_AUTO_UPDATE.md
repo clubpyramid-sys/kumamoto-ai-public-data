@@ -36,7 +36,7 @@ cd "$HOME/AI_Agent_Runtime/kumamoto-ai-public-data"
 zsh "commands/11_X投稿_追加4アカウント日次更新を登録.command"
 ```
 
-登録時に初回更新を1回実行する。以後は毎日05:00に実行する。
+登録時には即時実行しない。次回の毎日05:00から実行する。初回公開が必要な場合は、事前に取得済みの正常JSONを `scripts/publish_x_daily.py` で公開する。
 
 ## 状態確認
 
