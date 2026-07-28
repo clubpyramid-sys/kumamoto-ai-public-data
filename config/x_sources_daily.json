@@ -20,22 +20,22 @@
     {
       "handle": "SEA_PYRAMID",
       "enabled": true,
-      "label": "海のピラミッド"
+      "label": "SEA_PYRAMID"
     },
     {
       "handle": "CLUB_PYRAMID",
       "enabled": true,
-      "label": "CLUB PYRAMID"
+      "label": "CLUB_PYRAMID"
     },
     {
       "handle": "STARLIGHT_CAFE_",
       "enabled": true,
-      "label": "STARLIGHT CAFE"
+      "label": "STARLIGHT_CAFE_"
     },
     {
       "handle": "kumamotodeai",
       "enabled": true,
-      "label": "熊本出会い"
+      "label": "kumamotodeai"
     }
   ]
 }
