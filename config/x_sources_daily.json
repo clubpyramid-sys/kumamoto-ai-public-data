@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "enabled": true,
+  "input": "runtime/x/hermes_daily_latest.json",
+  "output": "x/daily_latest.json",
+  "status": "runtime/x/hermes_daily_fetch_status.json",
+  "publish_status": "runtime/x/hermes_daily_publish_status.json",
+  "max_items": 40,
+  "max_items_per_account": 10,
+  "exclude_replies": true,
+  "exclude_reposts": true,
+  "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
+  "source": {
+    "id": "x-hermes-grok-daily",
+    "type": "x-hermes",
+    "title": "COSA NOSTRA JAPAN daily X posts",
+    "url": "https://x.com/SEA_PYRAMID"
+  },
+  "accounts": [
+    {
+      "handle": "SEA_PYRAMID",
+      "enabled": true,
+      "label": "海のピラミッド"
+    },
+    {
+      "handle": "CLUB_PYRAMID",
+      "enabled": true,
+      "label": "CLUB PYRAMID"
+    },
+    {
+      "handle": "STARLIGHT_CAFE_",
+      "enabled": true,
+      "label": "STARLIGHT CAFE"
+    },
+    {
+      "handle": "kumamotodeai",
+      "enabled": true,
+      "label": "熊本出会い"
+    }
+  ]
+}
