@@ -1,6 +1,6 @@
 {
-  "schema_version": "2.0",
-  "generated_at": "2026-07-29T02:18:53.056050+09:00",
+  "schema_version": "3.0",
+  "generated_at": "2026-07-29T02:27:59.131025+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,24 +21,39 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 34,
+        "completed": 37,
         "total": 937,
-        "percent": 3.6
+        "percent": 3.9
       },
       "chunks": {
-        "completed": 419,
+        "completed": 427,
         "total": 3959,
-        "percent": 10.6
+        "percent": 10.8
       },
-      "last_checkpoint_at": "2026-07-29T02:18:15.027144+09:00"
+      "last_checkpoint_at": "2026-07-29T02:27:20.875971+09:00"
     },
     "projects_meta": {
       "count": 52,
       "source": "dashboard_snapshot",
       "selected_document": "dashboard_snapshot.json",
       "selected_path": "$.workstreams",
-      "sanitizer_version": "project-public-safe-v2",
-      "policy_mode": "sanitized-auto"
+      "sanitizer_version": "project-public-safe-v3",
+      "policy_mode": "sanitized-auto",
+      "publication_detector_version": "publication-status-v1",
+      "publication_registry_entries": 0
+    },
+    "publication_summary": {
+      "published_confirmed": 22,
+      "published_probable": 8,
+      "preparing": 3,
+      "unpublished_candidate": 0,
+      "unknown": 19
+    },
+    "publication_meta": {
+      "detector_version": "publication-status-v1",
+      "registry_entries": 0,
+      "source_entries": 58,
+      "notice": "未公開候補は公開の証拠が見つからない候補であり、未公開を断定するものではありません。"
     },
     "projects": [
       {
@@ -48,7 +63,14 @@
         "title": "kumamotoevent.com 制作",
         "next_action": "アンカーIDの機能確認とデザイン調整の最終確認",
         "category": "workstream",
-        "detail": "リンクの設置が完了していることを再確認。既存のアンカーID付きリンクが機能していることを確認。"
+        "detail": "リンクの設置が完了していることを再確認。既存のアンカーID付きリンクが機能していることを確認。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://kumamotoevent.com/",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "external",
@@ -57,7 +79,14 @@
         "title": "kumamotoevent.com 制作",
         "next_action": "公開後のサーバー環境（CLI PHP, cron）の確認と、PHP 501エラーへの対応方針確定",
         "category": "workstream",
-        "detail": "ローカルにPHP CLIがないため未実施。"
+        "detail": "ローカルにPHP CLIがないため未実施。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -66,7 +95,14 @@
         "title": "サイト リニューアル計画",
         "next_action": "Codexのセキュリティ設定方針の確定と、AIエージェントへの指示用プロンプトの整備。",
         "category": "workstream",
-        "detail": "GPT5.6の能力を最大限に活用し、リニューアル済みサイトのさらなる品質向上を図るための指示文作成。"
+        "detail": "GPT5.6の能力を最大限に活用し、リニューアル済みサイトのさらなる品質向上を図るための指示文作成。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://kumamotoevent.com",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "working",
@@ -75,7 +111,14 @@
         "title": "サイト リニューアル計画",
         "next_action": "note記事の執筆（プロンプトを含む内容）およびアイキャッチ画像の最終調整。",
         "category": "workstream",
-        "detail": "note用のアイキャッチ画像を作成するタスクの発生。ただし、アスペクト比の修正依頼が含まれる。"
+        "detail": "note用のアイキャッチ画像を作成するタスクの発生。ただし、アスペクト比の修正依頼が含まれる。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -84,7 +127,14 @@
         "title": "Sweets Buffet Princess",
         "next_action": "note用コンテンツの精査、アイキャッチ画像の制作、および各章の統合・編集。",
         "category": "workstream",
-        "detail": "第5部のアイキャッチ画像の制作。"
+        "detail": "第5部のアイキャッチ画像の制作。",
+        "publication_status": "preparing",
+        "publication_label": "公開準備中",
+        "publication_platform": "note",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 68,
+        "publication_evidence": "次の行動に公開・投稿作業"
       },
       {
         "status": "external",
@@ -93,7 +143,14 @@
         "title": "Sweets Buffet Princess",
         "next_action": "GPT-5.6 Sol Ultraによるブラッシュアップ、Codexへの指示、および最終公開に向けた検証。",
         "category": "workstream",
-        "detail": "制作正本から公開に必要なファイルのみを _ftp_upload/ へ同期し、SHA-256比較を行う。"
+        "detail": "制作正本から公開に必要なファイルのみを _ftp_upload/ へ同期し、SHA-256比較を行う。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -102,7 +159,14 @@
         "title": "外山恒一アーカイブ構築2",
         "next_action": "目録作成の進捗状況を厳密に再確認し、未着手のデータコピーや全体目録作成を完了させる。",
         "category": "workstream",
-        "detail": "01_working_copy内の全ファイルのメタ情報を収集し、file_inventory.csv 等の計9つのファイルを生成する。"
+        "detail": "01_working_copy内の全ファイルのメタ情報を収集し、file_inventory.csv 等の計9つのファイルを生成する。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -111,7 +175,14 @@
         "title": "外山恒一アーカイブ構築2",
         "next_action": "分割された分析結果を統合し、CSV化および中間レポートの作成を行う。",
         "category": "workstream",
-        "detail": "分析結果に基づいた中間レポート（desktop_test100_classification_partial_report.md ）の作成を開始。"
+        "detail": "分析結果に基づいた中間レポート（desktop_test100_classification_partial_report.md ）の作成を開始。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -120,7 +191,14 @@
         "title": "資産価格変動モニターアプリ",
         "next_action": "Codexへの指示文に基づく実装",
         "category": "workstream",
-        "detail": "デザイン更新後に発生した「チャートが読み込まれない」問題の特定と解決。"
+        "detail": "デザイン更新後に発生した「チャートが読み込まれない」問題の特定と解決。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/cosanostra/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -129,7 +207,14 @@
         "title": "資産価格変動モニターアプリ",
         "next_action": "最終的なコードの整合性確認と安定稼働の保証",
         "category": "workstream",
-        "detail": "index.html, script.js, style.cssをFTPで再アップロードし、ブラウザ上で動作を確認。"
+        "detail": "index.html, script.js, style.cssをFTPで再アップロードし、ブラウザ上で動作を確認。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -138,7 +223,14 @@
         "title": "天草プロジェクト2Site構築",
         "next_action": "Note content and visual assets are integrated; focus on refining specific sections like 'Shioji's story' and ensuring all images are optimized.",
         "category": "workstream",
-        "detail": "指定されたURLのnoteマガジン画像（1280 × 670px）を生成する。"
+        "detail": "指定されたURLのnoteマガジン画像（1280 × 670px）を生成する。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -147,7 +239,14 @@
         "title": "天草プロジェクト2Site構築",
         "next_action": "GA4, UTM tracking, and basic infrastructure are established. Tracking logic is verified.",
         "category": "workstream",
-        "detail": "Antigravity向けに、フォルダ整理後の新ルール確認、FTP用フォルダ検証、noteサムネイル問題の最終切り分けを含む詳細な指示書を作成した。"
+        "detail": "Antigravity向けに、フォルダ整理後の新ルール確認、FTP用フォルダ検証、noteサムネイル問題の最終切り分けを含む詳細な指示書を作成した。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://tsuki.theshop.jp/",
+        "published_at": "",
+        "publication_confidence": 100,
+        "publication_evidence": "公開完了表現と公開URLを検出"
       },
       {
         "status": "working",
@@ -156,7 +255,14 @@
         "title": "ローカルAIで動画編集",
         "next_action": "設計書の作成またはVersion 1の実装へ移行",
         "category": "workstream",
-        "detail": "作業用ディレクトリ（source/scripts/logs/output/）の作成および、プロジェクトルートの設定を完了。"
+        "detail": "作業用ディレクトリ（source/scripts/logs/output/）の作成および、プロジェクトルートの設定を完了。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "YouTube",
+        "publication_url": "https://www.youtube.com/watch?v=hU-NnphmOds",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "external",
@@ -165,7 +271,14 @@
         "title": "FFmpeg動画AI自動生成",
         "next_action": "音声の長さに基づいた自動調整ロジックの実装と、`-shortest`による途切れバグの修正（E040）を優先。",
         "category": "workstream",
-        "detail": "`-shortest` オプションにより、映像尺が音声より短い場合に動画が途中で終わる問題を解決するため、音声長をffprobeで取得し、不足分を最終シーンのdurationに加算する処理を追加。"
+        "detail": "`-shortest` オプションにより、映像尺が音声より短い場合に動画が途中で終わる問題を解決するため、音声長をffprobeで取得し、不足分を最終シーンのdurationに加算する処理を追加。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -174,7 +287,14 @@
         "title": "AI時代生き残り戦略",
         "next_action": "プロンプトの生成",
         "category": "workstream",
-        "detail": "SNS投稿に合わせ、シネマティックなアイキャッチ画像を複数パターン（3, 4, 5）生成するタスク。"
+        "detail": "SNS投稿に合わせ、シネマティックなアイキャッチ画像を複数パターン（3, 4, 5）生成するタスク。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -183,7 +303,14 @@
         "title": "AI時代生き残り戦略",
         "next_action": "Webサイトの最終調整（UI/UX、リンク整合性）およびコンテンツの量産・最適化の継続。",
         "category": "workstream",
-        "detail": "Gemini 3 Pro (Nano Banana Pro) を活用し、サイトのビジュアル（背景粒子、パララックス、UI統一、画像生成）を強化するタスク。"
+        "detail": "Gemini 3 Pro (Nano Banana Pro) を活用し、サイトのビジュアル（背景粒子、パララックス、UI統一、画像生成）を強化するタスク。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://azi.to/blackbox/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -192,7 +319,14 @@
         "title": "熊本AI研究所",
         "next_action": "Antigravityによる実装指示書の実行。",
         "category": "workstream",
-        "detail": "Geminiを用いたYouTube動画の再分類および、公式サイト掲載用25本の厳選・レポート作成が完了。"
+        "detail": "Geminiを用いたYouTube動画の再分類および、公式サイト掲載用25本の厳選・レポート作成が完了。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -201,7 +335,14 @@
         "title": "熊本AI研究所",
         "next_action": "横断統合（研究分野、代表プロジェクト等への再編成）へ移行。",
         "category": "workstream",
-        "detail": "108件すべて解析済み、失敗0件。最終レポートが更新された。"
+        "detail": "108件すべて解析済み、失敗0件。最終レポートが更新された。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -210,7 +351,14 @@
         "title": "LUNA",
         "next_action": "最終的なブラウザ検証完了後の、公開サーバーへのファイルアップロード。",
         "category": "workstream",
-        "detail": "ローカルのlunaフォルダを、ドメインの公開ルート（/luna/）に上書きする。"
+        "detail": "ローカルのlunaフォルダを、ドメインの公開ルート（/luna/）に上書きする。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -219,7 +367,14 @@
         "title": "資料解析",
         "next_action": "本番前テストの判定結果に基づく全件処理への移行",
         "category": "workstream",
-        "detail": "確定した7件（TABLE×2, TEXT×2, VISUAL×2, HYBRID×1）を対象に、qwen抽出、Python正規化、gpt-oss監査、Python裁定を行う。"
+        "detail": "確定した7件（TABLE×2, TEXT×2, VISUAL×2, HYBRID×1）を対象に、qwen抽出、Python正規化、gpt-oss監査、Python裁定を行う。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -228,7 +383,14 @@
         "title": "資料解析",
         "next_action": "PHASE 2Dへの移行",
         "category": "workstream",
-        "detail": "v9の処理（著者回答レイヤーの統合）が成功し、仕組みが確立した。"
+        "detail": "v9の処理（著者回答レイヤーの統合）が成功し、仕組みが確立した。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -237,7 +399,14 @@
         "title": "noteアーカイブ",
         "next_action": "sweetsbuffet.jpのリニューアルに着手する。",
         "category": "workstream",
-        "detail": "Gemmaの処理完了後、Ollamaを停止してメモリを解放し、sweetsbuffet.jpのSol Ultra作業へ切り替える。"
+        "detail": "Gemmaの処理完了後、Ollamaを停止してメモリを解放し、sweetsbuffet.jpのSol Ultra作業へ切り替える。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://sweetsbuffet.jp/",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "working",
@@ -246,7 +415,14 @@
         "title": "noteアーカイブ",
         "next_action": "AIによる制作工程の具体化を含めた、note投稿用コンテンツの最終リライトと公開準備。",
         "category": "workstream",
-        "detail": "生成された内容（アイキャッチ画像等）のチェックを依頼。"
+        "detail": "生成された内容（アイキャッチ画像等）のチェックを依頼。",
+        "publication_status": "preparing",
+        "publication_label": "公開準備中",
+        "publication_platform": "note",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 68,
+        "publication_evidence": "次の行動に公開・投稿作業"
       },
       {
         "status": "working",
@@ -255,7 +431,14 @@
         "title": "azi.to リニューアル",
         "next_action": "Codex CLIでのディレクトリ内容の取得およびリサーチ項目の順次確認。",
         "category": "workstream",
-        "detail": "gemma4:12b を使用して [外部リンク] を読み込み、リニューアルの下準備を行う。"
+        "detail": "gemma4:12b を使用して [外部リンク] を読み込み、リニューアルの下準備を行う。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -264,7 +447,14 @@
         "title": "音声録音 書籍化",
         "next_action": "ノートブックBへの移行準備およびマスター索引の最終正規化完了",
         "category": "workstream",
-        "detail": "「ノートブックA・全31ソースE1索引初版」として、表記・件数・分類の最終正規化を行い凍結する。"
+        "detail": "「ノートブックA・全31ソースE1索引初版」として、表記・件数・分類の最終正規化を行い凍結する。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -273,7 +463,14 @@
         "title": "音声録音 書籍化",
         "next_action": "第3陣Cの出所監査完了およびマスター索引への統合準備",
         "category": "workstream",
-        "detail": "TSK-019、TSK-024、TSK-026の3資料について、公開Web・広報資料監査を実施する。この工程ではマスター索引や書籍構成の作成は行わず、出所監査に特化する。"
+        "detail": "TSK-019、TSK-024、TSK-026の3資料について、公開Web・広報資料監査を実施する。この工程ではマスター索引や書籍構成の作成は行わず、出所監査に特化する。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -282,7 +479,14 @@
         "title": "開催レポート・文字起こし",
         "next_action": "女性向け案内文、アイキャッチ画像、X用投稿文の作成は完了。残るタスクはCodex向けのWebページ制作指示の作成。",
         "category": "workstream",
-        "detail": "「熊本秘密クラブ」の名称を伏せ、安心・自由・断れる・見学OKといった要素を強調した女性向け案内文の作成が完了。"
+        "detail": "「熊本秘密クラブ」の名称を伏せ、安心・自由・断れる・見学OKといった要素を強調した女性向け案内文の作成が完了。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/club_kumamoto/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -291,7 +495,14 @@
         "title": "領収書自動集計",
         "next_action": "記事内容の最終確認と公開準備。",
         "category": "workstream",
-        "detail": "note用のアイキャッチ画像を作成するタスクの追加。"
+        "detail": "note用のアイキャッチ画像を作成するタスクの追加。",
+        "publication_status": "preparing",
+        "publication_label": "公開準備中",
+        "publication_platform": "note",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 68,
+        "publication_evidence": "次の行動に公開・投稿作業"
       },
       {
         "status": "working",
@@ -300,7 +511,14 @@
         "title": "AIエージェント2",
         "next_action": "ollama ps を実行して実際にローカルモデルが動いているか確認する",
         "category": "workstream",
-        "detail": "特定の作業用フォルダ（sandbox）に限定して、Antigravityの承認を自動進行させる運用の検討。"
+        "detail": "特定の作業用フォルダ（sandbox）に限定して、Antigravityの承認を自動進行させる運用の検討。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -309,7 +527,14 @@
         "title": "AIエージェント2",
         "next_action": "THREAD_STATUS_V1に基づくデータ収集と、ダッシュボード用ディレクトリ構造への反映。",
         "category": "workstream",
-        "detail": "各AI間の連携を円滑にするための標準的なディレクトリ構造とファイル名の定義（PROJECT_CHARTER.md等）。"
+        "detail": "各AI間の連携を円滑にするための標準的なディレクトリ構造とファイル名の定義（PROJECT_CHARTER.md等）。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -318,7 +543,14 @@
         "title": "LUNA",
         "next_action": "最終的な成果物の公開サーバーへのアップロードと検証の完了",
         "category": "workstream",
-        "detail": "公開サーバーへのファイル送信はまだ行われていない。"
+        "detail": "公開サーバーへのファイル送信はまだ行われていない。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "decision",
@@ -327,7 +559,14 @@
         "title": "天草プロジェクト2Site構築",
         "next_action": "なし（コンテンツの反映見送りにより現状維持）",
         "category": "workstream",
-        "detail": "02_WORKING_SOURCE/から01_UPLOAD_TO_SERVER_FTP_ONLY/へ同期済み。 .DS_Storeも削除済み。"
+        "detail": "02_WORKING_SOURCE/から01_UPLOAD_TO_SERVER_FTP_ONLY/へ同期済み。 .DS_Storeも削除済み。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -336,7 +575,14 @@
         "title": "メールAI自動化",
         "next_action": "AppleScriptによる取得ロジックの安定化と、シェルスクリプトへの統合を継続。",
         "category": "workstream",
-        "detail": "Mail.app側で「今日以降のメールだけを抽出させる whose 条件」を使用する方式への変更と、その動作確認が完了。"
+        "detail": "Mail.app側で「今日以降のメールだけを抽出させる whose 条件」を使用する方式への変更と、その動作確認が完了。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -345,7 +591,14 @@
         "title": "メールAI自動化",
         "next_action": "iCloud連携、LaunchAgentの安定化、および自動仕分けロジックの実装を継続。",
         "category": "workstream",
-        "detail": "プロンプト更新後も要約が行われない原因（処理済みIDによる除外、短縮処理での削除など）を特定するための診断スクリプトの提供。"
+        "detail": "プロンプト更新後も要約が行われない原因（処理済みIDによる除外、短縮処理での削除など）を特定するための診断スクリプトの提供。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -354,7 +607,14 @@
         "title": "cosanostra.jp 制作",
         "next_action": "ビジュアルの弱さやカラー設定に関する指摘に基づき、デザイン・カラー（深い緑＋金）および動画素材の追加を反映。",
         "category": "workstream",
-        "detail": "デザインビジョンに近づけるための詳細な指示を含むCodex用プロンプトを作成。"
+        "detail": "デザインビジョンに近づけるための詳細な指示を含むCodex用プロンプトを作成。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/cosanostra/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -363,7 +623,14 @@
         "title": "cosanostra.jp 制作",
         "next_action": "noteの自動更新、サムネイル取得ロジック（1.91:1）、静的JSON優先構成への移行を含む一連の修正を統合し、最終的な表示状態を確認する。",
         "category": "workstream",
-        "detail": "note最新記事の表示ロジックを静的JSON優先の構成へ変更し、関連するJS、CSS、およびバックアップ・レポート等のドキュメント整備を含む全面的なサイト再設計を実施。"
+        "detail": "note最新記事の表示ロジックを静的JSON優先の構成へ変更し、関連するJS、CSS、およびバックアップ・レポート等のドキュメント整備を含む全面的なサイト再設計を実施。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp/cosanostra/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "decision",
@@ -372,7 +639,14 @@
         "title": "タスク管理ダッシュボード",
         "next_action": "機能要件（未公開情報の検知、滞り判定、自動通知など）の整理およびダッシュボード構成設計の具体化",
         "category": "workstream",
-        "detail": "「未分類インボックス」「停滞・異常」「本人確認待ち」の3枠を設けることで、情報の分散による漏れを防ぐためのダッシュボード構成案が提示された。"
+        "detail": "「未分類インボックス」「停滞・異常」「本人確認待ち」の3枠を設けることで、情報の分散による漏れを防ぐためのダッシュボード構成案が提示された。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -381,7 +655,14 @@
         "title": "AIエージェント体験会",
         "next_action": "Intel MacBook Pro環境に最適化された実演フローの最終確認",
         "category": "workstream",
-        "detail": "Intel MacBook Pro上でのWhisper実行を避け、事前に文字起こししたテキストファイルをAIに読み込ませるフローに変更。"
+        "detail": "Intel MacBook Pro上でのWhisper実行を避け、事前に文字起こししたテキストファイルをAIに読み込ませるフローに変更。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "http://localhost:8000",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "working",
@@ -390,7 +671,14 @@
         "title": "🎭AI時代生き残り戦略3",
         "next_action": "なし（発注済み）",
         "category": "workstream",
-        "detail": "ゴールドパールカードの注文を完了。"
+        "detail": "ゴールドパールカードの注文を完了。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://www.luckyprint.jp/plasticbusinesscard/goldpearlcard",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "external",
@@ -399,7 +687,14 @@
         "title": "🎭AI時代生き残り戦略3",
         "next_action": "qwen3.6を用いたPythonスクリプトによるデータ抽出と、それに基づくCSV/Markdownレポートの生成",
         "category": "workstream",
-        "detail": "Codex CLI (qwen3.6) を使用し、指定されたディレクトリからX(Twitter)アーカイブの思想・ルール・ブランド変遷等を抽出・整理する。"
+        "detail": "Codex CLI (qwen3.6) を使用し、指定されたディレクトリからX(Twitter)アーカイブの思想・ルール・ブランド変遷等を抽出・整理する。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -408,7 +703,14 @@
         "title": "KSC WEB Site制作",
         "next_action": "Codexへの指示出しおよび実装",
         "category": "workstream",
-        "detail": "Contactセクションの見出しや文言（X、YouTube、LINE、メール）が整理され、重複表記が解消された。"
+        "detail": "Contactセクションの見出しや文言（X、YouTube、LINE、メール）が整理され、重複表記が解消された。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://kumamotosecretclub.jp/",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "working",
@@ -417,7 +719,14 @@
         "title": "nunato.net カーイブ",
         "next_action": "NotebookLM用変換の実行およびnote用アイキャッチ画像の作成",
         "category": "workstream",
-        "detail": "NotebookLMへ追加するためのMarkdown変換ツールの作成。初期バージョン(v1)の提供。"
+        "detail": "NotebookLMへ追加するためのMarkdown変換ツールの作成。初期バージョン(v1)の提供。",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://nunato.net/",
+        "published_at": "",
+        "publication_confidence": 72,
+        "publication_evidence": "公開URL候補を検出"
       },
       {
         "status": "external",
@@ -426,7 +735,14 @@
         "title": "nunato.net カーイブ",
         "next_action": "Phase 3/4への移行",
         "category": "workstream",
-        "detail": "533件の記事を含むコーパス作成および7巻分の原文抽出（約126万字）が完了。"
+        "detail": "533件の記事を含むコーパス作成および7巻分の原文抽出（約126万字）が完了。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -435,7 +751,14 @@
         "title": "新井信介YouTube書籍化",
         "next_action": "第6章の本文執筆",
         "category": "workstream",
-        "detail": "第6章の完成原稿執筆を開始。指定された語彙（民族移動、渡来等）を重視し、要約を避けて18,000〜28,000字を目指す。"
+        "detail": "第6章の完成原稿執筆を開始。指定された語彙（民族移動、渡来等）を重視し、要約を避けて18,000〜28,000字を目指す。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -444,7 +767,14 @@
         "title": "新井信介YouTube書籍化",
         "next_action": "第309項（残存修正事項台帳の作成）完了後の最終統合に向けた準備。",
         "category": "workstream",
-        "detail": "12節すべてについて、過去の監査で指摘された修正事項を漏れなく記録し、各項目に属性（問題分類、危険度等）を付与する。"
+        "detail": "12節すべてについて、過去の監査で指摘された修正事項を漏れなく記録し、各項目に属性（問題分類、危険度等）を付与する。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "working",
@@ -453,7 +783,14 @@
         "title": "ひろみチャンネル",
         "next_action": "note用アイキャッチの最終制作とSNS展開",
         "category": "workstream",
-        "detail": "写真の人物のひろみ氏を合成したnote記事用のアイキャッチを作成する。"
+        "detail": "写真の人物のひろみ氏を合成したnote記事用のアイキャッチを作成する。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://kumamotoevent.com/hiromichannel/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "external",
@@ -462,7 +799,14 @@
         "title": "ひろみチャンネル",
         "next_action": "最終的な微調整と成果物（要確認事項等）の完全な分離",
         "category": "workstream",
-        "detail": "指定された4か所のテキスト置換を行い、v1.03を確定。"
+        "detail": "指定された4か所のテキスト置換を行い、v1.03を確定。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://kumamotoevent.com/hiromichannel/",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "decision",
@@ -471,7 +815,14 @@
         "title": "新ビジネス拠点プロジェクト",
         "next_action": "1階予約システム（Googleフォーム+カレンダー+LINE）および2階の電気代実費精算を含む詳細な運用ルールの策定。",
         "category": "workstream",
-        "detail": "共益費を「建物全体の水光熱費から3部屋の電気代を引いた金額」として、水道・ガスおよび共通エリアの電気代を含む変動制とする方針。"
+        "detail": "共益費を「建物全体の水光熱費から3部屋の電気代を引いた金額」として、水道・ガスおよび共通エリアの電気代を含む変動制とする方針。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -480,7 +831,14 @@
         "title": "新ビジネス拠点プロジェクト",
         "next_action": "法務局/司法書士への確認、および資金の流れ（貸付契約）と税務・会計上の処理について専門家と確認。",
         "category": "workstream",
-        "detail": "不動産所有者からの融資を受け、有限会社レストラン凱旋門がエアコン、什器備品等の設備投資を実施。消費税還付と赤字の有効活用を狙う。"
+        "detail": "不動産所有者からの融資を受け、有限会社レストラン凱旋門がエアコン、什器備品等の設備投資を実施。消費税還付と赤字の有効活用を狙う。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -489,7 +847,14 @@
         "title": "訴訟の威嚇問題",
         "next_action": "ユーザーによるファイル提供および逐語録への修正",
         "category": "workstream",
-        "detail": "文字起こしの実行が成功したことが確認された。"
+        "detail": "文字起こしの実行が成功したことが確認された。",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "Web",
+        "publication_url": "https://cosanostra.jp",
+        "published_at": "",
+        "publication_confidence": 94,
+        "publication_evidence": "外部公開一覧と高い一致"
       },
       {
         "status": "working",
@@ -498,7 +863,14 @@
         "title": "STARLIGHT CAFEの歴史",
         "next_action": "全章の画像生成完了確認（一部進行済み）",
         "category": "workstream",
-        "detail": "第一弾の画像を生成。その後、次を要求するやり取りが継続。"
+        "detail": "第一弾の画像を生成。その後、次を要求するやり取りが継続。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       },
       {
         "status": "external",
@@ -507,7 +879,14 @@
         "title": "Google Drive 活動リストアップ",
         "next_action": "「宇城市長選」の記述修正および陳情活動の詳細情報の精査",
         "category": "workstream",
-        "detail": "提出先、陳情書の最終文面、行政からの回答について追加確認が必要。"
+        "detail": "提出先、陳情書の最終文面、行政からの回答について追加確認が必要。",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず"
       }
     ]
   },
