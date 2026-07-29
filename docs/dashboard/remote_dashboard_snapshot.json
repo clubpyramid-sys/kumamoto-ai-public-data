@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T14:00:26.677991+09:00",
+  "generated_at": "2026-07-29T14:00:33.071358+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -43,14 +43,13 @@
       "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "cache",
-      "conversation_count": 713,
+      "source": "not_found",
+      "matched_projects": 0,
       "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
-      "data_state": "partial",
-      "matched_projects": 11,
-      "unmatched_projects": 41,
-      "exact_matches": 5,
-      "fuzzy_matches": 6,
+      "data_state": "unavailable",
+      "unmatched_projects": 52,
+      "exact_matches": 0,
+      "fuzzy_matches": 0,
       "dashboard_hint_matches": 0,
       "project_rows": 52,
       "thresholds": {
@@ -66,10 +65,10 @@
         "unknown": "未照合"
       },
       "summary": {
-        "ok": 3,
-        "warning": 2,
-        "critical": 6,
-        "unknown": 41
+        "ok": 0,
+        "warning": 0,
+        "critical": 0,
+        "unknown": 52
       }
     },
     "publication_summary": {
@@ -114,15 +113,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "ok",
-          "label": "余裕あり",
-          "message_count": 15,
-          "user_messages": 7,
-          "assistant_messages": 8,
-          "text_chars": 12106,
-          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -144,15 +140,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "ok",
-          "label": "余裕あり",
-          "message_count": 15,
-          "user_messages": 7,
-          "assistant_messages": 8,
-          "text_chars": 12106,
-          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -498,15 +491,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "none"
         }
       },
       {
@@ -528,15 +518,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "none"
         }
       },
       {
@@ -1152,15 +1139,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -1182,15 +1166,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -1293,15 +1274,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 197,
-          "user_messages": 59,
-          "assistant_messages": 95,
-          "text_chars": 167238,
-          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -1323,15 +1301,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "critical",
-          "label": "引継ぎ推奨",
-          "message_count": 197,
-          "user_messages": 59,
-          "assistant_messages": 95,
-          "text_chars": 167238,
-          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "none"
         }
       },
       {
@@ -1353,15 +1328,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "warning",
-          "label": "長め",
-          "message_count": 150,
-          "user_messages": 57,
-          "assistant_messages": 57,
-          "text_chars": 110408,
-          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "none"
         }
       },
       {
@@ -1383,15 +1355,12 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "warning",
-          "label": "長め",
-          "message_count": 150,
-          "user_messages": 57,
-          "assistant_messages": 57,
-          "text_chars": 110408,
-          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "none"
         }
       },
       {
@@ -1467,15 +1436,12 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "ok",
-          "label": "余裕あり",
-          "message_count": 26,
-          "user_messages": 13,
-          "assistant_messages": 13,
-          "text_chars": 16912,
-          "archive_updated_at": "2025-08-17T11:12:30.813918+09:00",
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "none"
         }
       },
       {
