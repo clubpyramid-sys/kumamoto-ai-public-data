@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T11:23:18.183116+09:00",
+  "generated_at": "2026-07-29T11:26:48.379104+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,40 +26,40 @@
         "percent": 11.8
       },
       "chunks": {
-        "completed": 946,
+        "completed": 949,
         "total": 3959,
-        "percent": 23.9
+        "percent": 24.0
       },
-      "last_checkpoint_at": "2026-07-29T11:23:16.613956+09:00"
+      "last_checkpoint_at": "2026-07-29T11:26:06.584360+09:00"
     },
     "projects_meta": {
       "count": 52,
       "source": "dashboard_snapshot",
       "selected_document": "dashboard_snapshot.json",
       "selected_path": "$.workstreams",
-      "sanitizer_version": "project-public-safe-v3",
+      "sanitizer_version": "project-public-safe-v3.6",
       "policy_mode": "sanitized-auto",
       "publication_detector_version": "publication-status-v3",
       "publication_registry_entries": 0
     },
     "publication_summary": {
-      "published_confirmed": 4,
+      "published_confirmed": 5,
       "published_probable": 3,
       "preparing": 9,
       "unpublished_candidate": 1,
-      "unknown": 35
+      "unknown": 34
     },
     "publication_unique_summary": {
-      "published_confirmed": 2,
+      "published_confirmed": 3,
       "published_probable": 1,
       "preparing": 5,
       "unpublished_candidate": 1,
-      "unknown": 22
+      "unknown": 21
     },
     "publication_meta": {
       "detector_version": "publication-status-v3",
       "registry_entries": 0,
-      "source_entries": 58,
+      "source_entries": 88,
       "row_count": 52,
       "unique_project_count": 31,
       "notice": "未公開候補は公開の証拠が見つからない候補であり、未公開を断定するものではありません。"
@@ -301,14 +301,14 @@
         "next_action": "設計書の作成またはVersion 1の実装へ移行",
         "category": "workstream",
         "detail": "作業用ディレクトリ（source/scripts/logs/output/）の作成および、プロジェクトルートの設定を完了。",
-        "publication_status": "unknown",
-        "publication_label": "判定保留／対象外",
-        "publication_platform": "",
-        "publication_url": "",
-        "published_at": "",
-        "publication_confidence": 20,
-        "publication_evidence": "公開対象または公開根拠を判定できず",
-        "publication_evidence_type": "insufficient_evidence",
+        "publication_status": "published_confirmed",
+        "publication_label": "公開確認済み",
+        "publication_platform": "note",
+        "publication_url": "https://note.com/club_pyramid/n/n04683219dba2",
+        "published_at": "2026-07-10T14:56:46+09:00",
+        "publication_confidence": 92,
+        "publication_evidence": "note・YouTube・Xの公開タイトルと高い一致",
+        "publication_evidence_type": "external_title_match",
         "publication_group_size": 1,
         "publication_group_inherited": false
       },
@@ -1082,31 +1082,49 @@
         "weekly_count": 0
       }
     ],
+    "youtube_account": {
+      "name": "CLUB PYRAMID",
+      "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
+      "latest_at": "2026-07-20T19:01:01+09:00",
+      "weekly_count": 0
+    },
+    "note_account": {
+      "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "url": "https://note.com/club_pyramid/",
+      "latest_at": "2026-07-28T05:18:02+09:00",
+      "weekly_count": 7
+    },
+    "ameba_account": {
+      "name": "スターライト・ウエディング",
+      "url": "https://ameblo.jp/starlight-wedding/",
+      "latest_at": "2025-01-06T21:49:26+09:00",
+      "weekly_count": 0
+    },
     "youtube": [
       {
         "title": "支配の物語を捨て自分を生きる｜お金・歴史・陰謀論は「作られた物語」なのか？｜支配のナラティブから自由になる",
         "url": "https://www.youtube.com/watch?v=VOZpy6-LCu4",
-        "published_at": "2026-07-20T19:01:01+09:00"
+        "published_at": "2026-07-20T10:01:01+00:00"
       },
       {
         "title": "14億人の虚構とAIの自己崩壊｜完璧な支配の幻想が崩れる時",
         "url": "https://www.youtube.com/watch?v=9hA-vrX1a8s",
-        "published_at": "2026-07-09T20:11:56+09:00"
+        "published_at": "2026-07-09T11:11:56+00:00"
       },
       {
         "title": "完璧な支配の幻想：人間の独裁者とAIのディストピア｜「歴史の狡知」が暴く、絶対統制（アンダーコントロール）が必ず自壊する5つの理由",
         "url": "https://www.youtube.com/watch?v=P2VHp4mp9aE",
-        "published_at": "2026-07-09T16:35:55+09:00"
+        "published_at": "2026-07-09T07:35:55+00:00"
       },
       {
         "title": "The Cunning of Reason | The Dictator s Fatal Paradox",
         "url": "https://www.youtube.com/watch?v=dK30nUo18Do",
-        "published_at": "2026-07-09T16:32:58+09:00"
+        "published_at": "2026-07-09T07:32:58+00:00"
       },
       {
         "title": "外山恒一3.0｜革命・クーデターへの道――AIと分散型ネットワークが変える日本",
         "url": "https://www.youtube.com/watch?v=hkQzqOBfGsU",
-        "published_at": "2026-07-08T15:14:08+09:00"
+        "published_at": "2026-07-08T06:14:08+00:00"
       }
     ],
     "note": [
@@ -1124,25 +1142,28 @@
         "title": "Claude Fable 5を実際に使ってみた｜最高知能は「数百円で呼べる外部コンサルタント」になるのか",
         "url": "https://note.com/club_pyramid/n/n9c7fa7cc18d0",
         "published_at": "2026-07-27T14:06:59+09:00"
+      }
+    ],
+    "ameba": [
+      {
+        "title": "2025年。",
+        "url": "https://ameblo.jp/starlight-wedding/entry-12881457330.html",
+        "published_at": "Mon, 06 Jan 2025 21:49:26 +0900"
       },
       {
-        "title": "note・YouTube・Xの最新投稿をWebサイトに自動表示する方法｜Mac Studio＋GitHub Pages＋JavaScriptで、FTP不要の更新基盤をつくる",
-        "url": "https://note.com/club_pyramid/n/n46bd6014c9ea",
-        "published_at": "2026-07-26T16:50:24+09:00"
-      },
-      {
-        "title": "熊本AI研究所が、これまで実際にやってきたこと｜数千件の文章、数百本の動画、長時間の音声を、次の仕事へつなぐ",
-        "url": "https://note.com/club_pyramid/n/na4c321a60420",
-        "published_at": "2026-07-24T12:59:24+09:00"
+        "title": "2024年もあと少し。",
+        "url": "https://ameblo.jp/starlight-wedding/entry-12880310334.html",
+        "published_at": "Sat, 28 Dec 2024 17:04:44 +0900"
       }
     ]
   },
   "web": {
     "summary": {
-      "total": 48,
-      "available": 48,
-      "updated_at_known": 47,
-      "needs_attention": 0
+      "total": 47,
+      "available": 47,
+      "updated_at_known": 46,
+      "needs_attention": 0,
+      "migrated_to_sns": 1
     },
     "sites": [
       {
@@ -1611,19 +1632,6 @@
         "build_type": "bind",
         "build_label": "BiND製（確認済）",
         "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "スターライト Amebaブログ",
-        "url": "https://ameblo.jp/starlight-wedding",
-        "group": "外部ブログ",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2025-01-06T21:49:26+09:00",
-        "update_source": "JSON-LD dateModified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 84,
         "build_transition_status": "none"
       },
       {
