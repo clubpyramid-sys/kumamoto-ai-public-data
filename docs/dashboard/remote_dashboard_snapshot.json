@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T14:34:07.639336+09:00",
+  "generated_at": "2026-07-29T14:49:17.826221+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 136,
+        "completed": 151,
         "total": 937,
-        "percent": 14.5
+        "percent": 16.1
       },
       "chunks": {
-        "completed": 1125,
+        "completed": 1146,
         "total": 3959,
-        "percent": 28.4
+        "percent": 28.9
       },
-      "last_checkpoint_at": "2026-07-29T14:33:07.085364+09:00"
+      "last_checkpoint_at": "2026-07-29T14:48:55.416313+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -43,7 +43,7 @@
       "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "conversations_json",
+      "source": "cache",
       "conversation_count": 978,
       "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
       "data_state": "ready",
