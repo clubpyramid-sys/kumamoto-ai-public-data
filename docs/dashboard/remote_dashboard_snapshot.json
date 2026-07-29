@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T08:03:21.215631+09:00",
+  "generated_at": "2026-07-30T08:18:30.732988+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,11 +26,11 @@
         "percent": 39.5
       },
       "chunks": {
-        "completed": 2180,
+        "completed": 2193,
         "total": 3959,
-        "percent": 55.1
+        "percent": 55.4
       },
-      "last_checkpoint_at": "2026-07-30T08:02:37.528394+09:00"
+      "last_checkpoint_at": "2026-07-30T08:18:02.193934+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3191,8 +3191,8 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-30T07:58:04.620022+09:00",
-    "data_state": "ready",
+    "generated_at": "2026-07-30T08:13:07.105945+09:00",
+    "data_state": "unavailable",
     "summary": {
       "services": 2,
       "available": 0,
