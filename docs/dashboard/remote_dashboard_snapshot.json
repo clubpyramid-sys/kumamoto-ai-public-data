@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T15:50:02.105449+09:00",
+  "generated_at": "2026-07-29T16:05:18.544402+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,18 +26,18 @@
         "percent": 18.4
       },
       "chunks": {
-        "completed": 1212,
+        "completed": 1230,
         "total": 3959,
-        "percent": 30.6
+        "percent": 31.1
       },
-      "last_checkpoint_at": "2026-07-29T15:49:49.716237+09:00"
+      "last_checkpoint_at": "2026-07-29T16:04:57.815862+09:00"
     },
     "projects_meta": {
       "count": 52,
       "source": "dashboard_snapshot",
       "selected_document": "dashboard_snapshot.json",
       "selected_path": "$.workstreams",
-      "sanitizer_version": "project-public-safe-v3.8",
+      "sanitizer_version": "project-public-safe-v3.9",
       "policy_mode": "sanitized-auto",
       "publication_detector_version": "publication-status-v3",
       "publication_registry_entries": 0
@@ -70,6 +70,19 @@
         "warning": 9,
         "critical": 37,
         "unknown": 0
+      }
+    },
+    "chat_update_meta": {
+      "match_logic_version": "chat-project-match-v1",
+      "archive_conversations": 978,
+      "archive_update_time_count": 978,
+      "archive_latest_update": "2026-07-25T11:43:46.494905+09:00",
+      "matched_update_project_rows": 52,
+      "unmatched_update_project_rows": 0,
+      "matched_update_unique_projects": 31,
+      "unmatched_update_unique_projects": 0,
+      "match_types": {
+        "registered_conversation_id": 52
       }
     },
     "publication_summary": {
@@ -113,6 +126,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-12T09:15:08.347894+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -122,7 +138,7 @@
           "text_chars": 181894,
           "archive_updated_at": "2026-07-12T09:15:08.347894+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -143,6 +159,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-12T09:15:08.347894+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -152,7 +171,7 @@
           "text_chars": 181894,
           "archive_updated_at": "2026-07-12T09:15:08.347894+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -173,6 +192,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-14T19:35:38.446615+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -182,7 +204,7 @@
           "text_chars": 249080,
           "archive_updated_at": "2026-07-14T19:35:38.446615+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -203,6 +225,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-14T19:35:38.446615+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -212,7 +237,7 @@
           "text_chars": 249080,
           "archive_updated_at": "2026-07-14T19:35:38.446615+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -233,6 +258,9 @@
         "publication_evidence_type": "managed_web_exact_root",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-13T13:13:17.859674+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -242,7 +270,7 @@
           "text_chars": 384006,
           "archive_updated_at": "2026-07-13T13:13:17.859674+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -263,6 +291,9 @@
         "publication_evidence_type": "managed_web_exact_root",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-13T13:13:17.859674+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -272,7 +303,7 @@
           "text_chars": 384006,
           "archive_updated_at": "2026-07-13T13:13:17.859674+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -293,6 +324,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-06-09T19:10:23.294273+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -302,7 +336,7 @@
           "text_chars": 164053,
           "archive_updated_at": "2026-06-09T19:10:23.294273+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -323,6 +357,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-06-09T19:10:23.294273+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -332,7 +369,7 @@
           "text_chars": 164053,
           "archive_updated_at": "2026-06-09T19:10:23.294273+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -353,6 +390,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-05-25T13:14:09.779905+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -362,7 +402,7 @@
           "text_chars": 241279,
           "archive_updated_at": "2026-05-25T13:14:09.779905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -383,6 +423,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-05-25T13:14:09.779905+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -392,7 +435,7 @@
           "text_chars": 241279,
           "archive_updated_at": "2026-05-25T13:14:09.779905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -413,6 +456,9 @@
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-23T12:15:33.058349+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -420,9 +466,9 @@
           "user_messages": 98,
           "assistant_messages": 101,
           "text_chars": 589243,
-          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-23T12:15:33.058349+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -443,6 +489,9 @@
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-23T12:15:33.058349+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -450,9 +499,9 @@
           "user_messages": 98,
           "assistant_messages": 101,
           "text_chars": 589243,
-          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-23T12:15:33.058349+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -473,6 +522,9 @@
         "publication_evidence_type": "external_title_match",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-10T16:58:49.728155+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -482,7 +534,7 @@
           "text_chars": 157185,
           "archive_updated_at": "2026-07-10T16:58:49.728155+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -503,6 +555,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-05-25T21:49:19.027114+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -510,9 +565,9 @@
           "user_messages": 28,
           "assistant_messages": 38,
           "text_chars": 132483,
-          "archive_updated_at": "2026-05-25T21:49:19.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-05-25T21:49:19.027114+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -533,6 +588,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-03-18T15:20:40.547127+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -542,7 +600,7 @@
           "text_chars": 736532,
           "archive_updated_at": "2026-03-18T15:20:40.547127+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -563,6 +621,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-03-18T15:20:40.547127+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -572,7 +633,7 @@
           "text_chars": 736532,
           "archive_updated_at": "2026-03-18T15:20:40.547127+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -593,6 +654,9 @@
         "publication_evidence_type": "managed_web_exact_specific",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-25T11:43:46.494905+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -602,7 +666,7 @@
           "text_chars": 360761,
           "archive_updated_at": "2026-07-25T11:43:46.494905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -623,6 +687,9 @@
         "publication_evidence_type": "managed_web_exact_specific",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-25T11:43:46.494905+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -632,7 +699,7 @@
           "text_chars": 360761,
           "archive_updated_at": "2026-07-25T11:43:46.494905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -653,6 +720,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-29T14:27:53+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -662,7 +732,7 @@
           "text_chars": 241735,
           "archive_updated_at": "2026-07-23T16:03:46.229036+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -683,6 +753,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-15T01:57:23.301979+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -692,7 +765,7 @@
           "text_chars": 196916,
           "archive_updated_at": "2026-07-15T01:57:23.301979+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -713,6 +786,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-15T01:57:23.301979+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -722,7 +798,7 @@
           "text_chars": 196916,
           "archive_updated_at": "2026-07-15T01:57:23.301979+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -743,6 +819,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-14T14:45:33.013302+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -750,9 +829,9 @@
           "user_messages": 88,
           "assistant_messages": 147,
           "text_chars": 619576,
-          "archive_updated_at": "2026-07-14T14:45:33.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-14T14:45:33.013302+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -773,6 +852,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-14T14:45:33.013302+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -780,9 +862,9 @@
           "user_messages": 88,
           "assistant_messages": 147,
           "text_chars": 619576,
-          "archive_updated_at": "2026-07-14T14:45:33.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-14T14:45:33.013302+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -803,6 +885,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-14T00:27:58.706508+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -812,7 +897,7 @@
           "text_chars": 351287,
           "archive_updated_at": "2026-07-14T00:27:58.706508+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -833,6 +918,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-25T11:41:05.075175+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -840,9 +928,9 @@
           "user_messages": 4,
           "assistant_messages": 39,
           "text_chars": 118752,
-          "archive_updated_at": "2026-07-25T11:41:05.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-25T11:41:05.075175+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -863,6 +951,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-25T11:41:05.075175+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -870,9 +961,9 @@
           "user_messages": 4,
           "assistant_messages": 39,
           "text_chars": 118752,
-          "archive_updated_at": "2026-07-25T11:41:05.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-25T11:41:05.075175+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -893,6 +984,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-25T03:24:09.221361+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -902,7 +996,7 @@
           "text_chars": 46021,
           "archive_updated_at": "2026-07-25T03:24:09.221361+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -923,6 +1017,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-24T14:05:59.115639+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -932,7 +1029,7 @@
           "text_chars": 78093,
           "archive_updated_at": "2026-07-24T14:05:59.115639+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -953,6 +1050,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-23T16:12:55.087861+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -960,9 +1060,9 @@
           "user_messages": 200,
           "assistant_messages": 226,
           "text_chars": 466635,
-          "archive_updated_at": "2026-07-23T16:12:55.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-23T16:12:55.087861+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -983,6 +1083,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-23T16:12:55.087861+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -990,9 +1093,9 @@
           "user_messages": 200,
           "assistant_messages": 226,
           "text_chars": 466635,
-          "archive_updated_at": "2026-07-23T16:12:55.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-23T16:12:55.087861+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1013,6 +1116,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-29T14:27:53+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1022,7 +1128,7 @@
           "text_chars": 241735,
           "archive_updated_at": "2026-07-23T16:03:46.229036+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1043,6 +1149,9 @@
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-23T12:15:33.058349+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1050,9 +1159,9 @@
           "user_messages": 98,
           "assistant_messages": 101,
           "text_chars": 589243,
-          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-23T12:15:33.058349+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1073,6 +1182,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T17:37:34.949926+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1082,7 +1194,7 @@
           "text_chars": 520735,
           "archive_updated_at": "2026-07-22T17:37:34.949926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1103,6 +1215,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T17:37:34.949926+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1112,7 +1227,7 @@
           "text_chars": 520735,
           "archive_updated_at": "2026-07-22T17:37:34.949926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1133,6 +1248,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T17:05:30.133106+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1142,7 +1260,7 @@
           "text_chars": 257890,
           "archive_updated_at": "2026-07-22T17:05:30.133106+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1163,6 +1281,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T17:05:30.133106+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1172,7 +1293,7 @@
           "text_chars": 257890,
           "archive_updated_at": "2026-07-22T17:05:30.133106+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1193,6 +1314,9 @@
         "publication_evidence_type": "unpublished_phrase",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-29T10:16:12+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -1200,9 +1324,9 @@
           "user_messages": 9,
           "assistant_messages": 13,
           "text_chars": 24946,
-          "archive_updated_at": "2026-07-22T10:59:50.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-22T10:59:50.058490+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1223,6 +1347,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T08:42:14.804279+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -1232,7 +1359,7 @@
           "text_chars": 92334,
           "archive_updated_at": "2026-07-22T08:42:14.804279+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1253,6 +1380,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-22T00:45:06.624373+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1262,7 +1392,7 @@
           "text_chars": 200130,
           "archive_updated_at": "2026-07-22T00:45:06.624373+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1283,6 +1413,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-22T00:45:06.624373+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1292,7 +1425,7 @@
           "text_chars": 200130,
           "archive_updated_at": "2026-07-22T00:45:06.624373+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1313,6 +1446,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-21T16:12:09.939926+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1322,7 +1458,7 @@
           "text_chars": 579165,
           "archive_updated_at": "2026-07-21T16:12:09.939926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1343,6 +1479,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-21T15:25:43.665667+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -1352,7 +1491,7 @@
           "text_chars": 86906,
           "archive_updated_at": "2026-07-21T15:25:43.665667+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1373,6 +1512,9 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "chat_updated_at": "2026-07-21T15:25:43.665667+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -1382,7 +1524,7 @@
           "text_chars": 86906,
           "archive_updated_at": "2026-07-21T15:25:43.665667+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1403,6 +1545,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-20T18:54:59.026652+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1410,9 +1555,9 @@
           "user_messages": 92,
           "assistant_messages": 140,
           "text_chars": 1075769,
-          "archive_updated_at": "2026-07-20T18:54:59.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-20T18:54:59.026652+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1433,6 +1578,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-20T18:54:59.026652+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1440,9 +1588,9 @@
           "user_messages": 92,
           "assistant_messages": 140,
           "text_chars": 1075769,
-          "archive_updated_at": "2026-07-20T18:54:59.[電話番号を非表示]+09:00",
+          "archive_updated_at": "2026-07-20T18:54:59.026652+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1463,6 +1611,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-19T18:58:02.236632+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1472,7 +1623,7 @@
           "text_chars": 508520,
           "archive_updated_at": "2026-07-19T18:58:02.236632+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1493,6 +1644,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-19T18:58:02.236632+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
@@ -1502,7 +1656,7 @@
           "text_chars": 508520,
           "archive_updated_at": "2026-07-19T18:58:02.236632+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1523,6 +1677,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-19T00:50:49.138938+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -1532,7 +1689,7 @@
           "text_chars": 125146,
           "archive_updated_at": "2026-07-19T00:50:49.138938+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1553,6 +1710,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-19T00:50:49.138938+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "warning",
           "label": "長め",
@@ -1562,7 +1722,7 @@
           "text_chars": 125146,
           "archive_updated_at": "2026-07-19T00:50:49.138938+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1583,6 +1743,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-18T23:42:39.531188+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -1592,7 +1755,7 @@
           "text_chars": 40446,
           "archive_updated_at": "2026-07-18T23:42:39.531188+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1613,6 +1776,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-15T17:11:51.977767+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -1622,7 +1788,7 @@
           "text_chars": 68795,
           "archive_updated_at": "2026-07-15T17:11:51.977767+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       },
       {
@@ -1643,6 +1809,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
+        "chat_updated_at": "2026-07-15T02:31:53.897248+09:00",
+        "chat_update_matched": true,
+        "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
@@ -1652,7 +1821,7 @@
           "text_chars": 24197,
           "archive_updated_at": "2026-07-15T02:31:53.897248+09:00",
           "basis": "archive_snapshot",
-          "match_type": "exact"
+          "match_type": "registered_conversation_id"
         }
       }
     ]
@@ -2253,7 +2422,7 @@
         "document_title": "旧Webアーカイブ入口",
         "page_heading": "旧Webアーカイブ入口",
         "name_source": "title",
-        "metadata_checked_at": "2026-07-29T12:55:00.[電話番号を非表示]+09:00"
+        "metadata_checked_at": "2026-07-29T12:55:00.074405+09:00"
       },
       {
         "name": "CLUB KUMAMOTO",
@@ -2321,7 +2490,7 @@
         "document_title": "買取ドットコム of 買取ドットコム",
         "page_heading": "遺品整理から家の売却まで",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:55:00.[電話番号を非表示]+09:00"
+        "metadata_checked_at": "2026-07-29T12:55:00.073246+09:00"
       },
       {
         "name": "欅の森",
@@ -2729,7 +2898,7 @@
         "document_title": "Masquerade Party Kumamoto｜仮面舞踏会 熊本",
         "page_heading": "MASQUERADE マスカレード・パーティー熊本",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.[電話番号を非表示]+09:00"
+        "metadata_checked_at": "2026-07-29T12:54:58.090056+09:00"
       },
       {
         "name": "MASQUERADE CLUB KUMAMOTO",
