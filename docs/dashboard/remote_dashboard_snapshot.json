@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T14:03:30.843581+09:00",
+  "generated_at": "2026-07-29T14:18:51.043218+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 133,
+        "completed": 134,
         "total": 937,
-        "percent": 14.2
+        "percent": 14.3
       },
       "chunks": {
-        "completed": 1096,
+        "completed": 1109,
         "total": 3959,
-        "percent": 27.7
+        "percent": 28.0
       },
-      "last_checkpoint_at": "2026-07-29T14:02:56.021445+09:00"
+      "last_checkpoint_at": "2026-07-29T14:18:16.432089+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -43,14 +43,14 @@
       "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "cache",
-      "conversation_count": 713,
+      "source": "conversations_json",
+      "conversation_count": 978,
       "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
-      "data_state": "partial",
-      "matched_projects": 11,
-      "unmatched_projects": 41,
-      "exact_matches": 5,
-      "fuzzy_matches": 6,
+      "data_state": "ready",
+      "matched_projects": 52,
+      "unmatched_projects": 0,
+      "exact_matches": 52,
+      "fuzzy_matches": 0,
       "dashboard_hint_matches": 0,
       "project_rows": 52,
       "thresholds": {
@@ -66,10 +66,10 @@
         "unknown": "未照合"
       },
       "summary": {
-        "ok": 3,
-        "warning": 2,
-        "critical": 6,
-        "unknown": 41
+        "ok": 6,
+        "warning": 9,
+        "critical": 37,
+        "unknown": 0
       }
     },
     "publication_summary": {
@@ -114,15 +114,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "ok",
-          "label": "余裕あり",
-          "message_count": 15,
-          "user_messages": 7,
-          "assistant_messages": 8,
-          "text_chars": 12106,
-          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 94,
+          "user_messages": 49,
+          "assistant_messages": 45,
+          "text_chars": 181894,
+          "archive_updated_at": "2026-07-12T09:15:08.347894+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -144,15 +144,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "ok",
-          "label": "余裕あり",
-          "message_count": 15,
-          "user_messages": 7,
-          "assistant_messages": 8,
-          "text_chars": 12106,
-          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 94,
+          "user_messages": 49,
+          "assistant_messages": 45,
+          "text_chars": 181894,
+          "archive_updated_at": "2026-07-12T09:15:08.347894+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -174,12 +174,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 176,
+          "user_messages": 87,
+          "assistant_messages": 89,
+          "text_chars": 249080,
+          "archive_updated_at": "2026-07-14T19:35:38.446615+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -201,12 +204,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 176,
+          "user_messages": 87,
+          "assistant_messages": 89,
+          "text_chars": 249080,
+          "archive_updated_at": "2026-07-14T19:35:38.446615+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -228,12 +234,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 148,
+          "user_messages": 76,
+          "assistant_messages": 72,
+          "text_chars": 384006,
+          "archive_updated_at": "2026-07-13T13:13:17.859674+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -255,12 +264,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 148,
+          "user_messages": 76,
+          "assistant_messages": 72,
+          "text_chars": 384006,
+          "archive_updated_at": "2026-07-13T13:13:17.859674+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -282,12 +294,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 91,
+          "user_messages": 22,
+          "assistant_messages": 69,
+          "text_chars": 164053,
+          "archive_updated_at": "2026-06-09T19:10:23.294273+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -309,12 +324,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 91,
+          "user_messages": 22,
+          "assistant_messages": 69,
+          "text_chars": 164053,
+          "archive_updated_at": "2026-06-09T19:10:23.294273+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -336,12 +354,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 117,
+          "user_messages": 51,
+          "assistant_messages": 66,
+          "text_chars": 241279,
+          "archive_updated_at": "2026-05-25T13:14:09.779905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -363,12 +384,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 117,
+          "user_messages": 51,
+          "assistant_messages": 66,
+          "text_chars": 241279,
+          "archive_updated_at": "2026-05-25T13:14:09.779905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -390,12 +414,15 @@
         "publication_group_size": 3,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 199,
+          "user_messages": 98,
+          "assistant_messages": 101,
+          "text_chars": 589243,
+          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -417,12 +444,15 @@
         "publication_group_size": 3,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 199,
+          "user_messages": 98,
+          "assistant_messages": 101,
+          "text_chars": 589243,
+          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -444,12 +474,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 188,
+          "user_messages": 73,
+          "assistant_messages": 115,
+          "text_chars": 157185,
+          "archive_updated_at": "2026-07-10T16:58:49.728155+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -471,12 +504,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 66,
+          "user_messages": 28,
+          "assistant_messages": 38,
+          "text_chars": 132483,
+          "archive_updated_at": "2026-05-25T21:49:19.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -500,11 +536,11 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "message_count": 1051,
+          "user_messages": 562,
+          "assistant_messages": 489,
+          "text_chars": 736532,
+          "archive_updated_at": "2026-03-18T15:20:40.547127+09:00",
           "basis": "archive_snapshot",
           "match_type": "exact"
         }
@@ -530,11 +566,11 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "message_count": 1051,
+          "user_messages": 562,
+          "assistant_messages": 489,
+          "text_chars": 736532,
+          "archive_updated_at": "2026-03-18T15:20:40.547127+09:00",
           "basis": "archive_snapshot",
           "match_type": "exact"
         }
@@ -558,12 +594,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 180,
+          "user_messages": 89,
+          "assistant_messages": 91,
+          "text_chars": 360761,
+          "archive_updated_at": "2026-07-25T11:43:46.494905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -585,12 +624,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 180,
+          "user_messages": 89,
+          "assistant_messages": 91,
+          "text_chars": 360761,
+          "archive_updated_at": "2026-07-25T11:43:46.494905+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -612,12 +654,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 174,
+          "user_messages": 95,
+          "assistant_messages": 79,
+          "text_chars": 241735,
+          "archive_updated_at": "2026-07-23T16:03:46.229036+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -639,12 +684,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 85,
+          "user_messages": 32,
+          "assistant_messages": 53,
+          "text_chars": 196916,
+          "archive_updated_at": "2026-07-15T01:57:23.301979+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -666,12 +714,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 85,
+          "user_messages": 32,
+          "assistant_messages": 53,
+          "text_chars": 196916,
+          "archive_updated_at": "2026-07-15T01:57:23.301979+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -693,12 +744,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 235,
+          "user_messages": 88,
+          "assistant_messages": 147,
+          "text_chars": 619576,
+          "archive_updated_at": "2026-07-14T14:45:33.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -720,12 +774,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 235,
+          "user_messages": 88,
+          "assistant_messages": 147,
+          "text_chars": 619576,
+          "archive_updated_at": "2026-07-14T14:45:33.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -747,12 +804,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 162,
+          "user_messages": 78,
+          "assistant_messages": 84,
+          "text_chars": 351287,
+          "archive_updated_at": "2026-07-14T00:27:58.706508+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -774,12 +834,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 43,
+          "user_messages": 4,
+          "assistant_messages": 39,
+          "text_chars": 118752,
+          "archive_updated_at": "2026-07-25T11:41:05.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -801,12 +864,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 43,
+          "user_messages": 4,
+          "assistant_messages": 39,
+          "text_chars": 118752,
+          "archive_updated_at": "2026-07-25T11:41:05.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -828,12 +894,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 47,
+          "user_messages": 24,
+          "assistant_messages": 23,
+          "text_chars": 46021,
+          "archive_updated_at": "2026-07-25T03:24:09.221361+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -855,12 +924,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 66,
+          "user_messages": 28,
+          "assistant_messages": 38,
+          "text_chars": 78093,
+          "archive_updated_at": "2026-07-24T14:05:59.115639+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -882,12 +954,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 426,
+          "user_messages": 200,
+          "assistant_messages": 226,
+          "text_chars": 466635,
+          "archive_updated_at": "2026-07-23T16:12:55.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -909,12 +984,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 426,
+          "user_messages": 200,
+          "assistant_messages": 226,
+          "text_chars": 466635,
+          "archive_updated_at": "2026-07-23T16:12:55.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -936,12 +1014,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 174,
+          "user_messages": 95,
+          "assistant_messages": 79,
+          "text_chars": 241735,
+          "archive_updated_at": "2026-07-23T16:03:46.229036+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -963,12 +1044,15 @@
         "publication_group_size": 3,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 199,
+          "user_messages": 98,
+          "assistant_messages": 101,
+          "text_chars": 589243,
+          "archive_updated_at": "2026-07-23T12:15:33.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -990,12 +1074,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 351,
+          "user_messages": 114,
+          "assistant_messages": 237,
+          "text_chars": 520735,
+          "archive_updated_at": "2026-07-22T17:37:34.949926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1017,12 +1104,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 351,
+          "user_messages": 114,
+          "assistant_messages": 237,
+          "text_chars": 520735,
+          "archive_updated_at": "2026-07-22T17:37:34.949926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1044,12 +1134,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 101,
+          "user_messages": 49,
+          "assistant_messages": 52,
+          "text_chars": 257890,
+          "archive_updated_at": "2026-07-22T17:05:30.133106+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1071,12 +1164,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 101,
+          "user_messages": 49,
+          "assistant_messages": 52,
+          "text_chars": 257890,
+          "archive_updated_at": "2026-07-22T17:05:30.133106+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1098,12 +1194,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 22,
+          "user_messages": 9,
+          "assistant_messages": 13,
+          "text_chars": 24946,
+          "archive_updated_at": "2026-07-22T10:59:50.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1125,12 +1224,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 65,
+          "user_messages": 26,
+          "assistant_messages": 39,
+          "text_chars": 92334,
+          "archive_updated_at": "2026-07-22T08:42:14.804279+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1154,13 +1256,13 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "message_count": 247,
+          "user_messages": 150,
+          "assistant_messages": 97,
+          "text_chars": 200130,
+          "archive_updated_at": "2026-07-22T00:45:06.624373+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -1184,13 +1286,13 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 579,
-          "user_messages": 259,
-          "assistant_messages": 286,
-          "text_chars": 412217,
-          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "message_count": 247,
+          "user_messages": 150,
+          "assistant_messages": 97,
+          "text_chars": 200130,
+          "archive_updated_at": "2026-07-22T00:45:06.624373+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -1212,12 +1314,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 250,
+          "user_messages": 136,
+          "assistant_messages": 114,
+          "text_chars": 579165,
+          "archive_updated_at": "2026-07-21T16:12:09.939926+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1239,12 +1344,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 69,
+          "user_messages": 26,
+          "assistant_messages": 43,
+          "text_chars": 86906,
+          "archive_updated_at": "2026-07-21T15:25:43.665667+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1266,12 +1374,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": true,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 69,
+          "user_messages": 26,
+          "assistant_messages": 43,
+          "text_chars": 86906,
+          "archive_updated_at": "2026-07-21T15:25:43.665667+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1295,13 +1406,13 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 197,
-          "user_messages": 59,
-          "assistant_messages": 95,
-          "text_chars": 167238,
-          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "message_count": 232,
+          "user_messages": 92,
+          "assistant_messages": 140,
+          "text_chars": 1075769,
+          "archive_updated_at": "2026-07-20T18:54:59.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -1325,13 +1436,13 @@
         "conversation_length": {
           "level": "critical",
           "label": "引継ぎ推奨",
-          "message_count": 197,
-          "user_messages": 59,
-          "assistant_messages": 95,
-          "text_chars": 167238,
-          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "message_count": 232,
+          "user_messages": 92,
+          "assistant_messages": 140,
+          "text_chars": 1075769,
+          "archive_updated_at": "2026-07-20T18:54:59.[電話番号を非表示]+09:00",
           "basis": "archive_snapshot",
-          "match_type": "fuzzy"
+          "match_type": "exact"
         }
       },
       {
@@ -1353,13 +1464,13 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "warning",
-          "label": "長め",
-          "message_count": 150,
-          "user_messages": 57,
-          "assistant_messages": 57,
-          "text_chars": 110408,
-          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 238,
+          "user_messages": 140,
+          "assistant_messages": 98,
+          "text_chars": 508520,
+          "archive_updated_at": "2026-07-19T18:58:02.236632+09:00",
           "basis": "archive_snapshot",
           "match_type": "exact"
         }
@@ -1383,13 +1494,13 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "warning",
-          "label": "長め",
-          "message_count": 150,
-          "user_messages": 57,
-          "assistant_messages": 57,
-          "text_chars": 110408,
-          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 238,
+          "user_messages": 140,
+          "assistant_messages": 98,
+          "text_chars": 508520,
+          "archive_updated_at": "2026-07-19T18:58:02.236632+09:00",
           "basis": "archive_snapshot",
           "match_type": "exact"
         }
@@ -1413,12 +1524,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 95,
+          "user_messages": 46,
+          "assistant_messages": 49,
+          "text_chars": 125146,
+          "archive_updated_at": "2026-07-19T00:50:49.138938+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1440,12 +1554,15 @@
         "publication_group_size": 2,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "warning",
+          "label": "長め",
+          "message_count": 95,
+          "user_messages": 46,
+          "assistant_messages": 49,
+          "text_chars": 125146,
+          "archive_updated_at": "2026-07-19T00:50:49.138938+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1469,11 +1586,11 @@
         "conversation_length": {
           "level": "ok",
           "label": "余裕あり",
-          "message_count": 26,
-          "user_messages": 13,
-          "assistant_messages": 13,
-          "text_chars": 16912,
-          "archive_updated_at": "2025-08-17T11:12:30.813918+09:00",
+          "message_count": 50,
+          "user_messages": 23,
+          "assistant_messages": 27,
+          "text_chars": 40446,
+          "archive_updated_at": "2026-07-18T23:42:39.531188+09:00",
           "basis": "archive_snapshot",
           "match_type": "exact"
         }
@@ -1497,12 +1614,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 26,
+          "user_messages": 14,
+          "assistant_messages": 12,
+          "text_chars": 68795,
+          "archive_updated_at": "2026-07-15T17:11:51.977767+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       },
       {
@@ -1524,12 +1644,15 @@
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "conversation_length": {
-          "level": "unknown",
-          "label": "未照合",
-          "message_count": 0,
-          "text_chars": 0,
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 9,
+          "user_messages": 2,
+          "assistant_messages": 7,
+          "text_chars": 24197,
+          "archive_updated_at": "2026-07-15T02:31:53.897248+09:00",
           "basis": "archive_snapshot",
-          "match_type": "none"
+          "match_type": "exact"
         }
       }
     ]
