@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T07:48:10.230866+09:00",
+  "generated_at": "2026-07-30T08:03:21.215631+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 369,
+        "completed": 370,
         "total": 937,
-        "percent": 39.4
+        "percent": 39.5
       },
       "chunks": {
-        "completed": 2167,
+        "completed": 2180,
         "total": 3959,
-        "percent": 54.7
+        "percent": 55.1
       },
-      "last_checkpoint_at": "2026-07-30T07:46:37.259817+09:00"
+      "last_checkpoint_at": "2026-07-30T08:02:37.528394+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3186,6 +3186,49 @@
         "publication_status": "unknown",
         "automation_status": "unknown",
         "public_summary": "熊本AI研究所の運用状況を確認中"
+      }
+    ]
+  },
+  "ai_usage": {
+    "schema_version": "1.0",
+    "generated_at": "2026-07-30T07:58:04.620022+09:00",
+    "data_state": "ready",
+    "summary": {
+      "services": 2,
+      "available": 0,
+      "warning": 0,
+      "limit_reached": 0,
+      "unknown": 2
+    },
+    "services": [
+      {
+        "service": "codex",
+        "display_name": "Codex",
+        "status": "unknown",
+        "short_remaining_percent": null,
+        "short_reset_at": null,
+        "weekly_remaining_percent": null,
+        "weekly_reset_at": null,
+        "credits_balance": null,
+        "saved_reset_count": null,
+        "saved_reset_expires_at": null,
+        "captured_at": null,
+        "freshness": "unknown",
+        "source_label": "手動入力"
+      },
+      {
+        "service": "antigravity",
+        "display_name": "Antigravity",
+        "status": "unknown",
+        "baseline_remaining_percent": null,
+        "baseline_reset_at": null,
+        "baseline_display_state": null,
+        "ai_credits_balance": null,
+        "overage_mode": null,
+        "models": [],
+        "captured_at": null,
+        "freshness": "unknown",
+        "source_label": "手動入力"
       }
     ]
   }
