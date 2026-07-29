@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T12:42:39.033474+09:00",
+  "generated_at": "2026-07-29T12:55:33.124277+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,40 +21,70 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 117,
+        "completed": 120,
         "total": 937,
-        "percent": 12.5
+        "percent": 12.8
       },
       "chunks": {
-        "completed": 1015,
+        "completed": 1028,
         "total": 3959,
-        "percent": 25.6
+        "percent": 26.0
       },
-      "last_checkpoint_at": "2026-07-29T12:42:06.648082+09:00"
+      "last_checkpoint_at": "2026-07-29T12:54:35.680178+09:00"
     },
     "projects_meta": {
       "count": 52,
       "source": "dashboard_snapshot",
       "selected_document": "dashboard_snapshot.json",
       "selected_path": "$.workstreams",
-      "sanitizer_version": "project-public-safe-v3.6",
+      "sanitizer_version": "project-public-safe-v3.8",
       "policy_mode": "sanitized-auto",
       "publication_detector_version": "publication-status-v3",
       "publication_registry_entries": 0
     },
+    "conversation_length_meta": {
+      "source": "cache",
+      "conversation_count": 713,
+      "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
+      "data_state": "partial",
+      "matched_projects": 11,
+      "unmatched_projects": 41,
+      "exact_matches": 5,
+      "fuzzy_matches": 6,
+      "dashboard_hint_matches": 0,
+      "project_rows": 52,
+      "thresholds": {
+        "ok_max_chars": 80000,
+        "ok_max_messages": 100,
+        "warning_max_chars": 160000,
+        "warning_max_messages": 200
+      },
+      "labels": {
+        "ok": "余裕あり",
+        "warning": "長め",
+        "critical": "引継ぎ推奨",
+        "unknown": "未照合"
+      },
+      "summary": {
+        "ok": 3,
+        "warning": 2,
+        "critical": 6,
+        "unknown": 41
+      }
+    },
     "publication_summary": {
-      "published_confirmed": 5,
-      "published_probable": 3,
-      "preparing": 9,
+      "published_confirmed": 3,
+      "published_probable": 5,
+      "preparing": 7,
       "unpublished_candidate": 1,
-      "unknown": 34
+      "unknown": 36
     },
     "publication_unique_summary": {
-      "published_confirmed": 3,
-      "published_probable": 1,
-      "preparing": 5,
+      "published_confirmed": 2,
+      "published_probable": 2,
+      "preparing": 4,
       "unpublished_candidate": 1,
-      "unknown": 21
+      "unknown": 22
     },
     "publication_meta": {
       "detector_version": "publication-status-v3",
@@ -82,7 +112,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 15,
+          "user_messages": 7,
+          "assistant_messages": 8,
+          "text_chars": 12106,
+          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "external",
@@ -101,7 +142,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 15,
+          "user_messages": 7,
+          "assistant_messages": 8,
+          "text_chars": 12106,
+          "archive_updated_at": "2025-01-09T23:11:19.115055+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "external",
@@ -120,7 +172,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -139,7 +199,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -149,16 +217,24 @@
         "next_action": "note用コンテンツの精査、アイキャッチ画像の制作、および各章の統合・編集。",
         "category": "workstream",
         "detail": "第5部のアイキャッチ画像の制作。",
-        "publication_status": "preparing",
-        "publication_label": "公開準備中",
-        "publication_platform": "note",
-        "publication_url": "",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://sweetsbuffet.jp",
         "published_at": "",
-        "publication_confidence": 72,
-        "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
-        "publication_evidence_type": "preparing_phrase",
+        "publication_confidence": 76,
+        "publication_evidence": "管理WEBに同名サイトあり（トップページのため要確認）",
+        "publication_evidence_type": "managed_web_exact_root",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -168,16 +244,24 @@
         "next_action": "GPT-5.6 Sol Ultraによるブラッシュアップ、Codexへの指示、および最終公開に向けた検証。",
         "category": "workstream",
         "detail": "制作正本から公開に必要なファイルのみを _ftp_upload/ へ同期し、SHA-256比較を行う。",
-        "publication_status": "preparing",
-        "publication_label": "公開準備中",
-        "publication_platform": "note",
-        "publication_url": "",
+        "publication_status": "published_probable",
+        "publication_label": "公開済みの可能性大",
+        "publication_platform": "Web",
+        "publication_url": "https://sweetsbuffet.jp",
         "published_at": "",
-        "publication_confidence": 72,
-        "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
-        "publication_evidence_type": "preparing_phrase",
+        "publication_confidence": 76,
+        "publication_evidence": "管理WEBに同名サイトあり（トップページのため要確認）",
+        "publication_evidence_type": "managed_web_exact_root",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -196,7 +280,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -215,7 +307,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -234,7 +334,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -253,7 +361,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -272,7 +388,15 @@
         "publication_evidence": "公開完了表現あり（個別公開URLは未確認）",
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -291,7 +415,15 @@
         "publication_evidence": "公開完了表現あり（個別公開URLは未確認）",
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -310,7 +442,15 @@
         "publication_evidence": "note・YouTube・Xの公開タイトルと高い一致",
         "publication_evidence_type": "external_title_match",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -329,7 +469,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -348,7 +496,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 579,
+          "user_messages": 259,
+          "assistant_messages": 286,
+          "text_chars": 412217,
+          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "exact"
+        }
       },
       {
         "status": "external",
@@ -367,7 +526,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 579,
+          "user_messages": 259,
+          "assistant_messages": 286,
+          "text_chars": 412217,
+          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "exact"
+        }
       },
       {
         "status": "working",
@@ -386,7 +556,15 @@
         "publication_evidence": "管理WEBの個別ページ名と完全一致",
         "publication_evidence_type": "managed_web_exact_specific",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -405,7 +583,15 @@
         "publication_evidence": "管理WEBの個別ページ名と完全一致",
         "publication_evidence_type": "managed_web_exact_specific",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -424,7 +610,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -443,7 +637,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -462,7 +664,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -481,7 +691,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -500,7 +718,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -519,7 +745,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -538,7 +772,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -557,7 +799,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -576,7 +826,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -595,7 +853,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -614,7 +880,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -633,7 +907,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -652,7 +934,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "decision",
@@ -671,7 +961,15 @@
         "publication_evidence": "公開完了表現あり（個別公開URLは未確認）",
         "publication_evidence_type": "published_phrase_only",
         "publication_group_size": 3,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -690,7 +988,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -709,7 +1015,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -728,7 +1042,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -747,7 +1069,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "decision",
@@ -766,7 +1096,15 @@
         "publication_evidence": "未公開・公開前を示す表現と制作物を検出",
         "publication_evidence_type": "unpublished_phrase",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -785,7 +1123,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -804,7 +1150,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 579,
+          "user_messages": 259,
+          "assistant_messages": 286,
+          "text_chars": 412217,
+          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "external",
@@ -823,7 +1180,18 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 579,
+          "user_messages": 259,
+          "assistant_messages": 286,
+          "text_chars": 412217,
+          "archive_updated_at": "2026-01-02T17:57:53.754446+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "working",
@@ -842,7 +1210,15 @@
         "publication_evidence": "トップページ・プロフィール・参考URLのみで公開根拠にならず",
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -861,7 +1237,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -880,7 +1264,15 @@
         "publication_evidence": "次の行動または記録に公開・投稿準備を検出",
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
-        "publication_group_inherited": true
+        "publication_group_inherited": true,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "working",
@@ -899,7 +1291,18 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 197,
+          "user_messages": 59,
+          "assistant_messages": 95,
+          "text_chars": 167238,
+          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "external",
@@ -918,7 +1321,18 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "critical",
+          "label": "引継ぎ推奨",
+          "message_count": 197,
+          "user_messages": 59,
+          "assistant_messages": 95,
+          "text_chars": 167238,
+          "archive_updated_at": "2025-02-02T01:29:06.461649+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "fuzzy"
+        }
       },
       {
         "status": "working",
@@ -928,16 +1342,27 @@
         "next_action": "note用アイキャッチの最終制作とSNS展開",
         "category": "workstream",
         "detail": "写真の人物のひろみ氏を合成したnote記事用のアイキャッチを作成する。",
-        "publication_status": "published_confirmed",
-        "publication_label": "公開確認済み",
-        "publication_platform": "Web",
-        "publication_url": "https://kumamotoevent.com/hiromichannel/",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
         "published_at": "",
-        "publication_confidence": 94,
-        "publication_evidence": "管理WEBの個別ページ名と完全一致",
-        "publication_evidence_type": "managed_web_exact_specific",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず",
+        "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "warning",
+          "label": "長め",
+          "message_count": 150,
+          "user_messages": 57,
+          "assistant_messages": 57,
+          "text_chars": 110408,
+          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "exact"
+        }
       },
       {
         "status": "external",
@@ -947,16 +1372,27 @@
         "next_action": "最終的な微調整と成果物（要確認事項等）の完全な分離",
         "category": "workstream",
         "detail": "指定された4か所のテキスト置換を行い、v1.03を確定。",
-        "publication_status": "published_confirmed",
-        "publication_label": "公開確認済み",
-        "publication_platform": "Web",
-        "publication_url": "https://kumamotoevent.com/hiromichannel/",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
         "published_at": "",
-        "publication_confidence": 94,
-        "publication_evidence": "管理WEBの個別ページ名と完全一致",
-        "publication_evidence_type": "managed_web_exact_specific",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず",
+        "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "warning",
+          "label": "長め",
+          "message_count": 150,
+          "user_messages": 57,
+          "assistant_messages": 57,
+          "text_chars": 110408,
+          "archive_updated_at": "2025-12-20T21:29:09.814514+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "exact"
+        }
       },
       {
         "status": "decision",
@@ -975,7 +1411,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -994,7 +1438,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -1013,7 +1465,18 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "ok",
+          "label": "余裕あり",
+          "message_count": 26,
+          "user_messages": 13,
+          "assistant_messages": 13,
+          "text_chars": 16912,
+          "archive_updated_at": "2025-08-17T11:12:30.813918+09:00",
+          "basis": "archive_snapshot",
+          "match_type": "exact"
+        }
       },
       {
         "status": "working",
@@ -1032,7 +1495,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       },
       {
         "status": "external",
@@ -1051,7 +1522,15 @@
         "publication_evidence": "公開対象または公開根拠を判定できず",
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
-        "publication_group_inherited": false
+        "publication_group_inherited": false,
+        "conversation_length": {
+          "level": "unknown",
+          "label": "未照合",
+          "message_count": 0,
+          "text_chars": 0,
+          "basis": "archive_snapshot",
+          "match_type": "none"
+        }
       }
     ]
   },
@@ -1125,6 +1604,21 @@
         "title": "外山恒一3.0｜革命・クーデターへの道――AIと分散型ネットワークが変える日本",
         "url": "https://www.youtube.com/watch?v=hkQzqOBfGsU",
         "published_at": "2026-07-08T06:14:08+00:00"
+      },
+      {
+        "title": "外山恒一逮捕事件｜なぜ被害者が逮捕されたのか？",
+        "url": "https://www.youtube.com/watch?v=ck8gwakpXsM",
+        "published_at": "2026-07-07T08:53:20+00:00"
+      },
+      {
+        "title": "借金の正体：超・生存型財務戦略【借金の正体】常識を覆す「財務サバイバル」の極意：あなたが生き残るための5つの衝撃的視点",
+        "url": "https://www.youtube.com/watch?v=mul6AiYDT1E",
+        "published_at": "2026-06-29T13:21:00+00:00"
+      },
+      {
+        "title": "紺碧会：現実の不安から極端な解決策へ",
+        "url": "https://www.youtube.com/watch?v=kITexg4rK7I",
+        "published_at": "2026-06-22T12:47:30+00:00"
       }
     ],
     "note": [
@@ -1163,63 +1657,279 @@
       "available": 47,
       "updated_at_known": 46,
       "needs_attention": 0,
-      "migrated_to_sns": 1
+      "migrated_to_sns": 1,
+      "major_group_count": 8,
+      "major_site_count": 24
     },
+    "major_groups": [
+      {
+        "label": "総合",
+        "count": 2,
+        "items": [
+          {
+            "name": "COSA NOSTRA JAPAN",
+            "url": "https://cosanostra.jp",
+            "available": true,
+            "updated_at": "2026-07-26T14:16:14+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "くまもとイベントどっとコム",
+            "url": "https://kumamotoevent.com",
+            "available": true,
+            "updated_at": "2026-07-26T14:17:54+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "Enterprise",
+        "count": 5,
+        "items": [
+          {
+            "name": "STARLIGHT CAFE & WEDDING",
+            "url": "https://starlightcafe.co.jp",
+            "available": true,
+            "updated_at": "2026-07-28T11:48:50.020796+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "kumamotowedding.com",
+            "url": "https://kumamotowedding.com",
+            "available": true,
+            "updated_at": "2025-11-27T00:00:00+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "kumamotodeai.com",
+            "url": "https://kumamotodeai.com",
+            "available": true,
+            "updated_at": "2026-07-28T11:48:50.021078+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "Sweets Buffet Princess",
+            "url": "https://sweetsbuffet.jp",
+            "available": true,
+            "updated_at": "2026-07-13T00:00:00+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "ひろみチャンネル〜霊界通信〜",
+            "url": "https://kumamotoevent.com/hiromichannel/",
+            "available": true,
+            "updated_at": "2026-05-31T10:59:46+09:00",
+            "build_label": "AI製（確認済）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "活動",
+        "count": 3,
+        "items": [
+          {
+            "name": "clubpyramid.jp",
+            "url": "https://clubpyramid.jp",
+            "available": true,
+            "updated_at": "2026-07-28T11:48:50.892302+09:00",
+            "build_label": "BiND製",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "Bar AZITO",
+            "url": "https://azi.to",
+            "available": true,
+            "updated_at": "2026-07-28T11:48:50.021623+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "革命xクーデター",
+            "url": "https://kumamotoevent.com/couprevolution/",
+            "available": true,
+            "updated_at": "2026-05-05T19:19:59+09:00",
+            "build_label": "BiND製",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "Masquerade",
+        "count": 4,
+        "items": [
+          {
+            "name": "熊本秘密クラブ",
+            "url": "https://kumamotosecretclub.jp",
+            "available": true,
+            "updated_at": "2026-07-28T13:20:16.304793+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:site_name",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "Masquerade Party Kumamoto",
+            "url": "https://kumamotoevent.com/masquerade/",
+            "available": true,
+            "updated_at": "2026-07-26T14:15:40+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "MASQUERADE CLUB KUMAMOTO",
+            "url": "https://kumamotoevent.com/masquerade_club/",
+            "available": true,
+            "updated_at": "2026-07-26T14:49:42+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "Private Salon LUNA",
+            "url": "https://cosanostra.jp/luna/",
+            "available": true,
+            "updated_at": "2026-07-26T12:11:15+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "LABO",
+        "count": 3,
+        "items": [
+          {
+            "name": "熊本AI研究所",
+            "url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
+            "available": true,
+            "updated_at": "2026-07-26T00:15:54+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "長嶺東 AIシェアオフィス",
+            "url": "https://cosanostra.jp/nagamine/",
+            "available": true,
+            "updated_at": "2026-07-09T14:30:01+09:00",
+            "build_label": "AI製（確認済）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "旧Webアーカイブ入口",
+            "url": "https://cosanostra.jp/archive_web_site/",
+            "available": true,
+            "updated_at": "2026-06-22T20:21:46+09:00",
+            "build_label": "AI製（確認済）",
+            "name_source": "title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "西原・小林",
+        "count": 2,
+        "items": [
+          {
+            "name": "おもけん",
+            "url": "https://cosanostra.jp/omoken/",
+            "available": true,
+            "updated_at": "2026-05-31T12:11:31+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "KONOKO",
+            "url": "https://konoko.net/",
+            "available": true,
+            "updated_at": "",
+            "build_label": "AI製（確認済）",
+            "name_source": "h1",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "天草",
+        "count": 2,
+        "items": [
+          {
+            "name": "天草プロジェクト",
+            "url": "https://cosanostra.jp/amakusa_project/",
+            "available": true,
+            "updated_at": "2026-06-22T15:58:42+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "天草「月の塩」ブランドサイト",
+            "url": "https://cosanostra.jp/moon_salt/",
+            "available": true,
+            "updated_at": "2026-06-22T15:58:43+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      },
+      {
+        "label": "玉名",
+        "count": 3,
+        "items": [
+          {
+            "name": "伸陽",
+            "url": "https://cosanostra.jp/shinyou/",
+            "available": true,
+            "updated_at": "2026-06-07T19:54:24+09:00",
+            "build_label": "AI系（推定）",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "買取ドットコム of 買取ドットコム",
+            "url": "https://cosanostra.jp/kaitori/",
+            "available": true,
+            "updated_at": "2026-06-05T14:38:11+09:00",
+            "build_label": "BiND製",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          },
+          {
+            "name": "欅の森",
+            "url": "https://cosanostra.jp/keyaki/",
+            "available": true,
+            "updated_at": "2026-06-05T14:49:28+09:00",
+            "build_label": "BiND製",
+            "name_source": "og:title",
+            "missing_from_managed_sites": false
+          }
+        ]
+      }
+    ],
     "sites": [
       {
-        "name": "スターライト カフェ＆ウエディング 熊本",
-        "url": "https://starlightcafe.co.jp",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-28T11:48:50.020796+09:00",
-        "update_source": "変更検知",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "くまもとウエディング",
-        "url": "https://kumamotowedding.com",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2025-11-27T00:00:00+09:00",
-        "update_source": "Sitemap lastmod",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "熊本出会い.com",
-        "url": "https://kumamotodeai.com",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-28T11:48:50.021078+09:00",
-        "update_source": "変更検知",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "natural konoko",
-        "url": "https://konoko.net/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "",
-        "update_source": "",
-        "build_type": "ai_like",
-        "build_label": "AI製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "200円BAR 秘密基地アジト",
+        "name": "Bar AZITO",
         "url": "https://azi.to",
         "group": "主要事業",
         "available": true,
@@ -1229,10 +1939,14 @@
         "build_type": "ai_like",
         "build_label": "AI系（推定）",
         "build_confidence": 72,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "Bar AZITO｜熊本・玉屋通り｜移転前店舗は2026年8月まで営業予定",
+        "page_heading": "Bar AZITO (旧 秘密基地アジト)",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.179885+09:00"
       },
       {
-        "name": "300円BAR／アジト2号店",
+        "name": "300円 BAR アジト 熊本 2号店 @下通アーケードx銀座通り交差点",
         "url": "https://azi.to/300/",
         "group": "主要事業",
         "available": true,
@@ -1242,10 +1956,14 @@
         "build_type": "bind",
         "build_label": "BiND製",
         "build_confidence": 99,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "300円 BAR アジト 熊本 2号店 @下通アーケードx銀座通り交差点",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.504369+09:00"
       },
       {
-        "name": "BLACK BOX",
+        "name": "Magic & Bar BLACK BOX 熊本 下通アーケード",
         "url": "https://azi.to/blackbox/",
         "group": "主要事業",
         "available": true,
@@ -1255,322 +1973,14 @@
         "build_type": "bind",
         "build_label": "BiND製",
         "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "COSA NOSTRA JAPAN",
-        "url": "https://cosanostra.jp",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T14:16:14+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 84,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "COSA NOSTRA",
-        "url": "https://cosanostra.jp/cosanostra/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2025-09-14T16:52:26+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "CLUB KUMAMOTO",
-        "url": "https://cosanostra.jp/club_kumamoto/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2025-02-27T21:48:27+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 88,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "おもけん",
-        "url": "https://cosanostra.jp/omoken/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-31T12:11:31+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "大都会門司港",
-        "url": "https://cosanostra.jp/daitokaimojiko/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2023-10-28T01:10:51+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "SWEETS BUFFET（COSA NOSTRA）",
-        "url": "https://cosanostra.jp/sweetsbuffet/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2022-04-28T11:41:31+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "CLUB PYRAMID",
-        "url": "https://clubpyramid.jp",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-28T11:48:50.892302+09:00",
-        "update_source": "変更検知",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 88,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "くまもとイベント.com",
-        "url": "https://kumamotoevent.com",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T14:17:54+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 84,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "KSC",
-        "url": "https://kumamotosecretclub.jp",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-28T13:20:16.304793+09:00",
-        "update_source": "変更検知",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "スイーツ・ビュッフェ PRINCESS",
-        "url": "https://sweetsbuffet.jp",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-13T00:00:00+09:00",
-        "update_source": "Sitemap lastmod",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "海のピラミッド",
-        "url": "https://kumamotoevent.com/pyramid/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2023-10-28T01:24:39+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "ひろみチャンネル",
-        "url": "https://kumamotoevent.com/hiromichannel/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-31T10:59:46+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "Magic & Bar BLACK BOX 熊本 下通アーケード",
+        "page_heading": "BLACK BOX",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.388746+09:00"
       },
       {
         "name": "仮面舞踏会 熊本",
-        "url": "https://kumamotoevent.com/masquerade/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T14:15:40+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "革命・クーデター計画",
-        "url": "https://kumamotoevent.com/couprevolution/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:19:59+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Qanon 日本支部",
-        "url": "https://kumamotoevent.com/couprevolution/qanon.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:09+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "日本革命・クーデター計画",
-        "url": "https://kumamotoevent.com/couprevolution/japan_coup_revolution_plan.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:03+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Rescue Party",
-        "url": "https://kumamotoevent.com/couprevolution/Rescue_Party.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:19:58+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 85,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Kumamoto Party",
-        "url": "https://kumamotoevent.com/couprevolution/Kumamoto_Party.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:11+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "宇城市政を刷新する会",
-        "url": "https://kumamotoevent.com/ukigovernment/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:21+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "COVID-19 antivirus",
-        "url": "https://kumamotoevent.com/COVID-19/antivirus.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:19+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "after corona",
-        "url": "https://kumamotoevent.com/COVID-19/after_corona.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:14+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "squat",
-        "url": "https://kumamotoevent.com/couprevolution/squat.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:06+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 85,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Free Space",
-        "url": "https://kumamotoevent.com/event/Free_Space.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:47+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "地域通貨・トークン",
-        "url": "https://kumamotoevent.com/currency/token.html",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-05-05T19:20:33+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 99,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "仮面舞踏会 熊本 旧Web",
         "url": "https://azi.to/masquerade/",
         "group": "その他・旧サイト",
         "available": true,
@@ -1580,20 +1990,62 @@
         "build_type": "bind",
         "build_label": "BiND製",
         "build_confidence": 99,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "仮面舞踏会 熊本",
+        "page_heading": "仮面舞踏会 熊本 Masquerade Kumamoto",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.716619+09:00"
       },
       {
-        "name": "Qanon 日本支部 旧Web",
-        "url": "https://clubpyramid.jp/qanon.html",
+        "name": "clubpyramid.jp",
+        "url": "https://clubpyramid.jp",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-28T11:48:50.892302+09:00",
+        "update_source": "変更検知",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 88,
+        "build_transition_status": "none",
+        "document_title": "CLUB PYRAMID a.k.a. 海のピラミッド",
+        "page_heading": "海のピラミッド 宇城市 三角",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.949454+09:00"
+      },
+      {
+        "name": "れいわ新選組 山本太郎 九州ツアー 熊本 下通アーケードに参上！",
+        "url": "https://clubpyramid.jp/20191016.html",
         "group": "その他・旧サイト",
         "available": true,
         "http_status": 200,
-        "updated_at": "2021-08-16T00:00:00+09:00",
+        "updated_at": "2021-06-03T00:00:00+09:00",
         "update_source": "Sitemap lastmod",
         "build_type": "bind",
         "build_label": "BiND製",
         "build_confidence": 88,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "れいわ新選組 山本太郎 九州ツアー 熊本 下通アーケードに参上！",
+        "page_heading": "2019.10.16 れいわ新選組 山本太郎",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.876951+09:00"
+      },
+      {
+        "name": "熊本「仮想通貨」決済可能 店舗一覧",
+        "url": "https://clubpyramid.jp/cryptocurrency.html",
+        "group": "その他・旧サイト",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2021-06-03T00:00:00+09:00",
+        "update_source": "Sitemap lastmod",
+        "build_type": "bind",
+        "build_label": "BiND製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "熊本「仮想通貨」決済可能 店舗一覧",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.786408+09:00"
       },
       {
         "name": "革命債権",
@@ -1606,85 +2058,45 @@
         "build_type": "unknown",
         "build_label": "判別不能",
         "build_confidence": 35,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "革命債権",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.747254+09:00"
       },
       {
-        "name": "山本太郎 熊本 2019",
-        "url": "https://clubpyramid.jp/20191016.html",
+        "name": "Qanon日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
+        "url": "https://clubpyramid.jp/qanon.html",
         "group": "その他・旧サイト",
         "available": true,
         "http_status": 200,
-        "updated_at": "2021-06-03T00:00:00+09:00",
+        "updated_at": "2021-08-16T00:00:00+09:00",
         "update_source": "Sitemap lastmod",
         "build_type": "bind",
         "build_label": "BiND製",
         "build_confidence": 88,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "Qanon日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
+        "page_heading": "Qanon 日本支部",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.787717+09:00"
       },
       {
-        "name": "仮想通貨決済可能店舗一覧",
-        "url": "https://clubpyramid.jp/cryptocurrency.html",
-        "group": "その他・旧サイト",
+        "name": "COSA NOSTRA JAPAN",
+        "url": "https://cosanostra.jp",
+        "group": "主要事業",
         "available": true,
         "http_status": 200,
-        "updated_at": "2021-06-03T00:00:00+09:00",
-        "update_source": "Sitemap lastmod",
-        "build_type": "bind",
-        "build_label": "BiND製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Masquerade Club",
-        "url": "https://kumamotoevent.com/masquerade_club/",
-        "group": "kumamotoevent.com",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T14:49:42+09:00",
+        "updated_at": "2026-07-26T14:16:14+09:00",
         "update_source": "HTTP Last-Modified",
         "build_type": "ai_like",
         "build_label": "AI系（推定）",
         "build_confidence": 84,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "熊本AI研究所",
-        "url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T00:15:54+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "長嶺東AIシェアオフィス",
-        "url": "https://cosanostra.jp/nagamine/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-09T14:30:01+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI製（確認済）",
-        "build_confidence": 100,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Private Salon LUNA",
-        "url": "https://cosanostra.jp/luna/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-07-26T12:11:15+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "COSA NOSTRA JAPAN｜熊本から始まる創造と互助のネットワーク",
+        "page_heading": "COSA NOSTRA JAPAN 善人は、結ばれたとき、はじめて力になる。",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.510251+09:00"
       },
       {
         "name": "天草プロジェクト",
@@ -1697,62 +2109,14 @@
         "build_type": "ai_like",
         "build_label": "AI系（推定）",
         "build_confidence": 84,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "天草プロジェクト | 地域資源の共創と海の未来を紡ぐ総合サイト",
+        "page_heading": "AMAKUSA PROJECT 天草プロジェクト",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.794841+09:00"
       },
       {
-        "name": "月の塩",
-        "url": "https://cosanostra.jp/moon_salt/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-06-22T15:58:43+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 84,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "shinyou",
-        "url": "https://cosanostra.jp/shinyou/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-06-07T19:54:24+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "ai_like",
-        "build_label": "AI系（推定）",
-        "build_confidence": 72,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "買取",
-        "url": "https://cosanostra.jp/kaitori/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-06-05T14:38:11+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 88,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "keyaki",
-        "url": "https://cosanostra.jp/keyaki/",
-        "group": "主要事業",
-        "available": true,
-        "http_status": 200,
-        "updated_at": "2026-06-05T14:49:28+09:00",
-        "update_source": "HTTP Last-Modified",
-        "build_type": "bind",
-        "build_label": "BiND製",
-        "build_confidence": 88,
-        "build_transition_status": "none"
-      },
-      {
-        "name": "Webサイトアーカイブ",
+        "name": "旧Webアーカイブ入口",
         "url": "https://cosanostra.jp/archive_web_site/",
         "group": "主要事業",
         "available": true,
@@ -1762,10 +2126,371 @@
         "build_type": "ai_like",
         "build_label": "AI製（確認済）",
         "build_confidence": 100,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "旧Webアーカイブ入口",
+        "page_heading": "旧Webアーカイブ入口",
+        "name_source": "title",
+        "metadata_checked_at": "2026-07-29T12:55:00.[電話番号を非表示]+09:00"
       },
       {
-        "name": "革命債権",
+        "name": "CLUB KUMAMOTO",
+        "url": "https://cosanostra.jp/club_kumamoto/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2025-02-27T21:48:27+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 88,
+        "build_transition_status": "none",
+        "document_title": "CLUB KUMAMOTO | CLUB KUMAMOTO",
+        "page_heading": "CLUB KUMAMOTO",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.560865+09:00"
+      },
+      {
+        "name": "COSA NOSTRA JAPAN 2025",
+        "url": "https://cosanostra.jp/cosanostra/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2025-09-14T16:52:26+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "COSA NOSTRA JAPAN 2025",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.592294+09:00"
+      },
+      {
+        "name": "INFO SHOP 大都会門司港",
+        "url": "https://cosanostra.jp/daitokaimojiko/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2023-10-28T01:10:51+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "INFO SHOP 大都会門司港",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.674610+09:00"
+      },
+      {
+        "name": "買取ドットコム of 買取ドットコム",
+        "url": "https://cosanostra.jp/kaitori/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-06-05T14:38:11+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 88,
+        "build_transition_status": "none",
+        "document_title": "買取ドットコム of 買取ドットコム",
+        "page_heading": "遺品整理から家の売却まで",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:55:00.[電話番号を非表示]+09:00"
+      },
+      {
+        "name": "欅の森",
+        "url": "https://cosanostra.jp/keyaki/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-06-05T14:49:28+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 88,
+        "build_transition_status": "none",
+        "document_title": "欅の森 | 欅の森",
+        "page_heading": "欅けやきの森",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:55:00.127505+09:00"
+      },
+      {
+        "name": "熊本AI研究所",
+        "url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-26T00:15:54+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "熊本AI研究所｜熊本からAIを社会へ実装する",
+        "page_heading": "熊本から、AIを社会へ実装する。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.726420+09:00"
+      },
+      {
+        "name": "Private Salon LUNA",
+        "url": "https://cosanostra.jp/luna/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-26T12:11:15+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "Private Salon LUNA｜熊本ルナ｜女性の相談・案内サロン",
+        "page_heading": "女性の毎日に、 必要な人・場所・情報を そっとつなぐ。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.838561+09:00"
+      },
+      {
+        "name": "天草「月の塩」ブランドサイト",
+        "url": "https://cosanostra.jp/moon_salt/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-06-22T15:58:43+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 84,
+        "build_transition_status": "none",
+        "document_title": "天草「月の塩」ブランドサイト | 満月大潮の海水から生まれた天然塩",
+        "page_heading": "TSUKI NO SHIO 天草 月の塩",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.872678+09:00"
+      },
+      {
+        "name": "長嶺東 AIシェアオフィス",
+        "url": "https://cosanostra.jp/nagamine/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-09T14:30:01+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "長嶺東 AIシェアオフィス｜熊本市東区の審査制コワーキング・レンタルスペース",
+        "page_heading": "小さく始めて、AIで育てる。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.828877+09:00"
+      },
+      {
+        "name": "おもけん",
+        "url": "https://cosanostra.jp/omoken/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-31T12:11:31+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "おもけん｜人とAIが共に育む未来のむらづくり",
+        "page_heading": "人とAIが共に育む、未来のむらづくり。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.534355+09:00"
+      },
+      {
+        "name": "伸陽",
+        "url": "https://cosanostra.jp/shinyou/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-06-07T19:54:24+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "伸陽｜古いものに、次の人生を。買取ドットコムとケヤキの森をつなぐ熊本・玉名の地域拠点",
+        "page_heading": "古いものに、次の人生を。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:59.876139+09:00"
+      },
+      {
+        "name": "Sweets Buffet",
+        "url": "https://cosanostra.jp/sweetsbuffet/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2022-04-28T11:41:31+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "Sweets Buffet",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.739361+09:00"
+      },
+      {
+        "name": "KONOKO",
+        "url": "https://konoko.net/",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "",
+        "update_source": "",
+        "build_type": "ai_like",
+        "build_label": "AI製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "KONOKO | 宮崎県小林市から自然と暮らしを提案するブランド",
+        "page_heading": "KONOKO",
+        "name_source": "h1",
+        "metadata_checked_at": "2026-07-29T12:54:57.187374+09:00"
+      },
+      {
+        "name": "kumamotodeai.com",
+        "url": "https://kumamotodeai.com",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-28T11:48:50.021078+09:00",
+        "update_source": "変更検知",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "kumamotodeai.com | kumamotodeai.com",
+        "page_heading": "Connecting Hearts in Kumamoto",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.132479+09:00"
+      },
+      {
+        "name": "くまもとイベントどっとコム",
+        "url": "https://kumamotoevent.com",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-26T14:17:54+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 84,
+        "build_transition_status": "none",
+        "document_title": "くまもとイベントどっとコム | 熊本のイベント・カルチャー・交流のポータル",
+        "page_heading": "くまもとイベントどっとコム",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.842643+09:00"
+      },
+      {
+        "name": "アフター コロナ／パンデミック後の世界",
+        "url": "https://kumamotoevent.com/COVID-19/after_corona.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:14+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "アフター コロナ／パンデミック後の世界bottom_arrowbottom_arrow",
+        "page_heading": "アフター コロナ あるいは ウイズ コロナ／パンデミック後の世界",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.592152+09:00"
+      },
+      {
+        "name": "対ウイルス（新型コロナ COVID-19）熊本・九州 NBC（Nuclear Biological Chemical）民間防護隊",
+        "url": "https://kumamotoevent.com/COVID-19/antivirus.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:19+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "対ウイルス（新型コロナ COVID-19）熊本・九州 NBC（Nuclear Biological Chemical）民間防護隊bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.479059+09:00"
+      },
+      {
+        "name": "革命xクーデター",
+        "url": "https://kumamotoevent.com/couprevolution/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:19:59+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "革命xクーデター",
+        "page_heading": "革命Xクーデター",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.143642+09:00"
+      },
+      {
+        "name": "熊本困窮者党 令和新撰組 熊本勝手連",
+        "url": "https://kumamotoevent.com/couprevolution/Kumamoto_Party.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:11+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "熊本困窮者党 令和新撰組 熊本勝手連bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "山本太郎氏への直訴状（あるいは 建白書）",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.238523+09:00"
+      },
+      {
+        "name": "経世済民 救国党",
+        "url": "https://kumamotoevent.com/couprevolution/Rescue_Party.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:19:58+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 85,
+        "build_transition_status": "none",
+        "document_title": "経世済民 救国党",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.238971+09:00"
+      },
+      {
+        "name": "日本 革命・クーデター計画2025v2",
+        "url": "https://kumamotoevent.com/couprevolution/japan_coup_revolution_plan.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:03+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "日本 革命・クーデター計画2025v2",
+        "page_heading": "日本革命・クーデター計画",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.257647+09:00"
+      },
+      {
+        "name": "革命債権2025",
         "url": "https://kumamotoevent.com/couprevolution/jrevolution.html",
         "group": "kumamotoevent.com",
         "available": true,
@@ -1775,7 +2500,232 @@
         "build_type": "bind",
         "build_label": "BiND製（確認済）",
         "build_confidence": 100,
-        "build_transition_status": "none"
+        "build_transition_status": "none",
+        "document_title": "革命債権2025bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:55:00.112149+09:00"
+      },
+      {
+        "name": "QANON日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
+        "url": "https://kumamotoevent.com/couprevolution/qanon.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:09+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "QANON日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
+        "page_heading": "Qanon 日本支部",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.242762+09:00"
+      },
+      {
+        "name": "2007〜2011、日本で起きた知られざるスクウォット（建物占拠）闘争",
+        "url": "https://kumamotoevent.com/couprevolution/squat.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:06+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 85,
+        "build_transition_status": "none",
+        "document_title": "2007〜2011、日本で起きた知られざるスクウォット（建物占拠）闘争bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "2007〜2011、日本で起きた知られざるスクウォット／建物占拠 闘争",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.559123+09:00"
+      },
+      {
+        "name": "トークン 暗号通貨 x 地域通貨",
+        "url": "https://kumamotoevent.com/currency/token.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:33+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "トークン 暗号通貨 x 地域通貨bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "地域通貨 x 暗号通貨（トークン；token）",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.529805+09:00"
+      },
+      {
+        "name": "くまもと解放区",
+        "url": "https://kumamotoevent.com/event/Free_Space.html",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:47+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "くまもと解放区bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "AZITO ONLINE",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.524224+09:00"
+      },
+      {
+        "name": "ひろみチャンネル〜霊界通信〜",
+        "url": "https://kumamotoevent.com/hiromichannel/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-31T10:59:46+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "ひろみチャンネル〜霊界通信〜｜熊本の霊感・霊視・YouTube配信",
+        "page_heading": "見えない世界からのメッセージを、明日へ進む力に。",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.963342+09:00"
+      },
+      {
+        "name": "Masquerade Party Kumamoto",
+        "url": "https://kumamotoevent.com/masquerade/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-26T14:15:40+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "Masquerade Party Kumamoto｜仮面舞踏会 熊本",
+        "page_heading": "MASQUERADE マスカレード・パーティー熊本",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.[電話番号を非表示]+09:00"
+      },
+      {
+        "name": "MASQUERADE CLUB KUMAMOTO",
+        "url": "https://kumamotoevent.com/masquerade_club/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-26T14:49:42+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 84,
+        "build_transition_status": "none",
+        "document_title": "MASQUERADE CLUB KUMAMOTO｜マスカレードクラブ熊本",
+        "page_heading": "MASQUERADE CLUB KUMAMOTOマスカレードクラブ熊本",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.952115+09:00"
+      },
+      {
+        "name": "海のピラミッド／CLUB PYRAMID of /pyramid/",
+        "url": "https://kumamotoevent.com/pyramid/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2023-10-28T01:24:39+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製（確認済）",
+        "build_confidence": 100,
+        "build_transition_status": "none",
+        "document_title": "海のピラミッド／CLUB PYRAMID of /pyramid/",
+        "page_heading": "海のピラミッド／CLUB PYRAMID",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:57.938147+09:00"
+      },
+      {
+        "name": "宇城市政を刷新する会",
+        "url": "https://kumamotoevent.com/ukigovernment/",
+        "group": "kumamotoevent.com",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-05-05T19:20:21+09:00",
+        "update_source": "HTTP Last-Modified",
+        "build_type": "bind",
+        "build_label": "BiND製",
+        "build_confidence": 99,
+        "build_transition_status": "none",
+        "document_title": "宇城市政を刷新する会bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
+        "page_heading": "",
+        "name_source": "og:title",
+        "metadata_checked_at": "2026-07-29T12:54:58.395286+09:00"
+      },
+      {
+        "name": "熊本秘密クラブ",
+        "url": "https://kumamotosecretclub.jp",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-28T13:20:16.304793+09:00",
+        "update_source": "変更検知",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "熊本秘密クラブ｜熊本の会員制プライベートサロン",
+        "page_heading": "仮面をまとい、日常をほどく。",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.875604+09:00"
+      },
+      {
+        "name": "kumamotowedding.com",
+        "url": "https://kumamotowedding.com",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2025-11-27T00:00:00+09:00",
+        "update_source": "Sitemap lastmod",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "くまもとウエディング",
+        "page_heading": "Kumamoto Wedding",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.134678+09:00"
+      },
+      {
+        "name": "STARLIGHT CAFE & WEDDING",
+        "url": "https://starlightcafe.co.jp",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-28T11:48:50.020796+09:00",
+        "update_source": "変更検知",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "STARLIGHT CAFE & WEDDING｜熊本から、星空の祝福を未来へ",
+        "page_heading": "星空の下、人生の節目を映画にする。",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.315263+09:00"
+      },
+      {
+        "name": "Sweets Buffet Princess",
+        "url": "https://sweetsbuffet.jp",
+        "group": "主要事業",
+        "available": true,
+        "http_status": 200,
+        "updated_at": "2026-07-13T00:00:00+09:00",
+        "update_source": "Sitemap lastmod",
+        "build_type": "ai_like",
+        "build_label": "AI系（推定）",
+        "build_confidence": 72,
+        "build_transition_status": "none",
+        "document_title": "Sweets Buffet Princess｜甘い王国とプリンセス・サーガ",
+        "page_heading": "Sweets BuffetPrincess",
+        "name_source": "og:site_name",
+        "metadata_checked_at": "2026-07-29T12:54:57.847930+09:00"
       }
     ]
   }
