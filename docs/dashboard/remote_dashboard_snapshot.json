@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-29T21:09:14.964319+09:00",
+  "generated_at": "2026-07-29T21:24:25.193232+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 221,
+        "completed": 227,
         "total": 937,
-        "percent": 23.6
+        "percent": 24.2
       },
       "chunks": {
-        "completed": 1537,
+        "completed": 1551,
         "total": 3959,
-        "percent": 38.8
+        "percent": 39.2
       },
-      "last_checkpoint_at": "2026-07-29T21:08:32.781745+09:00"
+      "last_checkpoint_at": "2026-07-29T21:24:20.161942+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3018,6 +3018,174 @@
         "page_heading": "Sweets BuffetPrincess",
         "name_source": "og:site_name",
         "metadata_checked_at": "2026-07-29T12:54:57.847930+09:00"
+      }
+    ]
+  },
+  "project_portfolio": {
+    "schema_version": "1.0",
+    "generated_at": "2026-07-29T21:20:33+09:00",
+    "summary": {
+      "blocked": 0,
+      "completed": 0,
+      "external_waiting": 0,
+      "operation": 0,
+      "owner_waiting": 1,
+      "total": 7,
+      "unknown": 1,
+      "working": 5
+    },
+    "projects": [
+      {
+        "project_id": "PROJECT-AI-HEADQUARTERS",
+        "project_name": "AI_HEADQUARTERS",
+        "project_category": "automation",
+        "phase": "operation",
+        "status": "working",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "ChatGPT",
+          "Antigravity",
+          "Hermes"
+        ],
+        "current_task": "プロジェクト状態収集基盤の初回導入",
+        "blocker": null,
+        "next_action": "各プロジェクトのステータス文書をレビューして日常運用へ移行する",
+        "last_result": "AI組織の正本管理基盤を運用中",
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "not_applicable",
+        "automation_status": "running",
+        "public_summary": "複数AIの正本管理基盤を運用中"
+      },
+      {
+        "project_id": "PROJECT-AI-WEB-SNS-PROGRESS-DASHBOARD",
+        "project_name": "AI｜WEB｜SNS Progress Dashboard",
+        "project_category": "automation",
+        "phase": "operation",
+        "status": "working",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "ChatGPT",
+          "Antigravity",
+          "Hermes"
+        ],
+        "current_task": "プロジェクト状態パイプラインの既存ダッシュボード連携",
+        "blocker": null,
+        "next_action": "ローカル候補データの確認後に既存運用手順で公開可否を判断する",
+        "last_result": "所有者限定のダッシュボードを運用中",
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "published_confirmed",
+        "automation_status": "running",
+        "public_summary": "AI・WEB・SNSの進捗を所有者限定で確認するダッシュボード"
+      },
+      {
+        "project_id": "PROJECT-AZITO",
+        "project_name": "AZITO",
+        "project_category": "web",
+        "phase": "release_preparation",
+        "status": "owner_waiting",
+        "progress_percent": null,
+        "primary_agent": "Human",
+        "support_agents": [
+          "Codex",
+          "Antigravity"
+        ],
+        "current_task": "AZITO 3.0 の公開準備",
+        "blocker": "公開操作の明示承認待ち",
+        "next_action": "承認後に既存のアップロード候補を確認する",
+        "last_result": "公開用統合とローカル確認を完了",
+        "last_updated": "2026-07-14T00:00:00+09:00",
+        "last_agent": "Codex",
+        "publication_status": "preparing",
+        "automation_status": "not_applicable",
+        "public_summary": "AZITO 3.0 の公開準備を進行中"
+      },
+      {
+        "project_id": "PROJECT-COSANOSTRA-JP",
+        "project_name": "cosanostra.jp",
+        "project_category": "web",
+        "phase": "operation",
+        "status": "working",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "Antigravity"
+        ],
+        "current_task": "公開サイトの保守と情報更新",
+        "blocker": null,
+        "next_action": "既存の検証手順に従い更新内容を確認する",
+        "last_result": "公開制作元とFTP候補を分離して運用中",
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "published_confirmed",
+        "automation_status": "not_applicable",
+        "public_summary": "cosanostra.jp の公開サイトを保守中"
+      },
+      {
+        "project_id": "PROJECT-KUMAMOTO-SECRET-CLUB-JP",
+        "project_name": "KSC Web Site",
+        "project_category": "web",
+        "phase": "operation",
+        "status": "working",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "Antigravity"
+        ],
+        "current_task": "公開サイトの保守とSNS表示の確認",
+        "blocker": null,
+        "next_action": "既存の検証手順に従い更新内容を確認する",
+        "last_result": "公開制作元と検証環境を分離して運用中",
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "published_confirmed",
+        "automation_status": "not_applicable",
+        "public_summary": "KSC Web Site の公開サイトを保守中"
+      },
+      {
+        "project_id": "PROJECT-KUMAMOTOEVENT-COM",
+        "project_name": "kumamotoevent.com",
+        "project_category": "web",
+        "phase": "operation",
+        "status": "working",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "Antigravity"
+        ],
+        "current_task": "公開サイトと公開JSONの保守",
+        "blocker": null,
+        "next_action": "既存の検証手順に従い必要な更新を確認する",
+        "last_result": "公開制作元とアップロード候補を分離して運用中",
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "published_confirmed",
+        "automation_status": "healthy",
+        "public_summary": "kumamotoevent.com の公開サイトを保守中"
+      },
+      {
+        "project_id": "PROJECT-KUMAMOTO-AI-LABORATORY",
+        "project_name": "熊本AI研究所",
+        "project_category": "ai",
+        "phase": "operation",
+        "status": "unknown",
+        "progress_percent": null,
+        "primary_agent": "Codex",
+        "support_agents": [
+          "ChatGPT"
+        ],
+        "current_task": null,
+        "blocker": null,
+        "next_action": "現行の運用状況を確認してステータスを更新する",
+        "last_result": null,
+        "last_updated": "2026-07-29T21:18:44+09:00",
+        "last_agent": "Codex",
+        "publication_status": "unknown",
+        "automation_status": "unknown",
+        "public_summary": "熊本AI研究所の運用状況を確認中"
       }
     ]
   }
