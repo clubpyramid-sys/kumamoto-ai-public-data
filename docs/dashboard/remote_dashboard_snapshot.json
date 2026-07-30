@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T05:18:08.622169+09:00",
+  "generated_at": "2026-07-31T05:33:32.013974+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 672,
+        "completed": 673,
         "total": 937,
-        "percent": 71.7
+        "percent": 71.8
       },
       "chunks": {
-        "completed": 3311,
+        "completed": 3323,
         "total": 3959,
-        "percent": 83.6
+        "percent": 83.9
       },
-      "last_checkpoint_at": "2026-07-31T05:17:19.564597+09:00"
+      "last_checkpoint_at": "2026-07-31T05:32:45.620662+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3238,7 +3238,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T05:18:09.452391+09:00",
+    "generated_at": "2026-07-31T05:33:33.416959+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3246,8 +3246,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 4,
-      "scheduled_wait": 1,
+      "running": 3,
+      "scheduled_wait": 2,
       "unknown": 0,
       "warning": 0
     },
@@ -3282,7 +3282,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 660,
+        "progress_current": 672,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "fresh",
@@ -3311,17 +3311,17 @@
         "display_name": "mixi日記アーカイブ",
         "category": "archive",
         "related_project": "mixi日記アーカイブ",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
-        "last_run_at": "2026-07-30T07:04:51+09:00",
-        "next_run_at": "2026-07-30T08:04:51+09:00",
-        "last_success_at": "2026-07-30T07:04:51+09:00",
-        "last_result_summary": "状態を確認できません",
+        "last_run_at": "2026-07-31T05:27:18+09:00",
+        "next_run_at": "2026-07-31T06:27:18+09:00",
+        "last_success_at": "2026-07-31T05:27:18+09:00",
+        "last_result_summary": "PASS・今回10件保存",
         "consecutive_failures": 0,
-        "progress_current": null,
+        "progress_current": 118,
         "progress_total": null,
-        "progress_unit": null,
-        "freshness": "stale",
+        "progress_unit": "件",
+        "freshness": "fresh",
         "execution_type": "launchd"
       },
       {
@@ -3349,9 +3349,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T05:02:57.542406+09:00",
-        "next_run_at": "2026-07-31T05:17:57.542406+09:00",
-        "last_success_at": "2026-07-31T05:02:57.542406+09:00",
+        "last_run_at": "2026-07-31T05:18:08.622169+09:00",
+        "next_run_at": "2026-07-31T05:33:08.622169+09:00",
+        "last_success_at": "2026-07-31T05:18:08.622169+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
