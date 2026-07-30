@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T13:52:10.086062+09:00",
+  "generated_at": "2026-07-30T14:07:32.430584+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 432,
+        "completed": 434,
         "total": 937,
-        "percent": 46.1
+        "percent": 46.3
       },
       "chunks": {
-        "completed": 2484,
+        "completed": 2497,
         "total": 3959,
-        "percent": 62.7
+        "percent": 63.1
       },
-      "last_checkpoint_at": "2026-07-30T13:50:11.733050+09:00"
+      "last_checkpoint_at": "2026-07-30T14:06:15.793639+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -1863,7 +1863,7 @@
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
       "latest_at": "2026-07-28T05:18:02+09:00",
-      "weekly_count": 7
+      "weekly_count": 6
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
