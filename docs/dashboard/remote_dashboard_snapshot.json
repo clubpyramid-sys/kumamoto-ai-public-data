@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T16:54:20.781798+09:00",
+  "generated_at": "2026-07-30T17:09:28.489804+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 456,
+        "completed": 459,
         "total": 937,
-        "percent": 48.7
+        "percent": 49.0
       },
       "chunks": {
-        "completed": 2653,
+        "completed": 2666,
         "total": 3959,
-        "percent": 67.0
+        "percent": 67.3
       },
-      "last_checkpoint_at": "2026-07-30T16:53:52.907555+09:00"
+      "last_checkpoint_at": "2026-07-30T17:09:01.092677+09:00"
     },
     "projects_meta": {
       "count": 52,
