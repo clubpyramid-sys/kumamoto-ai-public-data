@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T05:33:32.013974+09:00",
+  "generated_at": "2026-07-31T05:48:43.940799+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 673,
+        "completed": 675,
         "total": 937,
-        "percent": 71.8
+        "percent": 72.0
       },
       "chunks": {
-        "completed": 3323,
+        "completed": 3335,
         "total": 3959,
-        "percent": 83.9
+        "percent": 84.2
       },
-      "last_checkpoint_at": "2026-07-31T05:32:45.620662+09:00"
+      "last_checkpoint_at": "2026-07-31T05:48:30.012763+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3238,7 +3238,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T05:33:33.416959+09:00",
+    "generated_at": "2026-07-31T05:48:44.361521+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3282,10 +3282,10 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 672,
+        "progress_current": 673,
         "progress_total": 937,
         "progress_unit": "会話",
-        "freshness": "fresh",
+        "freshness": "stale",
         "execution_type": "long_running_process"
       },
       {
@@ -3349,9 +3349,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T05:18:08.622169+09:00",
-        "next_run_at": "2026-07-31T05:33:08.622169+09:00",
-        "last_success_at": "2026-07-31T05:18:08.622169+09:00",
+        "last_run_at": "2026-07-31T05:33:32.013974+09:00",
+        "next_run_at": "2026-07-31T05:48:32.013974+09:00",
+        "last_success_at": "2026-07-31T05:33:32.013974+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
