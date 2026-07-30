@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T23:28:39.861114+09:00",
+  "generated_at": "2026-07-30T23:43:49.237945+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 547,
+        "completed": 549,
         "total": 937,
-        "percent": 58.4
+        "percent": 58.6
       },
       "chunks": {
-        "completed": 3015,
+        "completed": 3025,
         "total": 3959,
-        "percent": 76.2
+        "percent": 76.4
       },
-      "last_checkpoint_at": "2026-07-30T23:27:13.300375+09:00"
+      "last_checkpoint_at": "2026-07-30T23:43:42.776559+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3238,7 +3238,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-30T23:28:40.112872+09:00",
+    "generated_at": "2026-07-30T23:43:49.591342+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3349,9 +3349,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-30T23:13:30.823986+09:00",
-        "next_run_at": "2026-07-30T23:28:30.823986+09:00",
-        "last_success_at": "2026-07-30T23:13:30.823986+09:00",
+        "last_run_at": "2026-07-30T23:28:39.861114+09:00",
+        "next_run_at": "2026-07-30T23:43:39.861114+09:00",
+        "last_success_at": "2026-07-30T23:28:39.861114+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
