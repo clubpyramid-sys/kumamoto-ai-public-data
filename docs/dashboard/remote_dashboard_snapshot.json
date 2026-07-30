@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T12:51:28.787208+09:00",
+  "generated_at": "2026-07-30T13:06:42.257188+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,11 +26,11 @@
         "percent": 44.4
       },
       "chunks": {
-        "completed": 2426,
+        "completed": 2437,
         "total": 3959,
-        "percent": 61.3
+        "percent": 61.6
       },
-      "last_checkpoint_at": "2026-07-30T12:50:08.897474+09:00"
+      "last_checkpoint_at": "2026-07-30T13:05:36.932386+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -2235,7 +2235,7 @@
         "document_title": "Bar AZITO｜熊本・玉屋通り｜移転前店舗は2026年8月まで営業予定",
         "page_heading": "Bar AZITO (旧 秘密基地アジト)",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.179885+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.054274+09:00"
       },
       {
         "name": "300円 BAR アジト 熊本 2号店 @下通アーケードx銀座通り交差点",
@@ -2252,7 +2252,7 @@
         "document_title": "300円 BAR アジト 熊本 2号店 @下通アーケードx銀座通り交差点",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.504369+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.114289+09:00"
       },
       {
         "name": "Magic & Bar BLACK BOX 熊本 下通アーケード",
@@ -2269,7 +2269,7 @@
         "document_title": "Magic & Bar BLACK BOX 熊本 下通アーケード",
         "page_heading": "BLACK BOX",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.388746+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.228846+09:00"
       },
       {
         "name": "仮面舞踏会 熊本",
@@ -2286,7 +2286,7 @@
         "document_title": "仮面舞踏会 熊本",
         "page_heading": "仮面舞踏会 熊本 Masquerade Kumamoto",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.716619+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.136523+09:00"
       },
       {
         "name": "clubpyramid.jp",
@@ -2303,7 +2303,7 @@
         "document_title": "CLUB PYRAMID a.k.a. 海のピラミッド",
         "page_heading": "海のピラミッド 宇城市 三角",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.949454+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.857617+09:00"
       },
       {
         "name": "れいわ新選組 山本太郎 九州ツアー 熊本 下通アーケードに参上！",
@@ -2320,7 +2320,7 @@
         "document_title": "れいわ新選組 山本太郎 九州ツアー 熊本 下通アーケードに参上！",
         "page_heading": "2019.10.16 れいわ新選組 山本太郎",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.876951+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.411018+09:00"
       },
       {
         "name": "熊本「仮想通貨」決済可能 店舗一覧",
@@ -2337,7 +2337,7 @@
         "document_title": "熊本「仮想通貨」決済可能 店舗一覧",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.786408+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.385976+09:00"
       },
       {
         "name": "革命債権",
@@ -2354,7 +2354,7 @@
         "document_title": "革命債権",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.747254+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.241091+09:00"
       },
       {
         "name": "Qanon日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
@@ -2371,7 +2371,7 @@
         "document_title": "Qanon日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
         "page_heading": "Qanon 日本支部",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.787717+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.158753+09:00"
       },
       {
         "name": "COSA NOSTRA JAPAN",
@@ -2388,7 +2388,7 @@
         "document_title": "COSA NOSTRA JAPAN｜熊本から始まる創造と互助のネットワーク",
         "page_heading": "COSA NOSTRA JAPAN 善人は、結ばれたとき、はじめて力になる。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.510251+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.411099+09:00"
       },
       {
         "name": "天草プロジェクト",
@@ -2405,7 +2405,7 @@
         "document_title": "天草プロジェクト | 地域資源の共創と海の未来を紡ぐ総合サイト",
         "page_heading": "AMAKUSA PROJECT 天草プロジェクト",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.794841+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.754420+09:00"
       },
       {
         "name": "旧Webアーカイブ入口",
@@ -2422,7 +2422,7 @@
         "document_title": "旧Webアーカイブ入口",
         "page_heading": "旧Webアーカイブ入口",
         "name_source": "title",
-        "metadata_checked_at": "2026-07-29T12:55:00.074405+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.972467+09:00"
       },
       {
         "name": "CLUB KUMAMOTO",
@@ -2439,7 +2439,7 @@
         "document_title": "CLUB KUMAMOTO | CLUB KUMAMOTO",
         "page_heading": "CLUB KUMAMOTO",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.560865+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.466006+09:00"
       },
       {
         "name": "COSA NOSTRA JAPAN 2025",
@@ -2456,7 +2456,7 @@
         "document_title": "COSA NOSTRA JAPAN 2025",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.592294+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.513279+09:00"
       },
       {
         "name": "INFO SHOP 大都会門司港",
@@ -2473,7 +2473,7 @@
         "document_title": "INFO SHOP 大都会門司港",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.674610+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.611241+09:00"
       },
       {
         "name": "買取ドットコム of 買取ドットコム",
@@ -2490,7 +2490,7 @@
         "document_title": "買取ドットコム of 買取ドットコム",
         "page_heading": "遺品整理から家の売却まで",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:55:00.073246+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.818416+09:00"
       },
       {
         "name": "欅の森",
@@ -2507,7 +2507,7 @@
         "document_title": "欅の森 | 欅の森",
         "page_heading": "欅けやきの森",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:55:00.127505+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:38.021406+09:00"
       },
       {
         "name": "熊本AI研究所",
@@ -2524,7 +2524,7 @@
         "document_title": "熊本AI研究所｜熊本からAIを社会へ実装する",
         "page_heading": "熊本から、AIを社会へ実装する。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.726420+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.428526+09:00"
       },
       {
         "name": "Private Salon LUNA",
@@ -2541,7 +2541,7 @@
         "document_title": "Private Salon LUNA｜熊本ルナ｜女性の相談・案内サロン",
         "page_heading": "女性の毎日に、 必要な人・場所・情報を そっとつなぐ。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.838561+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.848844+09:00"
       },
       {
         "name": "天草「月の塩」ブランドサイト",
@@ -2558,7 +2558,7 @@
         "document_title": "天草「月の塩」ブランドサイト | 満月大潮の海水から生まれた天然塩",
         "page_heading": "TSUKI NO SHIO 天草 月の塩",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.872678+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.762639+09:00"
       },
       {
         "name": "長嶺東 AIシェアオフィス",
@@ -2575,7 +2575,7 @@
         "document_title": "長嶺東 AIシェアオフィス｜熊本市東区の審査制コワーキング・レンタルスペース",
         "page_heading": "小さく始めて、AIで育てる。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.828877+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.548738+09:00"
       },
       {
         "name": "おもけん",
@@ -2592,7 +2592,7 @@
         "document_title": "おもけん｜人とAIが共に育む未来のむらづくり",
         "page_heading": "人とAIが共に育む、未来のむらづくり。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.534355+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.588559+09:00"
       },
       {
         "name": "伸陽",
@@ -2609,7 +2609,7 @@
         "document_title": "伸陽｜古いものに、次の人生を。買取ドットコムとケヤキの森をつなぐ熊本・玉名の地域拠点",
         "page_heading": "古いものに、次の人生を。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:59.876139+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.905902+09:00"
       },
       {
         "name": "Sweets Buffet",
@@ -2626,7 +2626,7 @@
         "document_title": "Sweets Buffet",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.739361+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.550448+09:00"
       },
       {
         "name": "KONOKO",
@@ -2643,7 +2643,7 @@
         "document_title": "KONOKO | 宮崎県小林市から自然と暮らしを提案するブランド",
         "page_heading": "KONOKO",
         "name_source": "h1",
-        "metadata_checked_at": "2026-07-29T12:54:57.187374+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:34.953741+09:00"
       },
       {
         "name": "kumamotodeai.com",
@@ -2660,7 +2660,7 @@
         "document_title": "kumamotodeai.com | kumamotodeai.com",
         "page_heading": "Connecting Hearts in Kumamoto",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.132479+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.008148+09:00"
       },
       {
         "name": "くまもとイベントどっとコム",
@@ -2677,7 +2677,7 @@
         "document_title": "くまもとイベントどっとコム | 熊本のイベント・カルチャー・交流のポータル",
         "page_heading": "くまもとイベントどっとコム",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.842643+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.789643+09:00"
       },
       {
         "name": "アフター コロナ／パンデミック後の世界",
@@ -2694,7 +2694,7 @@
         "document_title": "アフター コロナ／パンデミック後の世界bottom_arrowbottom_arrow",
         "page_heading": "アフター コロナ あるいは ウイズ コロナ／パンデミック後の世界",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.592152+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.096401+09:00"
       },
       {
         "name": "対ウイルス（新型コロナ COVID-19）熊本・九州 NBC（Nuclear Biological Chemical）民間防護隊",
@@ -2711,7 +2711,7 @@
         "document_title": "対ウイルス（新型コロナ COVID-19）熊本・九州 NBC（Nuclear Biological Chemical）民間防護隊bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.479059+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.860010+09:00"
       },
       {
         "name": "革命xクーデター",
@@ -2728,7 +2728,7 @@
         "document_title": "革命xクーデター",
         "page_heading": "革命Xクーデター",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.143642+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.278260+09:00"
       },
       {
         "name": "熊本困窮者党 令和新撰組 熊本勝手連",
@@ -2745,7 +2745,7 @@
         "document_title": "熊本困窮者党 令和新撰組 熊本勝手連bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "山本太郎氏への直訴状（あるいは 建白書）",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.238523+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.450483+09:00"
       },
       {
         "name": "経世済民 救国党",
@@ -2762,7 +2762,7 @@
         "document_title": "経世済民 救国党",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.238971+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.483769+09:00"
       },
       {
         "name": "日本 革命・クーデター計画2025v2",
@@ -2779,7 +2779,7 @@
         "document_title": "日本 革命・クーデター計画2025v2",
         "page_heading": "日本革命・クーデター計画",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.257647+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.404146+09:00"
       },
       {
         "name": "革命債権2025",
@@ -2796,7 +2796,7 @@
         "document_title": "革命債権2025bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:55:00.112149+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:38.203195+09:00"
       },
       {
         "name": "QANON日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
@@ -2813,7 +2813,7 @@
         "document_title": "QANON日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
         "page_heading": "Qanon 日本支部",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.242762+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.340618+09:00"
       },
       {
         "name": "2007〜2011、日本で起きた知られざるスクウォット（建物占拠）闘争",
@@ -2830,7 +2830,7 @@
         "document_title": "2007〜2011、日本で起きた知られざるスクウォット（建物占拠）闘争bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "2007〜2011、日本で起きた知られざるスクウォット／建物占拠 闘争",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.559123+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.005749+09:00"
       },
       {
         "name": "トークン 暗号通貨 x 地域通貨",
@@ -2847,7 +2847,7 @@
         "document_title": "トークン 暗号通貨 x 地域通貨bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "地域通貨 x 暗号通貨（トークン；token）",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.529805+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.936363+09:00"
       },
       {
         "name": "くまもと解放区",
@@ -2864,7 +2864,7 @@
         "document_title": "くまもと解放区bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "AZITO ONLINE",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.524224+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.798495+09:00"
       },
       {
         "name": "ひろみチャンネル〜霊界通信〜",
@@ -2881,7 +2881,7 @@
         "document_title": "ひろみチャンネル〜霊界通信〜｜熊本の霊感・霊視・YouTube配信",
         "page_heading": "見えない世界からのメッセージを、明日へ進む力に。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.963342+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.022043+09:00"
       },
       {
         "name": "Masquerade Party Kumamoto",
@@ -2898,7 +2898,7 @@
         "document_title": "Masquerade Party Kumamoto｜仮面舞踏会 熊本",
         "page_heading": "MASQUERADE マスカレード・パーティー熊本",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.090056+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.142273+09:00"
       },
       {
         "name": "MASQUERADE CLUB KUMAMOTO",
@@ -2915,7 +2915,7 @@
         "document_title": "MASQUERADE CLUB KUMAMOTO｜マスカレードクラブ熊本",
         "page_heading": "MASQUERADE CLUB KUMAMOTOマスカレードクラブ熊本",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.952115+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:37.444754+09:00"
       },
       {
         "name": "海のピラミッド／CLUB PYRAMID of /pyramid/",
@@ -2932,7 +2932,7 @@
         "document_title": "海のピラミッド／CLUB PYRAMID of /pyramid/",
         "page_heading": "海のピラミッド／CLUB PYRAMID",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:57.938147+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.003202+09:00"
       },
       {
         "name": "宇城市政を刷新する会",
@@ -2949,7 +2949,7 @@
         "document_title": "宇城市政を刷新する会bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-07-29T12:54:58.395286+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:36.629598+09:00"
       },
       {
         "name": "熊本秘密クラブ",
@@ -2966,7 +2966,7 @@
         "document_title": "熊本秘密クラブ｜熊本の会員制プライベートサロン",
         "page_heading": "仮面をまとい、日常をほどく。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.875604+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.877212+09:00"
       },
       {
         "name": "kumamotowedding.com",
@@ -2983,7 +2983,7 @@
         "document_title": "くまもとウエディング",
         "page_heading": "Kumamoto Wedding",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.134678+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.019588+09:00"
       },
       {
         "name": "STARLIGHT CAFE & WEDDING",
@@ -3000,7 +3000,7 @@
         "document_title": "STARLIGHT CAFE & WEDDING｜熊本から、星空の祝福を未来へ",
         "page_heading": "星空の下、人生の節目を映画にする。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.315263+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.269878+09:00"
       },
       {
         "name": "Sweets Buffet Princess",
@@ -3017,7 +3017,7 @@
         "document_title": "Sweets Buffet Princess｜甘い王国とプリンセス・サーガ",
         "page_heading": "Sweets BuffetPrincess",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-07-29T12:54:57.847930+09:00"
+        "metadata_checked_at": "2026-07-30T13:06:35.807422+09:00"
       }
     ]
   },
