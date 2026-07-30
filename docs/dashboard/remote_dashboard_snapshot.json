@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T21:27:01.595977+09:00",
+  "generated_at": "2026-07-30T21:42:12.403580+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -26,11 +26,11 @@
         "percent": 55.5
       },
       "chunks": {
-        "completed": 2900,
+        "completed": 2911,
         "total": 3959,
-        "percent": 73.3
+        "percent": 73.5
       },
-      "last_checkpoint_at": "2026-07-30T21:26:19.046399+09:00"
+      "last_checkpoint_at": "2026-07-30T21:40:47.610172+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3023,7 +3023,7 @@
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-29T22:24:54+09:00",
+    "generated_at": "2026-07-30T21:42:11+09:00",
     "summary": {
       "blocked": 0,
       "completed": 0,
@@ -3238,7 +3238,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-30T21:27:02.002758+09:00",
+    "generated_at": "2026-07-30T21:42:12.821848+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3282,7 +3282,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": null,
+        "progress_current": 520,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "fresh",
@@ -3331,7 +3331,7 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "error",
         "cadence_label": "毎日05:15",
-        "last_run_at": "2026-07-29T22:24:54+09:00",
+        "last_run_at": "2026-07-30T21:42:11+09:00",
         "next_run_at": "2026-07-31T05:15:00+09:00",
         "last_success_at": null,
         "last_result_summary": "直近実行エラー（最終正常出力: 7プロジェクト収集）",
@@ -3349,9 +3349,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-30T21:11:52.343038+09:00",
-        "next_run_at": "2026-07-30T21:26:52.343038+09:00",
-        "last_success_at": "2026-07-30T21:11:52.343038+09:00",
+        "last_run_at": "2026-07-30T21:27:01.595977+09:00",
+        "next_run_at": "2026-07-30T21:42:01.595977+09:00",
+        "last_success_at": "2026-07-30T21:27:01.595977+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
