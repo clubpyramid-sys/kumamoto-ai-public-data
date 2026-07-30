@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-30T21:11:52.343038+09:00",
+  "generated_at": "2026-07-30T21:27:01.595977+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -21,16 +21,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 516,
+        "completed": 520,
         "total": 937,
-        "percent": 55.1
+        "percent": 55.5
       },
       "chunks": {
-        "completed": 2887,
+        "completed": 2900,
         "total": 3959,
-        "percent": 72.9
+        "percent": 73.3
       },
-      "last_checkpoint_at": "2026-07-30T21:11:47.912659+09:00"
+      "last_checkpoint_at": "2026-07-30T21:26:19.046399+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3191,7 +3191,7 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-30T10:23:06.740222+09:00",
+    "generated_at": "2026-07-30T21:24:14.107036+09:00",
     "data_state": "unavailable",
     "summary": {
       "services": 2,
@@ -3215,7 +3215,8 @@
         "captured_at": null,
         "freshness": "unknown",
         "source_label": "手動入力",
-        "verified": false
+        "verified": false,
+        "collection_status": "paused"
       },
       {
         "service": "antigravity",
@@ -3230,7 +3231,134 @@
         "captured_at": null,
         "freshness": "unknown",
         "source_label": "手動入力",
-        "verified": false
+        "verified": false,
+        "collection_status": "unsupported"
+      }
+    ]
+  },
+  "automation_status": {
+    "schema_version": "1.0",
+    "generated_at": "2026-07-30T21:27:02.002758+09:00",
+    "data_state": "ready",
+    "summary": {
+      "total": 6,
+      "disabled": 0,
+      "error": 1,
+      "healthy": 0,
+      "manual": 0,
+      "running": 3,
+      "scheduled_wait": 2,
+      "unknown": 0,
+      "warning": 0
+    },
+    "automations": [
+      {
+        "automation_id": "chat-state-recorder",
+        "display_name": "Chrome会話状態記録",
+        "category": "recording",
+        "related_project": "AI｜WEB｜SNS Progress Dashboard",
+        "status": "running",
+        "cadence_label": "常駐",
+        "last_run_at": null,
+        "next_run_at": null,
+        "last_success_at": null,
+        "last_result_summary": "状態を確認できません",
+        "consecutive_failures": 0,
+        "progress_current": null,
+        "progress_total": null,
+        "progress_unit": null,
+        "freshness": "unknown",
+        "execution_type": "launchd_service"
+      },
+      {
+        "automation_id": "chatgpt-remaining-analysis",
+        "display_name": "ChatGPT残り会話解析",
+        "category": "analysis",
+        "related_project": "ChatGPT Progress Dashboard",
+        "status": "running",
+        "cadence_label": "継続解析",
+        "last_run_at": "2026-07-28T05:36:51.081918+09:00",
+        "next_run_at": null,
+        "last_success_at": null,
+        "last_result_summary": "会話解析を実行中",
+        "consecutive_failures": 0,
+        "progress_current": null,
+        "progress_total": 937,
+        "progress_unit": "会話",
+        "freshness": "fresh",
+        "execution_type": "long_running_process"
+      },
+      {
+        "automation_id": "mail-daily-report",
+        "display_name": "メール日次レポート",
+        "category": "reporting",
+        "related_project": "OpenClawメールレポート",
+        "status": "scheduled_wait",
+        "cadence_label": "毎日09:00・17:00",
+        "last_run_at": null,
+        "next_run_at": "2026-07-31T09:00:00+09:00",
+        "last_success_at": null,
+        "last_result_summary": "定時レポート待機",
+        "consecutive_failures": 0,
+        "progress_current": null,
+        "progress_total": null,
+        "progress_unit": null,
+        "freshness": "unknown",
+        "execution_type": "launchd"
+      },
+      {
+        "automation_id": "mixi-diary-archive",
+        "display_name": "mixi日記アーカイブ",
+        "category": "archive",
+        "related_project": "mixi日記アーカイブ",
+        "status": "scheduled_wait",
+        "cadence_label": "1時間周期・毎日02:00",
+        "last_run_at": "2026-07-30T07:04:51+09:00",
+        "next_run_at": "2026-07-30T08:04:51+09:00",
+        "last_success_at": "2026-07-30T07:04:51+09:00",
+        "last_result_summary": "PASS・今回10件保存",
+        "consecutive_failures": 0,
+        "progress_current": 108,
+        "progress_total": null,
+        "progress_unit": "件",
+        "freshness": "stale",
+        "execution_type": "launchd"
+      },
+      {
+        "automation_id": "project-status-collector",
+        "display_name": "プロジェクト状態収集",
+        "category": "management",
+        "related_project": "AI｜WEB｜SNS Progress Dashboard",
+        "status": "error",
+        "cadence_label": "毎日05:15",
+        "last_run_at": "2026-07-29T22:24:54+09:00",
+        "next_run_at": "2026-07-31T05:15:00+09:00",
+        "last_success_at": null,
+        "last_result_summary": "直近実行エラー（最終正常出力: 7プロジェクト収集）",
+        "consecutive_failures": 1,
+        "progress_current": null,
+        "progress_total": null,
+        "progress_unit": null,
+        "freshness": "fresh",
+        "execution_type": "launchd"
+      },
+      {
+        "automation_id": "remote-dashboard-publisher",
+        "display_name": "Remote Dashboard公開JSON更新",
+        "category": "publishing",
+        "related_project": "AI｜WEB｜SNS Progress Dashboard",
+        "status": "running",
+        "cadence_label": "15分周期",
+        "last_run_at": "2026-07-30T21:11:52.343038+09:00",
+        "next_run_at": "2026-07-30T21:26:52.343038+09:00",
+        "last_success_at": "2026-07-30T21:11:52.343038+09:00",
+        "last_result_summary": "公開JSON生成済み",
+        "consecutive_failures": 0,
+        "progress_current": null,
+        "progress_total": null,
+        "progress_unit": null,
+        "freshness": "fresh",
+        "execution_type": "launchd"
       }
     ]
   }
