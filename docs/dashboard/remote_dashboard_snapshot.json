@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T23:03:16.730419+09:00",
+  "generated_at": "2026-07-31T23:18:29.520684+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3269,7 +3269,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T23:03:17.247911+09:00",
+    "generated_at": "2026-07-31T23:18:30.044219+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3380,9 +3380,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T22:48:03.691482+09:00",
-        "next_run_at": "2026-07-31T23:03:03.691482+09:00",
-        "last_success_at": "2026-07-31T22:48:03.691482+09:00",
+        "last_run_at": "2026-07-31T23:03:16.730419+09:00",
+        "next_run_at": "2026-07-31T23:18:16.730419+09:00",
+        "last_success_at": "2026-07-31T23:03:16.730419+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
