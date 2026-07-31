@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T12:09:39.545855+09:00",
+  "generated_at": "2026-07-31T12:24:50.314627+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -22,16 +22,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 837,
+        "completed": 839,
         "total": 937,
-        "percent": 89.3
+        "percent": 89.5
       },
       "chunks": {
-        "completed": 3697,
+        "completed": 3710,
         "total": 3959,
-        "percent": 93.4
+        "percent": 93.7
       },
-      "last_checkpoint_at": "2026-07-31T12:08:13.768481+09:00"
+      "last_checkpoint_at": "2026-07-31T12:24:02.635290+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3198,54 +3198,54 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-30T21:24:14.107036+09:00",
-    "data_state": "unavailable",
+    "generated_at": "2026-07-31T12:22:56.148193+09:00",
+    "data_state": "ready",
     "summary": {
       "services": 2,
-      "available": 0,
+      "available": 2,
       "warning": 0,
       "limit_reached": 0,
-      "unknown": 2
+      "unknown": 0
     },
     "services": [
       {
         "service": "codex",
         "display_name": "Codex",
-        "status": "unknown",
+        "status": "available",
         "short_remaining_percent": null,
         "short_reset_at": null,
-        "weekly_remaining_percent": null,
-        "weekly_reset_at": null,
+        "weekly_remaining_percent": 31,
+        "weekly_reset_at": "2026-08-06T10:40:00+09:00",
         "credits_balance": null,
         "saved_reset_count": null,
         "saved_reset_expires_at": null,
-        "captured_at": null,
-        "freshness": "unknown",
-        "source_label": "手動入力",
-        "verified": false,
+        "captured_at": "2026-07-31T12:16:00+09:00",
+        "freshness": "fresh",
+        "source_label": "Usage画面",
+        "verified": true,
         "collection_status": "paused"
       },
       {
         "service": "antigravity",
         "display_name": "Antigravity",
-        "status": "unknown",
+        "status": "available",
         "baseline_remaining_percent": null,
         "baseline_reset_at": null,
         "baseline_display_state": null,
         "ai_credits_balance": null,
         "overage_mode": null,
         "models": [],
-        "captured_at": null,
-        "freshness": "unknown",
-        "source_label": "手動入力",
-        "verified": false,
-        "collection_status": "unsupported"
+        "captured_at": "2026-07-31T12:22:53+09:00",
+        "freshness": "fresh",
+        "source_label": "自動／Models & Usage",
+        "verified": true,
+        "collection_status": "active"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T12:09:39.968536+09:00",
+    "generated_at": "2026-07-31T12:24:50.789430+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3289,7 +3289,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 826,
+        "progress_current": 837,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "stale",
@@ -3356,9 +3356,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T11:54:29.531865+09:00",
-        "next_run_at": "2026-07-31T12:09:29.531865+09:00",
-        "last_success_at": "2026-07-31T11:54:29.531865+09:00",
+        "last_run_at": "2026-07-31T12:09:39.545855+09:00",
+        "next_run_at": "2026-07-31T12:24:39.545855+09:00",
+        "last_success_at": "2026-07-31T12:09:39.545855+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
