@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T09:37:19.627738+09:00",
+  "generated_at": "2026-07-31T09:52:30.017498+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -14,23 +14,24 @@
       "working": 7,
       "decision": 7,
       "external": 21,
-      "reevaluate": 0
+      "reevaluate": 0,
+      "handover": 0
     },
     "analysis": {
       "stage": "remaining_raw_extraction",
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 738,
+        "completed": 745,
         "total": 937,
-        "percent": 78.8
+        "percent": 79.5
       },
       "chunks": {
-        "completed": 3526,
+        "completed": 3541,
         "total": 3959,
-        "percent": 89.1
+        "percent": 89.4
       },
-      "last_checkpoint_at": "2026-07-31T09:36:56.181322+09:00"
+      "last_checkpoint_at": "2026-07-31T09:51:28.882485+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -720,6 +721,8 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": false,
+        "manual_status": "working",
+        "manual_status_label": "作業中",
         "chat_updated_at": "2026-07-29T14:27:53+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
@@ -1116,6 +1119,8 @@
         "publication_evidence_type": "preparing_phrase",
         "publication_group_size": 2,
         "publication_group_inherited": true,
+        "manual_status": "working",
+        "manual_status_label": "作業中",
         "chat_updated_at": "2026-07-29T14:27:53+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
@@ -1314,7 +1319,9 @@
         "publication_evidence_type": "unpublished_phrase",
         "publication_group_size": 1,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-07-29T10:16:12+09:00",
+        "manual_status": "handover",
+        "manual_status_label": "引き継ぎ済",
+        "chat_updated_at": "2026-07-31T09:51:34+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -3238,7 +3245,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T09:37:20.040806+09:00",
+    "generated_at": "2026-07-31T09:52:30.611876+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3282,7 +3289,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 730,
+        "progress_current": 738,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "stale",
@@ -3349,9 +3356,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T09:22:09.565763+09:00",
-        "next_run_at": "2026-07-31T09:37:09.565763+09:00",
-        "last_success_at": "2026-07-31T09:22:09.565763+09:00",
+        "last_run_at": "2026-07-31T09:37:19.627738+09:00",
+        "next_run_at": "2026-07-31T09:52:19.627738+09:00",
+        "last_success_at": "2026-07-31T09:37:19.627738+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
