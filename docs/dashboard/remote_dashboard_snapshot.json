@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T17:13:19.056157+09:00",
+  "generated_at": "2026-07-31T17:28:29.254038+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -22,16 +22,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 936,
+        "completed": 937,
         "total": 937,
-        "percent": 99.9
+        "percent": 100.0
       },
       "chunks": {
-        "completed": 3958,
+        "completed": 3959,
         "total": 3959,
         "percent": 100.0
       },
-      "last_checkpoint_at": "2026-07-31T16:44:18.439831+09:00"
+      "last_checkpoint_at": "2026-07-31T17:17:53.342796+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3265,7 +3265,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T17:13:19.389915+09:00",
+    "generated_at": "2026-07-31T17:28:29.795541+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3273,8 +3273,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 3,
-      "scheduled_wait": 1,
+      "running": 2,
+      "scheduled_wait": 2,
       "unknown": 1,
       "warning": 0
     },
@@ -3320,7 +3320,7 @@
         "display_name": "メール日次レポート",
         "category": "reporting",
         "related_project": "OpenClawメールレポート",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "毎日09:00・17:00",
         "last_run_at": null,
         "next_run_at": "2026-08-01T09:00:00+09:00",
@@ -3376,9 +3376,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T16:58:09.195556+09:00",
-        "next_run_at": "2026-07-31T17:13:09.195556+09:00",
-        "last_success_at": "2026-07-31T16:58:09.195556+09:00",
+        "last_run_at": "2026-07-31T17:13:19.056157+09:00",
+        "next_run_at": "2026-07-31T17:28:19.056157+09:00",
+        "last_success_at": "2026-07-31T17:13:19.056157+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
