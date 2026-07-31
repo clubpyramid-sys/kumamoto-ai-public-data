@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T13:10:36.427139+09:00",
+  "generated_at": "2026-07-31T13:25:47.096647+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -22,16 +22,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 860,
+        "completed": 862,
         "total": 937,
-        "percent": 91.8
+        "percent": 92.0
       },
       "chunks": {
-        "completed": 3757,
+        "completed": 3769,
         "total": 3959,
-        "percent": 94.9
+        "percent": 95.2
       },
-      "last_checkpoint_at": "2026-07-31T13:09:35.398775+09:00"
+      "last_checkpoint_at": "2026-07-31T13:24:45.295550+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3247,7 +3247,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T13:10:36.921101+09:00",
+    "generated_at": "2026-07-31T13:25:47.562164+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3291,7 +3291,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 859,
+        "progress_current": 860,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "stale",
@@ -3358,9 +3358,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T12:55:19.852373+09:00",
-        "next_run_at": "2026-07-31T13:10:19.852373+09:00",
-        "last_success_at": "2026-07-31T12:55:19.852373+09:00",
+        "last_run_at": "2026-07-31T13:10:36.427139+09:00",
+        "next_run_at": "2026-07-31T13:25:36.427139+09:00",
+        "last_success_at": "2026-07-31T13:10:36.427139+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
