@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T10:37:59.189621+09:00",
+  "generated_at": "2026-07-31T10:53:08.845128+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -22,16 +22,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 770,
+        "completed": 771,
         "total": 937,
-        "percent": 82.2
+        "percent": 82.3
       },
       "chunks": {
-        "completed": 3592,
+        "completed": 3604,
         "total": 3959,
-        "percent": 90.7
+        "percent": 91.0
       },
-      "last_checkpoint_at": "2026-07-31T10:37:45.220649+09:00"
+      "last_checkpoint_at": "2026-07-31T10:52:47.754991+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -1870,7 +1870,7 @@
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
       "latest_at": "2026-07-28T05:18:02+09:00",
-      "weekly_count": 6
+      "weekly_count": 5
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -3245,7 +3245,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T10:37:59.452079+09:00",
+    "generated_at": "2026-07-31T10:53:09.246224+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3289,7 +3289,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 757,
+        "progress_current": 770,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "stale",
@@ -3356,9 +3356,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T10:22:50.408612+09:00",
-        "next_run_at": "2026-07-31T10:37:50.408612+09:00",
-        "last_success_at": "2026-07-31T10:22:50.408612+09:00",
+        "last_run_at": "2026-07-31T10:37:59.189621+09:00",
+        "next_run_at": "2026-07-31T10:52:59.189621+09:00",
+        "last_success_at": "2026-07-31T10:37:59.189621+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
