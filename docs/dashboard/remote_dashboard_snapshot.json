@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-07-31T14:26:31.818878+09:00",
+  "generated_at": "2026-07-31T14:41:42.585272+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -22,16 +22,16 @@
       "label": "残り会話のrawイベント抽出",
       "completed": false,
       "conversations": {
-        "completed": 878,
+        "completed": 881,
         "total": 937,
-        "percent": 93.7
+        "percent": 94.0
       },
       "chunks": {
-        "completed": 3819,
+        "completed": 3833,
         "total": 3959,
-        "percent": 96.5
+        "percent": 96.8
       },
-      "last_checkpoint_at": "2026-07-31T14:25:20.252273+09:00"
+      "last_checkpoint_at": "2026-07-31T14:40:34.327501+09:00"
     },
     "projects_meta": {
       "count": 52,
@@ -3200,12 +3200,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T12:22:56.148193+09:00",
+    "generated_at": "2026-07-31T14:28:24.591580+09:00",
     "data_state": "ready",
     "summary": {
-      "services": 2,
-      "available": 2,
-      "warning": 0,
+      "services": 3,
+      "available": 3,
+      "warning": 1,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3237,17 +3237,35 @@
         "claude_gpt_five_hour_remaining_percent": 100,
         "captured_at": "2026-07-31T12:22:53+09:00",
         "capture_method": "electron_cdp_dom",
-        "update_state": "ready",
+        "update_state": "failed",
         "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
-        "collection_status": "active"
+        "collection_status": "failed"
+      },
+      {
+        "service": "grok",
+        "display_name": "Grok",
+        "status": "available",
+        "weekly_used_percent": 31,
+        "weekly_remaining_percent": 69,
+        "weekly_reset_at": "2026-08-04T03:21:00+09:00",
+        "grok_build_used_percent": 17,
+        "chat_used_percent": 14,
+        "extra_usage_credits": 0,
+        "captured_at": "2026-07-31T13:54:47+09:00",
+        "capture_method": "manual_screenshot",
+        "update_state": "ready",
+        "freshness": "fresh",
+        "source_label": "Grok使用量画面",
+        "verified": true,
+        "collection_status": "manual_available"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-07-31T14:26:32.415826+09:00",
+    "generated_at": "2026-07-31T14:41:43.030185+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3291,7 +3309,7 @@
         "last_success_at": null,
         "last_result_summary": "会話解析を実行中",
         "consecutive_failures": 0,
-        "progress_current": 870,
+        "progress_current": 878,
         "progress_total": 937,
         "progress_unit": "会話",
         "freshness": "stale",
@@ -3358,9 +3376,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-31T14:11:20.723315+09:00",
-        "next_run_at": "2026-07-31T14:26:20.723315+09:00",
-        "last_success_at": "2026-07-31T14:11:20.723315+09:00",
+        "last_run_at": "2026-07-31T14:26:31.818878+09:00",
+        "next_run_at": "2026-07-31T14:41:31.818878+09:00",
+        "last_success_at": "2026-07-31T14:26:31.818878+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
