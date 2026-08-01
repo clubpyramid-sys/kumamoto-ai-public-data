@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T19:25:19.183881+09:00",
+  "generated_at": "2026-08-01T19:30:09.661508+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3273,7 +3273,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T19:25:20.945668+09:00",
+    "generated_at": "2026-08-01T19:30:10.251251+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3385,9 +3385,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-01T19:22:43.380953+09:00",
-        "next_run_at": "2026-08-01T19:37:43.380953+09:00",
-        "last_success_at": "2026-08-01T19:22:43.380953+09:00",
+        "last_run_at": "2026-08-01T19:25:19.183881+09:00",
+        "next_run_at": "2026-08-01T19:40:19.183881+09:00",
+        "last_success_at": "2026-08-01T19:25:19.183881+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3400,7 +3400,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T19:25:08+09:00",
+    "generated_at": "2026-08-01T19:30:03+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3445,11 +3445,11 @@
         "error_code": ""
       },
       "x": {
-        "state": "failed",
-        "last_attempt_at": "2026-08-01T19:25:08+09:00",
-        "last_success_at": "",
-        "message": "[git_sync_completed] === 公開データ更新結果 === - x-hermes-grok: failed changed=False error: 件数が急減しました: 74 -> 14 (81%) 変更ファイル: 0 Git: unchanged_last_known_good",
-        "error_code": "acquisition_failed"
+        "state": "completed",
+        "last_attempt_at": "2026-08-01T19:30:03+09:00",
+        "last_success_at": "2026-08-01T19:30:03+09:00",
+        "message": "更新完了。一部アカウントは前回値を保持しました",
+        "error_code": "x_partial"
       },
       "ai_usage": {
         "state": "failed",
