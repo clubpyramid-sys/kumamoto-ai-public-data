@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-02T05:10:49.884423+09:00",
+  "generated_at": "2026-08-02T05:26:02.035286+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3031,7 +3031,7 @@
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T14:33:55+09:00",
+    "generated_at": "2026-08-02T05:15:04+09:00",
     "summary": {
       "blocked": 0,
       "completed": 0,
@@ -3273,7 +3273,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-02T05:10:50.574942+09:00",
+    "generated_at": "2026-08-02T05:26:02.534884+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3367,9 +3367,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "毎日05:15",
-        "last_run_at": "2026-08-01T14:33:55+09:00",
-        "next_run_at": "2026-08-02T05:15:00+09:00",
-        "last_success_at": "2026-08-01T14:33:55+09:00",
+        "last_run_at": "2026-08-02T05:15:04+09:00",
+        "next_run_at": "2026-08-03T05:15:00+09:00",
+        "last_success_at": "2026-08-02T05:15:04+09:00",
         "last_result_summary": "7プロジェクト収集",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3385,9 +3385,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-02T04:55:27.845592+09:00",
-        "next_run_at": "2026-08-02T05:10:27.845592+09:00",
-        "last_success_at": "2026-08-02T04:55:27.845592+09:00",
+        "last_run_at": "2026-08-02T05:10:49.884423+09:00",
+        "next_run_at": "2026-08-02T05:25:49.884423+09:00",
+        "last_success_at": "2026-08-02T05:10:49.884423+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
