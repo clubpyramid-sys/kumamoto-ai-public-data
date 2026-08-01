@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T12:53:25.223969+09:00",
+  "generated_at": "2026-08-01T13:00:03.333916+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3264,7 +3264,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T12:53:25.311734+09:00",
+    "generated_at": "2026-08-01T13:00:04.091378+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3272,8 +3272,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 1,
-      "scheduled_wait": 3,
+      "running": 2,
+      "scheduled_wait": 2,
       "unknown": 1,
       "warning": 0
     },
@@ -3373,11 +3373,11 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-01T12:44:52.317998+09:00",
-        "next_run_at": "2026-08-01T12:59:52.317998+09:00",
-        "last_success_at": "2026-08-01T12:44:52.317998+09:00",
+        "last_run_at": "2026-08-01T12:53:25.223969+09:00",
+        "next_run_at": "2026-08-01T13:08:25.223969+09:00",
+        "last_success_at": "2026-08-01T12:53:25.223969+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
