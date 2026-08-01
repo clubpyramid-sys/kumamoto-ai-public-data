@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n6a249d06edaf",
+      "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
+      "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
+      "published_at": "2026-08-01T16:00:06+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299459236/rectangle_large_type_2_484b52d91164b8809a6d0d74110f0c4d.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n8c01f7227efb",
       "title": "第3部 公開お困りごと相談",
       "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
@@ -108,18 +120,6 @@
       "published_at": "2026-07-26T16:50:24+09:00",
       "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "na4c321a60420",
-      "title": "熊本AI研究所が、これまで実際にやってきたこと｜数千件の文章、数百本の動画、長時間の音声を、次の仕事へつなぐ",
-      "url": "https://note.com/club_pyramid/n/na4c321a60420",
-      "published_at": "2026-07-24T12:59:24+09:00",
-      "summary": "AIという言葉は、いまや珍しいものではなくなりました。 文章を書く。画像を作る。質問へ答える。資料を要約する。そうした使い方は、すでに多くの人が体験しています。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297066779/rectangle_large_type_2_dacba85e510fcf7ddab8ad76615b0325.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "3545de4fa7e9d2a2b02780fc68ff26b6095578b75871d79a9c6384d57a656463",
-  "generated_at": "2026-08-01T09:01:29Z"
+  "content_hash": "478d82e7fbfaaca697b4fa9ad0d1d167966bb87b4068e1028d4db02b03801146",
+  "generated_at": "2026-08-01T09:02:14Z"
 }

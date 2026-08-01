@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n6a249d06edaf",
+      "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
+      "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
+      "published_at": "2026-08-01T16:00:06+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299459236/rectangle_large_type_2_484b52d91164b8809a6d0d74110f0c4d.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n8c01f7227efb",
       "title": "第3部 公開お困りごと相談",
       "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
@@ -132,18 +144,6 @@
       "published_at": "2026-07-24T10:43:48+09:00",
       "summary": "AIサービスが増え続けている。 ChatGPT、Gemini、Claude、Grok。さらにCodex、Claude Code、Antigravity、Hermes Agent、NotebookLM、ローカルLLM。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297036389/rectangle_large_type_2_aa0b3c6e5169167fbe032b5eaf0f7ca1.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n0887b4c3b4bd",
-      "title": "月額数千円を中心に「自分専用のAI制作会社」をつくる｜ChatGPT、Fable 5、Codex、Antigravity、Gemini、NotebookLM、Grok、Hermes Agent、Ollamaを組織として動かす",
-      "url": "https://note.com/club_pyramid/n/n0887b4c3b4bd",
-      "published_at": "2026-07-23T14:05:00+09:00",
-      "summary": "AIを使って大きな仕事を進めようとすると、すぐに「APIで全部つなげよう」という話になりがちです。 複数のAIモデルをAPIで接続し、メインエージェントがサブエージェントへ自動で仕事を割り振り、成果物を回収して統合する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296805453/rectangle_large_type_2_ebb2cd77633f37e8add809c1d0f2aa78.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -304,6 +304,6 @@
   ],
   "note_count": 12,
   "youtube_count": 10,
-  "content_hash": "79465c1aa07eeb54d4df0d59fcd7503b86cc3f81f00e3b728e47440565d263df",
-  "generated_at": "2026-08-01T09:01:29Z"
+  "content_hash": "144b7fdbcf29919786f6f0bd9736ac3f72acfa7333c570a1b055629bf3eec3ff",
+  "generated_at": "2026-08-01T09:02:14Z"
 }
