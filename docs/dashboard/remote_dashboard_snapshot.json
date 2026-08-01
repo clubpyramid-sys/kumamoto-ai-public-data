@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T19:18:42.222892+09:00",
+  "generated_at": "2026-08-01T19:22:43.380953+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3273,7 +3273,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T19:18:42.654144+09:00",
+    "generated_at": "2026-08-01T19:22:43.992505+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3385,9 +3385,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-01T19:15:38.336025+09:00",
-        "next_run_at": "2026-08-01T19:30:38.336025+09:00",
-        "last_success_at": "2026-08-01T19:15:38.336025+09:00",
+        "last_run_at": "2026-08-01T19:18:42.222892+09:00",
+        "next_run_at": "2026-08-01T19:33:42.222892+09:00",
+        "last_success_at": "2026-08-01T19:18:42.222892+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3400,7 +3400,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T19:18:36+09:00",
+    "generated_at": "2026-08-01T19:22:37+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3446,9 +3446,9 @@
       },
       "x": {
         "state": "failed",
-        "last_attempt_at": "2026-08-01T19:18:36+09:00",
+        "last_attempt_at": "2026-08-01T19:22:37+09:00",
         "last_success_at": "",
-        "message": "[git_sync_completed] === 公開データ更新結果 === - x-hermes-grok: failed changed=False error: 件数が急減しました: 74 -> 12 (84%) 変更ファイル: 1 Git: pushed",
+        "message": "[git_sync_completed] === 公開データ更新結果 === - x-hermes-grok: failed changed=False error: 件数が急減しました: 74 -> 14 (81%) 変更ファイル: 0 Git: unchanged_last_known_good",
         "error_code": "acquisition_failed"
       },
       "ai_usage": {
