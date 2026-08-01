@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T18:02:25.826939+09:00",
+  "generated_at": "2026-08-01T18:03:01.100136+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3273,18 +3273,18 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T18:02:26.362899+09:00",
+    "generated_at": "2026-08-01T18:03:01.725025+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
-      "completed": 0,
+      "completed": 1,
       "disabled": 0,
       "error": 1,
       "healthy": 0,
       "manual": 0,
       "running": 1,
       "scheduled_wait": 3,
-      "unknown": 1,
+      "unknown": 0,
       "warning": 0
     },
     "automations": [
@@ -3311,17 +3311,17 @@
         "display_name": "ChatGPT残り会話解析",
         "category": "analysis",
         "related_project": "ChatGPT Progress Dashboard",
-        "status": "unknown",
+        "status": "completed",
         "cadence_label": "継続解析",
-        "last_run_at": "2026-07-28T23:47:51.246283+09:00",
+        "last_run_at": "2026-07-31T17:17:53.342796+09:00",
         "next_run_at": null,
-        "last_success_at": null,
-        "last_result_summary": "状態を確認できません",
+        "last_success_at": "2026-07-31T17:17:53.342796+09:00",
+        "last_result_summary": "3,959／3,959チャンク、失敗0件、要確認0件で正式完了",
         "consecutive_failures": 0,
-        "progress_current": 16,
+        "progress_current": 937,
         "progress_total": 937,
         "progress_unit": "会話",
-        "freshness": "stale",
+        "freshness": "fresh",
         "execution_type": "long_running_process"
       },
       {
@@ -3385,22 +3385,22 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "error",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-07-28T23:47:55.737462+09:00",
-        "next_run_at": "2026-07-29T00:02:55.737462+09:00",
+        "last_run_at": "2026-08-01T18:02:25.826939+09:00",
+        "next_run_at": "2026-08-01T18:17:25.826939+09:00",
         "last_success_at": null,
         "last_result_summary": "直近実行エラー（最終正常出力: 公開JSON生成済み）",
         "consecutive_failures": 1,
         "progress_current": null,
         "progress_total": null,
         "progress_unit": null,
-        "freshness": "stale",
+        "freshness": "fresh",
         "execution_type": "launchd"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T18:02:20+09:00",
+    "generated_at": "2026-08-01T18:02:56+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3412,6 +3412,12 @@
         "state": "completed",
         "last_attempt_at": "2026-08-01T18:02:20+09:00",
         "last_success_at": "2026-08-01T18:02:20+09:00",
+        "message": "更新完了"
+      },
+      "ameba": {
+        "state": "completed",
+        "last_attempt_at": "2026-08-01T18:02:56+09:00",
+        "last_success_at": "2026-08-01T18:02:56+09:00",
         "message": "更新完了"
       }
     }
