@@ -228,6 +228,37 @@ def merge_items(
     return result
 
 
+def resolve_x_refresh(
+    fresh_items: list[dict[str, Any]],
+    previous_items: list[dict[str, Any]],
+    allowed: dict[str, str],
+    accounts: list[str],
+    per_account_limit: int,
+    total_limit: int,
+) -> tuple[list[dict[str, Any]], list[str], list[str]]:
+    """Merge per-account results while preserving last-known-good records."""
+    fresh_counts = Counter(item["handle"] for item in fresh_items)
+    previous_normalized = merge_items(
+        [], previous_items, allowed, per_account_limit, total_limit
+    )
+    previous_counts = Counter(item["handle"] for item in previous_normalized)
+    missing = [handle for handle in accounts if fresh_counts[handle] == 0]
+    retained = [handle for handle in missing if previous_counts[handle] > 0]
+    if not fresh_items:
+        detail = "全アカウントの取得に失敗しました"
+        if retained:
+            detail += "。公開済みの前回値を維持します"
+        raise RuntimeError(detail)
+    merged = merge_items(
+        fresh_items, previous_items, allowed, per_account_limit, total_limit
+    )
+    if not merged:
+        raise RuntimeError("公開可能なX投稿が0件のため更新を中止しました")
+    if len({item["id"] for item in merged}) != len(merged):
+        raise RuntimeError("X投稿IDの重複を検出したため更新を中止しました")
+    return merged, missing, retained
+
+
 def build_prompt(handles: list[str], per_account_limit: int) -> str:
     handle_lines = "\n".join(f"- @{handle}" for handle in handles)
     return f"""Xのライブ検索を使用し、次の公開アカウントについて最新投稿を取得してください。
@@ -310,13 +341,15 @@ def main() -> int:
         raise RuntimeError("Hermes出力のルートがJSONオブジェクトではありません。")
 
     fresh_items = normalize_items(response.get("items"), allowed)
-    fresh_counts = Counter(item["handle"] for item in fresh_items)
-    missing = [handle for handle in accounts if fresh_counts[handle] == 0]
-    if missing:
-        raise RuntimeError("取得結果が0件のアカウントがあります: " + ", ".join(f"@{h}" for h in missing))
-
-    merged = merge_items(fresh_items, previous_items, allowed, per_account_limit, total_limit)
     previous_normalized = merge_items([], previous_items, allowed, per_account_limit, total_limit)
+    merged, missing, retained = resolve_x_refresh(
+        fresh_items,
+        previous_items,
+        allowed,
+        accounts,
+        per_account_limit,
+        total_limit,
+    )
     changed = merged != previous_normalized
 
     if changed:
@@ -331,8 +364,10 @@ def main() -> int:
         )
 
     write_status(
-        "success",
+        "success_partial" if missing else "success",
         changed=changed,
+        missing_accounts=missing,
+        retained_accounts=retained,
         fresh_item_count=len(fresh_items),
         merged_item_count=len(merged),
         per_account=dict(Counter(item["handle"] for item in merged)),
@@ -342,6 +377,8 @@ def main() -> int:
     print(f"新規取得候補: {len(fresh_items)}件")
     print(f"統合後: {len(merged)}件")
     print(f"入力JSON更新: {'yes' if changed else 'no'}")
+    if missing:
+        print("一部アカウントは前回値を保持: " + ", ".join(f"@{handle}" for handle in missing))
     for handle in accounts:
         print(f"- @{handle}: {sum(1 for item in merged if item['handle'] == handle)}件")
     return 0

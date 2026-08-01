@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-LOCK_DIR="$ROOT/runtime/locks/public-data-update.lock"
+LOCK_DIR="${PUBLIC_DATA_GIT_LOCK_DIR:-$HOME/AI_Agent_Runtime/.locks/kumamoto-public-data-git.lock}"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$ROOT"
 
@@ -11,7 +11,7 @@ if [[ ! -x "$ROOT/.venv/bin/python" ]]; then
   exit 1
 fi
 
-mkdir -p "$ROOT/logs" "$ROOT/runtime/locks" "$ROOT/backups"
+mkdir -p "$ROOT/logs" "$ROOT/runtime/locks" "$ROOT/backups" "$(dirname "$LOCK_DIR")"
 
 ACQUIRED=0
 for ATTEMPT in {1..180}; do
@@ -31,5 +31,14 @@ if [[ "$ACQUIRED" -ne 1 ]]; then
 fi
 
 trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT INT TERM
+
+if [[ -n "$(git status --porcelain)" ]]; then
+  echo "[git_sync_failed] 専用公開クローンに未処理の変更があります。" >&2
+  exit 2
+fi
+
+if ! /usr/bin/python3 "$ROOT/scripts/public_git_sync.py" "$ROOT"; then
+  exit 2
+fi
 
 /usr/bin/caffeinate -dimsu "$ROOT/.venv/bin/python" "$ROOT/scripts/run_all.py" "$@"

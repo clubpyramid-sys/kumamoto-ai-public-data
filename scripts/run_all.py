@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import os
 import shutil
+import subprocess
 import sys
 import traceback
 from datetime import datetime
@@ -100,7 +101,12 @@ def _backfill_magazine_thumbnail_outputs(
     return changed_count
 
 
-def run(dry_run: bool = False, no_push: bool = False) -> int:
+def run(
+    dry_run: bool = False,
+    no_push: bool = False,
+    only: str | None = None,
+    refresh_x: bool = False,
+) -> int:
     started = now_iso()
     sources = load_json(ROOT / "config" / "sources.json", {})
     x_config = load_json(ROOT / "config" / "x_sources.json", {})
@@ -118,7 +124,7 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
 
     outcomes: list[dict] = []
     source_changes = 0
-    for source in sources.get("note", []):
+    for source in sources.get("note", []) if only in {None, "note"} else []:
         if not source.get("enabled", True):
             continue
         try:
@@ -129,15 +135,16 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
         except Exception as exc:
             outcomes.append({"source_id": source.get("source_id"), "status": "failed", "error": str(exc)})
     note_resolver.save()
-    source_changes += _backfill_magazine_thumbnail_outputs(
-        staging,
-        docs,
-        sources.get("note", []),
-        sources.get("safety", {}),
-        outcomes,
-    )
+    if only in {None, "note"}:
+        source_changes += _backfill_magazine_thumbnail_outputs(
+            staging,
+            docs,
+            sources.get("note", []),
+            sources.get("safety", {}),
+            outcomes,
+        )
 
-    for source in sources.get("youtube", []):
+    for source in sources.get("youtube", []) if only in {None, "youtube"} else []:
         if not source.get("enabled", True):
             continue
         try:
@@ -148,8 +155,19 @@ def run(dry_run: bool = False, no_push: bool = False) -> int:
         except Exception as exc:
             outcomes.append({"source_id": source.get("source_id"), "status": "failed", "error": str(exc)})
 
-    if x_config.get("enabled", False):
+    if only in {None, "x"} and x_config.get("enabled", False):
         try:
+            if refresh_x:
+                completed = subprocess.run(
+                    [sys.executable, str(ROOT / "scripts" / "run_fetch_x_with_hermes.py")],
+                    cwd=ROOT,
+                    text=True,
+                    capture_output=True,
+                    timeout=1200,
+                    check=False,
+                )
+                if completed.returncode != 0:
+                    raise RuntimeError((completed.stderr or completed.stdout)[-1000:])
             payload = import_hermes_x(ROOT, x_config)
             x_source = {"output": x_config.get("output", "x/all_latest.json")}
             changed = _source_update(staging, docs, x_source, payload, sources.get("safety", {}))
@@ -225,9 +243,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="note・YouTube・X公開JSONを更新")
     parser.add_argument("--dry-run", action="store_true", help="取得・検証のみでdocsを書き換えない")
     parser.add_argument("--no-push", action="store_true", help="commitはするがpushしない")
+    parser.add_argument("--only", choices=("note", "youtube", "x"), help="指定した取得処理だけを実行")
+    parser.add_argument("--refresh-x", action="store_true", help="Xの取得を先に実行")
     args = parser.parse_args()
     try:
-        return run(dry_run=args.dry_run, no_push=args.no_push)
+        return run(
+            dry_run=args.dry_run,
+            no_push=args.no_push,
+            only=args.only,
+            refresh_x=args.refresh_x,
+        )
     except Exception as exc:
         status = {
             "started_at": now_iso(),
