@@ -145,6 +145,27 @@ class HermesXFetcherTests(unittest.TestCase):
                 items = module.load_previous_items()
         self.assertEqual([item["id"] for item in items], ["599"])
 
+    def test_combines_transient_cache_with_tracked_public_lkg(self) -> None:
+        import json
+        import tempfile
+        from unittest.mock import patch
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            cache_path = root / "cache.json"
+            public_path = root / "public.json"
+            cache_path.write_text(
+                json.dumps({"items": [self._item("601", "club_kumamoto", "2026-07-31T01:00:00Z")]}),
+                encoding="utf-8",
+            )
+            public_path.write_text(
+                json.dumps({"items": [self._item("599", "kumamoto_luna", "2026-07-30T01:00:00Z")]}),
+                encoding="utf-8",
+            )
+            with patch.object(module, "INPUT_PATH", cache_path), patch.object(module, "PUBLIC_FALLBACK_PATH", public_path):
+                items = module.load_previous_items()
+        self.assertEqual({item["id"] for item in items}, {"601", "599"})
+
 
 if __name__ == "__main__":
     unittest.main()

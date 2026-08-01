@@ -38,13 +38,14 @@ def load_json(path: Path, default: Any) -> Any:
 
 
 def load_previous_items() -> list[dict[str, Any]]:
-    """Use the transient cache when present, otherwise the tracked public LKG."""
+    """Combine transient cache and tracked public LKG; public data is never dropped."""
+    combined: list[dict[str, Any]] = []
     for path in (INPUT_PATH, PUBLIC_FALLBACK_PATH):
         payload = load_json(path, {})
         items = payload.get("items") if isinstance(payload, dict) else None
         if isinstance(items, list) and items:
-            return [item for item in items if isinstance(item, dict)]
-    return []
+            combined.extend(item for item in items if isinstance(item, dict))
+    return combined
 
 
 def atomic_write_json(path: Path, value: Any) -> None:
