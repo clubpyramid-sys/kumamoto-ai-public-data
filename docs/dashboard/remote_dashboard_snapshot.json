@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-02T05:26:02.035286+09:00",
+  "generated_at": "2026-08-02T05:41:16.532128+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3199,12 +3199,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T14:42:33.089412+09:00",
+    "generated_at": "2026-08-02T05:30:00.627977+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
       "available": 3,
-      "warning": 0,
+      "warning": 1,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3219,12 +3219,12 @@
         "captured_at": "2026-08-01T14:42:17+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
-        "freshness": "fresh",
+        "freshness": "aging",
         "source_label": "自動／Usage画面",
         "verified": true,
         "collection_status": "active",
         "last_success_at": "2026-08-01T14:42:17+09:00",
-        "last_attempt_at": "2026-08-01T14:42:33+09:00",
+        "last_attempt_at": "2026-08-02T05:30:00+09:00",
         "failure_reason": null
       },
       {
@@ -3239,14 +3239,14 @@
         "claude_gpt_five_hour_remaining_percent": 100,
         "captured_at": "2026-08-01T14:42:30+09:00",
         "capture_method": "electron_cdp_dom",
-        "update_state": "ready",
-        "freshness": "fresh",
+        "update_state": "failed",
+        "freshness": "aging",
         "source_label": "自動／Models & Usage",
         "verified": true,
-        "collection_status": "active",
+        "collection_status": "failed",
         "last_success_at": "2026-08-01T14:42:30+09:00",
-        "last_attempt_at": "2026-08-01T14:42:30+09:00",
-        "failure_reason": null
+        "last_attempt_at": "2026-08-02T05:30:00+09:00",
+        "failure_reason": "自動取得に失敗しました"
       },
       {
         "service": "grok",
@@ -3261,19 +3261,19 @@
         "captured_at": "2026-08-01T14:21:51+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
-        "freshness": "fresh",
+        "freshness": "aging",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
         "collection_status": "active",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-01T14:42:33+09:00",
+        "last_attempt_at": "2026-08-02T05:30:00+09:00",
         "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-02T05:26:02.534884+09:00",
+    "generated_at": "2026-08-02T05:41:17.275511+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3282,8 +3282,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 3,
+      "running": 3,
+      "scheduled_wait": 2,
       "unknown": 0,
       "warning": 0
     },
@@ -3347,16 +3347,16 @@
         "display_name": "mixi日記アーカイブ",
         "category": "archive",
         "related_project": "mixi日記アーカイブ",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": "2026-08-01T06:27:32+09:00",
         "next_run_at": "2026-08-01T07:27:32+09:00",
         "last_success_at": "2026-08-01T06:27:33+09:00",
-        "last_result_summary": "PASS・今回10件保存",
+        "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
-        "progress_current": 128,
+        "progress_current": null,
         "progress_total": null,
-        "progress_unit": "件",
+        "progress_unit": null,
         "freshness": "stale",
         "execution_type": "launchd"
       },
@@ -3385,9 +3385,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-02T05:10:49.884423+09:00",
-        "next_run_at": "2026-08-02T05:25:49.884423+09:00",
-        "last_success_at": "2026-08-02T05:10:49.884423+09:00",
+        "last_run_at": "2026-08-02T05:26:02.035286+09:00",
+        "next_run_at": "2026-08-02T05:41:02.035286+09:00",
+        "last_success_at": "2026-08-02T05:26:02.035286+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
