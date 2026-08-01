@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T14:00:52.532771+09:00",
+  "generated_at": "2026-08-01T14:16:08.011488+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3222,7 +3222,10 @@
         "freshness": "fresh",
         "source_label": "Usage画面",
         "verified": true,
-        "collection_status": "paused"
+        "collection_status": "paused",
+        "last_success_at": null,
+        "last_attempt_at": null,
+        "failure_reason": null
       },
       {
         "service": "antigravity",
@@ -3240,7 +3243,10 @@
         "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
-        "collection_status": "failed"
+        "collection_status": "failed",
+        "last_success_at": null,
+        "last_attempt_at": null,
+        "failure_reason": null
       },
       {
         "service": "grok",
@@ -3258,13 +3264,16 @@
         "freshness": "fresh",
         "source_label": "Grok使用量画面",
         "verified": true,
-        "collection_status": "manual_available"
+        "collection_status": "manual_available",
+        "last_success_at": null,
+        "last_attempt_at": null,
+        "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T14:00:53.326788+09:00",
+    "generated_at": "2026-08-01T14:16:09.150898+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3296,6 +3305,24 @@
         "progress_unit": null,
         "freshness": "unknown",
         "execution_type": "launchd_service"
+      },
+      {
+        "automation_id": "chatgpt-remaining-analysis",
+        "display_name": "ChatGPT残り会話解析",
+        "category": "analysis",
+        "related_project": "ChatGPT Progress Dashboard",
+        "status": "completed",
+        "cadence_label": "継続解析",
+        "last_run_at": "2026-07-31T17:17:53.342796+09:00",
+        "next_run_at": null,
+        "last_success_at": "2026-07-31T17:17:53.342796+09:00",
+        "last_result_summary": "3,959／3,959チャンク、失敗0件、要確認0件で正式完了",
+        "consecutive_failures": 0,
+        "progress_current": 937,
+        "progress_total": 937,
+        "progress_unit": "会話",
+        "freshness": "fresh",
+        "execution_type": "long_running_process"
       },
       {
         "automation_id": "mail-daily-report",
@@ -3358,9 +3385,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-01T13:45:40.198962+09:00",
-        "next_run_at": "2026-08-01T14:00:40.198962+09:00",
-        "last_success_at": "2026-08-01T13:45:40.198962+09:00",
+        "last_run_at": "2026-08-01T14:00:52.532771+09:00",
+        "next_run_at": "2026-08-01T14:15:52.532771+09:00",
+        "last_success_at": "2026-08-01T14:00:52.532771+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
