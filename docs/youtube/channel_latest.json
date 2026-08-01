@@ -9,6 +9,48 @@
   },
   "items": [
     {
+      "id": "q3D_fuIyy3Q",
+      "title": "3 公開相談 AIに任せる部分を見つける；AIに「使われる人」から「働いてもらう人」へ。成果を最大化する5つの核心的思考法",
+      "url": "https://www.youtube.com/watch?v=q3D_fuIyy3Q",
+      "published_at": "2026-07-31T05:55:13+00:00",
+      "description": "「ChatGPTや最新のAIツール、結局どれが一番いいの？」 現在、多くのビジネスパーソンがこのような「ツール選び」の迷路に立ち往生しています。次々と登場する新技術を前に、「乗り遅れてはいけない」という焦燥感（FOMO）に駆られ、機能比較に明け暮れる。しかし、戦略コンサルタントの視点から言えば、このツール探しに終始する状態こそが、AIに「使われている」証拠です。 AIへの不安や焦りの本質は、ツールを知らないことではなく、**「自分の業務フローを解像度高く理解できていないこと」**にあります。AIを単なる道具から、自律的に動く「有能な部下」へと変え、成果を最大化させるための5つの核心的思考法を伝授します。 1. 診断の儀式：ツール選びを捨て「時間の棚卸し」を断行する AI導入が目的化したプロジェクトは必ず失敗します。プロの現場で最初に行うのは、ツール選びではなく、独自の**「八つの質問」**による業務診断です。 中でも最も重要な問いは、**「どのAIを使うかより、どの仕事に時間がかかっているか」**という視点です。自らの時間を奪っている業務を特定しない限り、どんな高性能なAIも宝の持ち腐れとなります。まずは、以下の「AI化すべき仕事の5大特徴」に当てはまる業務を、冷徹に仕分けてください。 * 繰り返している仕事： 毎週、毎月発生する定型ルーチン * 作れずに困っているもの： ゼロから構築する心理的ハードルが高い資料や企画 * 特定の人しかできない仕事： 知識がブラックボックス化している属人業務 * 資料が散らばっている仕事： 情報の集約・整理だけに時間を取られる作業 * 後回しになっている仕事： 重要だが着手が億劫で停滞しているタスク AIを導入する前に、まずは自分の「時間の使い道」を可視化すること。これが戦略的活用の大前提です。 2. 業務の構造分解：AIが「低コンテキスト」を担い、人間が「アンカー」となる 業務を一つの大きな塊として捉えると、AIの差し込み口は見えてきません。仕事を以下の「4つの段階」に分解することで、AIの居場所を定義します。 1. 情報の収集： 音声、写真、Excel、メール、紙資料などの生データを集める 2. AIの整理・下書き： 分類、要約、文章、表、構成の案を作る 3. 実際のファイル作成： Word、Excel、PDF、HTML、CSV",
+      "duration": "PT10M7S",
+      "duration_seconds": 607,
+      "thumbnail_url": "https://i.ytimg.com/vi/q3D_fuIyy3Q/maxresdefault.jpg",
+      "playlist_position": 1,
+      "channel_title": "海のピラミッド@熊本",
+      "source_id": "youtube-channel-clubpyramid",
+      "source_type": "youtube_channel"
+    },
+    {
+      "id": "tQONUYlfG8s",
+      "title": "2 AI実践ショーケース：実例から学ぶ；もうAIに「作文」をさせるな。数百時間を溶かす手作業を「成果物生成」へ転換する実装の極意",
+      "url": "https://www.youtube.com/watch?v=tQONUYlfG8s",
+      "published_at": "2026-07-31T05:54:05+00:00",
+      "description": "1. はじめに：AIに対する「誤解」と現代の課題 現代のビジネスシーンにおいて、AIはもはや「便利な相談相手」の域を脱しています。しかし、未だ多くの現場では「チャット画面でそれらしい文章を作らせる」という初期段階の活用に留まっているのが現実です。 その一方で、私たちは日々、情報の濁流に飲み込まれています。51万文字にも及ぶ動画の書き起こし、5,000件を超える過去のブログ記事、あるいは解析不可能な7,237件ものSNS投稿データ。これらを手作業で整理し、実務に繋げるには数百時間という膨大なコストが必要となり、結果として「価値ある資産」が非生産的な単純作業の連鎖の中に埋没しています。本記事では、AIを単なるアシスタントから、ファイルを生成し実務を完遂する「実務担当者」へと進化させ、ワークフローのボトルネックを解消するための戦略的視点を提示します。 2. インパクトのあるテイクアウト ① AIは「テキスト」ではなく「仕事とファイル」を作る AIの真価は、チャットの応答内容そのものではなく、既存の業務エコシステムに即座に組み込める「具体的なファイル（成果物）」の生成にあります。HTML/CSSの修正によるWebサイト改修から、経費精算のためのExcelデータ整理、動画用のSRT字幕ファイル、さらには内部確認用のPDFゲラ作成まで、AIは実務の最終納品物を直接出力するフェーズに到達しています。 分析： ここで重要なのは、生成された「ファイル」が、AIと既存のレガシーな業務フローを繋ぐ「ブリッジ（架け橋）」として機能する点です。単なるテキスト回答では人間による「整形・転記」という無駄な作業が発生しますが、適切なファイル形式で出力することで、AIの成果がそのまま実務の歯車として噛み合います。これは単なる効率化ではなく、業務の「相互運用性」を飛躍的に高める戦略的転換です。 AIは文章を作るだけではありません。実際のファイルと仕事を作るところまで進んでいます。 ② 「1つの正式情報」から「複数の役割」を自動生成する 会議の文字起こしという「1つの正式な情報（コンテキスト）」を起点に、議事録、企画書、メール、LINE案内、SNS投稿、FAQの下書きを一括生成する。これが「One Source, Multi-Channel」の真髄です。AIは、各媒体の特性――Xなら「短文」、noteな",
+      "duration": "PT8M53S",
+      "duration_seconds": 533,
+      "thumbnail_url": "https://i.ytimg.com/vi/tQONUYlfG8s/maxresdefault.jpg",
+      "playlist_position": 2,
+      "channel_title": "海のピラミッド@熊本",
+      "source_id": "youtube-channel-clubpyramid",
+      "source_type": "youtube_channel"
+    },
+    {
+      "id": "iDRiDIOuSoQ",
+      "title": "1 AIエージェント基礎講座；AIを「ただの相談相手」で終わらせない。実務を任せられる「デジタル部下」に変える5つの核心",
+      "url": "https://www.youtube.com/watch?v=iDRiDIOuSoQ",
+      "published_at": "2026-07-31T05:52:31+00:00",
+      "description": "AIを「ただの相談相手」で終わらせない。実務を任せられる「デジタル部下」に変える5つの核心 1. はじめに：AIが「期待外れ」に終わる本当の理由 「ChatGPTを導入したが、期待した成果が出ない」「返答が一般的すぎて自社の実務に使えない」……。多くのビジネスパーソンが、今この壁に突き当たっています。 最新のAIは、理論上「何でもできる」ポテンシャルを秘めています。しかし、そこには決定的なパラドックスが存在します。それは、**「AIは何でもできるが、あなたの会社のことは何も知らない」**という事実です。 自社独自の料金体系、過去の経緯、大切にしている価値観。これらを知らないAIは、いわば「記憶喪失の天才」です。AIを実務の担い手へと変える鍵は、モデルの性能ではなく、AIに渡す**「コンテキスト（文脈）」**の質にあります。 2. 【核心1】「会話」から「委託」へ。AI進化の3段階 AI活用を一段階引き上げるために、まず自社が現在どのフェーズにいるのかを把握しましょう。AIの活用には、以下の3つの進化段階があります。 1. 質問する（Questioning）：一問一答で疑問を解消する。 2. 文章を作る（Creating）：メールや企画書の下書きを作成させる。 3. 仕事を任せる（Entrusting Work）：目的を理解させ、実務を完結させる。 これまでのAIチャットは、その場限りの対話を行う「相談相手」でした。しかし、私たちが目指すべきは、資料を読み込み、作業を分解し、複数のファイルを作成して結果を報告する「デジタルスタッフ」としてのAIエージェントです。 AIチャットは相談相手。AIエージェントはデジタルスタッフ。 単なる「やり取り」で終わらせず、仕事を前へ進める「役割」をAIに与えることが、真のAI活用のスタートラインです。 3. 【核心2】新人のパラドックス：文脈なき天才は、無能に等しい AIを「魔法のツール」と捉えるのは誤りです。正解は、**「地頭は最高に良いが、自社のことは何も知らない超優秀な新人」**として扱うことです。 どんなに優秀な新人でも、教育（コンテキストの提供）なしには動けません。 * 正式な商品名や料金を知らなければ、誤った案内をします。 * 独自の社内ルールを知らなければ、的外れな判断をします。 * 過去の成功例や禁止表現を知らなければ",
+      "duration": "PT9M13S",
+      "duration_seconds": 553,
+      "thumbnail_url": "https://i.ytimg.com/vi/iDRiDIOuSoQ/maxresdefault.jpg",
+      "playlist_position": 3,
+      "channel_title": "海のピラミッド@熊本",
+      "source_id": "youtube-channel-clubpyramid",
+      "source_type": "youtube_channel"
+    },
+    {
       "id": "VOZpy6-LCu4",
       "title": "支配の物語を捨て自分を生きる｜お金・歴史・陰謀論は「作られた物語」なのか？｜支配のナラティブから自由になる",
       "url": "https://www.youtube.com/watch?v=VOZpy6-LCu4",
@@ -17,7 +59,7 @@
       "duration": "PT17M24S",
       "duration_seconds": 1044,
       "thumbnail_url": "https://i.ytimg.com/vi/VOZpy6-LCu4/maxresdefault.jpg",
-      "playlist_position": 1,
+      "playlist_position": 4,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -31,7 +73,7 @@
       "duration": "PT23M",
       "duration_seconds": 1380,
       "thumbnail_url": "https://i.ytimg.com/vi/9hA-vrX1a8s/maxresdefault.jpg",
-      "playlist_position": 2,
+      "playlist_position": 5,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -45,7 +87,7 @@
       "duration": "PT9M21S",
       "duration_seconds": 561,
       "thumbnail_url": "https://i.ytimg.com/vi/P2VHp4mp9aE/maxresdefault.jpg",
-      "playlist_position": 3,
+      "playlist_position": 6,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -59,7 +101,7 @@
       "duration": "PT4M45S",
       "duration_seconds": 285,
       "thumbnail_url": "https://i.ytimg.com/vi/dK30nUo18Do/maxresdefault.jpg",
-      "playlist_position": 4,
+      "playlist_position": 7,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -73,7 +115,7 @@
       "duration": "PT8M25S",
       "duration_seconds": 505,
       "thumbnail_url": "https://i.ytimg.com/vi/hkQzqOBfGsU/maxresdefault.jpg",
-      "playlist_position": 5,
+      "playlist_position": 8,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -87,7 +129,7 @@
       "duration": "PT16M46S",
       "duration_seconds": 1006,
       "thumbnail_url": "https://i.ytimg.com/vi/ck8gwakpXsM/maxresdefault.jpg",
-      "playlist_position": 6,
+      "playlist_position": 9,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -101,7 +143,7 @@
       "duration": "PT9M7S",
       "duration_seconds": 547,
       "thumbnail_url": "https://i.ytimg.com/vi/mul6AiYDT1E/maxresdefault.jpg",
-      "playlist_position": 7,
+      "playlist_position": 10,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -115,7 +157,7 @@
       "duration": "PT10M24S",
       "duration_seconds": 624,
       "thumbnail_url": "https://i.ytimg.com/vi/kITexg4rK7I/maxresdefault.jpg",
-      "playlist_position": 8,
+      "playlist_position": 11,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -129,7 +171,7 @@
       "duration": "PT4M46S",
       "duration_seconds": 286,
       "thumbnail_url": "https://i.ytimg.com/vi/faOpVTs4KNo/maxresdefault.jpg",
-      "playlist_position": 9,
+      "playlist_position": 12,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -143,7 +185,7 @@
       "duration": "PT7M58S",
       "duration_seconds": 478,
       "thumbnail_url": "https://i.ytimg.com/vi/ugyXntTjQuY/maxresdefault.jpg",
-      "playlist_position": 10,
+      "playlist_position": 13,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -157,7 +199,7 @@
       "duration": "PT5M19S",
       "duration_seconds": 319,
       "thumbnail_url": "https://i.ytimg.com/vi/XJuSDvTMvQg/maxresdefault.jpg",
-      "playlist_position": 11,
+      "playlist_position": 14,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -171,7 +213,7 @@
       "duration": "PT8M16S",
       "duration_seconds": 496,
       "thumbnail_url": "https://i.ytimg.com/vi/7mNp2q9RAbA/maxresdefault.jpg",
-      "playlist_position": 12,
+      "playlist_position": 15,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -185,7 +227,7 @@
       "duration": "PT18M12S",
       "duration_seconds": 1092,
       "thumbnail_url": "https://i.ytimg.com/vi/5CDf_L_PhP8/maxresdefault.jpg",
-      "playlist_position": 13,
+      "playlist_position": 16,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -199,7 +241,7 @@
       "duration": "PT17M32S",
       "duration_seconds": 1052,
       "thumbnail_url": "https://i.ytimg.com/vi/aHXwTvYQt5U/maxresdefault.jpg",
-      "playlist_position": 14,
+      "playlist_position": 17,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -213,7 +255,7 @@
       "duration": "PT15M27S",
       "duration_seconds": 927,
       "thumbnail_url": "https://i.ytimg.com/vi/W3DhQp7EbLg/maxresdefault.jpg",
-      "playlist_position": 15,
+      "playlist_position": 18,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -227,7 +269,7 @@
       "duration": "PT18M28S",
       "duration_seconds": 1108,
       "thumbnail_url": "https://i.ytimg.com/vi/xX9UlGZnhSE/maxresdefault.jpg",
-      "playlist_position": 16,
+      "playlist_position": 19,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -241,48 +283,6 @@
       "duration": "PT10M14S",
       "duration_seconds": 614,
       "thumbnail_url": "https://i.ytimg.com/vi/9NB83hZ-Pqs/maxresdefault.jpg",
-      "playlist_position": 17,
-      "channel_title": "海のピラミッド@熊本",
-      "source_id": "youtube-channel-clubpyramid",
-      "source_type": "youtube_channel"
-    },
-    {
-      "id": "ELBjtBqXxdU",
-      "title": "「AIプロトタイプの監督になる」構想力が実現化する時代へ｜「こうできたらいいな」がAIで動き始める",
-      "url": "https://www.youtube.com/watch?v=ELBjtBqXxdU",
-      "published_at": "2026-05-27T05:04:15+00:00",
-      "description": "これまで、多くの人が頭の中にさまざまな構想を持っていました。 こういう仕組みがあったら便利なのに。 この作業を自動化できたら楽なのに。 このデータを整理できたら価値が出るのに。 この仕事の流れを、もっと人間に優しくできたらいいのに。 しかし、以前はそれを実現するには、資金、人材、プログラマー、デザイナー、サーバー、組織、専門知識が必要でした。 つまり、アイデアを持つ人と、それを実際に形にできる人の間には、大きな断絶がありました。 しかしAIの登場によって、その壁が崩れ始めています。 今は、日本語で「こうしたい」と説明すれば、AIがコードを書き、コマンドを作り、文章を書き、画像を作り、動画の構成を考え、実際に動くプロトタイプまで作れる時代に入りつつあります。 これは単なる効率化ではありません。 構想力を持つ人が、資金や組織がなくても、自分の手元で小さな未来を試作できるようになったということです。 「こうできたらいいな」は、もうただの願望ではありません。 AIとともに、実際に動く雛形へ変えられる時代が始まっています。 今回の動画では、AI時代における構想力の価値、個人がプロトタイプを作れる意味、そして「作れる人」だけでなく「構想できる人」が強くなる未来について考察します。 ▼元記事 構想力が、いよいよ実現化する時代へ 「こうできたらいいな」が、個人の手で動き始める https://note.com/club_pyramid/n/nfe9319f52fc6 #AI #生成AI #ChatGPT #構想力 #個人の時代 #プロトタイプ #自動化 #AIエージェント #未来予測 #仕事効率化",
-      "duration": "PT8M50S",
-      "duration_seconds": 530,
-      "thumbnail_url": "https://i.ytimg.com/vi/ELBjtBqXxdU/maxresdefault.jpg",
-      "playlist_position": 18,
-      "channel_title": "海のピラミッド@熊本",
-      "source_id": "youtube-channel-clubpyramid",
-      "source_type": "youtube_channel"
-    },
-    {
-      "id": "07le2Q5sj6g",
-      "title": "「ソフトウェアが同僚になる時代」アプリの未来が激変する。人間はGUIで、AIは構造を操作する時代へ",
-      "url": "https://www.youtube.com/watch?v=07le2Q5sj6g",
-      "published_at": "2026-05-27T04:59:49+00:00",
-      "description": "私たちは今、アプリケーションの大きな転換点に立っています。 これまでアプリとは、人間が画面を見て、ボタンを押し、メニューを選び、マウスやキーボードで操作するものでした。 しかしAIの登場によって、その前提が変わり始めています。 これからのアプリケーションは、単に人間が使う道具ではなくなります。 人間はGUIで直感的に操作する。 AIはCLI、API、内部構造を通じて処理する。 人間は画面を見て判断する。 AIは裏側のデータや構造を読み取り、作業を進める。 つまり、未来のアプリは「人間とAIが同じ作業対象を共有する共同作業空間」になっていきます。 Word、Excel、PowerPoint、Final Cut Pro、Photoshop、ブラウザー、メール、動画編集、画像編集、資料作成。 これらのアプリは、これからAIによって大きく変わっていくはずです。 ただし、本当のAIネイティブアプリとは、単にAIチャット欄が付いたアプリではありません。 AIが内部構造を理解し、変更前後の差分を確認でき、Undoでき、操作ログが残り、人間が最終判断できる。 そうした安全で自然な共同作業環境こそが、次の時代のデファクトスタンダードになっていくのではないでしょうか。 今回の動画では、AI時代におけるアプリケーションの未来、GUIとCLIの役割、レガシー企業の強みと足枷、そして個人がAIで仕事を動かす時代について考察します。 ▼元記事 アプリケーションの未来｜人間はGUIで、AIは構造を操作する時代へ https://note.com/club_pyramid/n/nd79b6096284a #AI #生成AI #ChatGPT #AIエージェント #アプリケーション #GUI #CLI #プログラミング #Mac #個人の時代",
-      "duration": "PT8M56S",
-      "duration_seconds": 536,
-      "thumbnail_url": "https://i.ytimg.com/vi/07le2Q5sj6g/maxresdefault.jpg",
-      "playlist_position": 19,
-      "channel_title": "海のピラミッド@熊本",
-      "source_id": "youtube-channel-clubpyramid",
-      "source_type": "youtube_channel"
-    },
-    {
-      "id": "Vht2Z_73PQM",
-      "title": "【20ドルでここまでできる】GPT-5.5はコーチ、実作業は手元のMac（Ollama）で回す／もう課金制限に怯えない！Codex＋ローカルAI（Gemma4 / Qwen）を無料で使い倒す",
-      "url": "https://www.youtube.com/watch?v=Vht2Z_73PQM",
-      "published_at": "2026-05-26T02:34:02+00:00",
-      "description": "note記事 https://note.com/club_pyramid/n/n0c145d3bffe4 今回は、ChatGPT 5.5のような「高性能なクラウドAI」と、手元のMacで動かす「ローカルAI（Gemma4 / Qwen2.5-coder）」を組み合わせ、Codex（AIエージェント）のパワーをコストを気にせず100%引き出す【AI作業チーム運用術】を徹底解説します。 AIエージェントを使い込むと必ずぶつかるのが「使用量制限（APIコストや課金枠の消費）」の問題。 すべてをGPT-5.5に任せるのは、上級エンジニアに単純作業を延々とさせるようなものです。 そこで、ChatGPT 5.5を「指示を出す頭脳（コーチ）」として使い、画像分類やスクリプト作成などの泥臭い実作業は、Ollama経由のローカルAIに「手足（実働スタッフ）」として任せる。この最強の分業体制の作り方と、安全に運用するためのフォルダ限定テクニック（承認付き半自動化）についてお話ししました。 低予算でAIの作業量を限界まで増やしたい方は、ぜひ参考にしてください！",
-      "duration": "PT7M21S",
-      "duration_seconds": 441,
-      "thumbnail_url": "https://i.ytimg.com/vi/Vht2Z_73PQM/maxresdefault.jpg",
       "playlist_position": 20,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
@@ -290,6 +290,6 @@
     }
   ],
   "item_count": 20,
-  "content_hash": "1b072d8de31e2342471a0bfb5a642cc6cc340d66b4a1a3005cd2540427b021a4",
-  "generated_at": "2026-07-25T07:18:29Z"
+  "content_hash": "c55f89a5d7b346d293a4ba8e303648e38467e3bb7af4757b65aae3d95948e723",
+  "generated_at": "2026-07-31T20:00:35Z"
 }

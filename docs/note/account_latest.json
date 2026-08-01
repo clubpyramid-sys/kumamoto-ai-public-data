@@ -9,6 +9,61 @@
   },
   "items": [
     {
+      "id": "n8c01f7227efb",
+      "title": "第3部 公開お困りごと相談",
+      "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
+      "published_at": "2026-07-31T13:04:35+09:00",
+      "summary": "あなたの仕事から、AIに任せる部分を見つける 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299101201/rectangle_large_type_2_836bd202eb3419a303ae126a8968eb55.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nb64c69aeafdc",
+      "title": "第2部 AI実践ショーケース",
+      "url": "https://note.com/club_pyramid/n/nb64c69aeafdc",
+      "published_at": "2026-07-31T12:50:21+09:00",
+      "summary": "NotebookLMに記録された生の実践事例 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299096284/rectangle_large_type_2_2f2d951398d2509fa2c16a7b528dabea.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nca62fcf5e065",
+      "title": "第1部 AIエージェント基礎講座",
+      "url": "https://note.com/club_pyramid/n/nca62fcf5e065",
+      "published_at": "2026-07-31T12:28:48+09:00",
+      "summary": "AIエージェントを実務担当者に変える「コンテキスト」の作り方 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299091233/rectangle_large_type_2_cad748c7fd3d940ab8fb8a98acf3d7b8.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n478720d19d58",
+      "title": "日本の断層――熊本・有明海から見る光と暗部｜災厄、反乱、産業、救済、そして「壊れても生き続ける文明」へ",
+      "url": "https://note.com/club_pyramid/n/n478720d19d58",
+      "published_at": "2026-07-30T14:27:12+09:00",
+      "summary": "熊本には、地面の下にも、歴史の下にも、いくつもの断層が走っている。 世界最大級の阿蘇カルデラ。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298828884/rectangle_large_type_2_3a60421dd7ca9b01ad7192a639333659.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n7b4723dbec93",
+      "title": "AIを増やしたら、次に必要になったのは「司令塔」だった",
+      "url": "https://note.com/club_pyramid/n/n7b4723dbec93",
+      "published_at": "2026-07-30T07:55:01+09:00",
+      "summary": "AI｜WEB｜SNS Progress Dashboard制作記 AIを使い始めた頃は、文章を書かせたり、画像を作らせたり、Webサイトを修正させたりするだけで十分だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298740494/rectangle_large_type_2_a36e0496116df5bee26cf224e5ff24d6.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "nb7a0d72c6846",
       "title": "月額数千円で、個人事業者の「AI要塞」ができてしまった｜ChatGPT、Gemini、Grok、5TBストレージ、動画生成、6人分のAI環境まで含めた新しい事業基盤",
       "url": "https://note.com/club_pyramid/n/nb7a0d72c6846",
@@ -172,64 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n7caeb658bb7c",
-      "title": "月額5,000円で、個人・事業者はどこまで行けるのか｜ChatGPT・Google AI・ローカルLLMで構築する「現時点で最高峰のAI要塞」",
-      "url": "https://note.com/club_pyramid/n/n7caeb658bb7c",
-      "published_at": "2026-07-11T13:42:25+09:00",
-      "summary": "少し前まで、AIを仕事に導入するという話は、企業のDX部門やIT企業のためのものだった。 専門のエンジニアを雇い、クラウド環境を契約し、APIの利用料金を払い、データベースを整備し、社内向けのシステムを開発する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293363835/rectangle_large_type_2_1831ae0b6d5757265085632c8c2b455b.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n04683219dba2",
-      "title": "【実践レポート】無料のローカルAIで動画編集を自動化したら、字幕付け・無音カット・ダイジェスト版・ショート動画まで一気に作れた",
-      "url": "https://note.com/club_pyramid/n/n04683219dba2",
-      "published_at": "2026-07-10T14:56:46+09:00",
-      "summary": "動画編集は、長いあいだ「人間が画面の前に張り付いて行う作業」でした。 素材を再生しながら無音部分を探し、不要な箇所を切り、音量を整え、文字起こしを行い、字幕を修正し、見どころを抜き出し、縦動画へ変換する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293109576/rectangle_large_type_2_b71672177b5e922ab73e5472e66d6160.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "nc05efcaf7195",
-      "title": "GPT-5.6は「賢いチャットボット」の終わりを告げた｜ChatGPT・Work・Codexを仕事のOSとして使い分ける実践論",
-      "url": "https://note.com/club_pyramid/n/nc05efcaf7195",
-      "published_at": "2026-07-10T12:37:49+09:00",
-      "summary": "2026年7月9日、OpenAIは新しいモデルファミリー「GPT-5.6」を正式に発表した。 こうした新モデルが登場するたびに、決まって繰り返される言葉がある。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293081182/rectangle_large_type_2_961eea78f931bbf642673f30f21ea791.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n5dc89336830c",
-      "title": "NotebookLMの音声解説から、CodexでYouTube動画を作る方法｜音声・画像・スライドPDF・BGMを統合して、AIで解説動画を自動生成する制作ワークフロー",
-      "url": "https://note.com/club_pyramid/n/n5dc89336830c",
-      "published_at": "2026-07-10T00:52:34+09:00",
-      "summary": "AIで動画を作る時代になった。 しかし、ここで大事なのは、いきなり動画生成AIに「いい感じの動画を作って」と投げることではない。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292978261/rectangle_large_type_2_5faa9577884542c66e3b091f83d2cee8.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n031ab73e59b2",
-      "title": "「歴史の狡知」とアンコントロールの終局――AI動画が暴く全体主義のフィナーレ",
-      "url": "https://note.com/club_pyramid/n/n031ab73e59b2",
-      "published_at": "2026-07-09T15:46:50+09:00",
-      "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/292841738/rectangle_large_type_2_2a7e8f5d0f1968a40538f48c5170fe47.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "d3bc9659e3497bbd6bad7b7592869a9ad3aa1e5cd49cb419017e54f358ff92f0",
-  "generated_at": "2026-07-27T23:33:27Z"
+  "content_hash": "0f36f9af073df8ec4b53da7ab225ac250dd0670e0b5919c88be2f894254636c3",
+  "generated_at": "2026-07-31T20:00:03Z"
 }
