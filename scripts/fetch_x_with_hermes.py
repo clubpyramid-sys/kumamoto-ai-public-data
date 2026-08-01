@@ -16,6 +16,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "x_sources.json"
 INPUT_PATH = ROOT / "runtime" / "x" / "hermes_latest.json"
+PUBLIC_FALLBACK_PATH = ROOT / "docs" / "x" / "all_latest.json"
 STATUS_PATH = ROOT / "runtime" / "x" / "hermes_fetch_status.json"
 JST = timezone(timedelta(hours=9))
 ANSI_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
@@ -34,6 +35,16 @@ def load_json(path: Path, default: Any) -> Any:
         return default
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def load_previous_items() -> list[dict[str, Any]]:
+    """Use the transient cache when present, otherwise the tracked public LKG."""
+    for path in (INPUT_PATH, PUBLIC_FALLBACK_PATH):
+        payload = load_json(path, {})
+        items = payload.get("items") if isinstance(payload, dict) else None
+        if isinstance(items, list) and items:
+            return [item for item in items if isinstance(item, dict)]
+    return []
 
 
 def atomic_write_json(path: Path, value: Any) -> None:
@@ -332,8 +343,7 @@ def main() -> int:
     allowed = {handle.lower(): handle for handle in accounts}
     per_account_limit = int(config.get("max_items_per_account", 20))
     total_limit = int(config.get("max_items", per_account_limit * len(accounts)))
-    previous_payload = load_json(INPUT_PATH, {})
-    previous_items = previous_payload.get("items", []) if isinstance(previous_payload, dict) else []
+    previous_items = load_previous_items()
 
     raw_output = run_hermes(build_prompt(accounts, per_account_limit))
     response = extract_json(raw_output)

@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import fetch_x_with_hermes as module
 from fetch_x_with_hermes import extract_json, merge_items, normalize_items, resolve_x_refresh
 
 
@@ -127,6 +128,22 @@ class HermesXFetcherTests(unittest.TestCase):
     def test_all_failed_without_previous_is_rejected(self) -> None:
         with self.assertRaisesRegex(RuntimeError, "全アカウント"):
             resolve_x_refresh([], [], self.allowed, list(self.allowed.values()), 20, 40)
+
+    def test_uses_tracked_public_json_when_transient_cache_is_missing(self) -> None:
+        import json
+        import tempfile
+        from unittest.mock import patch
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            public_path = root / "all_latest.json"
+            public_path.write_text(
+                json.dumps({"items": [self._item("599", "club_kumamoto", "2026-07-30T01:00:00Z")]}),
+                encoding="utf-8",
+            )
+            with patch.object(module, "INPUT_PATH", root / "missing.json"), patch.object(module, "PUBLIC_FALLBACK_PATH", public_path):
+                items = module.load_previous_items()
+        self.assertEqual([item["id"] for item in items], ["599"])
 
 
 if __name__ == "__main__":

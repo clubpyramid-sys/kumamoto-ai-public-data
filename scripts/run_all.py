@@ -176,6 +176,26 @@ def run(
         except Exception as exc:
             outcomes.append({"source_id": "x-hermes-grok", "status": "failed", "error": str(exc)})
 
+    if only is not None and not any(outcome["status"] == "success" for outcome in outcomes):
+        status = {
+            "started_at": started,
+            "finished_at": now_iso(),
+            "status": "failed",
+            "sources": outcomes,
+            "changed_files": [],
+            "git": {"status": "unchanged_last_known_good"},
+        }
+        atomic_write_json(runtime_status, status)
+        append_jsonl(_log_path(), status)
+        print("=== 公開データ更新結果 ===")
+        for outcome in outcomes:
+            print(f"- {outcome['source_id']}: {outcome['status']} changed=False")
+            if outcome.get("error"):
+                print(f"  error: {outcome['error']}")
+        print("変更ファイル: 0")
+        print("Git: unchanged_last_known_good")
+        return 2
+
     site_payloads = build_site_payloads(staging, filters, manual)
     for site_id, payload in site_payloads.items():
         rel = Path(filters["sites"][site_id]["output"])
