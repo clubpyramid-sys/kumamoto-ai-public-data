@@ -362,8 +362,12 @@ def main() -> int:
         total_limit,
     )
     changed = merged != previous_normalized
+    cached_payload = load_json(INPUT_PATH, {})
+    cached_items = cached_payload.get("items", []) if isinstance(cached_payload, dict) else []
+    cached_normalized = merge_items([], cached_items, allowed, per_account_limit, total_limit)
+    cache_changed = merged != cached_normalized
 
-    if changed:
+    if cache_changed:
         atomic_write_json(
             INPUT_PATH,
             {
@@ -377,6 +381,7 @@ def main() -> int:
     write_status(
         "success_partial" if missing else "success",
         changed=changed,
+        cache_updated=cache_changed,
         missing_accounts=missing,
         retained_accounts=retained,
         fresh_item_count=len(fresh_items),
@@ -387,7 +392,7 @@ def main() -> int:
     print("=== Hermes X取得結果 ===")
     print(f"新規取得候補: {len(fresh_items)}件")
     print(f"統合後: {len(merged)}件")
-    print(f"入力JSON更新: {'yes' if changed else 'no'}")
+    print(f"入力JSON更新: {'yes' if cache_changed else 'no'}")
     if missing:
         print("一部アカウントは前回値を保持: " + ", ".join(f"@{handle}" for handle in missing))
     for handle in accounts:
