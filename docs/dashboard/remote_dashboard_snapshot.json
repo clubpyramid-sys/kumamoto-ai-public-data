@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-01T12:44:52.317998+09:00",
+  "generated_at": "2026-08-01T12:53:25.223969+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -87,18 +87,18 @@
       }
     },
     "publication_summary": {
-      "published_confirmed": 3,
+      "published_confirmed": 2,
       "published_probable": 5,
       "preparing": 7,
       "unpublished_candidate": 1,
-      "unknown": 36
+      "unknown": 37
     },
     "publication_unique_summary": {
-      "published_confirmed": 2,
+      "published_confirmed": 1,
       "published_probable": 2,
       "preparing": 4,
       "unpublished_candidate": 1,
-      "unknown": 22
+      "unknown": 23
     },
     "publication_meta": {
       "detector_version": "publication-status-v3",
@@ -513,14 +513,14 @@
         "next_action": "設計書の作成またはVersion 1の実装へ移行",
         "category": "workstream",
         "detail": "作業用ディレクトリ（source/scripts/logs/output/）の作成および、プロジェクトルートの設定を完了。",
-        "publication_status": "published_confirmed",
-        "publication_label": "公開確認済み",
-        "publication_platform": "note",
-        "publication_url": "https://note.com/club_pyramid/n/n04683219dba2",
-        "published_at": "2026-07-10T14:56:46+09:00",
-        "publication_confidence": 92,
-        "publication_evidence": "note・YouTube・Xの公開タイトルと高い一致",
-        "publication_evidence_type": "external_title_match",
+        "publication_status": "unknown",
+        "publication_label": "判定保留／対象外",
+        "publication_platform": "",
+        "publication_url": "",
+        "published_at": "",
+        "publication_confidence": 20,
+        "publication_evidence": "公開対象または公開根拠を判定できず",
+        "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 1,
         "publication_group_inherited": false,
         "chat_updated_at": "2026-07-10T16:58:49.728155+09:00",
@@ -1869,14 +1869,14 @@
     "youtube_account": {
       "name": "CLUB PYRAMID",
       "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
-      "latest_at": "2026-07-20T19:01:01+09:00",
-      "weekly_count": 0
+      "latest_at": "2026-07-31T14:55:13+09:00",
+      "weekly_count": 3
     },
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-07-28T05:18:02+09:00",
-      "weekly_count": 4
+      "latest_at": "2026-07-31T13:04:35+09:00",
+      "weekly_count": 9
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1885,6 +1885,21 @@
       "weekly_count": 0
     },
     "youtube": [
+      {
+        "title": "3 公開相談 AIに任せる部分を見つける；AIに「使われる人」から「働いてもらう人」へ。成果を最大化する5つの核心的思考法",
+        "url": "https://www.youtube.com/watch?v=q3D_fuIyy3Q",
+        "published_at": "2026-07-31T05:55:13+00:00"
+      },
+      {
+        "title": "2 AI実践ショーケース：実例から学ぶ；もうAIに「作文」をさせるな。数百時間を溶かす手作業を「成果物生成」へ転換する実装の極意",
+        "url": "https://www.youtube.com/watch?v=tQONUYlfG8s",
+        "published_at": "2026-07-31T05:54:05+00:00"
+      },
+      {
+        "title": "1 AIエージェント基礎講座；AIを「ただの相談相手」で終わらせない。実務を任せられる「デジタル部下」に変える5つの核心",
+        "url": "https://www.youtube.com/watch?v=iDRiDIOuSoQ",
+        "published_at": "2026-07-31T05:52:31+00:00"
+      },
       {
         "title": "支配の物語を捨て自分を生きる｜お金・歴史・陰謀論は「作られた物語」なのか？｜支配のナラティブから自由になる",
         "url": "https://www.youtube.com/watch?v=VOZpy6-LCu4",
@@ -1904,43 +1919,23 @@
         "title": "The Cunning of Reason | The Dictator s Fatal Paradox",
         "url": "https://www.youtube.com/watch?v=dK30nUo18Do",
         "published_at": "2026-07-09T07:32:58+00:00"
-      },
-      {
-        "title": "外山恒一3.0｜革命・クーデターへの道――AIと分散型ネットワークが変える日本",
-        "url": "https://www.youtube.com/watch?v=hkQzqOBfGsU",
-        "published_at": "2026-07-08T06:14:08+00:00"
-      },
-      {
-        "title": "外山恒一逮捕事件｜なぜ被害者が逮捕されたのか？",
-        "url": "https://www.youtube.com/watch?v=ck8gwakpXsM",
-        "published_at": "2026-07-07T08:53:20+00:00"
-      },
-      {
-        "title": "借金の正体：超・生存型財務戦略【借金の正体】常識を覆す「財務サバイバル」の極意：あなたが生き残るための5つの衝撃的視点",
-        "url": "https://www.youtube.com/watch?v=mul6AiYDT1E",
-        "published_at": "2026-06-29T13:21:00+00:00"
-      },
-      {
-        "title": "紺碧会：現実の不安から極端な解決策へ",
-        "url": "https://www.youtube.com/watch?v=kITexg4rK7I",
-        "published_at": "2026-06-22T12:47:30+00:00"
       }
     ],
     "note": [
       {
-        "title": "月額数千円で、個人事業者の「AI要塞」ができてしまった｜ChatGPT、Gemini、Grok、5TBストレージ、動画生成、6人分のAI環境まで含めた新しい事業基盤",
-        "url": "https://note.com/club_pyramid/n/nb7a0d72c6846",
-        "published_at": "2026-07-28T05:18:02+09:00"
+        "title": "第3部 公開お困りごと相談",
+        "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
+        "published_at": "2026-07-31T13:04:35+09:00"
       },
       {
-        "title": "全てのタスクをFable 5で実行するのは、スーパーへフェラーリで買い物に行くようなもの｜最高性能のAIを常用して分かった、費用・通信・役割分担の現実",
-        "url": "https://note.com/club_pyramid/n/nad0354b5d8a7",
-        "published_at": "2026-07-27T21:01:36+09:00"
+        "title": "第2部 AI実践ショーケース",
+        "url": "https://note.com/club_pyramid/n/nb64c69aeafdc",
+        "published_at": "2026-07-31T12:50:21+09:00"
       },
       {
-        "title": "Claude Fable 5を実際に使ってみた｜最高知能は「数百円で呼べる外部コンサルタント」になるのか",
-        "url": "https://note.com/club_pyramid/n/n9c7fa7cc18d0",
-        "published_at": "2026-07-27T14:06:59+09:00"
+        "title": "第1部 AIエージェント基礎講座",
+        "url": "https://note.com/club_pyramid/n/nca62fcf5e065",
+        "published_at": "2026-07-31T12:28:48+09:00"
       }
     ],
     "ameba": [
@@ -3269,7 +3264,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-01T12:44:53.015266+09:00",
+    "generated_at": "2026-08-01T12:53:25.311734+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3277,8 +3272,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 2,
+      "running": 1,
+      "scheduled_wait": 3,
       "unknown": 1,
       "warning": 0
     },
@@ -3378,11 +3373,11 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-01T12:29:40.486598+09:00",
-        "next_run_at": "2026-08-01T12:44:40.486598+09:00",
-        "last_success_at": "2026-08-01T12:29:40.486598+09:00",
+        "last_run_at": "2026-08-01T12:44:52.317998+09:00",
+        "next_run_at": "2026-08-01T12:59:52.317998+09:00",
+        "last_success_at": "2026-08-01T12:44:52.317998+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
