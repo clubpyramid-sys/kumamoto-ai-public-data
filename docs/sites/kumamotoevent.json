@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "ncbd324035e7e",
+      "title": "AI自動化は外注すべきか――本当に必要なのは、社内に「AI化できる人」を育てることではないか",
+      "url": "https://note.com/club_pyramid/n/ncbd324035e7e",
+      "published_at": "2026-08-02T21:36:30+09:00",
+      "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n6a249d06edaf",
       "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
       "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
@@ -108,18 +120,6 @@
       "published_at": "2026-07-27T14:06:59+09:00",
       "summary": "結論から言う。 Claude Fable 5は、外部コンサルタントとして十分に使える。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297970525/rectangle_large_type_2_25ea359f0e7247260730f4931260204d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n46bd6014c9ea",
-      "title": "note・YouTube・Xの最新投稿をWebサイトに自動表示する方法｜Mac Studio＋GitHub Pages＋JavaScriptで、FTP不要の更新基盤をつくる",
-      "url": "https://note.com/club_pyramid/n/n46bd6014c9ea",
-      "published_at": "2026-07-26T16:50:24+09:00",
-      "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "478d82e7fbfaaca697b4fa9ad0d1d167966bb87b4068e1028d4db02b03801146",
-  "generated_at": "2026-08-01T09:02:14Z"
+  "content_hash": "97d15dd89fe4af26e96fab5bbc0128826efb42444bb14cce787e7aa2fb152d48",
+  "generated_at": "2026-08-02T20:00:38Z"
 }

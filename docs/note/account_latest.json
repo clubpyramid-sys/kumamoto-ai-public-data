@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "ncbd324035e7e",
+      "title": "AI自動化は外注すべきか――本当に必要なのは、社内に「AI化できる人」を育てることではないか",
+      "url": "https://note.com/club_pyramid/n/ncbd324035e7e",
+      "published_at": "2026-08-02T21:36:30+09:00",
+      "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n6a249d06edaf",
       "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
       "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n2f094d76f44b",
-      "title": "ChatGPTを司令官、Codexを実働部隊として使う｜AIエージェントの覇権争い",
-      "url": "https://note.com/club_pyramid/n/n2f094d76f44b",
-      "published_at": "2026-07-13T09:25:42+09:00",
-      "summary": "2026年、AIをめぐる競争の意味が変わり始めた。 これまで私たちは、AIモデルを主に「質問に答える頭脳」として比較してきた。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/293908454/rectangle_large_type_2_b48d3b66a657260df16468ff714cda74.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "63fad93cb33e3d4427ab7eb2d76238d6d29989099e6d2eff5aef2aaf698bb9da",
-  "generated_at": "2026-08-01T09:02:14Z"
+  "content_hash": "4b55fb0b20fcb25c08330b745c7ba95ccaddb34d6bfc53b8e162559036156fb0",
+  "generated_at": "2026-08-02T20:00:09Z"
 }
