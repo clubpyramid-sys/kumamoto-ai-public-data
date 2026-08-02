@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-03T05:18:38.501234+09:00",
+  "generated_at": "2026-08-03T05:33:52.723851+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3203,12 +3203,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-02T05:30:00.627977+09:00",
+    "generated_at": "2026-08-03T05:30:04.255741+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
       "available": 3,
-      "warning": 1,
+      "warning": 3,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3222,14 +3222,14 @@
         "credits_remaining": 0,
         "captured_at": "2026-08-01T14:42:17+09:00",
         "capture_method": "chrome_dom",
-        "update_state": "ready",
-        "freshness": "aging",
+        "update_state": "waiting",
+        "freshness": "stale",
         "source_label": "自動／Usage画面",
         "verified": true,
-        "collection_status": "active",
+        "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:42:17+09:00",
-        "last_attempt_at": "2026-08-02T05:30:00+09:00",
-        "failure_reason": null
+        "last_attempt_at": "2026-08-03T05:30:04+09:00",
+        "failure_reason": "Chrome拡張の次回取得待ち"
       },
       {
         "service": "antigravity",
@@ -3244,12 +3244,12 @@
         "captured_at": "2026-08-01T14:42:30+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "failed",
-        "freshness": "aging",
+        "freshness": "stale",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "failed",
         "last_success_at": "2026-08-01T14:42:30+09:00",
-        "last_attempt_at": "2026-08-02T05:30:00+09:00",
+        "last_attempt_at": "2026-08-03T05:30:04+09:00",
         "failure_reason": "自動取得に失敗しました"
       },
       {
@@ -3264,20 +3264,20 @@
         "extra_usage_credits": 0,
         "captured_at": "2026-08-01T14:21:51+09:00",
         "capture_method": "chrome_dom",
-        "update_state": "ready",
-        "freshness": "aging",
+        "update_state": "waiting",
+        "freshness": "stale",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
-        "collection_status": "active",
+        "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-02T05:30:00+09:00",
-        "failure_reason": null
+        "last_attempt_at": "2026-08-03T05:30:04+09:00",
+        "failure_reason": "Chrome拡張の次回取得待ち"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-03T05:18:39.081627+09:00",
+    "generated_at": "2026-08-03T05:33:53.170569+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-03T05:03:26.339791+09:00",
-        "next_run_at": "2026-08-03T05:18:26.339791+09:00",
-        "last_success_at": "2026-08-03T05:03:26.339791+09:00",
+        "last_run_at": "2026-08-03T05:18:38.501234+09:00",
+        "next_run_at": "2026-08-03T05:33:38.501234+09:00",
+        "last_success_at": "2026-08-03T05:18:38.501234+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
