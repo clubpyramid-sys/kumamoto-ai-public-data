@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-02T20:56:03.038806+09:00",
+  "generated_at": "2026-08-02T21:11:13.704273+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1053,7 +1053,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-07-23T16:12:55.087861+09:00",
+        "manual_status": "handover",
+        "manual_status_label": "引き継ぎ済",
+        "chat_updated_at": "2026-08-02T21:07:47+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1086,7 +1088,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-07-23T16:12:55.087861+09:00",
+        "manual_status": "handover",
+        "manual_status_label": "引き継ぎ済",
+        "chat_updated_at": "2026-08-02T21:07:47+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -3273,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-02T20:56:03.436064+09:00",
+    "generated_at": "2026-08-02T21:11:14.137225+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3385,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-02T20:40:52.175662+09:00",
-        "next_run_at": "2026-08-02T20:55:52.175662+09:00",
-        "last_success_at": "2026-08-02T20:40:52.175662+09:00",
+        "last_run_at": "2026-08-02T20:56:03.038806+09:00",
+        "next_run_at": "2026-08-02T21:11:03.038806+09:00",
+        "last_success_at": "2026-08-02T20:56:03.038806+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
