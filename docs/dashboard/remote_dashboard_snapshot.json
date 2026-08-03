@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-03T13:57:19.311476+09:00",
+  "generated_at": "2026-08-03T14:12:32.899313+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1880,7 +1880,7 @@
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
       "latest_at": "2026-08-02T21:36:30+09:00",
-      "weekly_count": 10
+      "weekly_count": 9
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-03T13:57:19.827633+09:00",
+    "generated_at": "2026-08-03T14:12:34.047868+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-03T13:42:07.197225+09:00",
-        "next_run_at": "2026-08-03T13:57:07.197225+09:00",
-        "last_success_at": "2026-08-03T13:42:07.197225+09:00",
+        "last_run_at": "2026-08-03T13:57:19.311476+09:00",
+        "next_run_at": "2026-08-03T14:12:19.311476+09:00",
+        "last_success_at": "2026-08-03T13:57:19.311476+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
