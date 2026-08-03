@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-03T13:26:53.762248+09:00",
+  "generated_at": "2026-08-03T13:42:07.197225+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1055,7 +1055,7 @@
         "publication_group_inherited": false,
         "manual_status": "handover",
         "manual_status_label": "引き継ぎ済",
-        "chat_updated_at": "2026-08-02T21:07:47+09:00",
+        "chat_updated_at": "2026-08-03T13:29:35+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1090,7 +1090,7 @@
         "publication_group_inherited": false,
         "manual_status": "handover",
         "manual_status_label": "引き継ぎ済",
-        "chat_updated_at": "2026-08-02T21:07:47+09:00",
+        "chat_updated_at": "2026-08-03T13:29:35+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1329,7 +1329,7 @@
         "publication_group_inherited": false,
         "manual_status": "handover",
         "manual_status_label": "引き継ぎ済",
-        "chat_updated_at": "2026-07-31T09:51:34+09:00",
+        "chat_updated_at": "2026-08-03T13:29:50+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-03T13:26:54.797812+09:00",
+    "generated_at": "2026-08-03T13:42:07.680472+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-03T13:11:36.293937+09:00",
-        "next_run_at": "2026-08-03T13:26:36.293937+09:00",
-        "last_success_at": "2026-08-03T13:11:36.293937+09:00",
+        "last_run_at": "2026-08-03T13:26:53.762248+09:00",
+        "next_run_at": "2026-08-03T13:41:53.762248+09:00",
+        "last_success_at": "2026-08-03T13:26:53.762248+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
