@@ -6,6 +6,19 @@
   },
   "note_items": [
     {
+      "id": "n73e2bb77a1de",
+      "title": "一冊しか読まれない本に、価値がある｜AIが変える「書籍の作り方」と、記憶を継承する文明",
+      "url": "https://note.com/club_pyramid/n/n73e2bb77a1de",
+      "published_at": "2026-08-04T17:10:48+09:00",
+      "summary": "これまで本を作るには、ある程度の読者が必要だった。 取材、資料整理、執筆、編集、校正、デザイン、印刷。多くの人と費用が必要になるため、数百冊、数千冊と売れる見込みがなければ、出版そのものが成立しにくかった。 だから、たとえ価値のある人生や記録が存在しても、 「一冊しか必要とされない」 「家族しか読まない」 「本人への贈り物にしたい」 という本は、ほとんど作られなかった。 しかし、AIによってこの前提が変わり始めている。 これからは、一冊しか需要がない本でも作れる。",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300385014/rectangle_large_type_2_b6ba651f5b114dc7776c44399af73582.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 1,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "nd83b0331e85d",
       "title": "知識がなくても、AIで月額100円台のホームページを持てる時代｜100GBの自分専用スペースと、月数百円の独自ドメイン",
       "url": "https://note.com/club_pyramid/n/nd83b0331e85d",
@@ -13,7 +26,7 @@
       "summary": "少し前まで、ホームページを持つには、それなりの知識かお金が必要だった。 HTMLやCSSを勉強する。 WordPressを設定する。 制作会社へ数十万円を払う。 毎月の管理費や更新料を払い続ける。 自分で作ろうとしても、文字の位置を変えるだけでコードを調べ、スマートフォン表示が崩れれば原因を探し、問い合わせフォームを作るにはプログラムの知識が必要だった。 ところが、生成AIとAIエージェントの登場によって、この前提が大きく変わった。 現在は、専門知識がほとんどなくても",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300185086/rectangle_large_type_2_917d0176ae51eadb79cff3d899ed9d0d.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 2,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -26,7 +39,7 @@
       "summary": "生成AIの性能は、驚くほど速い速度で進化している。 文章を書く。画像を作る。資料をまとめる。プログラムを書く。データを分析する。複数のツールを操作し、業務を自動化する。 以前なら専門家に依頼していた仕事が、個人や小さな会社でもできるようになってきた。 しかし、同じAIを使っているはずなのに、非常に質の高い成果を出す人と、どこか一般的で使えない回答しか得られない人がいる。 この差は、必ずしもプロンプトの技術だけではない。 大きな差を生むのは、AIに渡しているコンテキス",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299986276/rectangle_large_type_2_f5ab1bcb46019fb77da869fda2207313.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -39,7 +52,7 @@
       "summary": "AIを導入する企業が増える一方で、「導入したものの、現場に定着しない」という話も少なくありません。 経営者が新しいAIサービスを契約した。 外部の会社に自動化ツールを作ってもらった。 社内向けの勉強会も開いた。 それでも数か月後には、ほとんど使われなくなっている。 この原因は、AIの性能不足だけではありません。 多くの場合、最初に任せる仕事の選び方を間違えています。 社内でAIを使える人を育てるとき、いきなり会社全体を変えようとしてはいけません。 最初に必要な",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299978893/rectangle_large_type_2_c7fdc87dba8f1e365c01660b1796f881.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 4,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -52,7 +65,7 @@
       "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 そのため、「AI自動化を請け負います」「御社専用のAIシステムを作ります」というサービスも増えてきた。 しかし、本当にAI自動化は外注するのが正解なのだろうか。 むしろ、使いながら修正し続けなければならないAIだからこそ、社内の人間が担当した方がよいのではないか。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 3,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -65,7 +78,7 @@
       "summary": "あなたの仕事から、AIに任せる部分を見つけるここから第3部、公開お困りごと相談です。 第1部で考え方を学び、第2部で実例を見ていただきました。 ここからは、参加者の皆さんの仕事へ置き換えます。 どの作業をAIへ任せられるか。 どの判断を人間に残すべきか。 一緒に整理していきます。 安全のため、個人情報や機密情報は話さないでください。 個人名、顧客情報、契約内容などは出さず、仕事の流れだけを教えてください。 AIを導入しようとすると、多くの人が最初に、 「どの",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299101201/rectangle_large_type_2_836bd202eb3419a303ae126a8968eb55.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -78,7 +91,7 @@
       "summary": "NotebookLMに記録された生の実践事例ここから第2部です。 第1部では、AIへ仕事を任せる考え方をお話ししました。 第2部では、実際にAIで何を作ってきたのかをご紹介します。 架空の会社や架空の事例ではありません。 Webサイト、会議音声、SNS、動画、書籍、経理など、実際に進めてきた仕事を見ていただきます。 AIは文章を作るだけではありません。 実際のファイルと仕事を作るところまで進んでいます。 これから紹介するすべての実例を、同じ五つの視点で見てくださ",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299096284/rectangle_large_type_2_2f2d951398d2509fa2c16a7b528dabea.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -91,7 +104,7 @@
       "summary": "AIエージェントを実務担当者に変える「コンテキスト」の作り方皆さん、こんにちは。 ここから第1部を始めます。 今日、最初にお伝えしたいことは、このスライドに書いてある通りです。 AIは何でもできるように見えます。 文章を書いたり、画像を作ったり、資料をまとめたり、Webサイトを修正したり、さまざまなことができます。 しかし、AIは皆さんの会社やお店のことを、最初から知っているわけではありません。 皆さんの商品、料金、顧客、過去の判断、禁止している表現、仕事の進め方",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299091233/rectangle_large_type_2_cad748c7fd3d940ab8fb8a98acf3d7b8.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
+      "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -104,7 +117,7 @@
       "summary": "AI｜WEB｜SNS Progress Dashboard制作記AIを使い始めた頃は、文章を書かせたり、画像を作らせたり、Webサイトを修正させたりするだけで十分だった。 しかし、Codex、Antigravity、Hermes Agent、ローカルLLMなどを使い分け、複数のWebサイトやSNS、制作案件を並行して動かすようになると、別の問題が起きてくる。 「今、どのAIに何を頼んでいるのか」 「どの案件が作業中なのか」 「自分の確認待ちなのか、外部の返答待ちなのか",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298740494/rectangle_large_type_2_a36e0496116df5bee26cf224e5ff24d6.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 8,
+      "magazine_position": 10,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -117,20 +130,7 @@
       "summary": "少し前まで、AIを本格的に仕事へ導入するには、かなりの費用が必要だと思っていた。 高性能なAIを使う。 大量のデータを保存する。 動画を生成する。 Webサイトを作る。 SNSを運営する。 資料を整理する。 プログラムを書く。 自分以外のスタッフにもAIを使ってもらう。 これらをすべて実現しようとすれば、複数の法人向けサービスを契約し、専任のIT担当者や外部の制作会社も必要になる。 ところが、実際に現在の契約とAI環境を整理してみると、驚くことが分かった。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298153451/rectangle_large_type_2_0ba5dd02a6b6652b5adafdfd52367466.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 9,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "nad0354b5d8a7",
-      "title": "全てのタスクをFable 5で実行するのは、スーパーへフェラーリで買い物に行くようなもの｜最高性能のAIを常用して分かった、費用・通信・役割分担の現実",
-      "url": "https://note.com/club_pyramid/n/nad0354b5d8a7",
-      "published_at": "2026-07-27T21:01:36+09:00",
-      "summary": "最高性能のAIが使えるようになると、つい考えてしまう。 文章作成も、調査も、プログラミングも、事業分析も、Webサイトの監査も、過去の会話履歴の整理も、すべて最高性能のモデルへ任せる。 性能だけを見れば、確かに魅力的だ。 しかし実際にClaudeの最高知能モデル「Fable 5」を使ってみると、その考え方が経済的にも運用的にも正しくないことが分かった。 Fable 5は確かに賢い。 長い資料を読み、複数の専門領域を横断し、こちらが見落としていた構造的な問題を発見する",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298079512/rectangle_large_type_2_2cc392ba5c06f763daa65341b92432e6.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 10,
+      "magazine_position": 11,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -290,6 +290,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "028d31a00bf671afd46e01647cbe1fafc4e81e6159e289819ed003e95ccaa0cf",
-  "generated_at": "2026-08-03T20:00:37Z"
+  "content_hash": "553227979420274671b367e10303ae2061ce8901ae4c68dd12ab9fbc70412f71",
+  "generated_at": "2026-08-04T20:00:32Z"
 }

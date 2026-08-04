@@ -9,6 +9,50 @@
   },
   "items": [
     {
+      "id": "n4e99dd29aed3",
+      "title": "Antigravityという生き方――LibertyとFreedomを、生活の中に実装する",
+      "url": "https://note.com/club_pyramid/n/n4e99dd29aed3",
+      "published_at": "2026-08-04T20:45:16+09:00",
+      "summary": "「自由に生きたい」と考える人は多い。 しかし、自由とは単に会社を辞めることでも、好きな場所へ旅に出ることでもない。心の中で自由を願っていても、高い家賃や住宅ローン、事務所の固定費、自動車ローン、社員の給与、複雑な契約に縛られていれば、実際には簡単に動けない。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300442360/rectangle_large_type_2_2743a52cf6b3916635efbdcc1e9fe5a6.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n73e2bb77a1de",
+      "title": "一冊しか読まれない本に、価値がある｜AIが変える「書籍の作り方」と、記憶を継承する文明",
+      "url": "https://note.com/club_pyramid/n/n73e2bb77a1de",
+      "published_at": "2026-08-04T17:10:48+09:00",
+      "summary": "これまで本を作るには、ある程度の読者が必要だった。 取材、資料整理、執筆、編集、校正、デザイン、印刷。多くの人と費用が必要になるため、数百冊、数千冊と売れる見込みがなければ、出版そのものが成立しにくかった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300385014/rectangle_large_type_2_b6ba651f5b114dc7776c44399af73582.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nc30984444148",
+      "title": "【漫画版】統合宇宙史仮説",
+      "url": "https://note.com/club_pyramid/n/nc30984444148",
+      "published_at": "2026-08-04T15:13:56+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300355706/rectangle_large_type_2_4ac56a851aa671e2acc674a588417d13.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "ndb45a649b4bc",
+      "title": "統合宇宙史仮説――分離する宇宙と、再び一つになろうとする地球",
+      "url": "https://note.com/club_pyramid/n/ndb45a649b4bc",
+      "published_at": "2026-08-04T15:06:34+09:00",
+      "summary": "これは、科学的に証明された宇宙史ではありません。 古代神話、宗教、輪廻転生、アカシックレコード、スターシード、オリオン大戦、レムリア、アトランティス、チャネリングなど、世界各地で語られてきた無数の物語を一つにつなぎ、最も辻褄の合う形に再構成した「統合宇宙史仮説」です。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300353063/rectangle_large_type_2_e4bb8a46dc484c13e9e4caca3802d660.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "nd83b0331e85d",
       "title": "知識がなくても、AIで月額100円台のホームページを持てる時代｜100GBの自分専用スペースと、月数百円の独自ドメイン",
       "url": "https://note.com/club_pyramid/n/nd83b0331e85d",
@@ -183,53 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n0887b4c3b4bd",
-      "title": "月額数千円を中心に「自分専用のAI制作会社」をつくる｜ChatGPT、Fable 5、Codex、Antigravity、Gemini、NotebookLM、Grok、Hermes Agent、Ollamaを組織として動かす",
-      "url": "https://note.com/club_pyramid/n/n0887b4c3b4bd",
-      "published_at": "2026-07-23T14:05:00+09:00",
-      "summary": "AIを使って大きな仕事を進めようとすると、すぐに「APIで全部つなげよう」という話になりがちです。 複数のAIモデルをAPIで接続し、メインエージェントがサブエージェントへ自動で仕事を割り振り、成果物を回収して統合する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296805453/rectangle_large_type_2_ebb2cd77633f37e8add809c1d0f2aa78.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n39ca0675622e",
-      "title": "5,234本のブログ記事から、7冊の本をつくる｜ローカルAIで、故人の思想を「記事の山」から「読める体系」へ変える試み",
-      "url": "https://note.com/club_pyramid/n/n39ca0675622e",
-      "published_at": "2026-07-21T15:21:49+09:00",
-      "summary": "一人の人間が、十数年にわたって書き続けたブログがある。 政治、経済、原発、東アジア、古代史、宗教、地域社会、農、食、エネルギー、宇宙観、そして「イノチ」について。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296263059/rectangle_large_type_2_cdfa5397cf68db14bbf63edabdbc33aa.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "nf94d42e1349b",
-      "title": "AI時代のFDEは「企業のDNA」を読む｜創業者の思想、組織の記憶、物語をAIで再構築するという仕事",
-      "url": "https://note.com/club_pyramid/n/nf94d42e1349b",
-      "published_at": "2026-07-20T23:02:54+09:00",
-      "summary": "AIによって、プログラムを書くことのハードルが急速に下がっています。 これまでは、企業向けの業務システムを作ろうと思えば、専門的な知識を持つエンジニアへ依頼し、長い時間と大きな費用をかけなければなりませんでした。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/296110799/rectangle_large_type_2_50fdadb3869bae109dac1c0bb1eef295.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n56cb5e8e1be4",
-      "title": "YouTubeは未来の書斎になる｜NotebookLM、Gemini、ChatGPTで数百本の動画から一冊の本をつくる方法",
-      "url": "https://note.com/club_pyramid/n/n56cb5e8e1be4",
-      "published_at": "2026-07-20T13:43:42+09:00",
-      "summary": "YouTubeには、まだ「本になっていない知識」が大量に眠っている。 研究者の講義、経営者の経験談、地域活動の記録、職人の技術、思想家の時事解説、故人が残した長時間の語り。一本ずつ視聴すれば興味深い。しかし、それが数百本、数千時間という規模になると、全体像を把握することは難しくなる。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/295947237/rectangle_large_type_2_98bca5659b13f504dab1f3d1a4289229.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "cf403f1bbc1bb49a50435bb7fa3a7767cb927aebbd700f6fb5fd53ea43deb09b",
-  "generated_at": "2026-08-03T20:00:06Z"
+  "content_hash": "6141c8cb75ee4e59be9343c95e41dbeeb8b56dd1d9ba2accf1f15f0bbecd14e2",
+  "generated_at": "2026-08-04T20:00:04Z"
 }
