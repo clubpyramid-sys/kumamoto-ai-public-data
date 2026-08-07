@@ -1,0 +1,45 @@
+name: Temporary Hikari Shiroku PDF Build
+
+on:
+  push:
+    branches:
+      - tmp-hikari-shiroku-20260807
+    paths:
+      - 'tools/tmp_hikari_shiroku.py'
+      - '.github/workflows/tmp-hikari-shiroku.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PDF libraries
+        run: python -m pip install --disable-pip-version-check --no-cache-dir pymupdf==1.24.10 pypdf==5.0.1
+
+      - name: Convert 105x148mm PDF to 四六判 127x188mm
+        env:
+          SOURCE_PDF_URL: 'https://at.adobe.com/DqUopsAl1vtVmJCl'
+        run: python tools/tmp_hikari_shiroku.py
+
+      - name: Show validation summary
+        run: cat dist/hikari_shiroku/validation_report.json
+
+      - name: Upload KDP interior artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hikari-shiroku-kdp-interior
+          path: dist/hikari_shiroku/
+          if-no-files-found: error
+          retention-days: 1
