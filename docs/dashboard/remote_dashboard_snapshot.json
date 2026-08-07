@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-07T16:46:27.047536+09:00",
+  "generated_at": "2026-08-07T17:01:39.465933+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-07T16:46:27.624083+09:00",
+    "generated_at": "2026-08-07T17:01:39.813329+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3286,8 +3286,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 1,
-      "scheduled_wait": 3,
+      "running": 2,
+      "scheduled_wait": 2,
       "unknown": 0,
       "warning": 0
     },
@@ -3333,10 +3333,10 @@
         "display_name": "メール日次レポート",
         "category": "reporting",
         "related_project": "OpenClawメールレポート",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "毎日09:00・17:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-07T17:00:00+09:00",
+        "next_run_at": "2026-08-08T09:00:00+09:00",
         "last_success_at": null,
         "last_result_summary": "定時レポート待機",
         "consecutive_failures": 0,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-07T16:31:10.517030+09:00",
-        "next_run_at": "2026-08-07T16:46:10.517030+09:00",
-        "last_success_at": "2026-08-07T16:31:10.517030+09:00",
+        "last_run_at": "2026-08-07T16:46:27.047536+09:00",
+        "next_run_at": "2026-08-07T17:01:27.047536+09:00",
+        "last_success_at": "2026-08-07T16:46:27.047536+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
