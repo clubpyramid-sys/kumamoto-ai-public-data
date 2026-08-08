@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-08T18:12:27.492582+09:00",
+  "generated_at": "2026-08-08T18:27:42.455563+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -2689,7 +2689,7 @@
         "document_title": "くまもとイベントどっとコム | 熊本のイベント・カルチャー・交流のポータル",
         "page_heading": "くまもとイベントどっとコム",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-08-07T18:18:26.038172+09:00"
+        "metadata_checked_at": "2026-08-08T18:27:39.089117+09:00"
       },
       {
         "name": "アフター コロナ／パンデミック後の世界",
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-08T18:12:28.136087+09:00",
+    "generated_at": "2026-08-08T18:27:43.015459+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-08T17:57:04.394725+09:00",
-        "next_run_at": "2026-08-08T18:12:04.394725+09:00",
-        "last_success_at": "2026-08-08T17:57:04.394725+09:00",
+        "last_run_at": "2026-08-08T18:12:27.492582+09:00",
+        "next_run_at": "2026-08-08T18:27:27.492582+09:00",
+        "last_success_at": "2026-08-08T18:12:27.492582+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
