@@ -6,6 +6,30 @@
   },
   "note_items": [
     {
+      "id": "n302faca25a29",
+      "title": "ローカルLLMは「どこの誰が作っているか」まで見ると面白い――Macの中に、世界各国のAI研究チームを集める",
+      "url": "https://note.com/club_pyramid/n/n302faca25a29",
+      "published_at": "2026-08-09T13:04:19+09:00",
+      "summary": "ローカルLLMをいくつか使い始めると、最初はどうしても「結局、どのモデルが一番強いのか？」という比較をしたくなる。しかし実際に複数のモデルを使ってみると、だんだん別の見方ができるようになってくる。Qwen、Gemma、gpt-oss、Mistral、Devstral、GLM。これらは単なるモデル名ではなく、その後ろにはそれぞれ異なる企業や研究組織、開発思想がある。つまり複数のローカルLLMをMacに入れるということは、世界各地で開発された異なる「頭脳」を、一台のコンピューターの中に集めることでもある。 現在、私のローカル環境には、Qwen3.6、Qwen3-VL 8B、Qwen2.5-Coder 7B、Gemma 4 12B、Gemma 4 26B、gpt-oss 20B、Mistral Small 3.2、Devstral Small 2、GLM-4.7-Flashといったモデルを入れている。こうして並べるとかなり多いが、全部に同じ仕事をさせるつもりはない。人間の会社でも営業、経理、制作、技術、監査では必要な能力が違う。ローカルAIも同じで、一番強いAIを決めるより、それぞれの得意分",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/301793740/rectangle_large_type_2_094fb93c5d8cf78bdc3a8a11ee819593.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "nd7a8ea6b52b6",
+      "title": "次の災害に備える――AIで「地域の今」を見えるようにする",
+      "url": "https://note.com/club_pyramid/n/nd7a8ea6b52b6",
+      "published_at": "2026-08-09T08:03:29+09:00",
+      "summary": "今回の熊本地震を経験して、次に何か起きたときのために、ひとつ準備しておいたらいいのではないかと思った仕組みがある。 災害が発生したとき、私たちはまず「何が起きたのか」を知ろうとする。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/301723888/rectangle_large_type_2_858ad6f9de51f85055c1508e2fb8dd7d.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n4e99dd29aed3",
       "title": "Antigravityという生き方――LibertyとFreedomを、生活の中に実装する",
       "url": "https://note.com/club_pyramid/n/n4e99dd29aed3",
@@ -96,30 +120,6 @@
       "published_at": "2026-08-02T21:36:30+09:00",
       "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n6a249d06edaf",
-      "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
-      "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
-      "published_at": "2026-08-01T16:00:06+09:00",
-      "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299459236/rectangle_large_type_2_484b52d91164b8809a6d0d74110f0c4d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n8c01f7227efb",
-      "title": "第3部 公開お困りごと相談",
-      "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
-      "published_at": "2026-07-31T13:04:35+09:00",
-      "summary": "あなたの仕事から、AIに任せる部分を見つける 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299101201/rectangle_large_type_2_836bd202eb3419a303ae126a8968eb55.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "b00a639a0425189ed3e9ddc68adc9171715e7b0fdf91fd65547f2acf6c2b4265",
-  "generated_at": "2026-08-04T20:00:32Z"
+  "content_hash": "616bbf0093ccf9326011c045d0e757377a4076d33f776d9128c263a3fd9363cd",
+  "generated_at": "2026-08-09T14:38:50Z"
 }
