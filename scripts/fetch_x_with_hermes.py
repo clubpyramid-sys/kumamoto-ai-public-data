@@ -378,6 +378,16 @@ def main() -> int:
             },
         )
 
+    per_account_results = {
+        handle: {
+            "fresh_count": fresh_counts[handle],
+            "published_count": sum(1 for item in merged if item["handle"] == handle),
+            "state": "updated" if fresh_counts[handle] else (
+                "retained_last_known_good" if handle in retained else "unavailable"
+            ),
+        }
+        for handle in accounts
+    }
     write_status(
         "success_partial" if missing else "success",
         changed=changed,
@@ -387,6 +397,7 @@ def main() -> int:
         fresh_item_count=len(fresh_items),
         merged_item_count=len(merged),
         per_account=dict(Counter(item["handle"] for item in merged)),
+        per_account_results=per_account_results,
         newest_post=merged[0] if merged else None,
     )
     print("=== Hermes X取得結果 ===")

@@ -3,9 +3,9 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 X_LOCK_DIR="$ROOT/runtime/locks/x-feed-update.lock"
-PUBLIC_LOCK_DIR="$ROOT/runtime/locks/public-data-update.lock"
+PUBLIC_LOCK_DIR="${PUBLIC_DATA_GIT_LOCK_DIR:-$HOME/AI_Agent_Runtime/.locks/kumamoto-public-data-git.lock}"
 LOG_DIR="$ROOT/logs"
-mkdir -p "$ROOT/runtime/locks" "$ROOT/runtime/x" "$LOG_DIR"
+mkdir -p "$ROOT/runtime/locks" "$ROOT/runtime/x" "$LOG_DIR" "$(dirname "$PUBLIC_LOCK_DIR")"
 
 if ! mkdir "$X_LOCK_DIR" 2>/dev/null; then
   echo "X更新はすでに実行中です: $X_LOCK_DIR" >&2
