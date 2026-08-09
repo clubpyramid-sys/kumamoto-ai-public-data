@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-10T00:33:19.744989+09:00",
+  "generated_at": "2026-08-10T00:35:52.883478+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3203,12 +3203,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T00:31:28.738359+09:00",
+    "generated_at": "2026-08-10T00:35:50.743067+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
       "available": 3,
-      "warning": 3,
+      "warning": 2,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3228,7 +3228,7 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:42:17+09:00",
-        "last_attempt_at": "2026-08-10T00:31:28+09:00",
+        "last_attempt_at": "2026-08-10T00:35:50+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       },
       {
@@ -3237,20 +3237,20 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 100,
-        "gemini_five_hour_remaining_percent": 100,
-        "claude_gpt_weekly_remaining_percent": 100,
+        "gemini_weekly_remaining_percent": 93,
+        "gemini_five_hour_remaining_percent": 83,
+        "claude_gpt_weekly_remaining_percent": 86,
         "claude_gpt_five_hour_remaining_percent": 100,
-        "captured_at": "2026-08-01T14:42:30+09:00",
+        "captured_at": "2026-08-10T00:35:47+09:00",
         "capture_method": "electron_cdp_dom",
-        "update_state": "failed",
-        "freshness": "stale",
+        "update_state": "ready",
+        "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
-        "collection_status": "failed",
-        "last_success_at": "2026-08-01T14:42:30+09:00",
-        "last_attempt_at": "2026-08-10T00:31:28+09:00",
-        "failure_reason": "自動取得に失敗しました"
+        "collection_status": "active",
+        "last_success_at": "2026-08-10T00:35:47+09:00",
+        "last_attempt_at": "2026-08-10T00:35:47+09:00",
+        "failure_reason": null
       },
       {
         "service": "grok",
@@ -3270,14 +3270,14 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-10T00:31:28+09:00",
+        "last_attempt_at": "2026-08-10T00:35:50+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T00:33:20.887990+09:00",
+    "generated_at": "2026-08-10T00:35:53.000164+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3286,8 +3286,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 3,
+      "running": 1,
+      "scheduled_wait": 4,
       "unknown": 0,
       "warning": 0
     },
@@ -3387,11 +3387,11 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-10T00:30:16.181535+09:00",
-        "next_run_at": "2026-08-10T00:45:16.181535+09:00",
-        "last_success_at": "2026-08-10T00:30:16.181535+09:00",
+        "last_run_at": "2026-08-10T00:33:19.744989+09:00",
+        "next_run_at": "2026-08-10T00:48:19.744989+09:00",
+        "last_success_at": "2026-08-10T00:33:19.744989+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
