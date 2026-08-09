@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-10T05:25:13.269903+09:00",
+  "generated_at": "2026-08-10T05:25:34.037736+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T05:25:13.706685+09:00",
+    "generated_at": "2026-08-10T05:25:34.455239+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-10T05:24:51.975211+09:00",
-        "next_run_at": "2026-08-10T05:39:51.975211+09:00",
-        "last_success_at": "2026-08-10T05:24:51.975211+09:00",
+        "last_run_at": "2026-08-10T05:25:13.269903+09:00",
+        "next_run_at": "2026-08-10T05:40:13.269903+09:00",
+        "last_success_at": "2026-08-10T05:25:13.269903+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3404,7 +3404,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T05:25:07+09:00",
+    "generated_at": "2026-08-10T05:25:28+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3421,17 +3421,17 @@
         "error_code": ""
       },
       "ameba": {
-        "state": "running",
-        "last_attempt_at": "2026-08-10T05:25:07+09:00",
-        "last_success_at": "2026-08-10T00:25:44+09:00",
-        "message": "更新中",
+        "state": "completed",
+        "last_attempt_at": "2026-08-10T05:25:18+09:00",
+        "last_success_at": "2026-08-10T05:25:18+09:00",
+        "message": "更新完了",
         "error_code": ""
       },
       "web": {
-        "state": "completed",
-        "last_attempt_at": "2026-08-10T00:25:56+09:00",
+        "state": "running",
+        "last_attempt_at": "2026-08-10T05:25:28+09:00",
         "last_success_at": "2026-08-10T00:25:56+09:00",
-        "message": "更新完了",
+        "message": "更新中",
         "error_code": ""
       },
       "ai_agent": {
