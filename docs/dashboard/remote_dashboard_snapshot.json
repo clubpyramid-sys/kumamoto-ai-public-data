@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-10T08:24:59.399055+09:00",
+  "generated_at": "2026-08-10T08:27:52.414100+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3203,12 +3203,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T05:30:02.440369+09:00",
+    "generated_at": "2026-08-10T08:27:46.596265+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
       "available": 3,
-      "warning": 3,
+      "warning": 2,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3217,19 +3217,19 @@
         "service": "codex",
         "display_name": "Codex",
         "status": "available",
-        "weekly_remaining_percent": 85,
-        "weekly_reset_at": "2026-08-08T12:42:00+09:00",
+        "weekly_remaining_percent": 61,
+        "weekly_reset_at": "2026-08-17T04:23:00+09:00",
         "credits_remaining": 0,
-        "captured_at": "2026-08-01T14:42:17+09:00",
+        "captured_at": "2026-08-10T08:27:40+09:00",
         "capture_method": "chrome_dom",
-        "update_state": "waiting",
-        "freshness": "stale",
+        "update_state": "ready",
+        "freshness": "fresh",
         "source_label": "自動／Usage画面",
         "verified": true,
-        "collection_status": "waiting",
-        "last_success_at": "2026-08-01T14:42:17+09:00",
-        "last_attempt_at": "2026-08-10T05:30:02+09:00",
-        "failure_reason": "Chrome拡張の次回取得待ち"
+        "collection_status": "active",
+        "last_success_at": "2026-08-10T08:27:40+09:00",
+        "last_attempt_at": "2026-08-10T08:27:46+09:00",
+        "failure_reason": null
       },
       {
         "service": "antigravity",
@@ -3244,12 +3244,12 @@
         "captured_at": "2026-08-10T00:35:47+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "failed",
-        "freshness": "fresh",
+        "freshness": "aging",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "failed",
         "last_success_at": "2026-08-10T00:35:47+09:00",
-        "last_attempt_at": "2026-08-10T05:30:02+09:00",
+        "last_attempt_at": "2026-08-10T08:27:45+09:00",
         "failure_reason": "自動取得に失敗しました"
       },
       {
@@ -3270,14 +3270,14 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-10T05:30:02+09:00",
+        "last_attempt_at": "2026-08-10T08:27:46+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T08:24:59.864216+09:00",
+    "generated_at": "2026-08-10T08:27:52.884860+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3286,8 +3286,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 3,
+      "running": 1,
+      "scheduled_wait": 4,
       "unknown": 0,
       "warning": 0
     },
@@ -3387,11 +3387,11 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-10T08:09:46.378394+09:00",
-        "next_run_at": "2026-08-10T08:24:46.378394+09:00",
-        "last_success_at": "2026-08-10T08:09:46.378394+09:00",
+        "last_run_at": "2026-08-10T08:24:59.399055+09:00",
+        "next_run_at": "2026-08-10T08:39:59.399055+09:00",
+        "last_success_at": "2026-08-10T08:24:59.399055+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3404,7 +3404,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T05:26:17+09:00",
+    "generated_at": "2026-08-10T08:27:44+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3456,11 +3456,11 @@
         "error_code": "x_partial"
       },
       "ai_usage": {
-        "state": "failed",
-        "last_attempt_at": "2026-08-10T00:30:10+09:00",
+        "state": "running",
+        "last_attempt_at": "2026-08-10T08:27:44+09:00",
         "last_success_at": "",
-        "message": "Chrome拡張が応答しませんでした。前回値を維持しました",
-        "error_code": "chrome_extension_unresponsive"
+        "message": "Grok取得完了",
+        "error_code": ""
       }
     }
   }
