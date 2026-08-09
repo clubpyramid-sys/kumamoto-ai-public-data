@@ -271,6 +271,26 @@ def resolve_x_refresh(
     return merged, missing, retained
 
 
+def build_per_account_results(
+    accounts: list[str],
+    fresh_items: list[dict[str, Any]],
+    merged_items: list[dict[str, Any]],
+    retained: list[str],
+) -> dict[str, dict[str, Any]]:
+    fresh_counts = Counter(item["handle"] for item in fresh_items)
+    published_counts = Counter(item["handle"] for item in merged_items)
+    return {
+        handle: {
+            "fresh_count": fresh_counts[handle],
+            "published_count": published_counts[handle],
+            "state": "updated" if fresh_counts[handle] else (
+                "retained_last_known_good" if handle in retained else "unavailable"
+            ),
+        }
+        for handle in accounts
+    }
+
+
 def build_prompt(handles: list[str], per_account_limit: int) -> str:
     handle_lines = "\n".join(f"- @{handle}" for handle in handles)
     return f"""Xのライブ検索を使用し、次の公開アカウントについて最新投稿を取得してください。
@@ -378,16 +398,9 @@ def main() -> int:
             },
         )
 
-    per_account_results = {
-        handle: {
-            "fresh_count": fresh_counts[handle],
-            "published_count": sum(1 for item in merged if item["handle"] == handle),
-            "state": "updated" if fresh_counts[handle] else (
-                "retained_last_known_good" if handle in retained else "unavailable"
-            ),
-        }
-        for handle in accounts
-    }
+    per_account_results = build_per_account_results(
+        accounts, fresh_items, merged, retained
+    )
     write_status(
         "success_partial" if missing else "success",
         changed=changed,

@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_x_with_hermes as module
-from fetch_x_with_hermes import extract_json, merge_items, normalize_items, resolve_x_refresh
+from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, resolve_x_refresh
 
 
 class HermesXFetcherTests(unittest.TestCase):
@@ -117,6 +117,16 @@ class HermesXFetcherTests(unittest.TestCase):
         self.assertEqual({item["id"] for item in merged}, {"401", "399"})
         self.assertEqual(missing, ["kumamoto_luna"])
         self.assertEqual(retained, ["kumamoto_luna"])
+        results = build_per_account_results(
+            list(self.allowed.values()), fresh, merged, retained
+        )
+        self.assertEqual(results["club_kumamoto"]["state"], "updated")
+        self.assertEqual(results["club_kumamoto"]["fresh_count"], 1)
+        self.assertEqual(
+            results["kumamoto_luna"]["state"],
+            "retained_last_known_good",
+        )
+        self.assertEqual(results["kumamoto_luna"]["published_count"], 1)
 
     def test_all_failed_with_previous_keeps_previous_unmodified(self) -> None:
         previous = [self._item("499", "club_kumamoto", "2026-07-30T01:00:00Z")]
