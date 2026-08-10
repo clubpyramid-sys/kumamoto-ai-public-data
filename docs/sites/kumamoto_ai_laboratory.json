@@ -6,6 +6,19 @@
   },
   "note_items": [
     {
+      "id": "n5bbaa0e233e6",
+      "title": "AIを「使う」から、AIの仕事を「見える化する」へ｜個人で作った3つのAI管理システム――Progress Dashboard、ChatGPT知識アーカイブ、ローカルAI処理モニター",
+      "url": "https://note.com/club_pyramid/n/n5bbaa0e233e6",
+      "published_at": "2026-08-10T21:02:28+09:00",
+      "summary": "生成AIを使い始めた頃は、ChatGPTに質問をして答えをもらうだけでも十分に面白かった。 ところが使い続けているうちに、状況は少しずつ変わってきた。 ChatGPTで企画を考え、Codexでプログラムを書き、AntigravityでWebサイトを作り、OllamaでローカルLLMを動かし、Hermes Agentに常駐処理を任せる。 Webサイトも一つではない。X、YouTube、note、ブログもある。 さらに、ChatGPTとの会話そのものが膨大な知識資産として",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/302243253/rectangle_large_type_2_dced954f37b48afdb3f064a4d5bd3f22.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 0,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n23cdd72e53eb",
       "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
       "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
@@ -13,7 +26,7 @@
       "summary": "ここ数日、ChatGPT Plusをどう使えば一番効率がいいのか、実際のWeb制作や資料解析をしながらかなり試していました。ChatGPT、Codex、Work、Atlas、Chrome連携、ChatGPT Classicまで一通り触ってみたのですが、最終的には意外なほど単純なところに戻ってきました。 まず普通のChatGPTのチャットを限界まで使う。それでもできない最後の仕事だけCodexやWorkへ渡す。 これが今のところ、ChatGPT Plusを一番効率よく使う方",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/302118355/rectangle_large_type_2_ec7c175c7795a930883571263ca1baf5.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 1,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -26,7 +39,7 @@
       "summary": "ローカルLLMをいくつか使い始めると、最初はどうしても「結局、どのモデルが一番強いのか？」という比較をしたくなる。しかし実際に複数のモデルを使ってみると、だんだん別の見方ができるようになってくる。Qwen、Gemma、gpt-oss、Mistral、Devstral、GLM。これらは単なるモデル名ではなく、その後ろにはそれぞれ異なる企業や研究組織、開発思想がある。つまり複数のローカルLLMをMacに入れるということは、世界各地で開発された異なる「頭脳」を、一台のコンピューター",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/301793740/rectangle_large_type_2_094fb93c5d8cf78bdc3a8a11ee819593.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 2,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -39,7 +52,7 @@
       "summary": "今回の熊本地震を経験して、次に何か起きたときのために、ひとつ準備しておいたらいいのではないかと思った仕組みがある。 災害が発生したとき、私たちはまず「何が起きたのか」を知ろうとする。 震源はどこなのか。どこで大きな揺れがあったのか。建物は壊れていないか。火災は起きていないか。停電や断水はどこで発生しているのか。道路は通れるのか。鉄道は動いているのか。 発災直後には、もちろんこうした被害情報が重要になる。 ところが数時間が経ち、一日、二日と経過していくと、市民が知りたい",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/301723888/rectangle_large_type_2_858ad6f9de51f85055c1508e2fb8dd7d.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -52,7 +65,7 @@
       "summary": "これまで本を作るには、ある程度の読者が必要だった。 取材、資料整理、執筆、編集、校正、デザイン、印刷。多くの人と費用が必要になるため、数百冊、数千冊と売れる見込みがなければ、出版そのものが成立しにくかった。 だから、たとえ価値のある人生や記録が存在しても、 「一冊しか必要とされない」 「家族しか読まない」 「本人への贈り物にしたい」 という本は、ほとんど作られなかった。 しかし、AIによってこの前提が変わり始めている。 これからは、一冊しか需要がない本でも作れる。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300385014/rectangle_large_type_2_b6ba651f5b114dc7776c44399af73582.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 4,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -65,7 +78,7 @@
       "summary": "少し前まで、ホームページを持つには、それなりの知識かお金が必要だった。 HTMLやCSSを勉強する。 WordPressを設定する。 制作会社へ数十万円を払う。 毎月の管理費や更新料を払い続ける。 自分で作ろうとしても、文字の位置を変えるだけでコードを調べ、スマートフォン表示が崩れれば原因を探し、問い合わせフォームを作るにはプログラムの知識が必要だった。 ところが、生成AIとAIエージェントの登場によって、この前提が大きく変わった。 現在は、専門知識がほとんどなくても",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300185086/rectangle_large_type_2_917d0176ae51eadb79cff3d899ed9d0d.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 6,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -78,7 +91,7 @@
       "summary": "生成AIの性能は、驚くほど速い速度で進化している。 文章を書く。画像を作る。資料をまとめる。プログラムを書く。データを分析する。複数のツールを操作し、業務を自動化する。 以前なら専門家に依頼していた仕事が、個人や小さな会社でもできるようになってきた。 しかし、同じAIを使っているはずなのに、非常に質の高い成果を出す人と、どこか一般的で使えない回答しか得られない人がいる。 この差は、必ずしもプロンプトの技術だけではない。 大きな差を生むのは、AIに渡しているコンテキス",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299986276/rectangle_large_type_2_f5ab1bcb46019fb77da869fda2207313.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -91,7 +104,7 @@
       "summary": "AIを導入する企業が増える一方で、「導入したものの、現場に定着しない」という話も少なくありません。 経営者が新しいAIサービスを契約した。 外部の会社に自動化ツールを作ってもらった。 社内向けの勉強会も開いた。 それでも数か月後には、ほとんど使われなくなっている。 この原因は、AIの性能不足だけではありません。 多くの場合、最初に任せる仕事の選び方を間違えています。 社内でAIを使える人を育てるとき、いきなり会社全体を変えようとしてはいけません。 最初に必要な",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299978893/rectangle_large_type_2_c7fdc87dba8f1e365c01660b1796f881.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -104,7 +117,7 @@
       "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 そのため、「AI自動化を請け負います」「御社専用のAIシステムを作ります」というサービスも増えてきた。 しかし、本当にAI自動化は外注するのが正解なのだろうか。 むしろ、使いながら修正し続けなければならないAIだからこそ、社内の人間が担当した方がよいのではないか。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 8,
+      "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -116,19 +129,6 @@
       "published_at": "2026-07-31T13:04:35+09:00",
       "summary": "あなたの仕事から、AIに任せる部分を見つけるここから第3部、公開お困りごと相談です。 第1部で考え方を学び、第2部で実例を見ていただきました。 ここからは、参加者の皆さんの仕事へ置き換えます。 どの作業をAIへ任せられるか。 どの判断を人間に残すべきか。 一緒に整理していきます。 安全のため、個人情報や機密情報は話さないでください。 個人名、顧客情報、契約内容などは出さず、仕事の流れだけを教えてください。 AIを導入しようとすると、多くの人が最初に、 「どの",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299101201/rectangle_large_type_2_836bd202eb3419a303ae126a8968eb55.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 10,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "nb64c69aeafdc",
-      "title": "第2部 AI実践ショーケース",
-      "url": "https://note.com/club_pyramid/n/nb64c69aeafdc",
-      "published_at": "2026-07-31T12:50:21+09:00",
-      "summary": "NotebookLMに記録された生の実践事例ここから第2部です。 第1部では、AIへ仕事を任せる考え方をお話ししました。 第2部では、実際にAIで何を作ってきたのかをご紹介します。 架空の会社や架空の事例ではありません。 Webサイト、会議音声、SNS、動画、書籍、経理など、実際に進めてきた仕事を見ていただきます。 AIは文章を作るだけではありません。 実際のファイルと仕事を作るところまで進んでいます。 これから紹介するすべての実例を、同じ五つの視点で見てくださ",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299096284/rectangle_large_type_2_2f2d951398d2509fa2c16a7b528dabea.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "magazine_position": 11,
       "source_id": "note-magazine-ai-future",
@@ -290,6 +290,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "ab2dcaa16c62f35d043d1d486343bda6230e61fdc316aab2caacf93674ab1b71",
-  "generated_at": "2026-08-10T06:04:08Z"
+  "content_hash": "2febfa0fb5091acdca5932e0df0ec3318189ba06e270a163a1a8b9af08e9f9f1",
+  "generated_at": "2026-08-10T15:01:41Z"
 }

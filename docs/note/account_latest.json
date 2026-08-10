@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n5bbaa0e233e6",
+      "title": "AIを「使う」から、AIの仕事を「見える化する」へ｜個人で作った3つのAI管理システム――Progress Dashboard、ChatGPT知識アーカイブ、ローカルAI処理モニター",
+      "url": "https://note.com/club_pyramid/n/n5bbaa0e233e6",
+      "published_at": "2026-08-10T21:02:28+09:00",
+      "summary": "生成AIを使い始めた頃は、ChatGPTに質問をして答えをもらうだけでも十分に面白かった。 ところが使い続けているうちに、状況は少しずつ変わってきた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/302243253/rectangle_large_type_2_dced954f37b48afdb3f064a4d5bd3f22.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n23cdd72e53eb",
       "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
       "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n9c7fa7cc18d0",
-      "title": "Claude Fable 5を実際に使ってみた｜最高知能は「数百円で呼べる外部コンサルタント」になるのか",
-      "url": "https://note.com/club_pyramid/n/n9c7fa7cc18d0",
-      "published_at": "2026-07-27T14:06:59+09:00",
-      "summary": "結論から言う。 Claude Fable 5は、外部コンサルタントとして十分に使える。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297970525/rectangle_large_type_2_25ea359f0e7247260730f4931260204d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "988d6aa4ff0b268fbd1352aafa1aefe97f271c943de4e8a1a06deb438f0d18eb",
-  "generated_at": "2026-08-10T06:03:35Z"
+  "content_hash": "596de0df027ab069af4cb014e98d84b75f4ba7a811faaaaee29175ed7d08fecf",
+  "generated_at": "2026-08-10T15:01:05Z"
 }
