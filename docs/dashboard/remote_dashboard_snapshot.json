@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-10T23:53:53.647641+09:00",
+  "generated_at": "2026-08-11T00:09:27.144315+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1879,8 +1879,8 @@
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-08-10T13:27:22+09:00",
-      "weekly_count": 7
+      "latest_at": "2026-08-10T21:02:28+09:00",
+      "weekly_count": 8
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1927,6 +1927,11 @@
     ],
     "note": [
       {
+        "title": "AIを「使う」から、AIの仕事を「見える化する」へ｜個人で作った3つのAI管理システム――Progress Dashboard、ChatGPT知識アーカイブ、ローカルAI処理モニター",
+        "url": "https://note.com/club_pyramid/n/n5bbaa0e233e6",
+        "published_at": "2026-08-10T21:02:28+09:00"
+      },
+      {
         "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
         "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
         "published_at": "2026-08-10T13:27:22+09:00"
@@ -1935,11 +1940,6 @@
         "title": "ローカルLLMは「どこの誰が作っているか」まで見ると面白い――Macの中に、世界各国のAI研究チームを集める",
         "url": "https://note.com/club_pyramid/n/n302faca25a29",
         "published_at": "2026-08-09T13:04:19+09:00"
-      },
-      {
-        "title": "次の災害に備える――AIで「地域の今」を見えるようにする",
-        "url": "https://note.com/club_pyramid/n/nd7a8ea6b52b6",
-        "published_at": "2026-08-09T08:03:29+09:00"
       }
     ],
     "ameba": [
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T23:53:57.193603+09:00",
+    "generated_at": "2026-08-11T00:09:28.159786+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-10T23:38:27.357396+09:00",
-        "next_run_at": "2026-08-10T23:53:27.357396+09:00",
-        "last_success_at": "2026-08-10T23:38:27.357396+09:00",
+        "last_run_at": "2026-08-10T23:53:53.647641+09:00",
+        "next_run_at": "2026-08-11T00:08:53.647641+09:00",
+        "last_success_at": "2026-08-10T23:53:53.647641+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
