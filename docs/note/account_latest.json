@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n23cdd72e53eb",
+      "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
+      "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
+      "published_at": "2026-08-10T13:27:22+09:00",
+      "summary": "ここ数日、ChatGPT Plusをどう使えば一番効率がいいのか、実際のWeb制作や資料解析をしながらかなり試していました。ChatGPT、Codex、Work、Atlas、Chrome連携、ChatGPT Classicまで一通り触ってみたのですが、最終的には意外なほど単純なところに戻ってきました。 まず普通のChatGPTのチャットを限界まで使う。それでもできない最後の仕事だけCodexやWorkへ渡す。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/302118355/rectangle_large_type_2_ec7c175c7795a930883571263ca1baf5.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n302faca25a29",
       "title": "ローカルLLMは「どこの誰が作っているか」まで見ると面白い――Macの中に、世界各国のAI研究チームを集める",
       "url": "https://note.com/club_pyramid/n/n302faca25a29",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n46bd6014c9ea",
-      "title": "note・YouTube・Xの最新投稿をWebサイトに自動表示する方法｜Mac Studio＋GitHub Pages＋JavaScriptで、FTP不要の更新基盤をつくる",
-      "url": "https://note.com/club_pyramid/n/n46bd6014c9ea",
-      "published_at": "2026-07-26T16:50:24+09:00",
-      "summary": "Webサイトを複数運営していると、SNSや動画を更新するたびに、各サイトのHTMLを書き換えてFTPする作業が発生します。 noteへ新しい記事を投稿する。 YouTubeへ新しい動画を公開する。 Xへ新しい告知を投稿する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/297712934/rectangle_large_type_2_fa09bf7e055829e8d3e39bb906a9d7da.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "d7b131b110beb42c097b1660639504f166ca37e14baf4f6973dcd31a8c5af677",
-  "generated_at": "2026-08-09T14:38:49Z"
+  "content_hash": "988d6aa4ff0b268fbd1352aafa1aefe97f271c943de4e8a1a06deb438f0d18eb",
+  "generated_at": "2026-08-10T06:03:35Z"
 }

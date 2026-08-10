@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n23cdd72e53eb",
+      "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
+      "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
+      "published_at": "2026-08-10T13:27:22+09:00",
+      "summary": "ここ数日、ChatGPT Plusをどう使えば一番効率がいいのか、実際のWeb制作や資料解析をしながらかなり試していました。ChatGPT、Codex、Work、Atlas、Chrome連携、ChatGPT Classicまで一通り触ってみたのですが、最終的には意外なほど単純なところに戻ってきました。 まず普通のChatGPTのチャットを限界まで使う。それでもできない最後の仕事だけCodexやWorkへ渡す。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/302118355/rectangle_large_type_2_ec7c175c7795a930883571263ca1baf5.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n302faca25a29",
       "title": "ローカルLLMは「どこの誰が作っているか」まで見ると面白い――Macの中に、世界各国のAI研究チームを集める",
       "url": "https://note.com/club_pyramid/n/n302faca25a29",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-03T09:24:40+09:00",
       "summary": "AIを導入する企業が増える一方で、「導入したものの、現場に定着しない」という話も少なくありません。 経営者が新しいAIサービスを契約した。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299978893/rectangle_large_type_2_c7fdc87dba8f1e365c01660b1796f881.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "ncbd324035e7e",
-      "title": "AI自動化は外注すべきか――本当に必要なのは、社内に「AI化できる人」を育てることではないか",
-      "url": "https://note.com/club_pyramid/n/ncbd324035e7e",
-      "published_at": "2026-08-02T21:36:30+09:00",
-      "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "616bbf0093ccf9326011c045d0e757377a4076d33f776d9128c263a3fd9363cd",
-  "generated_at": "2026-08-09T14:38:50Z"
+  "content_hash": "93898918d772abf2236fa1f66a340721fd921f2d4fc0baeb54269dc4bfbb2543",
+  "generated_at": "2026-08-10T06:04:08Z"
 }
