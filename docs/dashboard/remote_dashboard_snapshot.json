@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-11T05:29:27.618389+09:00",
+  "generated_at": "2026-08-11T05:44:38.049231+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3203,7 +3203,7 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-10T09:39:31.650940+09:00",
+    "generated_at": "2026-08-11T05:30:04.164130+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
@@ -3223,12 +3223,12 @@
         "captured_at": "2026-08-10T08:27:40+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
-        "freshness": "fresh",
+        "freshness": "aging",
         "source_label": "自動／Usage画面",
         "verified": true,
         "collection_status": "active",
         "last_success_at": "2026-08-10T08:27:40+09:00",
-        "last_attempt_at": "2026-08-10T09:39:31+09:00",
+        "last_attempt_at": "2026-08-11T05:30:04+09:00",
         "failure_reason": null
       },
       {
@@ -3244,12 +3244,12 @@
         "captured_at": "2026-08-10T00:35:47+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "failed",
-        "freshness": "aging",
+        "freshness": "stale",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "failed",
         "last_success_at": "2026-08-10T00:35:47+09:00",
-        "last_attempt_at": "2026-08-10T09:39:31+09:00",
+        "last_attempt_at": "2026-08-11T05:30:04+09:00",
         "failure_reason": "Antigravity画面へ接続できません"
       },
       {
@@ -3270,14 +3270,14 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-10T09:39:31+09:00",
+        "last_attempt_at": "2026-08-11T05:30:04+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-11T05:29:27.977672+09:00",
+    "generated_at": "2026-08-11T05:44:38.456092+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-11T05:14:00.926655+09:00",
-        "next_run_at": "2026-08-11T05:29:00.926655+09:00",
-        "last_success_at": "2026-08-11T05:14:00.926655+09:00",
+        "last_run_at": "2026-08-11T05:29:27.618389+09:00",
+        "next_run_at": "2026-08-11T05:44:27.618389+09:00",
+        "last_success_at": "2026-08-11T05:29:27.618389+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
