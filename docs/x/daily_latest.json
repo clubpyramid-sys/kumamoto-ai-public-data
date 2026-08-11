@@ -7,8 +7,20 @@
     "url": "https://x.com/SEA_PYRAMID"
   },
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
-  "last_source_update_at": "2026-08-11T05:07:31+09:00",
+  "last_source_update_at": "2026-08-12T05:02:00+09:00",
   "items": [
+    {
+      "id": "2087094687580799228",
+      "title": "原典：カール・マルクス『フォイエルバッハに関するテーゼ』第11テーゼ（1845年） 原文： „Die Philosophen haben die Welt nu",
+      "text": "原典：カール・マルクス『フォイエルバッハに関するテーゼ』第11テーゼ（1845年） 原文： „Die Philosophen haben die Welt nur verschieden interpretiert; es kömmt drauf an, sie zu verändern.“ 訳：…",
+      "url": "https://x.com/SEA_PYRAMID/status/2087094687580799228",
+      "handle": "SEA_PYRAMID",
+      "display_name": "海のピラミッド▲熊本",
+      "published_at": "2026-08-11T08:32:04Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2083521510829089170",
       "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む｜海のピラミッド▲熊本／COSA NOSTRA JAPAN @club_kumamoto",
@@ -226,18 +238,6 @@
       "media": []
     },
     {
-      "id": "2039185910303240456",
-      "title": "これは単なるトラブルではない。 「反ポリコレ闘争」 批判そのものが 問題化される社会構造。#言論弾圧 #外山恒一@toyama_info2026 @toyama",
-      "text": "これは単なるトラブルではない。 「反ポリコレ闘争」 批判そのものが 問題化される社会構造。#言論弾圧 #外山恒一@toyama_info2026 @toyamakoichi pic.twitter.com/Uqj5H2GK3J",
-      "url": "https://x.com/SEA_PYRAMID/status/2039185910303240456",
-      "handle": "SEA_PYRAMID",
-      "display_name": "海のピラミッド▲熊本",
-      "published_at": "2026-04-01T03:39:41Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "1900498571365110224",
       "title": "#財務省解体デモ #熊本 https://t.co/bB61GdEXXz",
       "text": "#財務省解体デモ #熊本 https://t.co/bB61GdEXXz",
@@ -251,6 +251,6 @@
     }
   ],
   "item_count": 20,
-  "content_hash": "394c1aeae6103ea7cd0b2f337288476d76c9ca0873b04f3d57ed84c55fb548c4",
-  "generated_at": "2026-08-10T20:07:32Z"
+  "content_hash": "78a2bdfefe72bab127e23e41b45a98382c357690bf130db10907fcb93cfa9a9a",
+  "generated_at": "2026-08-11T20:02:01Z"
 }
