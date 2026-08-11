@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-11T15:01:22+09:00",
+  "last_source_update_at": "2026-08-12T00:03:19+09:00",
   "items": [
+    {
+      "id": "2086971510544298374",
+      "title": "明日も会場からリアルタイムでレポートします https://t.co/xcc0uvmtDe",
+      "text": "明日も会場からリアルタイムでレポートします https://t.co/xcc0uvmtDe",
+      "url": "https://x.com/K_Ero_Gentleman/status/2086971510544298374",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-08-11T00:22:36Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2086970137346011306",
       "title": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
@@ -870,23 +882,6 @@
       ]
     },
     {
-      "id": "2070810547063550226",
-      "title": "https://t.co/OArEiHF2OC",
-      "text": "https://t.co/OArEiHF2OC",
-      "url": "https://x.com/K_Ero_Gentleman/status/2070810547063550226",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-06-27T10:04:42Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HLz_Na5agAAxJfC.jpg?name=orig"
-        }
-      ]
-    },
-    {
       "id": "2069418532455223382",
       "title": "少しずつ、自分のペースで。初めての方も、安心できる場所をお探しの方も。柔らかな光の中で、ゆっくりと心を開いていける時間を。無理のない一歩から、始めてみませんか。",
       "text": "少しずつ、自分のペースで。初めての方も、安心できる場所をお探しの方も。柔らかな光の中で、ゆっくりと心を開いていける時間を。無理のない一歩から、始めてみませんか。 https://t.co/eaYqOE2wba",
@@ -1101,6 +1096,6 @@
     }
   ],
   "item_count": 75,
-  "content_hash": "af3539e8a1d9ae98f14cbb72c81fc3b285e077d416a35801801540138b2926e0",
-  "generated_at": "2026-08-11T06:01:58Z"
+  "content_hash": "7460bdef15c36400605eac219b8d78966a16ed593fe90ccea238d2474965053f",
+  "generated_at": "2026-08-11T15:04:03Z"
 }
