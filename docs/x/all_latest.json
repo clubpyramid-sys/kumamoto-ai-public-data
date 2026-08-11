@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-10T00:01:26+09:00",
+  "last_source_update_at": "2026-08-11T15:01:22+09:00",
   "items": [
+    {
+      "id": "2086970137346011306",
+      "title": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
+      "text": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
+      "url": "https://x.com/kumamonsupport/status/2086970137346011306",
+      "handle": "kumamonsupport",
+      "display_name": "KSC",
+      "published_at": "2026-08-11T00:17:09Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2085314155750563908",
       "title": "🎭 8月12日（水）熊本・上通りにて開催します。 午後からスタートし、明け方までゆっくりと続く一日。 仮面の奥で、日常の肩書きや役割を少し休ませながら、それぞれ",
@@ -1088,7 +1100,7 @@
       ]
     }
   ],
-  "item_count": 74,
-  "content_hash": "02d91a6f38c6feb7921a6e30b49c81e13cc03785d707a4f6bf2dfc2856b431f8",
-  "generated_at": "2026-08-09T15:02:01Z"
+  "item_count": 75,
+  "content_hash": "af3539e8a1d9ae98f14cbb72c81fc3b285e077d416a35801801540138b2926e0",
+  "generated_at": "2026-08-11T06:01:58Z"
 }
