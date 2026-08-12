@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-12T14:59:24.551294+09:00",
+  "generated_at": "2026-08-12T15:14:37.728100+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1879,8 +1879,8 @@
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-08-10T21:02:28+09:00",
-      "weekly_count": 4
+      "latest_at": "2026-08-12T09:00:10+09:00",
+      "weekly_count": 5
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1927,6 +1927,11 @@
     ],
     "note": [
       {
+        "title": "ローカルAIを「性能表」ではなく「チーム」として使う｜5モデルを実際に働かせて見えてきた、AI人事配置の考え方",
+        "url": "https://note.com/club_pyramid/n/nc5c830f6df09",
+        "published_at": "2026-08-12T09:00:10+09:00"
+      },
+      {
         "title": "AIを「使う」から、AIの仕事を「見える化する」へ｜個人で作った3つのAI管理システム――Progress Dashboard、ChatGPT知識アーカイブ、ローカルAI処理モニター",
         "url": "https://note.com/club_pyramid/n/n5bbaa0e233e6",
         "published_at": "2026-08-10T21:02:28+09:00"
@@ -1935,11 +1940,6 @@
         "title": "ChatGPT Plusを限界まで使い倒す｜Codex・Workの利用枠を節約する実践マニュアル",
         "url": "https://note.com/club_pyramid/n/n23cdd72e53eb",
         "published_at": "2026-08-10T13:27:22+09:00"
-      },
-      {
-        "title": "ローカルLLMは「どこの誰が作っているか」まで見ると面白い――Macの中に、世界各国のAI研究チームを集める",
-        "url": "https://note.com/club_pyramid/n/n302faca25a29",
-        "published_at": "2026-08-09T13:04:19+09:00"
       }
     ],
     "ameba": [
@@ -3277,7 +3277,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-12T14:59:25.096730+09:00",
+    "generated_at": "2026-08-12T15:14:38.260618+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3389,9 +3389,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "running",
         "cadence_label": "15分周期",
-        "last_run_at": "2026-08-12T14:44:11.567297+09:00",
-        "next_run_at": "2026-08-12T14:59:11.567297+09:00",
-        "last_success_at": "2026-08-12T14:44:11.567297+09:00",
+        "last_run_at": "2026-08-12T14:59:24.551294+09:00",
+        "next_run_at": "2026-08-12T15:14:24.551294+09:00",
+        "last_success_at": "2026-08-12T14:59:24.551294+09:00",
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
