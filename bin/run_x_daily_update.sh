@@ -60,6 +60,7 @@ fi
   --input "$ROOT/runtime/x/hermes_daily_latest.json" \
   --public "$ROOT/docs/x/daily_latest.json" \
   --output "$ROOT/runtime/x/hermes_daily_pipeline_audit.json"
+python3 "${X_STATUS_SYNC_SCRIPT:-$HOME/AI_Agent_Runtime/chat-state-recorder/sync_x_pipeline_status.py}"
 
 "$ROOT/.venv/bin/python" - <<'PY'
 import json
