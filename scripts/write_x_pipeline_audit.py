@@ -46,19 +46,30 @@ def build_audit(
     per_account: dict[str, dict[str, Any]] = {}
     for handle in accounts:
         item_status = fresh.get(handle) if isinstance(fresh.get(handle), dict) else {}
-        normalize_count = int(item_status.get("fresh_count", fresh_counts.get(handle, 0)) or 0)
+        has_normalize_count = bool(item_status) or handle in fresh_counts
+        normalize_count = (
+            int(item_status.get("fresh_count", fresh_counts.get(handle, 0)) or 0)
+            if has_normalize_count else None
+        )
         public_count = int(published_counts.get(handle, 0))
-        retained_count = max(0, public_count - normalize_count) if handle in retained else 0
+        retained_count = max(0, public_count - (normalize_count or 0)) if handle in retained else 0
+        has_raw_count = handle in raw_by_account
         state = str(item_status.get("state") or (
-            "retained_last_known_good" if handle in retained else "updated" if normalize_count else "unavailable"
+            "retained_last_known_good" if handle in retained
+            else "updated" if normalize_count is not None
+            else "historical_completed" if str(fetch_status.get("status") or "") in {"success", "success_partial"}
+            else "unavailable"
         ))
         per_account[handle] = {
             "request_count": 1,
-            "raw_response_count": int(raw_by_account.get(handle, 0)),
+            "raw_response_count": int(raw_by_account[handle]) if has_raw_count else None,
             "normalize_success_count": normalize_count,
             "dedupe_after_count": normalize_count,
             "adopted_count": normalize_count,
-            "reject_count": max(0, int(raw_by_account.get(handle, 0)) - normalize_count),
+            "reject_count": (
+                max(0, int(raw_by_account[handle]) - (normalize_count or 0))
+                if has_raw_count and normalize_count is not None else None
+            ),
             "retained_previous_count": retained_count,
             "cached_count": int(cached_counts.get(handle, 0)),
             "published_count": public_count,
@@ -74,6 +85,7 @@ def build_audit(
         "notes": [
             "raw_response_count is aggregated before oEmbed enrichment; provider response text is not retained.",
             "normalize_success_count is the safe post-normalisation count used by the feed.",
+            "null denotes a pre-instrumentation historical run; it is not a zero-count result.",
         ],
     }
 

@@ -32,6 +32,20 @@ class XPipelineAuditTests(unittest.TestCase):
         self.assertEqual(audit["per_account"]["beta"]["retained_previous_count"], 1)
         self.assertEqual(audit["per_account"]["beta"]["state"], "retained_last_known_good")
 
+    def test_marks_pre_instrumentation_counts_as_unknown_not_zero(self) -> None:
+        config = {"accounts": [{"handle": "alpha"}]}
+        audit = build_audit(
+            config,
+            {"status": "success", "finished_at": "2026-08-13T20:05:41Z"},
+            {},
+            {"items": [{"handle": "alpha"}]},
+            {"items": [{"handle": "alpha"}]},
+        )
+        account = audit["per_account"]["alpha"]
+        self.assertIsNone(account["raw_response_count"])
+        self.assertIsNone(account["normalize_success_count"])
+        self.assertEqual(account["state"], "historical_completed")
+
 
 if __name__ == "__main__":
     unittest.main()
