@@ -3,6 +3,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 LOCK_DIR="$ROOT/runtime/locks/x-feed-update.lock"
+PUBLIC_LOCK_DIR="${PUBLIC_DATA_GIT_LOCK_DIR:-$HOME/AI_Agent_Runtime/.locks/kumamoto-public-data-git.lock}"
 LOG_DIR="$ROOT/logs"
 mkdir -p "$ROOT/runtime/locks" "$ROOT/runtime/x" "$LOG_DIR"
 
@@ -10,7 +11,30 @@ if ! mkdir "$LOCK_DIR" 2>/dev/null; then
   echo "X自動更新はすでに実行中です: $LOCK_DIR" >&2
   exit 0
 fi
-trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT INT TERM
+PUBLIC_LOCK_ACQUIRED=0
+cleanup() {
+  if [[ "$PUBLIC_LOCK_ACQUIRED" -eq 1 ]]; then
+    rmdir "$PUBLIC_LOCK_DIR" 2>/dev/null || true
+  fi
+  rmdir "$LOCK_DIR" 2>/dev/null || true
+}
+trap cleanup EXIT INT TERM
+
+mkdir -p "$(dirname "$PUBLIC_LOCK_DIR")"
+for ATTEMPT in {1..180}; do
+  if mkdir "$PUBLIC_LOCK_DIR" 2>/dev/null; then
+    PUBLIC_LOCK_ACQUIRED=1
+    break
+  fi
+  if [[ "$ATTEMPT" -eq 1 ]]; then
+    echo "他の公開データ更新が実行中です。完了を待ちます。" >&2
+  fi
+  sleep 10
+done
+if [[ "$PUBLIC_LOCK_ACQUIRED" -ne 1 ]]; then
+  echo "公開データ更新ロックを30分以内に取得できませんでした。" >&2
+  exit 1
+fi
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$ROOT"
@@ -26,35 +50,25 @@ if [[ "$CURRENT_BRANCH" != "main" ]]; then
   exit 1
 fi
 
-DOCS_DIRTY="$(git status --porcelain -- docs)"
-if [[ -n "$DOCS_DIRTY" ]]; then
-  echo "docs/に未処理の変更があるため、自動更新を停止します。" >&2
-  echo "$DOCS_DIRTY" >&2
-  exit 1
-fi
-
-git fetch origin main --quiet
-BEHIND="$(git rev-list --count HEAD..origin/main)"
-if [[ "$BEHIND" -gt 0 ]]; then
-  git pull --ff-only origin main
-fi
-
 "$ROOT/.venv/bin/python" "$ROOT/scripts/run_fetch_x_with_hermes.py"
-"$ROOT/bin/run_update.sh"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/publish_x.py"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/write_x_pipeline_audit.py" \
+  --config "$ROOT/config/x_sources.json" \
+  --fetch-status "$ROOT/runtime/x/hermes_fetch_status.json" \
+  --raw-counts "$ROOT/runtime/x/hermes_raw_counts.json" \
+  --input "$ROOT/runtime/x/hermes_latest.json" \
+  --public "$ROOT/docs/x/all_latest.json" \
+  --output "$ROOT/runtime/x/hermes_pipeline_audit.json"
 
 "$ROOT/.venv/bin/python" - <<'PY'
 import json
 from pathlib import Path
 
 root = Path.cwd()
-status_path = root / "runtime" / "status.json"
+status_path = root / "runtime" / "x" / "hermes_publish_status.json"
 status = json.loads(status_path.read_text(encoding="utf-8"))
-x_results = [
-    item for item in status.get("sources", [])
-    if item.get("source_id") == "x-hermes-grok"
-]
-if not x_results or x_results[0].get("status") != "success":
-    raise SystemExit("X公開処理が成功していません: " + json.dumps(x_results, ensure_ascii=False))
+if status.get("status") != "success":
+    raise SystemExit("X公開処理が成功していません: " + json.dumps(status, ensure_ascii=False))
 print("X公開処理: success")
-print("Git:", status.get("git", {}).get("status"))
+print("Git:", (status.get("git") or {}).get("status"))
 PY

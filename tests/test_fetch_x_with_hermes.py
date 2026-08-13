@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_x_with_hermes as module
-from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, resolve_x_refresh
+from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, raw_response_counts, resolve_x_refresh
 
 
 class HermesXFetcherTests(unittest.TestCase):
@@ -52,6 +52,17 @@ class HermesXFetcherTests(unittest.TestCase):
         ]
         items = normalize_items(records, self.allowed)
         self.assertEqual([item["id"] for item in items], ["123"])
+
+    def test_raw_counts_preserve_the_pre_normalisation_stage(self) -> None:
+        records = [
+            {"id": "123", "handle": "club_kumamoto"},
+            {"id": "124", "handle": "unknown"},
+            "not-a-record",
+        ]
+        self.assertEqual(
+            raw_response_counts(records, self.allowed),
+            {"club_kumamoto": 1, "_unclassified": 2},
+        )
 
     def test_merges_new_and_previous_items(self) -> None:
         fresh = [

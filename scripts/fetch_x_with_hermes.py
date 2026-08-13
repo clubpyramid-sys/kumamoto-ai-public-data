@@ -18,6 +18,7 @@ CONFIG_PATH = ROOT / "config" / "x_sources.json"
 INPUT_PATH = ROOT / "runtime" / "x" / "hermes_latest.json"
 PUBLIC_FALLBACK_PATH = ROOT / "docs" / "x" / "all_latest.json"
 STATUS_PATH = ROOT / "runtime" / "x" / "hermes_fetch_status.json"
+RAW_COUNTS_PATH = ROOT / "runtime" / "x" / "hermes_raw_counts.json"
 JST = timezone(timedelta(hours=9))
 ANSI_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
 
@@ -110,6 +111,28 @@ def extract_json(text: str) -> Any:
 def canonical_handle(value: Any, allowed: dict[str, str]) -> str | None:
     raw = str(value or "").strip().lstrip("@").lower()
     return allowed.get(raw)
+
+
+def raw_response_counts(raw_items: Any, allowed: dict[str, str]) -> dict[str, int]:
+    """Count the provider response before enrichment without persisting it.
+
+    The provider payload is intentionally never written to disk: it can carry
+    implementation metadata.  Per-account counts are sufficient to diagnose
+    whether loss happened before or after normalisation.
+    """
+    counts: Counter[str] = Counter()
+    if not isinstance(raw_items, list):
+        return dict(counts)
+    for raw in raw_items:
+        if not isinstance(raw, dict):
+            counts["_unclassified"] += 1
+            continue
+        handle = canonical_handle(
+            raw.get("handle") or raw.get("account") or raw.get("username"),
+            allowed,
+        )
+        counts[handle or "_unclassified"] += 1
+    return dict(counts)
 
 
 def parse_timestamp(value: Any) -> str | None:
@@ -371,7 +394,9 @@ def main() -> int:
     if not isinstance(response, dict):
         raise RuntimeError("Hermes出力のルートがJSONオブジェクトではありません。")
 
-    fresh_items = normalize_items(response.get("items"), allowed)
+    raw_items = response.get("items")
+    response_counts = raw_response_counts(raw_items, allowed)
+    fresh_items = normalize_items(raw_items, allowed)
     previous_normalized = merge_items([], previous_items, allowed, per_account_limit, total_limit)
     merged, missing, retained = resolve_x_refresh(
         fresh_items,
@@ -400,6 +425,15 @@ def main() -> int:
 
     per_account_results = build_per_account_results(
         accounts, fresh_items, merged, retained
+    )
+    atomic_write_json(
+        RAW_COUNTS_PATH,
+        {
+            "schema_version": "1.0",
+            "captured_at": now_jst_iso(),
+            "raw_response_item_count": sum(response_counts.values()),
+            "per_account_raw_response_count": response_counts,
+        },
     )
     write_status(
         "success_partial" if missing else "success",

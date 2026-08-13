@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "x_sources_daily.json"
 INPUT_PATH = ROOT / "runtime" / "x" / "hermes_daily_latest.json"
 STATUS_PATH = ROOT / "runtime" / "x" / "hermes_daily_fetch_status.json"
+RAW_COUNTS_PATH = ROOT / "runtime" / "x" / "hermes_daily_raw_counts.json"
 
 
 def configure_daily_pipeline() -> None:
@@ -20,6 +21,7 @@ def configure_daily_pipeline() -> None:
     fetch_x_with_hermes.CONFIG_PATH = CONFIG_PATH
     fetch_x_with_hermes.INPUT_PATH = INPUT_PATH
     fetch_x_with_hermes.STATUS_PATH = STATUS_PATH
+    fetch_x_with_hermes.RAW_COUNTS_PATH = RAW_COUNTS_PATH
 
     run_fetch_x_with_hermes._DISCOVERY_PASS_PENDING = True
     fetch_x_with_hermes.extract_json = run_fetch_x_with_hermes.extract_verified_x_search_payload
@@ -53,7 +55,7 @@ def validate_account_coverage(
 def fetch_accounts(
     handles: list[str],
     per_account_limit: int,
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], Counter[str]]:
     """Fetch one group and reset the one-time oEmbed discovery pass."""
 
     allowed = {handle.lower(): handle for handle in handles}
@@ -64,7 +66,11 @@ def fetch_accounts(
     response = fetch_x_with_hermes.extract_json(raw_output)
     if not isinstance(response, dict):
         raise RuntimeError("Hermes出力のルートがJSONオブジェクトではありません。")
-    return fetch_x_with_hermes.normalize_items(response.get("items"), allowed)
+    raw_items = response.get("items")
+    return (
+        fetch_x_with_hermes.normalize_items(raw_items, allowed),
+        Counter(fetch_x_with_hermes.raw_response_counts(raw_items, allowed)),
+    )
 
 
 def main() -> int:
@@ -89,7 +95,7 @@ def main() -> int:
         previous_payload.get("items", []) if isinstance(previous_payload, dict) else []
     )
 
-    fresh_items = fetch_accounts(accounts, per_account_limit)
+    fresh_items, raw_counts = fetch_accounts(accounts, per_account_limit)
     first_counts = Counter(item["handle"] for item in fresh_items)
     missing_initial = [handle for handle in accounts if first_counts[handle] == 0]
 
@@ -99,7 +105,9 @@ def main() -> int:
         for handle in missing_initial:
             retried_accounts.append(handle)
             try:
-                fresh_items.extend(fetch_accounts([handle], per_account_limit))
+                retried_items, retried_raw_counts = fetch_accounts([handle], per_account_limit)
+                fresh_items.extend(retried_items)
+                raw_counts.update(retried_raw_counts)
             except Exception as exc:
                 retry_errors[handle] = f"{type(exc).__name__}: {exc}"
 
@@ -149,6 +157,15 @@ def main() -> int:
 
     merged_counts = Counter(item["handle"] for item in merged)
     per_account = {handle: merged_counts.get(handle, 0) for handle in accounts}
+    fetch_x_with_hermes.atomic_write_json(
+        RAW_COUNTS_PATH,
+        {
+            "schema_version": "1.0",
+            "captured_at": fetch_x_with_hermes.now_jst_iso(),
+            "raw_response_item_count": sum(raw_counts.values()),
+            "per_account_raw_response_count": dict(raw_counts),
+        },
+    )
     fetch_x_with_hermes.write_status(
         "success",
         changed=changed,
@@ -159,6 +176,7 @@ def main() -> int:
         missing_accounts=missing,
         retried_accounts=retried_accounts,
         retry_errors=retry_errors,
+        fresh_per_account=dict(fresh_counts),
         per_account=per_account,
         newest_post=merged[0] if merged else None,
     )

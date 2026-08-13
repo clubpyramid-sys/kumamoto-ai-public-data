@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import shutil
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -9,7 +10,7 @@ from typing import Any
 
 from common import atomic_write_json, load_json, now_iso, prepare_payload
 from import_hermes_x import import_hermes_x
-from publish_git import publish
+from publish_git import publish_isolated
 from validate import suspicious_drop, validate_source_payload
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,8 +35,22 @@ def write_status(path: Path, status: str, **extra: Any) -> None:
     )
 
 
-def publish_daily(no_push: bool = False) -> int:
-    config = load_json(CONFIG_PATH, {})
+def target_has_unpublished_change(root: Path, target: Path) -> bool:
+    """Detect a prior interrupted write without staging or discarding it."""
+    result = subprocess.run(
+        ["git", "-C", str(root), "status", "--porcelain", "--", str(target.relative_to(root))],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("X公開対象のGit状態を確認できませんでした")
+    return bool(result.stdout.strip())
+
+
+def publish_x(config_path: Path, no_push: bool = False) -> int:
+    """Publish one X group without staging the shared collector checkout."""
+    config = load_json(config_path, {})
     if not config.get("enabled", False):
         raise RuntimeError("X日次取得設定が無効です。")
 
@@ -74,9 +89,10 @@ def publish_daily(no_push: bool = False) -> int:
     git_config = dict(sources.get("git", {}))
     if no_push:
         git_config["auto_push"] = False
+    publish_required = changed or target_has_unpublished_change(ROOT, target)
     git_result = (
-        publish(ROOT, git_config, paths=[str(Path("docs") / output_rel)])
-        if changed
+        publish_isolated(ROOT, git_config, paths=[str(Path("docs") / output_rel)])
+        if publish_required
         else {"status": "no_changes"}
     )
 
@@ -84,18 +100,23 @@ def publish_daily(no_push: bool = False) -> int:
         status_path,
         "success",
         changed=changed,
+        publish_required=publish_required,
         output=str(output_rel),
         item_count=len(prepared.get("items", [])),
         git=git_result,
         newest_post=prepared.get("items", [None])[0] if prepared.get("items") else None,
     )
 
-    print("=== X日次公開結果 ===")
+    print("=== X公開結果 ===")
     print(f"公開先: docs/{output_rel}")
     print(f"件数: {len(prepared.get('items', []))}")
     print(f"変更: {'yes' if changed else 'no'}")
     print(f"Git: {git_result.get('status')}")
     return 0
+
+
+def publish_daily(no_push: bool = False) -> int:
+    return publish_x(CONFIG_PATH, no_push=no_push)
 
 
 def main() -> int:

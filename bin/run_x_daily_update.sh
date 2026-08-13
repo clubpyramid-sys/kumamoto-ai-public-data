@@ -51,22 +51,15 @@ if [[ "$CURRENT_BRANCH" != "main" ]]; then
   exit 1
 fi
 
-DAILY_DOC="docs/x/daily_latest.json"
-DOCS_DIRTY="$(git status --porcelain -- "$DAILY_DOC")"
-if [[ -n "$DOCS_DIRTY" ]]; then
-  echo "$DAILY_DOC に未処理の変更があるため、日次更新を停止します。" >&2
-  echo "$DOCS_DIRTY" >&2
-  exit 1
-fi
-
-git fetch origin main --quiet
-BEHIND="$(git rev-list --count HEAD..origin/main)"
-if [[ "$BEHIND" -gt 0 ]]; then
-  git pull --ff-only origin main
-fi
-
 "$ROOT/.venv/bin/python" "$ROOT/scripts/run_fetch_x_daily_with_hermes.py"
 "$ROOT/.venv/bin/python" "$ROOT/scripts/publish_x_daily.py"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/write_x_pipeline_audit.py" \
+  --config "$ROOT/config/x_sources_daily.json" \
+  --fetch-status "$ROOT/runtime/x/hermes_daily_fetch_status.json" \
+  --raw-counts "$ROOT/runtime/x/hermes_daily_raw_counts.json" \
+  --input "$ROOT/runtime/x/hermes_daily_latest.json" \
+  --public "$ROOT/docs/x/daily_latest.json" \
+  --output "$ROOT/runtime/x/hermes_daily_pipeline_audit.json"
 
 "$ROOT/.venv/bin/python" - <<'PY'
 import json

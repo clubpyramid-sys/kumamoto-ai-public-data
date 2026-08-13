@@ -38,7 +38,7 @@ def _publish_from_clean_worktree(
     branch: str,
     targets: list[str],
     message: str,
-) -> None:
+) -> bool:
     """Publish only the approved generated targets from a clean remote head.
 
     The collector's working tree can contain unrelated local work.  A rejected
@@ -79,13 +79,81 @@ def _publish_from_clean_worktree(
         if checked.returncode != 0:
             raise RuntimeError(_safe_error(checked.stderr.strip()) or "公開差分検証失敗")
         if not _run(temporary, ["diff", "--cached", "--quiet"], check=False).returncode:
-            return
+            return False
         commit = _run(temporary, ["commit", "-m", message], check=False)
         if commit.returncode != 0:
             raise RuntimeError(_safe_error((commit.stdout + "\n" + commit.stderr).strip()) or "一時公開commit失敗")
         pushed = _run(temporary, ["push", remote, f"HEAD:{branch}"], check=False)
         if pushed.returncode != 0:
             raise RuntimeError(_safe_error(pushed.stderr.strip() or pushed.stdout.strip()) or "一時公開push失敗")
+        return True
+    finally:
+        if added:
+            _run(root, ["worktree", "remove", "--force", str(temporary)], check=False)
+        shutil.rmtree(temporary, ignore_errors=True)
+
+
+def publish_isolated(root: Path, git_config: dict, paths: list[str] | None = None) -> dict:
+    """Publish only ``paths`` from an isolated worktree at the remote head.
+
+    X collectors use this because their raw cache must be promoted even when a
+    different dashboard writer has local, uncommitted files in the shared
+    collector checkout.  Other collectors retain their existing workflow.
+    """
+    if not (root / ".git").exists():
+        return {"status": "skipped", "reason": "not_a_git_repository"}
+    targets = _safe_targets(paths)
+    remote = git_config.get("remote", "origin")
+    branch = git_config.get("branch", "main")
+    message = "data: update public feeds " + datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z")
+    pushed = _publish_from_clean_worktree(root, remote, branch, targets, message)
+    return {
+        "status": "pushed_from_clean_worktree" if pushed else "no_changes",
+        "message": message if pushed else "",
+        "paths": targets,
+    }
+
+
+def publish_file_isolated(
+    root: Path,
+    source: Path,
+    destination: str,
+    git_config: dict,
+) -> dict:
+    """Publish one generated file without modifying the collector checkout."""
+    if not source.is_file():
+        raise RuntimeError("公開対象の生成ファイルが存在しません")
+    target = _safe_targets([destination])[0]
+    remote = git_config.get("remote", "origin")
+    branch = git_config.get("branch", "main")
+    message = "data: update public dashboard " + datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z")
+
+    fetch = _run(root, ["fetch", remote, branch], check=False)
+    if fetch.returncode != 0:
+        raise RuntimeError(_safe_error(fetch.stderr.strip()) or "git fetch失敗")
+    temporary = Path(tempfile.mkdtemp(prefix="kumamoto-public-data-file-publish-"))
+    added = False
+    try:
+        worktree = _run(root, ["worktree", "add", "--detach", str(temporary), f"{remote}/{branch}"], check=False)
+        if worktree.returncode != 0:
+            raise RuntimeError(_safe_error(worktree.stderr.strip()) or "一時公開worktree作成失敗")
+        added = True
+        destination_path = temporary / target
+        destination_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination_path)
+        _run(temporary, ["add", "--", target])
+        checked = _run(temporary, ["diff", "--cached", "--check"], check=False)
+        if checked.returncode != 0:
+            raise RuntimeError(_safe_error(checked.stderr.strip()) or "公開差分検証失敗")
+        if not _run(temporary, ["diff", "--cached", "--quiet"], check=False).returncode:
+            return {"status": "no_changes", "paths": [target]}
+        committed = _run(temporary, ["commit", "-m", message], check=False)
+        if committed.returncode != 0:
+            raise RuntimeError(_safe_error((committed.stdout + "\n" + committed.stderr).strip()) or "一時公開commit失敗")
+        pushed = _run(temporary, ["push", remote, f"HEAD:{branch}"], check=False)
+        if pushed.returncode != 0:
+            raise RuntimeError(_safe_error(pushed.stderr.strip() or pushed.stdout.strip()) or "一時公開push失敗")
+        return {"status": "pushed_from_clean_worktree", "message": message, "paths": [target]}
     finally:
         if added:
             _run(root, ["worktree", "remove", "--force", str(temporary)], check=False)
