@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-14T08:22:19.671261+09:00",
+  "generated_at": "2026-08-14T08:24:56.039426+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3301,7 +3301,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-14T08:22:19.780410+09:00",
+    "generated_at": "2026-08-14T08:24:56.149628+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3377,15 +3377,15 @@
         "related_project": "mixi日記アーカイブ",
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
-        "last_run_at": "2026-08-14T04:54:19+09:00",
-        "next_run_at": "2026-08-14T05:54:19+09:00",
-        "last_success_at": "2026-08-14T04:54:19+09:00",
-        "last_result_summary": "PASS・今回10件保存",
+        "last_run_at": null,
+        "next_run_at": "2026-08-14T09:24:56.149628+09:00",
+        "last_success_at": null,
+        "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
-        "progress_current": 238,
+        "progress_current": null,
         "progress_total": null,
-        "progress_unit": "件",
-        "freshness": "stale",
+        "progress_unit": null,
+        "freshness": "unknown",
         "execution_type": "launchd"
       },
       {
