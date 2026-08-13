@@ -3,6 +3,7 @@
   "enabled": true,
   "input": "runtime/x/hermes_latest.json",
   "output": "x/all_latest.json",
+  "publish_status": "runtime/x/hermes_publish_status.json",
   "max_items": 80,
   "max_items_per_account": 20,
   "exclude_replies": true,

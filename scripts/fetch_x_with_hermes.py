@@ -396,6 +396,15 @@ def main() -> int:
 
     raw_items = response.get("items")
     response_counts = raw_response_counts(raw_items, allowed)
+    atomic_write_json(
+        RAW_COUNTS_PATH,
+        {
+            "schema_version": "1.0",
+            "captured_at": now_jst_iso(),
+            "raw_response_item_count": sum(response_counts.values()),
+            "per_account_raw_response_count": response_counts,
+        },
+    )
     fresh_items = normalize_items(raw_items, allowed)
     previous_normalized = merge_items([], previous_items, allowed, per_account_limit, total_limit)
     merged, missing, retained = resolve_x_refresh(
@@ -425,15 +434,6 @@ def main() -> int:
 
     per_account_results = build_per_account_results(
         accounts, fresh_items, merged, retained
-    )
-    atomic_write_json(
-        RAW_COUNTS_PATH,
-        {
-            "schema_version": "1.0",
-            "captured_at": now_jst_iso(),
-            "raw_response_item_count": sum(response_counts.values()),
-            "per_account_raw_response_count": response_counts,
-        },
     )
     write_status(
         "success_partial" if missing else "success",

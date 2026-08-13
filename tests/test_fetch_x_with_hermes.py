@@ -64,6 +64,11 @@ class HermesXFetcherTests(unittest.TestCase):
             {"club_kumamoto": 1, "_unclassified": 2},
         )
 
+    def test_standard_config_has_its_own_publish_status_path(self) -> None:
+        import json
+        config = json.loads((ROOT / "config/x_sources.json").read_text(encoding="utf-8"))
+        self.assertEqual(config["publish_status"], "runtime/x/hermes_publish_status.json")
+
     def test_merges_new_and_previous_items(self) -> None:
         fresh = [
             {
