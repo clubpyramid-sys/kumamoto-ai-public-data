@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-14T10:22:35.368255+09:00",
+  "generated_at": "2026-08-14T16:01:54.215750+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3301,7 +3301,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-14T10:22:35.487140+09:00",
+    "generated_at": "2026-08-14T16:01:54.440270+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3311,8 +3311,8 @@
       "healthy": 0,
       "manual": 0,
       "running": 1,
-      "scheduled_wait": 3,
-      "unknown": 0,
+      "scheduled_wait": 2,
+      "unknown": 1,
       "warning": 0
     },
     "automations": [
@@ -3357,7 +3357,7 @@
         "display_name": "メール日次レポート",
         "category": "reporting",
         "related_project": "OpenClawメールレポート",
-        "status": "scheduled_wait",
+        "status": "unknown",
         "cadence_label": "毎日09:00・17:00",
         "last_run_at": null,
         "next_run_at": "2026-08-14T17:00:00+09:00",
@@ -3378,7 +3378,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-14T11:22:35.487140+09:00",
+        "next_run_at": "2026-08-14T17:01:54.440270+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3428,7 +3428,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-14T05:20:00+09:00",
+    "generated_at": "2026-08-14T16:01:53+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3439,8 +3439,8 @@
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-13T06:13:07+09:00",
-        "last_success_at": "2026-08-13T06:13:07+09:00",
+        "last_attempt_at": "2026-08-14T15:57:56+09:00",
+        "last_success_at": "2026-08-14T15:57:56+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3467,17 +3467,17 @@
       },
       "ai_chat": {
         "state": "completed",
-        "last_attempt_at": "2026-08-05T01:07:51+09:00",
-        "last_success_at": "2026-08-05T01:07:51+09:00",
+        "last_attempt_at": "2026-08-14T15:29:15+09:00",
+        "last_success_at": "2026-08-14T15:29:15+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "x": {
         "state": "completed",
-        "last_attempt_at": "2026-08-14T05:05:41+09:00",
-        "last_success_at": "2026-08-14T05:05:41+09:00",
-        "message": "一部更新。一部アカウントは前回値を保持しました",
-        "error_code": "x_partial"
+        "last_attempt_at": "2026-08-14T15:06:40+09:00",
+        "last_success_at": "2026-08-14T15:06:40+09:00",
+        "message": "更新完了",
+        "error_code": ""
       },
       "ai_usage": {
         "state": "completed",
