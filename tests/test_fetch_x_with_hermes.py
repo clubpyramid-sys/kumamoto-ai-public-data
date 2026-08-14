@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_x_with_hermes as module
 from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, raw_response_counts, resolve_x_refresh
+from import_hermes_x import import_hermes_x
 
 
 class HermesXFetcherTests(unittest.TestCase):
@@ -191,6 +192,77 @@ class HermesXFetcherTests(unittest.TestCase):
             with patch.object(module, "INPUT_PATH", cache_path), patch.object(module, "PUBLIC_FALLBACK_PATH", public_path):
                 items = module.load_previous_items()
         self.assertEqual({item["id"] for item in items}, {"601", "599"})
+
+    def test_cached_replay_merges_per_post_without_replacing_an_account(self) -> None:
+        import json
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            input_path = root / "cached.json"
+            input_path.write_text(
+                json.dumps({"items": [self._item("701", "club_kumamoto", "2026-07-20T00:00:00Z")]}),
+                encoding="utf-8",
+            )
+            audit: dict = {}
+            payload = import_hermes_x(
+                root,
+                {
+                    "input": "cached.json",
+                    "max_items": 40,
+                    "max_items_per_account": 20,
+                    "accounts": [{"handle": "club_kumamoto"}],
+                },
+                previous_items=[self._item("702", "club_kumamoto", "2026-08-01T00:00:00Z")],
+                audit=audit,
+            )
+        self.assertEqual([item["id"] for item in payload["items"]], ["702", "701"])
+        self.assertEqual(audit["normalized_count"], 1)
+        self.assertEqual(audit["retained_previous_count"], 1)
+
+    def test_cached_replay_preserves_richer_last_known_good_for_same_post(self) -> None:
+        import json
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "cached.json").write_text(
+                json.dumps({"items": [self._item("705", "club_kumamoto", "2026-07-20T00:00:00Z")]}),
+                encoding="utf-8",
+            )
+            previous = self._item("705", "club_kumamoto", "2026-07-20T00:00:00Z")
+            previous["text"] = "last-known-good text with complete content"
+            payload = import_hermes_x(
+                root,
+                {"input": "cached.json", "accounts": [{"handle": "club_kumamoto"}]},
+                previous_items=[previous],
+            )
+        self.assertEqual(payload["items"][0]["text"], "last-known-good text with complete content")
+
+    def test_cached_replay_reports_safe_rejection_reason(self) -> None:
+        import json
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "cached.json").write_text(
+                json.dumps({"items": [{
+                    "id": "711",
+                    "handle": "club_kumamoto",
+                    "published_at": "2026-07-20T00:00:00Z",
+                    "text": "bad URL",
+                    "url": "https://example.com/not-a-status/711",
+                }]}),
+                encoding="utf-8",
+            )
+            audit: dict = {}
+            with self.assertRaisesRegex(RuntimeError, "1件も生成"):
+                import_hermes_x(
+                    root,
+                    {"input": "cached.json", "accounts": [{"handle": "club_kumamoto"}]},
+                    audit=audit,
+                )
+        self.assertEqual(audit["rejected"], [{"id": "711", "handle": "club_kumamoto", "reason": "invalid_status_url"}])
 
 
 if __name__ == "__main__":

@@ -168,8 +168,16 @@ def run(
                 )
                 if completed.returncode != 0:
                     raise RuntimeError((completed.stderr or completed.stdout)[-1000:])
-            payload = import_hermes_x(ROOT, x_config)
             x_source = {"output": x_config.get("output", "x/all_latest.json")}
+            existing_x = load_json(docs / str(x_source["output"]), {})
+            previous_x_items = (
+                existing_x.get("items", []) if isinstance(existing_x, dict) else []
+            )
+            payload = import_hermes_x(
+                ROOT,
+                x_config,
+                previous_items=previous_x_items,
+            )
             changed = _source_update(staging, docs, x_source, payload, sources.get("safety", {}))
             source_changes += int(changed)
             outcomes.append({"source_id": "x-hermes-grok", "status": "success", "changed": changed})

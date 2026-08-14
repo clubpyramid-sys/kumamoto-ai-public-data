@@ -61,13 +61,14 @@ def publish_x(config_path: Path, no_push: bool = False) -> int:
     )
     status_path = ROOT / status_rel
 
-    payload = import_hermes_x(ROOT, config)
+    existing = load_json(target, {})
+    previous_items = existing.get("items", []) if isinstance(existing, dict) else []
+    payload = import_hermes_x(ROOT, config, previous_items=previous_items)
     payload["source"] = dict(config.get("source") or payload.get("source") or {})
     payload["collection_method"] = str(
         config.get("collection_method") or payload.get("collection_method") or "Hermes Agent with Grok"
     )
 
-    existing = load_json(target, {})
     sources = load_json(ROOT / "config" / "sources.json", {})
     drop_error = suspicious_drop(existing, payload, sources.get("safety", {}))
     if drop_error:
