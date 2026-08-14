@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-14T09:07:10.057539+09:00",
+  "generated_at": "2026-08-14T09:49:43.691489+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3301,7 +3301,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-14T09:07:10.174839+09:00",
+    "generated_at": "2026-08-14T09:49:43.826599+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3378,7 +3378,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-14T10:07:10.174839+09:00",
+        "next_run_at": "2026-08-14T10:49:43.826599+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
