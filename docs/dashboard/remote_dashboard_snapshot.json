@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-14T08:40:51.451956+09:00",
+  "generated_at": "2026-08-14T09:07:10.057539+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1846,9 +1846,15 @@
   "sns": {
     "x_accounts": [
       {
-        "handle": "@SEA_PYRAMID",
-        "url": "https://x.com/SEA_PYRAMID/status/2087094687580799228",
-        "latest_at": "2026-08-11T17:32:04+09:00",
+        "handle": "@club_kumamoto",
+        "url": "https://x.com/club_kumamoto/status/2085314155750563908",
+        "latest_at": "2026-08-06T19:36:52+09:00",
+        "weekly_count": 0
+      },
+      {
+        "handle": "@kumamonsupport",
+        "url": "https://x.com/kumamonsupport/status/2086970137346011306",
+        "latest_at": "2026-08-11T09:17:09+09:00",
         "weekly_count": 1
       },
       {
@@ -1858,16 +1864,22 @@
         "weekly_count": 1
       },
       {
-        "handle": "@kumamonsupport",
-        "url": "https://x.com/kumamonsupport/status/2086970137346011306",
-        "latest_at": "2026-08-11T09:17:09+09:00",
-        "weekly_count": 1
+        "handle": "@kumamoto_luna",
+        "url": "https://x.com/kumamoto_luna/status/2079963984812487033",
+        "latest_at": "2026-07-23T01:17:12+09:00",
+        "weekly_count": 0
       },
       {
-        "handle": "@club_kumamoto",
-        "url": "https://x.com/club_kumamoto/status/2085314155750563908",
-        "latest_at": "2026-08-06T19:36:52+09:00",
+        "handle": "@kumamotodeai",
+        "url": "https://x.com/kumamotodeai/status/2081950136398401985",
+        "latest_at": "2026-07-28T12:49:27+09:00",
         "weekly_count": 0
+      },
+      {
+        "handle": "@SEA_PYRAMID",
+        "url": "https://x.com/SEA_PYRAMID/status/2087094687580799228",
+        "latest_at": "2026-08-11T17:32:04+09:00",
+        "weekly_count": 1
       },
       {
         "handle": "@CLUB_PYRAMID",
@@ -1879,18 +1891,6 @@
         "handle": "@STARLIGHT_CAFE_",
         "url": "https://x.com/STARLIGHT_CAFE_/status/2083129576625254652",
         "latest_at": "2026-07-31T18:56:08+09:00",
-        "weekly_count": 0
-      },
-      {
-        "handle": "@kumamotodeai",
-        "url": "https://x.com/kumamotodeai/status/2081950136398401985",
-        "latest_at": "2026-07-28T12:49:27+09:00",
-        "weekly_count": 0
-      },
-      {
-        "handle": "@kumamoto_luna",
-        "url": "https://x.com/kumamoto_luna/status/2079963984812487033",
-        "latest_at": "2026-07-23T01:17:12+09:00",
         "weekly_count": 0
       }
     ],
@@ -3301,7 +3301,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-14T08:40:51.559333+09:00",
+    "generated_at": "2026-08-14T09:07:10.174839+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3360,7 +3360,7 @@
         "status": "scheduled_wait",
         "cadence_label": "毎日09:00・17:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-14T09:00:00+09:00",
+        "next_run_at": "2026-08-14T17:00:00+09:00",
         "last_success_at": null,
         "last_result_summary": "定時レポート待機",
         "consecutive_failures": 0,
@@ -3378,7 +3378,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-14T09:40:51.559333+09:00",
+        "next_run_at": "2026-08-14T10:07:10.174839+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
