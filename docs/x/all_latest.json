@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-15T15:03:46+09:00",
+  "last_source_update_at": "2026-08-15T21:04:32+09:00",
   "items": [
+    {
+      "id": "2088511611791446408",
+      "title": "女性会員さんからリクエストがありましたので 20日の木曜日も開催しますよ😉",
+      "text": "女性会員さんからリクエストがありましたので 20日の木曜日も開催しますよ😉",
+      "url": "https://x.com/kumamonsupport/status/2088511611791446408",
+      "handle": "kumamonsupport",
+      "display_name": "KSC",
+      "published_at": "2026-08-15T06:22:25Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2088451543838388654",
       "title": "https://t.co/jMTivf4ON5",
@@ -1101,21 +1113,9 @@
       "is_reply": false,
       "is_repost": false,
       "media": []
-    },
-    {
-      "id": "1283308261790240769",
-      "title": "熊本県では、熊本県内のボランティアの方を対象に、被災地支援を目的とした、熊本市発着の災害ボランティアバスの運行をスタートします。 被災地の復旧に当たっては、今後",
-      "text": "熊本県では、熊本県内のボランティアの方を対象に、被災地支援を目的とした、熊本市発着の災害ボランティアバスの運行をスタートします。 被災地の復旧に当たっては、今後も多くのボランティアの方々の力が必要です。 県民のパワーを結集し、被災地を支えましょう。https://t.co/mY1XV6Glvr pic.twitter.com/1oWm6eXm8M",
-      "url": "https://x.com/kumamonsupport/status/1283308261790240769",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2020-07-15T07:51:46Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
     }
   ],
   "item_count": 80,
-  "content_hash": "4e21ea647006fc81936f46fb0b61834c6e50c101b6d161e70869848917fadf4a",
-  "generated_at": "2026-08-15T06:03:47Z"
+  "content_hash": "96628e4d2975a76f40083b53d88b5540bb6571c6006b5890fbd45a14b5c9b8ac",
+  "generated_at": "2026-08-15T12:04:32Z"
 }
