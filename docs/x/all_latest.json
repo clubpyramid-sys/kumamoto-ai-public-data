@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-15T00:04:05+09:00",
+  "last_source_update_at": "2026-08-15T15:03:46+09:00",
   "items": [
+    {
+      "id": "2088451543838388654",
+      "title": "https://t.co/jMTivf4ON5",
+      "text": "https://t.co/jMTivf4ON5",
+      "url": "https://x.com/club_kumamoto/status/2088451543838388654",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-15T02:23:44Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2088145710688731571",
       "title": "氷の入ったカフェオレ、写真を撮る前に溶けきっていた。まあ、そういう日。 今夜は特別な予定がない。だからこそ、耳たぶのピアスだけ変えてみた。理由はない。気分だけ。",
@@ -335,18 +347,6 @@
           "url": "https://video.twimg.com/amplify_video/2080855150189834240/vid/avc1/688x464/z0aM9zz_mjpHRf9h.mp4?tag=25"
         }
       ]
-    },
-    {
-      "id": "2080828922758132208",
-      "title": "7月30日の木曜日に西銀座通りのBARで開催です🎤 最初は女子会ですが途中から男性会員さんも参加OKの通常開催になる想定です😉参加してみたい方は当日の投稿にご注",
-      "text": "7月30日の木曜日に西銀座通りのBARで開催です🎤 最初は女子会ですが途中から男性会員さんも参加OKの通常開催になる想定です😉参加してみたい方は当日の投稿にご注目を👍🏻",
-      "url": "https://x.com/club_kumamoto/status/2080828922758132208",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-25T01:34:09Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
     },
     {
       "id": "2080723783078543719",
@@ -1116,6 +1116,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "fb7d44300b800d8d8e0865fd1d0b1f0e9ae68380bff0cb4f10b0dde8a841c941",
-  "generated_at": "2026-08-14T15:04:05Z"
+  "content_hash": "4e21ea647006fc81936f46fb0b61834c6e50c101b6d161e70869848917fadf4a",
+  "generated_at": "2026-08-15T06:03:47Z"
 }
