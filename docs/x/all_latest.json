@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-15T21:04:32+09:00",
+  "last_source_update_at": "2026-08-16T15:01:58+09:00",
   "items": [
+    {
+      "id": "2088835539252490444",
+      "title": "🎭 9月15日（火）・16日（水） 2日間連続で開催します✨ 今回は「伯爵・九州帰還記念」。 9月15日（火）夕方から、17日（木）明け方までを予定しています。",
+      "text": "🎭 9月15日（火）・16日（水） 2日間連続で開催します✨ 今回は「伯爵・九州帰還記念」。 9月15日（火）夕方から、17日（木）明け方までを予定しています。 時間に追われず、お茶や食事を楽しんだり、ゆっくり話したり、休んだりしながら、それぞれのペースで過ごせる会にしたいと思っています😊… pic.twitter.com/HNU5Ce6haA",
+      "url": "https://x.com/club_kumamoto/status/2088835539252490444",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-16T03:49:35Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2088511611791446408",
       "title": "女性会員さんからリクエストがありましたので 20日の木曜日も開催しますよ😉",
@@ -340,23 +352,6 @@
         {
           "type": "image",
           "url": "https://pbs.twimg.com/media/HODK7LrbQAAsOyB.jpg?name=orig"
-        }
-      ]
-    },
-    {
-      "id": "2080855227763458189",
-      "title": "🎭 7月30日（木） 西銀座通り BAR開催 最初はカラオケ女子会からスタート🎤 途中から男性会員さんも参加OKの通常開催に切り替わる予定です。 西銀座の夜の灯",
-      "text": "🎭 7月30日（木） 西銀座通り BAR開催 最初はカラオケ女子会からスタート🎤 途中から男性会員さんも参加OKの通常開催に切り替わる予定です。 西銀座の夜の灯りが少し深くなる頃、 仮面をまとい、いつもの日常を少しだけ置いてきた人たちが集まる空間。 音楽、グラスの音、そしてカラオケの歌声。 にぎやかさの中で、ふっと心がほどける時間を一緒につくりましょう。 会員の方も、初めての方も歓迎です。 女性の方も男性の方も、性別を問わずお待ちしています。 途中参加・途中退出も大丈夫。 ご都合のよい時間に、ご自身のペースでお越しください。 自由に、でも節度を大切に。 にぎやかに、でも無理なく。 参加希望の方はDMにてご連絡ください。 詳しい時間と場所は、参加予定の方へ個別にご案内します。 木曜の夜は、まだ終わらない。 仮面の奥で、歌って、話して、熊本の夜を少しだけ遊びましょう🎭✨ #熊本 #西銀座 #マスカレード #カラオケ #熊本イベント #大人の夜 #秘密クラブ #仮面 #交流 #夜の熊本",
-      "url": "https://x.com/club_kumamoto/status/2080855227763458189",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-25T03:18:41Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2080855150189834240/vid/avc1/688x464/z0aM9zz_mjpHRf9h.mp4?tag=25"
         }
       ]
     },
@@ -1116,6 +1111,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "96628e4d2975a76f40083b53d88b5540bb6571c6006b5890fbd45a14b5c9b8ac",
-  "generated_at": "2026-08-15T12:04:32Z"
+  "content_hash": "6a7332df836aafd853798211c59fd7a369b1f589bce827e98bb4319d59306433",
+  "generated_at": "2026-08-16T06:01:58Z"
 }
