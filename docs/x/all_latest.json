@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-16T21:05:55+09:00",
+  "last_source_update_at": "2026-08-17T15:05:10+09:00",
   "items": [
+    {
+      "id": "2089170688078905839",
+      "title": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。",
+      "text": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。… pic.twitter.com/bpILINIZRd",
+      "url": "https://x.com/club_kumamoto/status/2089170688078905839",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-17T02:01:21Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2088943755152031942",
       "title": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。",
@@ -473,18 +485,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-07-26T09:20:08Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2081289560810775004",
-      "title": "https://t.co/G4Ybu5izYp",
-      "text": "https://t.co/G4Ybu5izYp",
-      "url": "https://x.com/club_kumamoto/status/2081289560810775004",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-26T08:04:34Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1063,6 +1063,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "9301fb9c0f9e80271c4245dd1d8a599511199f1076e470e67c4e454628f8bad1",
-  "generated_at": "2026-08-16T12:05:56Z"
+  "content_hash": "51ec6a0705a022bb5425d963b82512c84dc0b9fda069de5bced5b292b85a7dae",
+  "generated_at": "2026-08-17T06:05:10Z"
 }
