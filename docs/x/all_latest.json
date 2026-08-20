@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-17T15:05:10+09:00",
+  "last_source_update_at": "2026-08-20T15:03:34+09:00",
   "items": [
+    {
+      "id": "2090290961297596894",
+      "title": "さて本日も行動開始しますか😊 https://t.co/qojMe9CajF",
+      "text": "さて本日も行動開始しますか😊 https://t.co/qojMe9CajF",
+      "url": "https://x.com/K_Ero_Gentleman/status/2090290961297596894",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-08-20T04:12:55Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2089170688078905839",
       "title": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。",
@@ -521,18 +533,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-07-24T14:10:17Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2080653663660585351",
-      "title": "女性の皆さまコスチュームチェンジ😍",
-      "text": "女性の皆さまコスチュームチェンジ😍",
-      "url": "https://x.com/K_Ero_Gentleman/status/2080653663660585351",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-07-24T13:57:44Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1063,6 +1063,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "51ec6a0705a022bb5425d963b82512c84dc0b9fda069de5bced5b292b85a7dae",
-  "generated_at": "2026-08-17T06:05:10Z"
+  "content_hash": "8d95b268c17a71ce48b9a46377124e4e386df589f5be7d6adb59728b032d0b92",
+  "generated_at": "2026-08-20T06:03:34Z"
 }
