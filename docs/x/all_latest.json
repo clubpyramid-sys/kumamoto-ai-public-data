@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-21T15:02:44+09:00",
+  "last_source_update_at": "2026-08-22T15:04:02+09:00",
   "items": [
+    {
+      "id": "2091036435277336948",
+      "title": "🎭 8月26日（水）九品寺にて開催します✨ 今回は夕方からスタートし、翌27日（木）の明け方までを予定しています。 仕事帰りに立ち寄ったり、夜からゆっくり参加し",
+      "text": "🎭 8月26日（水）九品寺にて開催します✨ 今回は夕方からスタートし、翌27日（木）の明け方までを予定しています。 仕事帰りに立ち寄ったり、夜からゆっくり参加したり、その日の都合に合わせてお越しください😊 最初から最後までいる必要はなく、途中参加・途中退出も自由です。… pic.twitter.com/ffKrrfGpjq",
+      "url": "https://x.com/club_kumamoto/status/2091036435277336948",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-22T05:35:10Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2091033758258598124",
+      "title": "この夜も、プロ指導の集団マッサージがもたらした心地よい触れ合いと、安心の上に成り立つ自由な時間が、参加者それぞれの記憶にしっかりと刻まれた。 https://t",
+      "text": "この夜も、プロ指導の集団マッサージがもたらした心地よい触れ合いと、安心の上に成り立つ自由な時間が、参加者それぞれの記憶にしっかりと刻まれた。 https://t.co/ch6YudGm35",
+      "url": "https://x.com/club_kumamoto/status/2091033758258598124",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-22T05:24:32Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2090529416036372912",
       "title": "本日も無事解散及び撤収完了🫡",
@@ -509,30 +533,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-07-27T03:24:31Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2081309640806326342",
-      "title": "pic.twitter.com/n3XxmGgpKV",
-      "text": "pic.twitter.com/n3XxmGgpKV",
-      "url": "https://x.com/club_kumamoto/status/2081309640806326342",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-26T09:24:21Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2081308576509984965",
-      "title": "🎤7月28日（火）21:00〜23:00、西銀座通りのBARで熊本秘密クラブをプレ開催🎭 カラオケもあります。男性・女性・その他、性別を問わず、初参加の方も歓迎",
-      "text": "🎤7月28日（火）21:00〜23:00、西銀座通りのBARで熊本秘密クラブをプレ開催🎭 カラオケもあります。男性・女性・その他、性別を問わず、初参加の方も歓迎です😊 途中参加・途中退出OK。参加希望はDMへ📩 pic.twitter.com/TlQHUGbCcg",
-      "url": "https://x.com/club_kumamoto/status/2081308576509984965",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-26T09:20:08Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1063,6 +1063,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "86628f725d50deb1713b25e5caa7c44ce258a40fa2360afed4b43ac17f143b5a",
-  "generated_at": "2026-08-21T06:02:44Z"
+  "content_hash": "ba66ba370d776046aea17f0f20e094d01b352f6a9ff103cfcbba05eebae0265e",
+  "generated_at": "2026-08-22T06:04:03Z"
 }
