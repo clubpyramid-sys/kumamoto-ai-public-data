@@ -7,7 +7,7 @@
     "url": "https://x.com/SEA_PYRAMID"
   },
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
-  "last_source_update_at": "2026-08-16T05:03:22+09:00",
+  "last_source_update_at": "2026-08-25T05:02:57+09:00",
   "items": [
     {
       "id": "2087094687580799228",
@@ -346,6 +346,18 @@
       "media": []
     },
     {
+      "id": "1805898859333509344",
+      "title": "何か親近感 近いもの感じる",
+      "text": "何か親近感 近いもの感じる",
+      "url": "https://x.com/kumamotodeai/status/1805898859333509344",
+      "handle": "kumamotodeai",
+      "display_name": "熊本変態淑女の会🎭",
+      "published_at": "2024-06-26T09:40:14Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
       "id": "1805894965727465976",
       "title": "人間社会めんどうくさい 猫になりたい ねえ、猫もはだかだよ？ https://t.co/Q4pu7eO65M",
       "text": "人間社会めんどうくさい 猫になりたい ねえ、猫もはだかだよ？ https://t.co/Q4pu7eO65M",
@@ -394,25 +406,13 @@
       "media": []
     },
     {
-      "id": "1805869537352642681",
-      "title": "皆んながすぐ下半身出してくるから 私が天女か夜の蝶🦋にならなきゃいけなくなるの 私も人間どうし、人どうしで 強いところも、弱いところも共有して仲良くなりたい h",
-      "text": "皆んながすぐ下半身出してくるから 私が天女か夜の蝶🦋にならなきゃいけなくなるの 私も人間どうし、人どうしで 強いところも、弱いところも共有して仲良くなりたい https://t.co/SJKc8VqnNW",
-      "url": "https://x.com/kumamotodeai/status/1805869537352642681",
+      "id": "1805869923413246394",
+      "title": "男の子は性欲 女の子は対抗心 ねえ....気づいて 仲良くしたいだけの子がここにいるよ",
+      "text": "男の子は性欲 女の子は対抗心 ねえ....気づいて 仲良くしたいだけの子がここにいるよ",
+      "url": "https://x.com/kumamotodeai/status/1805869923413246394",
       "handle": "kumamotodeai",
       "display_name": "熊本変態淑女の会🎭",
-      "published_at": "2024-06-26T07:43:43Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "1805865408781762958",
-      "title": "年齢も性別も容姿も問わないです 純粋な人と精神的に愛し合いたい https://t.co/SJKc8VqnNW",
-      "text": "年齢も性別も容姿も問わないです 純粋な人と精神的に愛し合いたい https://t.co/SJKc8VqnNW",
-      "url": "https://x.com/kumamotodeai/status/1805865408781762958",
-      "handle": "kumamotodeai",
-      "display_name": "熊本変態淑女の会🎭",
-      "published_at": "2024-06-26T07:27:19Z",
+      "published_at": "2024-06-26T07:45:15Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -491,6 +491,6 @@
     }
   ],
   "item_count": 40,
-  "content_hash": "a66d413d911890d5a3c603cf96d1aa4cec0bca4e7927cdffe5d1be0afc255464",
-  "generated_at": "2026-08-15T20:03:22Z"
+  "content_hash": "da81a87307a22de6e1487396cc6144d255c2a7b7bcd58eb5e28d6c9d97480dbc",
+  "generated_at": "2026-08-24T20:02:58Z"
 }
