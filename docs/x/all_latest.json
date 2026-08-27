@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-27T00:02:13+09:00",
+  "last_source_update_at": "2026-08-27T15:03:19+09:00",
   "items": [
+    {
+      "id": "2092661860525023245",
+      "title": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
+      "text": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
+      "url": "https://x.com/kumamonsupport/status/2092661860525023245",
+      "handle": "kumamonsupport",
+      "display_name": "KSC",
+      "published_at": "2026-08-26T17:14:01Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2092661023170003280",
+      "title": "本日も無事終了👍🏻 洗濯物🧺も捗る https://t.co/yaBHBhFikt",
+      "text": "本日も無事終了👍🏻 洗濯物🧺も捗る https://t.co/yaBHBhFikt",
+      "url": "https://x.com/K_Ero_Gentleman/status/2092661023170003280",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-08-26T17:10:42Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2092621659337609369",
       "title": "5人目の女性の方も先ほど来られて 楽しまれてます❤️ https://t.co/yaBHBhFikt",
@@ -305,18 +329,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-08-20T14:02:50Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2090439294091706423",
-      "title": "まもなく4人目の女性の方と カップルさんがお越しかな😉",
-      "text": "まもなく4人目の女性の方と カップルさんがお越しかな😉",
-      "url": "https://x.com/K_Ero_Gentleman/status/2090439294091706423",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-20T14:02:20Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1043,26 +1055,9 @@
       "is_reply": false,
       "is_repost": false,
       "media": []
-    },
-    {
-      "id": "2062908411650662423",
-      "title": "https://t.co/8aKciCZXBA",
-      "text": "https://t.co/8aKciCZXBA",
-      "url": "https://x.com/kumamonsupport/status/2062908411650662423",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-06-05T14:44:26Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HKDsQ8pbIAAByr-.jpg?name=orig"
-        }
-      ]
     }
   ],
   "item_count": 80,
-  "content_hash": "784ceae7c70939b04ccfd620c1978300db87328a64a73d63c1bd46644f7ab032",
-  "generated_at": "2026-08-26T15:02:14Z"
+  "content_hash": "e0b90539721e1cfc3a323587c26565fde1423920262d91cf4d3ee0b7a3eeb549",
+  "generated_at": "2026-08-27T06:03:20Z"
 }
