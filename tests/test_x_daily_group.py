@@ -85,6 +85,7 @@ class XDailyGroupTests(unittest.TestCase):
         import run_fetch_x_daily_with_hermes as module
         module.configure_daily_pipeline()
         self.assertEqual(module.fetch_x_with_hermes.RAW_COUNTS_PATH.name, "hermes_daily_raw_counts.json")
+        self.assertEqual(module.fetch_x_with_hermes.RAW_ITEMS_PATH.name, "hermes_daily_raw_latest.json")
 
     def test_unpublished_target_is_detected_without_staging(self) -> None:
         import subprocess

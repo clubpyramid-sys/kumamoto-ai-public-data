@@ -13,6 +13,7 @@ CONFIG_PATH = ROOT / "config" / "x_sources_daily.json"
 INPUT_PATH = ROOT / "runtime" / "x" / "hermes_daily_latest.json"
 STATUS_PATH = ROOT / "runtime" / "x" / "hermes_daily_fetch_status.json"
 RAW_COUNTS_PATH = ROOT / "runtime" / "x" / "hermes_daily_raw_counts.json"
+RAW_ITEMS_PATH = ROOT / "runtime" / "x" / "hermes_daily_raw_latest.json"
 
 
 def configure_daily_pipeline() -> None:
@@ -22,6 +23,7 @@ def configure_daily_pipeline() -> None:
     fetch_x_with_hermes.INPUT_PATH = INPUT_PATH
     fetch_x_with_hermes.STATUS_PATH = STATUS_PATH
     fetch_x_with_hermes.RAW_COUNTS_PATH = RAW_COUNTS_PATH
+    fetch_x_with_hermes.RAW_ITEMS_PATH = RAW_ITEMS_PATH
 
     run_fetch_x_with_hermes._DISCOVERY_PASS_PENDING = True
     fetch_x_with_hermes.extract_json = run_fetch_x_with_hermes.extract_verified_x_search_payload
@@ -55,7 +57,7 @@ def validate_account_coverage(
 def fetch_accounts(
     handles: list[str],
     per_account_limit: int,
-) -> tuple[list[dict[str, Any]], Counter[str]]:
+) -> tuple[list[dict[str, Any]], Counter[str], list[dict[str, Any]]]:
     """Fetch one group and reset the one-time oEmbed discovery pass."""
 
     allowed = {handle.lower(): handle for handle in handles}
@@ -70,6 +72,7 @@ def fetch_accounts(
     return (
         fetch_x_with_hermes.normalize_items(raw_items, allowed),
         Counter(fetch_x_with_hermes.raw_response_counts(raw_items, allowed)),
+        fetch_x_with_hermes.sanitize_raw_items(raw_items, allowed),
     )
 
 
@@ -95,7 +98,7 @@ def main() -> int:
         previous_payload.get("items", []) if isinstance(previous_payload, dict) else []
     )
 
-    fresh_items, raw_counts = fetch_accounts(accounts, per_account_limit)
+    fresh_items, raw_counts, raw_items = fetch_accounts(accounts, per_account_limit)
     first_counts = Counter(item["handle"] for item in fresh_items)
     missing_initial = [handle for handle in accounts if first_counts[handle] == 0]
 
@@ -105,9 +108,12 @@ def main() -> int:
         for handle in missing_initial:
             retried_accounts.append(handle)
             try:
-                retried_items, retried_raw_counts = fetch_accounts([handle], per_account_limit)
+                retried_items, retried_raw_counts, retried_raw_items = fetch_accounts(
+                    [handle], per_account_limit
+                )
                 fresh_items.extend(retried_items)
                 raw_counts.update(retried_raw_counts)
+                raw_items.extend(retried_raw_items)
             except Exception as exc:
                 retry_errors[handle] = f"{type(exc).__name__}: {exc}"
 
@@ -164,6 +170,15 @@ def main() -> int:
             "captured_at": fetch_x_with_hermes.now_jst_iso(),
             "raw_response_item_count": sum(raw_counts.values()),
             "per_account_raw_response_count": dict(raw_counts),
+        },
+    )
+    fetch_x_with_hermes.atomic_write_json(
+        RAW_ITEMS_PATH,
+        {
+            "schema_version": "1.0",
+            "captured_at": fetch_x_with_hermes.now_jst_iso(),
+            "source": "Hermes public X search",
+            "items": raw_items,
         },
     )
     fetch_x_with_hermes.write_status(

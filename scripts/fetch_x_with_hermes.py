@@ -19,6 +19,7 @@ INPUT_PATH = ROOT / "runtime" / "x" / "hermes_latest.json"
 PUBLIC_FALLBACK_PATH = ROOT / "docs" / "x" / "all_latest.json"
 STATUS_PATH = ROOT / "runtime" / "x" / "hermes_fetch_status.json"
 RAW_COUNTS_PATH = ROOT / "runtime" / "x" / "hermes_raw_counts.json"
+RAW_ITEMS_PATH = ROOT / "runtime" / "x" / "hermes_raw_latest.json"
 JST = timezone(timedelta(hours=9))
 ANSI_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
 
@@ -114,12 +115,7 @@ def canonical_handle(value: Any, allowed: dict[str, str]) -> str | None:
 
 
 def raw_response_counts(raw_items: Any, allowed: dict[str, str]) -> dict[str, int]:
-    """Count the provider response before enrichment without persisting it.
-
-    The provider payload is intentionally never written to disk: it can carry
-    implementation metadata.  Per-account counts are sufficient to diagnose
-    whether loss happened before or after normalisation.
-    """
+    """Count the provider response before enrichment."""
     counts: Counter[str] = Counter()
     if not isinstance(raw_items, list):
         return dict(counts)
@@ -133,6 +129,63 @@ def raw_response_counts(raw_items: Any, allowed: dict[str, str]) -> dict[str, in
         )
         counts[handle or "_unclassified"] += 1
     return dict(counts)
+
+
+RAW_PUBLIC_FIELDS = (
+    "id",
+    "post_id",
+    "tweet_id",
+    "handle",
+    "account",
+    "username",
+    "display_name",
+    "name",
+    "published_at",
+    "created_at",
+    "date",
+    "text",
+    "content",
+    "url",
+    "post_url",
+    "is_reply",
+    "is_repost",
+    "is_retweet",
+    "media",
+    "media_urls",
+)
+
+
+def sanitize_raw_items(raw_items: Any, allowed: dict[str, str]) -> list[dict[str, Any]]:
+    """Keep only public post fields needed to diagnose pre-normalisation loss."""
+
+    if not isinstance(raw_items, list):
+        return []
+    result: list[dict[str, Any]] = []
+    for raw in raw_items:
+        if not isinstance(raw, dict):
+            continue
+        handle = canonical_handle(
+            raw.get("handle") or raw.get("account") or raw.get("username"),
+            allowed,
+        )
+        if not handle:
+            continue
+        item = {key: raw[key] for key in RAW_PUBLIC_FIELDS if key in raw}
+        item["handle"] = handle
+        result.append(item)
+    return result
+
+
+def write_raw_capture(raw_items: Any, allowed: dict[str, str]) -> None:
+    atomic_write_json(
+        RAW_ITEMS_PATH,
+        {
+            "schema_version": "1.0",
+            "captured_at": now_jst_iso(),
+            "source": "Hermes public X search",
+            "items": sanitize_raw_items(raw_items, allowed),
+        },
+    )
 
 
 def parse_timestamp(value: Any) -> str | None:
@@ -405,6 +458,7 @@ def main() -> int:
             "per_account_raw_response_count": response_counts,
         },
     )
+    write_raw_capture(raw_items, allowed)
     fresh_items = normalize_items(raw_items, allowed)
     previous_normalized = merge_items([], previous_items, allowed, per_account_limit, total_limit)
     merged, missing, retained = resolve_x_refresh(

@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_x_with_hermes as module
-from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, raw_response_counts, resolve_x_refresh
+from fetch_x_with_hermes import build_per_account_results, extract_json, merge_items, normalize_items, raw_response_counts, resolve_x_refresh, sanitize_raw_items
 from import_hermes_x import import_hermes_x
 
 
@@ -64,6 +64,24 @@ class HermesXFetcherTests(unittest.TestCase):
             raw_response_counts(records, self.allowed),
             {"club_kumamoto": 1, "_unclassified": 2},
         )
+
+    def test_raw_capture_keeps_only_allowlisted_public_fields(self) -> None:
+        records = [
+            {
+                "id": "123",
+                "handle": "@club_kumamoto",
+                "text": "公開投稿",
+                "url": "https://x.com/club_kumamoto/status/123",
+                "provider_trace": "must-not-be-saved",
+                "token": "must-not-be-saved",
+            },
+            {"id": "124", "handle": "unknown", "text": "対象外"},
+        ]
+        captured = sanitize_raw_items(records, self.allowed)
+        self.assertEqual(len(captured), 1)
+        self.assertEqual(captured[0]["handle"], "club_kumamoto")
+        self.assertNotIn("provider_trace", captured[0])
+        self.assertNotIn("token", captured[0])
 
     def test_standard_config_has_its_own_publish_status_path(self) -> None:
         import json
