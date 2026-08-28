@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-08-29T04:39:46+09:00",
   "items": [
+    {
+      "id": "2093414189541069029",
+      "title": "本日も女性の方々を送り届けて 無事解散👍🏻 今夜は少人数でまったりな会でした😉",
+      "text": "本日も女性の方々を送り届けて 無事解散👍🏻 今夜は少人数でまったりな会でした😉",
+      "url": "https://x.com/K_Ero_Gentleman/status/2093414189541069029",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-08-28T19:03:31Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2093328544114045343",
       "title": "深夜にお久しぶりの 弩Mの女性の方が ご参加予定です💕",
@@ -341,18 +353,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-08-20T20:00:27Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2090493858199302484",
-      "title": "本日の功労賞の女性をお送りする 途中で🍲沖縄料理😋",
-      "text": "本日の功労賞の女性をお送りする 途中で🍲沖縄料理😋",
-      "url": "https://x.com/K_Ero_Gentleman/status/2090493858199302484",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-20T17:39:09Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "e77dc35e82e6ae1c2524e4559d4ec11c4d7083634dafece5a7ede79744a1debd",
-  "generated_at": "2026-08-28T15:03:06Z"
+  "content_hash": "5ef4b8882af181dd0c15d00c7abadbf402fc9a9e916c8fa79c644850ef81f52b",
+  "generated_at": "2026-08-28T19:39:46Z"
 }
