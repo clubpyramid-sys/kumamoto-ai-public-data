@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T04:39:46+09:00",
+  "last_source_update_at": "2026-08-29T06:11:21+09:00",
   "items": [
     {
       "id": "2093414189541069029",
@@ -358,6 +358,18 @@
       "media": []
     },
     {
+      "id": "2090301423112339936",
+      "title": "この後、会場へ向かいま😉",
+      "text": "この後、会場へ向かいま😉",
+      "url": "https://x.com/club_kumamoto/status/2090301423112339936",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-20T04:54:29Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
       "id": "2089170688078905839",
       "title": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。",
       "text": "🎭【熊本秘密クラブ 開催のご案内】 まず直近では、8月20日（木）に熊本・上通りで開催します✨ 午後から明け方までを予定しており、途中参加・途中退出も自由です。… pic.twitter.com/bpILINIZRd",
@@ -545,18 +557,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-08-03T02:47:08Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2082606510014939569",
-      "title": "開催を予定していた会場の片付けが間に合わなさそうなので本日の開催は延期とさせていただきます🙇🏻‍♂️近々、改めてご案内させていただきます👍🏻 https://t",
-      "text": "開催を予定していた会場の片付けが間に合わなさそうなので本日の開催は延期とさせていただきます🙇🏻‍♂️近々、改めてご案内させていただきます👍🏻 https://t.co/iEhTK7i7p8",
-      "url": "https://x.com/club_kumamoto/status/2082606510014939569",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-07-29T23:17:39Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "5ef4b8882af181dd0c15d00c7abadbf402fc9a9e916c8fa79c644850ef81f52b",
-  "generated_at": "2026-08-28T19:39:46Z"
+  "content_hash": "6a64162a95ddb526189839862664f115061daee682919e04fd283f2712b2dfd9",
+  "generated_at": "2026-08-28T21:11:37Z"
 }
