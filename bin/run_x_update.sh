@@ -50,8 +50,11 @@ if [[ "$CURRENT_BRANCH" != "main" ]]; then
   exit 1
 fi
 
+"$ROOT/.venv/bin/python" "$ROOT/scripts/public_git_sync.py" "$ROOT"
+
 "$ROOT/.venv/bin/python" "$ROOT/scripts/run_fetch_x_with_hermes.py"
 "$ROOT/.venv/bin/python" "$ROOT/scripts/publish_x.py"
+"$ROOT/.venv/bin/python" "$ROOT/scripts/public_git_sync.py" "$ROOT"
 "$ROOT/.venv/bin/python" "$ROOT/scripts/write_x_pipeline_audit.py" \
   --config "$ROOT/config/x_sources.json" \
   --fetch-status "$ROOT/runtime/x/hermes_fetch_status.json" \

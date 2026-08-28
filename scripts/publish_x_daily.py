@@ -10,7 +10,7 @@ from typing import Any
 
 from common import atomic_write_json, load_json, now_iso, prepare_payload
 from import_hermes_x import import_hermes_x
-from publish_git import publish_isolated
+from publish_git import publish_file_isolated
 from validate import suspicious_drop, validate_source_payload
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,20 +79,28 @@ def publish_x(config_path: Path, no_push: bool = False) -> int:
     if errors:
         raise RuntimeError(" / ".join(errors))
 
+    candidate = ROOT / "runtime" / "x" / f"{output_rel.name}.publish-candidate.json"
     if changed:
         if target.exists():
             timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
             backup = ROOT / "backups" / timestamp / output_rel
             backup.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(target, backup)
-        atomic_write_json(target, prepared)
+        atomic_write_json(candidate, prepared)
 
     git_config = dict(sources.get("git", {}))
     if no_push:
         git_config["auto_push"] = False
-    publish_required = changed or target_has_unpublished_change(ROOT, target)
+    legacy_unpublished = target_has_unpublished_change(ROOT, target)
+    publish_required = changed or legacy_unpublished
+    source = candidate if changed else target
     git_result = (
-        publish_isolated(ROOT, git_config, paths=[str(Path("docs") / output_rel)])
+        publish_file_isolated(
+            ROOT,
+            source,
+            str(Path("docs") / output_rel),
+            git_config,
+        )
         if publish_required
         else {"status": "no_changes"}
     )

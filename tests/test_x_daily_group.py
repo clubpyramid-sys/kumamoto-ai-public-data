@@ -103,6 +103,17 @@ class XDailyGroupTests(unittest.TestCase):
             target.write_text('{"value":"new"}\n', encoding="utf-8")
             self.assertTrue(target_has_unpublished_change(root, target))
 
+    def test_publish_uses_runtime_candidate_without_dirtying_tracked_feed(self) -> None:
+        source = (ROOT / "scripts/publish_x_daily.py").read_text(encoding="utf-8")
+        self.assertIn("publish-candidate.json", source)
+        self.assertIn("publish_file_isolated", source)
+        self.assertNotIn("atomic_write_json(target, prepared)", source)
+
+    def test_runners_sync_before_and_after_isolated_publish(self) -> None:
+        for name in ("run_x_update.sh", "run_x_daily_update.sh"):
+            source = (ROOT / "bin" / name).read_text(encoding="utf-8")
+            self.assertEqual(source.count("scripts/public_git_sync.py"), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
