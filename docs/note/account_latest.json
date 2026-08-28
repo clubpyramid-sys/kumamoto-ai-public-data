@@ -9,6 +9,127 @@
   },
   "items": [
     {
+      "id": "ne75487c38b45",
+      "title": "2026年熊本地震の現場から――10年前の経験は、私たちに何を残したのか｜水、在宅避難、支援物資、AI。西原村で交わされた対話から考える「次の復興」のかたち",
+      "url": "https://note.com/club_pyramid/n/ne75487c38b45",
+      "published_at": "2026-08-24T23:29:52+09:00",
+      "summary": "2026年8月、熊本は再び大きな地震に見舞われました。 2016年の熊本地震から、ちょうど10年。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306690605/rectangle_large_type_2_798c5661ca03471c720ef9e69178f601.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nba138b712dc6",
+      "title": "「国債の金利は年利？」から見えてきた日本経済の深い構造――経世済民、再分配、AI・ロボット時代の新しい社会へ",
+      "url": "https://note.com/club_pyramid/n/nba138b712dc6",
+      "published_at": "2026-08-24T09:58:20+09:00",
+      "summary": "最初は、本当に単純な疑問だった。 「国債の金利は年利なのか？」 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306466999/rectangle_large_type_2_ced283e368fb4a95af9711a1da7bd6b6.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nd5a6f2e4ecea",
+      "title": "「小さなブログを作るだけ」のはずが、AIと一緒に自前CMSまで作ってしまった話",
+      "url": "https://note.com/club_pyramid/n/nd5a6f2e4ecea",
+      "published_at": "2026-08-23T12:21:22+09:00",
+      "summary": "最初は、そんな大げさなものを作るつもりではなかった。 あるコミュニティサイトに、開催情報や開催後のレポート、ちょっとした読み物を掲載できる、小さなブログ機能が欲しかっただけだ。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306171145/rectangle_large_type_2_c62d6fbb5556f198703cf54f4f6807cc.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n1dcd8992745f",
+      "title": "AI時代の「デジタル考古学」──何十TBもの忘れられたデータを、AIで再発見する",
+      "url": "https://note.com/club_pyramid/n/n1dcd8992745f",
+      "published_at": "2026-08-22T12:13:05+09:00",
+      "summary": "気がつけば、HDDやSSDが何台も増えていた。 昔の写真。動画。Webサイトのバックアップ。仕事の資料。イベントの記録。制作途中のファイル。完成したデータ。旧Macからコピーしたフォルダ。念のため残したZIP。そして、「たぶんどこかに残っているはず」のファイルたち。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/305848647/rectangle_large_type_2_f97ff6b455e5a82bea1d613fd60eea4d.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n9fe7678211b5",
+      "title": "Grokを使い潰さない。Hermes AgentのBOT MODEで「AI編集部」を作ってみた",
+      "url": "https://note.com/club_pyramid/n/n9fe7678211b5",
+      "published_at": "2026-08-18T10:14:41+09:00",
+      "summary": "最近、Grokをかなり頻繁に使うようになった。とくにX（Twitter）との相性はよく、リアルタイム検索、短い投稿文の発想、トレンドを踏まえた言葉選び、少しクセのある文章へのリライトなどでは非常に使いやすい。しかし便利だからと何でもGrokに任せていると、当然ながら週間の利用制限がどんどん減っていく。実際、私の環境では一時期、週間利用枠がほぼ上限に近いところまで到達し、「本当にGrokを使いたい仕事が残っているのに、その前段階の単純作業で利用枠を消費している」という状況になっていた。 そこで考えたのが、Hermes AgentのBOT MODEを中心に仕事そのものを分解し、Grokにしかできない仕事だけをGrokへ残し、それ以外の大部分をMac Studio上のローカルAIへ移す方法だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304601045/rectangle_large_type_2_238f5f9d88fa4dbf36df925d210d5fdf.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nd4044906ee03",
+      "title": "Codexだけでは足りなかった――TailscaleでMac Studioを「どこからでも操作できるAI母艦」にした",
+      "url": "https://note.com/club_pyramid/n/nd4044906ee03",
+      "published_at": "2026-08-18T10:07:41+09:00",
+      "summary": "2026年に入ってから、AIを使った仕事のやり方は急速に「チャットで質問する」段階から、「自分のコンピューター上でAIエージェントに実際の仕事をさせる」段階へ移ってきた。私自身もMac StudioをAI処理の母艦として使い、Codex、Google Antigravity、Hermes Agent、OllamaによるローカルAI、各種Pythonスクリプト、Web開発環境などを動かすようになっているのだが、ここで一つ大きな問題が出てきた。それは、AIが賢くなればなるほど、逆に「そのAIが動いているMacそのものへ、いつでもどこからでもアクセスしたい」という要求が強くなってくることである。 OpenAIのCodexについては、この問題がかなり早い段階で解決された。現在のChatGPTモバイルアプリにはRemote機能があり、接続されたMacやWindows上で動いているChatGPTやCodexの作業を、iPhoneやiPadから確認し、指示を追加し、承認し、作業を継続できる。OpenAI自身も「Codexをどこからでも使う」という方向を明確に打ち出しており、モバイル端末から接続先コン",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304599793/rectangle_large_type_2_cdc94f078dd1de178993e240a87a977c.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n33045dfa633c",
+      "title": "Webサイト更新はChatGPT、Webシステム開発はCodex Sites、仕上げと本番移植はAntigravity｜BiNDからレンタルサーバーへ移ると見えてきた、AI時代のWeb制作の新しい分業",
+      "url": "https://note.com/club_pyramid/n/n33045dfa633c",
+      "published_at": "2026-08-18T08:45:32+09:00",
+      "summary": "ここしばらく、既存Webサイトのリニューアル、ブログ機能の自前CMS化、地域イベント情報アプリ、公開データの整理など、いくつものWeb案件をAIと一緒に進めながら、「ChatGPT、Codex、Antigravityをどう分担させると一番速いのか」を実際の作業で試してきました。その結果、かなりはっきりしてきたことがあります。 普通のWebサイトを更新する仕事と、新しいWebシステムやWebアプリを作る仕事は、同じ「Web制作」と呼ばれていても、AIの使い方を分けた方がいい。そしてさらに、そのWebアプリを現在契約しているレンタルサーバーへ組み込み、長期運用できる形へ仕上げる仕事も、別の工程として考えた方がいい。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304582200/rectangle_large_type_2_f04e06ba497576b191c8485ffa409fc3.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n284d49d910a2",
+      "title": "自由消費が蒸発する社会――人は「楽しさ」ではなく「正気を保つため」に金を使う",
+      "url": "https://note.com/club_pyramid/n/n284d49d910a2",
+      "published_at": "2026-08-18T08:37:36+09:00",
+      "summary": "日本経済について語るとき、GDPが何％伸びた、実質賃金が何％下がった、物価が何％上昇した、個人消費が何％減った、といった数字が並ぶ。しかし、長く街の商売や人の動きを見ていると、こうしたマクロの数字と、飲食店、旅行、イベント、夜の街、娯楽、趣味、ファッションなどの現場で感じる景気との間には、ときに説明がつかないほど大きな開きがある。経済全体では数％しか悪化していないはずなのに、街では「客が半分になった」「人がまったく動かない」「以前なら埋まっていたイベントが成立しない」ということが起こる。この違和感を考えているうちに、経済全体の平均値を見るのではなく、家計の中にある「絶対に払わなければならない金」と「削ろうと思えば削れる金」を分けて考えた方が、今の日本で起きていることをはるかにうまく説明できるのではないかと思うようになった。 仮に一つの家計の支出を100とし、そのうち80が家賃、住宅ローン、税金、社会保険料、電気、ガス、水道、通信、最低限の食費、移動費、保険、車の維持費といった、短期間には簡単に削れない支出だったとする。残りの20が、外食、旅行、飲み会、イベント、服、美容、趣味、レジャー",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304580787/rectangle_large_type_2_7ed99f3f5adc9694cf7a32a4332e3cd0.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n1220d79cc197",
+      "title": "『VIVANT』が先取りする「ポスト戦後日本」――なぜアメリカは消え、日本は自分の目・耳・脳を持ち始めたのか",
+      "url": "https://note.com/club_pyramid/n/n1220d79cc197",
+      "published_at": "2026-08-17T09:27:52+09:00",
+      "summary": "2026年の『VIVANT』第2シーズンを見ていて、どうにも拭えない奇妙な感覚がある。もちろん、物語そのものが荒唐無稽だからという意味ではない。自衛隊の非公認情報組織「別班」が存在し、日本人工作員が世界中を飛び回り、公安と協力したり対立したりしながら、外国の情報機関や秘密組織と渡り合う。そこだけ取り出せば大型国際スパイドラマとして理解できる。だが、第2シーズンまで追っていくと、どうもそれだけではない。この作品が描いている日本は、私たちがこれまで知ってきた「戦後日本」と少し違うのである。 一番大きな違和感は、アメリカの存在感があまりにも薄いことだ。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304270910/rectangle_large_type_2_c9a2c3cf3de24916a1d96e07cfebce49.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n895027c2f948",
+      "title": "外山恒一事件を4つのAIに分析させたら、「共同体の寿命」が見えてきた｜ChatGPT、Grok、Fable5、Gemini――2026年のAIは複雑な人間事件をどこまで読み解けるのか",
+      "url": "https://note.com/club_pyramid/n/n895027c2f948",
+      "published_at": "2026-08-16T18:53:43+09:00",
+      "summary": "外山恒一氏をめぐって2024年から2026年にかけて起きた一連の出来事について調べ始めた当初、私はこれを外山氏個人の判断や対人関係の問題として分析していた。しかし本人のnote、獄中声明、公判関連の文章、過去の活動史、周辺人物の公開発信などを集めていくにつれて、どうもそれだけでは説明がつかないと感じるようになった。政治運動の問題として見ると見えるものがある一方で見えなくなるものがあり、人間関係の破綻として見ると別のものが浮かぶが、それだけでは教養強化合宿という教育システム、BARという物理的な場、若い参加者同士のネットワーク、外山氏自身の文章力、政治運動特有の言語文化、さらに警察・検察・裁判所という外部制度までを一つの説明に収めることができない。 そこで途中から発想を変え、「一つのAIに正解を出させる」のではなく、性格も得意分野も違う複数のAIに同じ事件を別々の角度から分析させ、その回答同士を衝突させてみることにした。使ったのはChatGPT、Grok、Fable5、Geminiである。GeminiについてはWeb全体を調べるDeep Researchだけでなく、これまで集めた本人資料",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304094827/rectangle_large_type_2_5a46ae15244832603d02585975d1a231.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nb4522b13dd09",
+      "title": "AIは「勉強してから使うもの」ではない――学校で身についた学び方が、AI時代の壁になる",
+      "url": "https://note.com/club_pyramid/n/nb4522b13dd09",
+      "published_at": "2026-08-15T16:12:12+09:00",
+      "summary": "AIの話をしていると、「自分も使ってみたいけれど、まず勉強しないといけないですね」と言う人がいる。 とても真面目な言葉なのだけれど、私は最近、この「まず勉強しなければならない」という感覚そのものが、AIを使ううえでは少し邪魔になるのではないかと思うようになった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/303716703/rectangle_large_type_2_acdf161fcbc77cd4cd9d121b019fa32c.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "nc5c830f6df09",
       "title": "ローカルAIを「性能表」ではなく「チーム」として使う｜5モデルを実際に働かせて見えてきた、AI人事配置の考え方",
       "url": "https://note.com/club_pyramid/n/nc5c830f6df09",
@@ -106,130 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nd83b0331e85d",
-      "title": "知識がなくても、AIで月額100円台のホームページを持てる時代｜100GBの自分専用スペースと、月数百円の独自ドメイン",
-      "url": "https://note.com/club_pyramid/n/nd83b0331e85d",
-      "published_at": "2026-08-03T22:59:30+09:00",
-      "summary": "少し前まで、ホームページを持つには、それなりの知識かお金が必要だった。 HTMLやCSSを勉強する。 WordPressを設定する。 制作会社へ数十万円を払う。 毎月の管理費や更新料を払い続ける。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/300185086/rectangle_large_type_2_917d0176ae51eadb79cff3d899ed9d0d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n60e0da090bb6",
-      "title": "AI時代の本当の資産は「コンテキスト」である――同じAIを使っても、会社ごとに成果が違う理由",
-      "url": "https://note.com/club_pyramid/n/n60e0da090bb6",
-      "published_at": "2026-08-03T10:10:36+09:00",
-      "summary": "生成AIの性能は、驚くほど速い速度で進化している。 文章を書く。画像を作る。資料をまとめる。プログラムを書く。データを分析する。複数のツールを操作し、業務を自動化する。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299986276/rectangle_large_type_2_f5ab1bcb46019fb77da869fda2207313.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "ne48ec8af81c1",
-      "title": "社内AI人材を育てるなら、最初に何を任せるべきか――失敗しても会社が止まらない仕事から始める",
-      "url": "https://note.com/club_pyramid/n/ne48ec8af81c1",
-      "published_at": "2026-08-03T09:24:40+09:00",
-      "summary": "AIを導入する企業が増える一方で、「導入したものの、現場に定着しない」という話も少なくありません。 経営者が新しいAIサービスを契約した。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299978893/rectangle_large_type_2_c7fdc87dba8f1e365c01660b1796f881.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "ncbd324035e7e",
-      "title": "AI自動化は外注すべきか――本当に必要なのは、社内に「AI化できる人」を育てることではないか",
-      "url": "https://note.com/club_pyramid/n/ncbd324035e7e",
-      "published_at": "2026-08-02T21:36:30+09:00",
-      "summary": "AIを使って業務を自動化する会社が増えている。 問い合わせ対応、文章作成、集計、経理、顧客管理、Web更新、社内資料の作成。これまで人間が時間をかけていた仕事をAIに任せれば、少人数でも大きな成果を出せる。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299865974/rectangle_large_type_2_3bfae5553deef7507954b5a44f5fd077.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n6a249d06edaf",
-      "title": "2026 熊本地震――復興か、縮小再編か｜社会、経済、政治への影響を読む",
-      "url": "https://note.com/club_pyramid/n/n6a249d06edaf",
-      "published_at": "2026-08-01T16:00:06+09:00",
-      "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299459236/rectangle_large_type_2_484b52d91164b8809a6d0d74110f0c4d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n8c01f7227efb",
-      "title": "第3部 公開お困りごと相談",
-      "url": "https://note.com/club_pyramid/n/n8c01f7227efb",
-      "published_at": "2026-07-31T13:04:35+09:00",
-      "summary": "あなたの仕事から、AIに任せる部分を見つける 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299101201/rectangle_large_type_2_836bd202eb3419a303ae126a8968eb55.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "nb64c69aeafdc",
-      "title": "第2部 AI実践ショーケース",
-      "url": "https://note.com/club_pyramid/n/nb64c69aeafdc",
-      "published_at": "2026-07-31T12:50:21+09:00",
-      "summary": "NotebookLMに記録された生の実践事例 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299096284/rectangle_large_type_2_2f2d951398d2509fa2c16a7b528dabea.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "nca62fcf5e065",
-      "title": "第1部 AIエージェント基礎講座",
-      "url": "https://note.com/club_pyramid/n/nca62fcf5e065",
-      "published_at": "2026-07-31T12:28:48+09:00",
-      "summary": "AIエージェントを実務担当者に変える「コンテキスト」の作り方 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/299091233/rectangle_large_type_2_cad748c7fd3d940ab8fb8a98acf3d7b8.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n478720d19d58",
-      "title": "日本の断層――熊本・有明海から見る光と暗部｜災厄、反乱、産業、救済、そして「壊れても生き続ける文明」へ",
-      "url": "https://note.com/club_pyramid/n/n478720d19d58",
-      "published_at": "2026-07-30T14:27:12+09:00",
-      "summary": "熊本には、地面の下にも、歴史の下にも、いくつもの断層が走っている。 世界最大級の阿蘇カルデラ。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298828884/rectangle_large_type_2_3a60421dd7ca9b01ad7192a639333659.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n7b4723dbec93",
-      "title": "AIを増やしたら、次に必要になったのは「司令塔」だった",
-      "url": "https://note.com/club_pyramid/n/n7b4723dbec93",
-      "published_at": "2026-07-30T07:55:01+09:00",
-      "summary": "AI｜WEB｜SNS Progress Dashboard制作記 AIを使い始めた頃は、文章を書かせたり、画像を作らせたり、Webサイトを修正させたりするだけで十分だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298740494/rectangle_large_type_2_a36e0496116df5bee26cf224e5ff24d6.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "nb7a0d72c6846",
-      "title": "月額数千円で、個人事業者の「AI要塞」ができてしまった｜ChatGPT、Gemini、Grok、5TBストレージ、動画生成、6人分のAI環境まで含めた新しい事業基盤",
-      "url": "https://note.com/club_pyramid/n/nb7a0d72c6846",
-      "published_at": "2026-07-28T05:18:02+09:00",
-      "summary": "少し前まで、AIを本格的に仕事へ導入するには、かなりの費用が必要だと思っていた。 高性能なAIを使う。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/298153451/rectangle_large_type_2_0ba5dd02a6b6652b5adafdfd52367466.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "c8a5dfc7f4095ac92338639ed6d7b04239424f218934dfd61cfafbd0e494b15a",
-  "generated_at": "2026-08-12T06:01:32Z"
+  "content_hash": "0791efd496a522cddadeafdc8a4638471f6f643667754142872d11d00cc5fe69",
+  "generated_at": "2026-08-28T03:50:38Z"
 }
