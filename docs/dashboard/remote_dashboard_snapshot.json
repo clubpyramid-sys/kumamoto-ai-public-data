@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T05:56:37+09:00",
+  "generated_at": "2026-08-29T06:13:30+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -956,8 +956,8 @@
       },
       "x": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T05:55:30+09:00",
-        "last_success_at": "2026-08-29T05:55:30+09:00",
+        "last_attempt_at": "2026-08-29T06:11:21+09:00",
+        "last_success_at": "2026-08-29T06:11:21+09:00",
         "message": "更新完了",
         "error_code": ""
       },
