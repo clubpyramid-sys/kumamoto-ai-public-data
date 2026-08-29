@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-30T08:05:27.283826+09:00",
+  "generated_at": "2026-08-30T08:17:30.157564+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3102,18 +3102,18 @@
       }
     ],
     "collection": {
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
-      "retrieved": 47,
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "failed": 0,
-      "status": "success",
-      "source": "web_last_known_good",
-      "http_available": 47,
-      "reject_count": 0,
-      "attempted": 47,
+      "target_sites": 47,
       "retained_previous": 0,
+      "retrieved": 47,
       "http_unavailable": 0,
-      "target_sites": 47
+      "http_available": 47,
+      "source": "web_last_known_good",
+      "attempted": 47,
+      "status": "success",
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "failed": 0,
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
+      "reject_count": 0
     }
   },
   "project_portfolio": {
@@ -3360,7 +3360,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:05:27.850817+09:00",
+    "generated_at": "2026-08-30T08:17:33.781409+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3369,8 +3369,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 3,
+      "running": 3,
+      "scheduled_wait": 2,
       "unknown": 0,
       "warning": 0
     },
@@ -3437,7 +3437,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T09:05:27.850817+09:00",
+        "next_run_at": "2026-08-30T09:17:33.781409+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3470,7 +3470,7 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "15分周期",
         "last_run_at": "2026-08-13T06:13:10.241161+09:00",
         "next_run_at": "2026-08-13T06:28:10.241161+09:00",
@@ -3487,7 +3487,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:05:23+09:00",
+    "generated_at": "2026-08-30T08:05:32+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
