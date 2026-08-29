@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T21:32:03.149225+09:00",
+  "generated_at": "2026-08-29T21:44:32.640938+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3104,18 +3104,18 @@
       }
     ],
     "collection": {
-      "failed": 0,
       "source": "web_last_known_good",
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "retained_previous": 0,
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
+      "failed": 0,
+      "http_available": 47,
+      "reject_count": 0,
+      "attempted": 47,
       "retrieved": 47,
       "target_sites": 47,
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
-      "http_available": 47,
       "status": "success",
-      "attempted": 47,
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "reject_count": 0,
-      "http_unavailable": 0,
-      "retained_previous": 0
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -3288,12 +3288,12 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-27T08:33:22.244885+09:00",
+    "generated_at": "2026-08-29T21:43:48.549044+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
       "available": 3,
-      "warning": 3,
+      "warning": 1,
       "limit_reached": 0,
       "unknown": 0
     },
@@ -3302,19 +3302,19 @@
         "service": "codex",
         "display_name": "Codex",
         "status": "available",
-        "weekly_remaining_percent": 77,
-        "weekly_reset_at": "2026-08-20T13:30:00+09:00",
-        "credits_remaining": 0,
-        "captured_at": "2026-08-14T05:20:00+09:00",
+        "weekly_remaining_percent": 41,
+        "weekly_reset_at": "2026-09-04T11:50:00+09:00",
+        "credits_remaining": 223,
+        "captured_at": "2026-08-29T21:43:04+09:00",
         "capture_method": "chrome_dom",
-        "update_state": "waiting",
-        "freshness": "stale",
+        "update_state": "ready",
+        "freshness": "fresh",
         "source_label": "自動／Usage画面",
         "verified": true,
-        "collection_status": "waiting",
-        "last_success_at": "2026-08-14T05:20:00+09:00",
-        "last_attempt_at": "2026-08-27T08:33:22+09:00",
-        "failure_reason": "Chrome拡張の次回取得待ち"
+        "collection_status": "active",
+        "last_success_at": "2026-08-29T21:43:04+09:00",
+        "last_attempt_at": "2026-08-29T21:43:46+09:00",
+        "failure_reason": null
       },
       {
         "service": "antigravity",
@@ -3322,20 +3322,20 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 93,
-        "gemini_five_hour_remaining_percent": 83,
-        "claude_gpt_weekly_remaining_percent": 86,
+        "gemini_weekly_remaining_percent": 13,
+        "gemini_five_hour_remaining_percent": 95,
+        "claude_gpt_weekly_remaining_percent": 33,
         "claude_gpt_five_hour_remaining_percent": 100,
-        "captured_at": "2026-08-10T00:35:47+09:00",
+        "captured_at": "2026-08-29T21:43:31+09:00",
         "capture_method": "electron_cdp_dom",
-        "update_state": "failed",
-        "freshness": "stale",
+        "update_state": "ready",
+        "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
-        "collection_status": "failed",
-        "last_success_at": "2026-08-10T00:35:47+09:00",
-        "last_attempt_at": "2026-08-27T05:30:09+09:00",
-        "failure_reason": "Antigravity画面の応答がありません"
+        "collection_status": "active",
+        "last_success_at": "2026-08-29T21:43:31+09:00",
+        "last_attempt_at": "2026-08-29T21:43:31+09:00",
+        "failure_reason": null
       },
       {
         "service": "grok",
@@ -3355,14 +3355,14 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-08-01T14:21:51+09:00",
-        "last_attempt_at": "2026-08-27T08:33:22+09:00",
+        "last_attempt_at": "2026-08-29T21:43:46+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       }
     ]
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T21:32:10.025734+09:00",
+    "generated_at": "2026-08-29T21:44:35.887268+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3371,8 +3371,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 2,
-      "scheduled_wait": 3,
+      "running": 1,
+      "scheduled_wait": 4,
       "unknown": 0,
       "warning": 0
     },
@@ -3439,7 +3439,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-29T22:32:10.025734+09:00",
+        "next_run_at": "2026-08-29T22:44:35.887268+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3472,7 +3472,7 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "15分周期",
         "last_run_at": "2026-08-13T06:13:10.241161+09:00",
         "next_run_at": "2026-08-13T06:28:10.241161+09:00",
@@ -3489,26 +3489,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T21:31:35+09:00",
+    "generated_at": "2026-08-29T21:44:11+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T21:15:09+09:00",
-        "last_success_at": "2026-08-29T21:15:09+09:00",
+        "last_attempt_at": "2026-08-29T21:31:44+09:00",
+        "last_success_at": "2026-08-29T21:31:44+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T21:15:10+09:00",
-        "last_success_at": "2026-08-29T21:15:10+09:00",
+        "last_attempt_at": "2026-08-29T21:31:44+09:00",
+        "last_success_at": "2026-08-29T21:31:44+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T21:15:10+09:00",
-        "last_success_at": "2026-08-29T21:15:10+09:00",
+        "last_attempt_at": "2026-08-29T21:31:44+09:00",
+        "last_success_at": "2026-08-29T21:31:44+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3542,8 +3542,8 @@
       },
       "ai_usage": {
         "state": "completed",
-        "last_attempt_at": "2026-08-14T05:20:00+09:00",
-        "last_success_at": "2026-08-14T05:20:00+09:00",
+        "last_attempt_at": "2026-08-29T21:43:31+09:00",
+        "last_success_at": "2026-08-29T21:43:31+09:00",
         "message": "一部更新。前回値を保持しているサービスがあります",
         "error_code": "ai_usage_partial"
       }
