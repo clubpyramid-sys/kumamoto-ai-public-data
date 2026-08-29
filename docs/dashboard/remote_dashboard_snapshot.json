@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-30T08:48:01.933545+09:00",
+  "generated_at": "2026-08-30T08:56:49.324976+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3102,23 +3102,23 @@
       }
     ],
     "collection": {
-      "status": "success",
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
-      "retrieved": 47,
-      "http_unavailable": 0,
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "reject_count": 0,
       "target_sites": 47,
-      "source": "web_last_known_good",
-      "failed": 0,
-      "attempted": 47,
+      "status": "success",
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
       "http_available": 47,
-      "retained_previous": 0
+      "http_unavailable": 0,
+      "retained_previous": 0,
+      "attempted": 47,
+      "failed": 0,
+      "reject_count": 0,
+      "source": "web_last_known_good",
+      "retrieved": 47,
+      "started_at": "2026-08-29T16:24:45.921090+09:00"
     }
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:35:58+09:00",
+    "generated_at": "2026-08-30T08:56:44+09:00",
     "data_state": "partial",
     "summary": {
       "blocked": 0,
@@ -3162,7 +3162,7 @@
         "public_summary": "複数AIの正本管理基盤を運用中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-AI-WEB-SNS-PROGRESS-DASHBOARD",
@@ -3188,7 +3188,7 @@
         "public_summary": "AI・WEB・SNSの進捗を所有者限定で確認するダッシュボード",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-AZITO",
@@ -3213,7 +3213,7 @@
         "public_summary": "AZITO 3.0 の公開準備を進行中",
         "source_state": "stale",
         "source_last_modified_at": "2026-07-29T21:19:51+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-COSANOSTRA-JP",
@@ -3237,7 +3237,7 @@
         "public_summary": "cosanostra.jp の公開サイトを保守中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-SECRET-CLUB-JP",
@@ -3261,7 +3261,7 @@
         "public_summary": "KSC Web Site の公開サイトを保守中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTOEVENT-COM",
@@ -3285,7 +3285,7 @@
         "public_summary": "kumamotoevent.com の公開サイトを保守中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-AI-LABORATORY",
@@ -3309,7 +3309,7 @@
         "public_summary": "熊本AI研究所のWeb知識基盤を制作準備中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-08-30T08:35:58+09:00"
+        "collected_at": "2026-08-30T08:56:44+09:00"
       }
     ]
   },
@@ -3389,7 +3389,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:48:02.320452+09:00",
+    "generated_at": "2026-08-30T08:56:49.544925+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3398,8 +3398,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 3,
-      "scheduled_wait": 2,
+      "running": 2,
+      "scheduled_wait": 3,
       "unknown": 0,
       "warning": 0
     },
@@ -3466,7 +3466,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T09:48:02.320452+09:00",
+        "next_run_at": "2026-08-30T09:56:49.544925+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3483,9 +3483,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "毎日05:15",
-        "last_run_at": "2026-08-30T08:35:58+09:00",
+        "last_run_at": "2026-08-30T08:56:44+09:00",
         "next_run_at": "2026-08-31T05:15:00+09:00",
-        "last_success_at": "2026-08-30T08:35:58+09:00",
+        "last_success_at": "2026-08-30T08:56:44+09:00",
         "last_result_summary": "7プロジェクト収集",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3499,7 +3499,7 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "running",
+        "status": "scheduled_wait",
         "cadence_label": "15分周期",
         "last_run_at": "2026-08-13T06:13:10.241161+09:00",
         "next_run_at": "2026-08-13T06:28:10.241161+09:00",
@@ -3516,26 +3516,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:36:12+09:00",
+    "generated_at": "2026-08-30T08:56:46+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T08:32:43+09:00",
-        "last_success_at": "2026-08-30T08:32:43+09:00",
+        "last_attempt_at": "2026-08-30T08:47:57+09:00",
+        "last_success_at": "2026-08-30T08:47:57+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T08:32:43+09:00",
-        "last_success_at": "2026-08-30T08:32:43+09:00",
+        "last_attempt_at": "2026-08-30T08:47:57+09:00",
+        "last_success_at": "2026-08-30T08:47:57+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T08:32:43+09:00",
-        "last_success_at": "2026-08-30T08:32:43+09:00",
+        "last_attempt_at": "2026-08-30T08:47:58+09:00",
+        "last_success_at": "2026-08-30T08:47:58+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3548,8 +3548,8 @@
       },
       "ai_agent": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T08:35:58+09:00",
-        "last_success_at": "2026-08-30T08:35:58+09:00",
+        "last_attempt_at": "2026-08-30T08:56:44+09:00",
+        "last_success_at": "2026-08-30T08:56:44+09:00",
         "message": "収集完了。1件の正本は状態確認が必要です",
         "error_code": ""
       },
