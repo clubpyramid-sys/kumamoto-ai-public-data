@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T18:19:59.656908+09:00",
+  "generated_at": "2026-08-29T18:35:56.231209+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -44,11 +44,10 @@
       "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "cache",
-      "conversation_count": 713,
-      "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
-      "data_state": "unmatched",
+      "source": "not_found",
       "matched_projects": 0,
+      "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
+      "data_state": "unavailable",
       "unmatched_projects": 0,
       "exact_matches": 0,
       "fuzzy_matches": 0,
@@ -75,9 +74,9 @@
     },
     "chat_update_meta": {
       "match_logic_version": "chat-project-match-v1",
-      "archive_conversations": 713,
-      "archive_update_time_count": 713,
-      "archive_latest_update": "2026-01-12T07:15:21.682579+09:00",
+      "archive_conversations": 0,
+      "archive_update_time_count": 0,
+      "archive_latest_update": "",
       "matched_update_project_rows": 0,
       "unmatched_update_project_rows": 0,
       "matched_update_unique_projects": 0,
@@ -1367,18 +1366,18 @@
       }
     ],
     "collection": {
-      "http_available": 47,
       "status": "success",
-      "http_unavailable": 0,
       "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "attempted": 47,
+      "retrieved": 47,
       "retained_previous": 0,
-      "reject_count": 0,
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
       "failed": 0,
+      "attempted": 47,
+      "http_available": 47,
       "source": "web_last_known_good",
       "target_sites": 47,
-      "retrieved": 47
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "reject_count": 0,
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -1625,7 +1624,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T18:20:00.038245+09:00",
+    "generated_at": "2026-08-29T18:36:00.623998+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -1702,7 +1701,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-29T19:20:00.038245+09:00",
+        "next_run_at": "2026-08-29T19:36:00.623998+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -1752,26 +1751,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T18:19:53+09:00",
+    "generated_at": "2026-08-29T18:35:28+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T18:04:24+09:00",
-        "last_success_at": "2026-08-29T18:04:24+09:00",
+        "last_attempt_at": "2026-08-29T18:19:54+09:00",
+        "last_success_at": "2026-08-29T18:19:54+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T18:04:24+09:00",
-        "last_success_at": "2026-08-29T18:04:24+09:00",
+        "last_attempt_at": "2026-08-29T18:19:55+09:00",
+        "last_success_at": "2026-08-29T18:19:55+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T18:04:25+09:00",
-        "last_success_at": "2026-08-29T18:04:25+09:00",
+        "last_attempt_at": "2026-08-29T18:19:55+09:00",
+        "last_success_at": "2026-08-29T18:19:55+09:00",
         "message": "更新完了",
         "error_code": ""
       },
