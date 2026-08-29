@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T23:59:11.446630+09:00",
+  "generated_at": "2026-08-30T00:17:33.591222+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3102,18 +3102,18 @@
       }
     ],
     "collection": {
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
-      "status": "success",
-      "http_unavailable": 0,
       "reject_count": 0,
+      "attempted": 47,
       "target_sites": 47,
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
       "retrieved": 47,
-      "source": "web_last_known_good",
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
       "retained_previous": 0,
+      "source": "web_last_known_good",
+      "status": "success",
       "http_available": 47,
       "failed": 0,
-      "attempted": 47
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -3360,7 +3360,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T23:59:11.990075+09:00",
+    "generated_at": "2026-08-30T00:17:40.406627+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3369,8 +3369,8 @@
       "error": 0,
       "healthy": 0,
       "manual": 0,
-      "running": 1,
-      "scheduled_wait": 4,
+      "running": 2,
+      "scheduled_wait": 3,
       "unknown": 0,
       "warning": 0
     },
@@ -3437,7 +3437,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T00:59:11.990075+09:00",
+        "next_run_at": "2026-08-30T01:17:40.406627+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3470,11 +3470,11 @@
         "display_name": "Remote Dashboard公開JSON更新",
         "category": "publishing",
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "15分周期",
         "last_run_at": "2026-08-13T06:13:10.241161+09:00",
         "next_run_at": "2026-08-13T06:28:10.241161+09:00",
-        "last_success_at": "2026-08-13T06:13:10.241161+09:00",
+        "last_success_at": null,
         "last_result_summary": "公開JSON生成済み",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -3487,7 +3487,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T23:58:50+09:00",
+    "generated_at": "2026-08-30T00:03:00+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -3525,16 +3525,16 @@
         "error_code": ""
       },
       "ai_chat": {
-        "state": "running",
-        "last_attempt_at": "2026-08-29T23:57:17+09:00",
-        "last_success_at": "2026-07-31T17:17:53.342796+09:00",
-        "message": "更新中",
+        "state": "completed",
+        "last_attempt_at": "2026-08-29T23:58:40+09:00",
+        "last_success_at": "2026-08-29T23:58:40+09:00",
+        "message": "更新完了",
         "error_code": ""
       },
       "x": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T21:11:49+09:00",
-        "last_success_at": "2026-08-29T21:11:49+09:00",
+        "last_attempt_at": "2026-08-30T00:02:54+09:00",
+        "last_success_at": "2026-08-30T00:02:54+09:00",
         "message": "更新完了",
         "error_code": ""
       },
