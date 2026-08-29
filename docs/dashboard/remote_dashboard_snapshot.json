@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T06:13:30+09:00",
+  "generated_at": "2026-08-29T09:46:19.906368+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -44,9 +44,8 @@
       "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "conversations_json",
+      "source": "cache",
       "conversation_count": 713,
-      "archive_update_time_count": 713,
       "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
       "data_state": "unmatched",
       "matched_projects": 0,
@@ -110,72 +109,7 @@
     "projects": []
   },
   "sns": {
-    "x_accounts": [
-      {
-        "handle": "club_kumamoto",
-        "url": "https://x.com/club_kumamoto/status/2093203972307992745",
-        "latest_post_id": "2093203972307992745",
-        "latest_at": "2026-08-28T05:08:11Z",
-        "weekly_count": 7,
-        "state": "updated"
-      },
-      {
-        "handle": "kumamonsupport",
-        "url": "https://x.com/kumamonsupport/status/2092661860525023245",
-        "latest_post_id": "2092661860525023245",
-        "latest_at": "2026-08-26T17:14:01Z",
-        "weekly_count": 2,
-        "state": "updated"
-      },
-      {
-        "handle": "K_Ero_Gentleman",
-        "url": "https://x.com/K_Ero_Gentleman/status/2093414189541069029",
-        "latest_post_id": "2093414189541069029",
-        "latest_at": "2026-08-28T19:03:31Z",
-        "weekly_count": 19,
-        "state": "updated"
-      },
-      {
-        "handle": "kumamoto_luna",
-        "url": "https://x.com/kumamoto_luna/status/2088145710688731571",
-        "latest_post_id": "2088145710688731571",
-        "latest_at": "2026-08-14T06:08:27Z",
-        "weekly_count": 0,
-        "state": "updated"
-      },
-      {
-        "handle": "kumamotodeai",
-        "url": "https://x.com/kumamotodeai/status/2081950136398401985",
-        "latest_post_id": "2081950136398401985",
-        "latest_at": "2026-07-28T03:49:27Z",
-        "weekly_count": 0,
-        "state": "updated"
-      },
-      {
-        "handle": "SEA_PYRAMID",
-        "url": "https://x.com/SEA_PYRAMID/status/2087094687580799228",
-        "latest_post_id": "2087094687580799228",
-        "latest_at": "2026-08-11T08:32:04Z",
-        "weekly_count": 0,
-        "state": "updated"
-      },
-      {
-        "handle": "CLUB_PYRAMID",
-        "url": "https://x.com/CLUB_PYRAMID/status/2083521510829089170",
-        "latest_post_id": "2083521510829089170",
-        "latest_at": "2026-08-01T11:53:32Z",
-        "weekly_count": 0,
-        "state": "updated"
-      },
-      {
-        "handle": "STARLIGHT_CAFE_",
-        "url": "https://x.com/STARLIGHT_CAFE_/status/2083129576625254652",
-        "latest_post_id": "2083129576625254652",
-        "latest_at": "2026-07-31T09:56:08Z",
-        "weekly_count": 0,
-        "state": "updated"
-      }
-    ],
+    "x_accounts": [],
     "youtube_account": {
       "name": "CLUB PYRAMID",
       "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
@@ -541,7 +475,7 @@
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-28T05:15:06+09:00",
+    "generated_at": "2026-08-29T05:15:32+09:00",
     "summary": {
       "blocked": 0,
       "completed": 0,
@@ -783,7 +717,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-28T12:50:55.067221+09:00",
+    "generated_at": "2026-08-29T09:46:20.539925+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -792,8 +726,8 @@
       "error": 1,
       "healthy": 0,
       "manual": 0,
-      "running": 1,
-      "scheduled_wait": 3,
+      "running": 2,
+      "scheduled_wait": 2,
       "unknown": 0,
       "warning": 0
     },
@@ -839,10 +773,10 @@
         "display_name": "メール日次レポート",
         "category": "reporting",
         "related_project": "OpenClawメールレポート",
-        "status": "scheduled_wait",
+        "status": "running",
         "cadence_label": "毎日09:00・17:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-28T17:00:00+09:00",
+        "next_run_at": "2026-08-29T17:00:00+09:00",
         "last_success_at": null,
         "last_result_summary": "定時レポート待機",
         "consecutive_failures": 0,
@@ -860,7 +794,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-28T13:50:55.067221+09:00",
+        "next_run_at": "2026-08-29T10:46:20.539925+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -877,9 +811,9 @@
         "related_project": "AI｜WEB｜SNS Progress Dashboard",
         "status": "scheduled_wait",
         "cadence_label": "毎日05:15",
-        "last_run_at": "2026-08-28T05:15:06+09:00",
-        "next_run_at": "2026-08-29T05:15:00+09:00",
-        "last_success_at": "2026-08-28T05:15:06+09:00",
+        "last_run_at": "2026-08-29T05:15:32+09:00",
+        "next_run_at": "2026-08-30T05:15:00+09:00",
+        "last_success_at": "2026-08-29T05:15:32+09:00",
         "last_result_summary": "7プロジェクト収集",
         "consecutive_failures": 0,
         "progress_current": null,
@@ -910,7 +844,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-28T12:50:45+09:00",
+    "generated_at": "2026-08-29T09:46:11+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
@@ -921,8 +855,8 @@
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-28T12:50:42+09:00",
-        "last_success_at": "2026-08-28T12:50:42+09:00",
+        "last_attempt_at": "2026-08-29T09:46:03+09:00",
+        "last_success_at": "2026-08-29T09:46:03+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -942,8 +876,8 @@
       },
       "ai_agent": {
         "state": "completed",
-        "last_attempt_at": "2026-08-28T05:15:06+09:00",
-        "last_success_at": "2026-08-28T05:15:06+09:00",
+        "last_attempt_at": "2026-08-29T05:15:32+09:00",
+        "last_success_at": "2026-08-29T05:15:32+09:00",
         "message": "更新完了",
         "error_code": ""
       },
