@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-29T23:27:28.099608+09:00",
+  "generated_at": "2026-08-29T23:45:05.323132+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -35,19 +35,18 @@
     },
     "projects_meta": {
       "count": 52,
-      "source": "last_known_good",
+      "source": "dashboard_snapshot",
       "selected_document": "dashboard_snapshot.json",
       "selected_path": "$.workstreams",
       "sanitizer_version": "project-public-safe-v3.9",
       "policy_mode": "sanitized-auto",
       "publication_detector_version": "publication-status-v3",
-      "publication_registry_entries": 0,
-      "data_state": "stale",
-      "retained_previous": true
+      "publication_registry_entries": 0
     },
     "conversation_length_meta": {
-      "source": "cache",
+      "source": "conversations_json",
       "conversation_count": 978,
+      "archive_update_time_count": 978,
       "notice": "会話長はChatGPTアーカイブ取得時点の目安です。正確なコンテキスト残量ではありません。",
       "data_state": "ready",
       "matched_projects": 52,
@@ -105,7 +104,7 @@
     "publication_meta": {
       "detector_version": "publication-status-v3",
       "registry_entries": 0,
-      "source_entries": 88,
+      "source_entries": 87,
       "row_count": 52,
       "unique_project_count": 31,
       "notice": "未公開候補は公開の証拠が見つからない候補であり、未公開を断定するものではありません。"
@@ -255,7 +254,7 @@
         "publication_label": "公開済みの可能性大",
         "publication_platform": "Web",
         "publication_url": "https://sweetsbuffet.jp",
-        "published_at": "",
+        "published_at": "2026-07-13T00:00:00+09:00",
         "publication_confidence": 76,
         "publication_evidence": "管理WEBに同名サイトあり（トップページのため要確認）",
         "publication_evidence_type": "managed_web_exact_root",
@@ -288,7 +287,7 @@
         "publication_label": "公開済みの可能性大",
         "publication_platform": "Web",
         "publication_url": "https://sweetsbuffet.jp",
-        "published_at": "",
+        "published_at": "2026-07-13T00:00:00+09:00",
         "publication_confidence": 76,
         "publication_evidence": "管理WEBに同名サイトあり（トップページのため要確認）",
         "publication_evidence_type": "managed_web_exact_root",
@@ -651,7 +650,7 @@
         "publication_label": "公開確認済み",
         "publication_platform": "Web",
         "publication_url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
-        "published_at": "",
+        "published_at": "2026-07-26T00:15:54+09:00",
         "publication_confidence": 94,
         "publication_evidence": "管理WEBの個別ページ名と完全一致",
         "publication_evidence_type": "managed_web_exact_specific",
@@ -684,7 +683,7 @@
         "publication_label": "公開確認済み",
         "publication_platform": "Web",
         "publication_url": "https://cosanostra.jp/kumamoto_ai_laboratory/",
-        "published_at": "",
+        "published_at": "2026-07-26T00:15:54+09:00",
         "publication_confidence": 94,
         "publication_evidence": "管理WEBの個別ページ名と完全一致",
         "publication_evidence_type": "managed_web_exact_specific",
@@ -3105,17 +3104,17 @@
     ],
     "collection": {
       "target_sites": 47,
-      "retrieved": 47,
-      "failed": 0,
-      "status": "success",
-      "attempted": 47,
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
       "http_unavailable": 0,
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
+      "reject_count": 0,
       "retained_previous": 0,
       "source": "web_last_known_good",
-      "reject_count": 0,
-      "http_available": 47
+      "attempted": 47,
+      "failed": 0,
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
+      "http_available": 47,
+      "retrieved": 47,
+      "status": "success"
     }
   },
   "project_portfolio": {
@@ -3362,7 +3361,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T23:27:30.741274+09:00",
+    "generated_at": "2026-08-29T23:45:05.881974+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3439,7 +3438,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T00:27:30.741274+09:00",
+        "next_run_at": "2026-08-30T00:45:05.881974+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3489,26 +3488,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-29T23:27:05+09:00",
+    "generated_at": "2026-08-29T23:45:05+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T23:10:36+09:00",
-        "last_success_at": "2026-08-29T23:10:36+09:00",
+        "last_attempt_at": "2026-08-29T23:27:09+09:00",
+        "last_success_at": "2026-08-29T23:27:09+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T23:10:37+09:00",
-        "last_success_at": "2026-08-29T23:10:37+09:00",
+        "last_attempt_at": "2026-08-29T23:27:09+09:00",
+        "last_success_at": "2026-08-29T23:27:09+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-29T23:10:37+09:00",
-        "last_success_at": "2026-08-29T23:10:37+09:00",
+        "last_attempt_at": "2026-08-29T23:27:09+09:00",
+        "last_success_at": "2026-08-29T23:27:09+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3528,10 +3527,10 @@
       },
       "ai_chat": {
         "state": "failed",
-        "last_attempt_at": "2026-08-29T22:04:57+09:00",
+        "last_attempt_at": "2026-08-29T23:45:05+09:00",
         "last_success_at": "2026-07-31T17:17:53.342796+09:00",
-        "message": "AI Chat元データを取得できませんでした。前回値を維持しました",
-        "error_code": "acquisition_failed"
+        "message": "公開処理に失敗しました。前回公開値を維持しました",
+        "error_code": "publish_failed"
       },
       "x": {
         "state": "completed",
