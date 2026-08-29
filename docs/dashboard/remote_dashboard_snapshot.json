@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-30T08:36:05.135957+09:00",
+  "generated_at": "2026-08-30T08:39:38.943973+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3102,23 +3102,24 @@
       }
     ],
     "collection": {
-      "reject_count": 0,
-      "retained_previous": 0,
-      "retrieved": 47,
-      "status": "success",
       "source": "web_last_known_good",
-      "attempted": 47,
+      "http_unavailable": 0,
+      "finished_at": "2026-08-29T16:24:54.382758+09:00",
+      "reject_count": 0,
+      "failed": 0,
       "http_available": 47,
+      "status": "success",
+      "retrieved": 47,
       "target_sites": 47,
       "started_at": "2026-08-29T16:24:45.921090+09:00",
-      "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "failed": 0,
-      "http_unavailable": 0
+      "attempted": 47,
+      "retained_previous": 0
     }
   },
   "project_portfolio": {
     "schema_version": "1.0",
     "generated_at": "2026-08-30T08:35:58+09:00",
+    "data_state": "partial",
     "summary": {
       "blocked": 0,
       "completed": 0,
@@ -3388,7 +3389,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:36:05.890834+09:00",
+    "generated_at": "2026-08-30T08:39:39.011476+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3465,7 +3466,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T09:36:05.890834+09:00",
+        "next_run_at": "2026-08-30T09:39:39.011476+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3515,7 +3516,7 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T08:36:01+09:00",
+    "generated_at": "2026-08-30T08:36:12+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
