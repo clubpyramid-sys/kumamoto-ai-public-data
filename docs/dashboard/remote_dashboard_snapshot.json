@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-30T12:31:25.174488+09:00",
+  "generated_at": "2026-08-30T12:46:44.008776+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3102,18 +3102,18 @@
       }
     ],
     "collection": {
-      "retrieved": 47,
-      "retained_previous": 0,
-      "source": "web_last_known_good",
-      "attempted": 47,
-      "http_unavailable": 0,
-      "started_at": "2026-08-29T16:24:45.921090+09:00",
       "target_sites": 47,
-      "failed": 0,
-      "status": "success",
-      "http_available": 47,
+      "source": "web_last_known_good",
+      "retrieved": 47,
       "finished_at": "2026-08-29T16:24:54.382758+09:00",
-      "reject_count": 0
+      "retained_previous": 0,
+      "status": "success",
+      "http_unavailable": 0,
+      "attempted": 47,
+      "started_at": "2026-08-29T16:24:45.921090+09:00",
+      "failed": 0,
+      "reject_count": 0,
+      "http_available": 47
     }
   },
   "project_portfolio": {
@@ -3389,7 +3389,7 @@
   },
   "automation_status": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T12:31:25.470821+09:00",
+    "generated_at": "2026-08-30T12:46:48.906627+09:00",
     "data_state": "ready",
     "summary": {
       "total": 6,
@@ -3466,7 +3466,7 @@
         "status": "scheduled_wait",
         "cadence_label": "1時間周期・毎日02:00",
         "last_run_at": null,
-        "next_run_at": "2026-08-30T13:31:25.470821+09:00",
+        "next_run_at": "2026-08-30T13:46:48.906627+09:00",
         "last_success_at": null,
         "last_result_summary": "状態を確認できません",
         "consecutive_failures": 0,
@@ -3516,26 +3516,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-30T12:31:19+09:00",
+    "generated_at": "2026-08-30T12:46:34+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T12:16:08+09:00",
-        "last_success_at": "2026-08-30T12:16:08+09:00",
+        "last_attempt_at": "2026-08-30T12:31:20+09:00",
+        "last_success_at": "2026-08-30T12:31:20+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T12:16:08+09:00",
-        "last_success_at": "2026-08-30T12:16:08+09:00",
+        "last_attempt_at": "2026-08-30T12:31:21+09:00",
+        "last_success_at": "2026-08-30T12:31:21+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-30T12:16:09+09:00",
-        "last_success_at": "2026-08-30T12:16:09+09:00",
+        "last_attempt_at": "2026-08-30T12:31:21+09:00",
+        "last_success_at": "2026-08-30T12:31:21+09:00",
         "message": "更新完了",
         "error_code": ""
       },
