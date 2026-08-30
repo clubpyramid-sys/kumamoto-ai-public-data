@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T06:11:21+09:00",
+  "last_source_update_at": "2026-08-30T15:02:24+09:00",
   "items": [
+    {
+      "id": "2093858559545184485",
+      "title": "九品寺の夜は、いつもより少し静かに始まった。 https://t.co/OLgdSuLfHU",
+      "text": "九品寺の夜は、いつもより少し静かに始まった。 https://t.co/OLgdSuLfHU",
+      "url": "https://x.com/club_kumamoto/status/2093858559545184485",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-30T00:29:17Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2093414189541069029",
       "title": "本日も女性の方々を送り届けて 無事解散👍🏻 今夜は少人数でまったりな会でした😉",
@@ -550,18 +562,6 @@
       "media": []
     },
     {
-      "id": "2084108780942286962",
-      "title": "https://t.co/wXAC1Nbys9",
-      "text": "https://t.co/wXAC1Nbys9",
-      "url": "https://x.com/club_kumamoto/status/2084108780942286962",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-03T02:47:08Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2079963984812487033",
       "title": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
       "text": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "6a64162a95ddb526189839862664f115061daee682919e04fd283f2712b2dfd9",
-  "generated_at": "2026-08-28T21:11:37Z"
+  "content_hash": "bf2b8b9aebdd57f91526b8a7dfb47a49f02ad3d148d1d6042e0be6d28969e658",
+  "generated_at": "2026-08-30T06:02:25Z"
 }
