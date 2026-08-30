@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-30T15:02:24+09:00",
+  "last_source_update_at": "2026-08-30T21:06:21+09:00",
   "items": [
+    {
+      "id": "2093954744930996568",
+      "title": "上通りの夜は、少人数から始まった。 https://t.co/OQfalv7yFM",
+      "text": "上通りの夜は、少人数から始まった。 https://t.co/OQfalv7yFM",
+      "url": "https://x.com/club_kumamoto/status/2093954744930996568",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-30T06:51:29Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2093858559545184485",
       "title": "九品寺の夜は、いつもより少し静かに始まった。 https://t.co/OLgdSuLfHU",
@@ -550,18 +562,6 @@
       "media": []
     },
     {
-      "id": "2085242977782558871",
-      "title": "12日の水曜日か 14日の金曜日の いずれか または 両日かで 開催のスケジュール調整してます😉",
-      "text": "12日の水曜日か 14日の金曜日の いずれか または 両日かで 開催のスケジュール調整してます😉",
-      "url": "https://x.com/club_kumamoto/status/2085242977782558871",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-06T05:54:02Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2079963984812487033",
       "title": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
       "text": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "bf2b8b9aebdd57f91526b8a7dfb47a49f02ad3d148d1d6042e0be6d28969e658",
-  "generated_at": "2026-08-30T06:02:25Z"
+  "content_hash": "3c4d7c5669bb2993f3a78be34cb277d10ac7c6e589c42c288bb62f8948646b19",
+  "generated_at": "2026-08-30T12:06:32Z"
 }
