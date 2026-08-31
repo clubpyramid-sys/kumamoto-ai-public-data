@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-31T11:44:03.594318+09:00",
+  "generated_at": "2026-08-31T12:03:20.480983+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3151,18 +3151,18 @@
       }
     ],
     "collection": {
-      "attempted": 48,
-      "http_unavailable": 0,
-      "source": "managed_sites_snapshot",
       "failed": 0,
-      "started_at": "2026-08-30T18:20:30.263887+09:00",
-      "target_sites": 48,
       "retrieved": 48,
-      "retained_previous": 0,
-      "finished_at": "2026-08-30T18:20:33.291086+09:00",
-      "http_available": 48,
+      "reject_count": 0,
       "status": "success",
-      "reject_count": 0
+      "http_available": 48,
+      "http_unavailable": 0,
+      "retained_previous": 0,
+      "source": "managed_sites_snapshot",
+      "target_sites": 48,
+      "started_at": "2026-08-30T18:20:30.263887+09:00",
+      "finished_at": "2026-08-30T18:20:33.291086+09:00",
+      "attempted": 48
     }
   },
   "project_portfolio": {
@@ -3438,7 +3438,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-08-31T11:44:03.909759+09:00",
+    "generated_at": "2026-08-31T12:03:25.236274+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3674,7 +3674,7 @@
         "execution_type": "launchd",
         "last_run": "2026-08-31T08:49:15+09:00",
         "last_success": "2026-08-31T08:49:15+09:00",
-        "next_run": "2026-08-31T12:00:00+09:00",
+        "next_run": "2026-09-01T12:00:00+09:00",
         "notes": "Phase 2-Eで12:00正式有効化。restic暗号化差分バックアップ。初回定時実行待ち。"
       },
       {
@@ -3717,9 +3717,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-08-31T11:39:03.909759+09:00",
-        "last_success": "2026-08-31T11:39:03.909759+09:00",
-        "next_run": "2026-08-31T11:59:03.909759+09:00",
+        "last_run": "2026-08-31T11:58:25.236274+09:00",
+        "last_success": "2026-08-31T11:58:25.236274+09:00",
+        "next_run": "2026-08-31T12:18:25.236274+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3732,9 +3732,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-08-31T11:29:03.909759+09:00",
-        "last_success": "2026-08-31T11:29:03.909759+09:00",
-        "next_run": "2026-08-31T12:14:03.909759+09:00",
+        "last_run": "2026-08-31T11:48:25.236274+09:00",
+        "last_success": "2026-08-31T11:48:25.236274+09:00",
+        "next_run": "2026-08-31T12:33:25.236274+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3747,35 +3747,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-08-31T10:44:03.909759+09:00",
-        "last_success": "2026-08-31T10:44:03.909759+09:00",
-        "next_run": "2026-08-31T14:44:03.909759+09:00",
+        "last_run": "2026-08-31T11:03:25.236274+09:00",
+        "last_success": "2026-08-31T11:03:25.236274+09:00",
+        "next_run": "2026-08-31T15:03:25.236274+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-08-31T11:43:40+09:00",
+    "generated_at": "2026-08-31T12:01:06+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-08-31T11:28:01+09:00",
-        "last_success_at": "2026-08-31T11:28:01+09:00",
+        "last_attempt_at": "2026-08-31T11:43:42+09:00",
+        "last_success_at": "2026-08-31T11:43:42+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-08-31T11:28:01+09:00",
-        "last_success_at": "2026-08-31T11:28:01+09:00",
+        "last_attempt_at": "2026-08-31T11:43:42+09:00",
+        "last_success_at": "2026-08-31T11:43:42+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-08-31T11:28:01+09:00",
-        "last_success_at": "2026-08-31T11:28:01+09:00",
+        "last_attempt_at": "2026-08-31T11:43:43+09:00",
+        "last_success_at": "2026-08-31T11:43:43+09:00",
         "message": "更新完了",
         "error_code": ""
       },
