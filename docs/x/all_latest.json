@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-30T21:06:21+09:00",
+  "last_source_update_at": "2026-08-31T15:04:42+09:00",
   "items": [
+    {
+      "id": "2094302871324066168",
+      "title": "当日、会場からポストします👍🏻 https://t.co/MyIp2xWuU7",
+      "text": "当日、会場からポストします👍🏻 https://t.co/MyIp2xWuU7",
+      "url": "https://x.com/K_Ero_Gentleman/status/2094302871324066168",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-08-31T05:54:49Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2094274769034334361",
+      "title": "🎭 9月4日（金）夜｜熊本・街中 金曜の夜、いつもの日常だけで終わらせますか？ 会場は、街中のプライベート空間。 少人数で、静かに。 でも、少しだけ刺激的に。 ",
+      "text": "🎭 9月4日（金）夜｜熊本・街中 金曜の夜、いつもの日常だけで終わらせますか？ 会場は、街中のプライベート空間。 少人数で、静かに。 でも、少しだけ刺激的に。 初参加・お一人参加も歓迎。 途中参加・途中退出も自由です。 詳しい場所は、参加される方へ個別にご案内します📩 🌹 女性の方へ… pic.twitter.com/HxTOcKb57O",
+      "url": "https://x.com/club_kumamoto/status/2094274769034334361",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-08-31T04:03:09Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2093954744930996568",
       "title": "上通りの夜は、少人数から始まった。 https://t.co/OQfalv7yFM",
@@ -370,18 +394,6 @@
       "media": []
     },
     {
-      "id": "2090529416036372912",
-      "title": "本日も無事解散及び撤収完了🫡",
-      "text": "本日も無事解散及び撤収完了🫡",
-      "url": "https://x.com/K_Ero_Gentleman/status/2090529416036372912",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-20T20:00:27Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2090301423112339936",
       "title": "この後、会場へ向かいま😉",
       "text": "この後、会場へ向かいま😉",
@@ -545,18 +557,6 @@
       "handle": "kumamonsupport",
       "display_name": "KSC",
       "published_at": "2026-08-11T00:17:09Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2085314155750563908",
-      "title": "🎭 8月12日（水）熊本・上通りにて開催します。 午後からスタートし、明け方までゆっくりと続く一日。 仮面の奥で、日常の肩書きや役割を少し休ませながら、それぞれ",
-      "text": "🎭 8月12日（水）熊本・上通りにて開催します。 午後からスタートし、明け方までゆっくりと続く一日。 仮面の奥で、日常の肩書きや役割を少し休ませながら、それぞれのペースで会話や交流を楽しむ時間です。 初参加の方も歓迎。 男性・女性・その他、性別を問わずご参加いただけます。… pic.twitter.com/BxrSv0yS8P",
-      "url": "https://x.com/club_kumamoto/status/2085314155750563908",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-06T10:36:52Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "3c4d7c5669bb2993f3a78be34cb277d10ac7c6e589c42c288bb62f8948646b19",
-  "generated_at": "2026-08-30T12:06:32Z"
+  "content_hash": "de5f5fae1a93ce4e1ac5014a3b95101276b79366b9701f79ef91de8d6bc54f8a",
+  "generated_at": "2026-08-31T06:04:44Z"
 }
