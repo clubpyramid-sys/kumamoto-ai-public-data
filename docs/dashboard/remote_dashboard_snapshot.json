@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-01T05:38:15.068609+09:00",
+  "generated_at": "2026-09-01T05:53:31.254966+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1897,14 +1897,14 @@
     "youtube_account": {
       "name": "CLUB PYRAMID",
       "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
-      "latest_at": "2026-08-01T16:39:31+09:00",
+      "latest_at": "2026-08-16T19:16:16+09:00",
       "weekly_count": 0
     },
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-08-24T23:29:52+09:00",
-      "weekly_count": 0
+      "latest_at": "2026-09-01T01:41:32+09:00",
+      "weekly_count": 4
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1913,6 +1913,16 @@
       "weekly_count": 0
     },
     "youtube": [
+      {
+        "title": "崩壊の解剖学：AIが紐解くコミュニティ｜4つのAIが暴いた「共同体の寿命」：外山恒一事件から学ぶ、組織が崩壊する真の理由",
+        "url": "https://www.youtube.com/watch?v=E3hbcIO3OR0",
+        "published_at": "2026-08-16T10:16:16+00:00"
+      },
+      {
+        "title": "カリスマ的共同体のAI解剖；4つのAIが「外山恒一事件」を解剖した結果：共同体の寿命と、成功が生んだ致命的な脆弱性",
+        "url": "https://www.youtube.com/watch?v=SYzDPsHZTSk",
+        "published_at": "2026-08-16T09:48:36+00:00"
+      },
       {
         "title": "2026年熊本地震：復興か、縮小再編か【2026年熊本地震が突きつける「復興」の終わり――私たちが直面する『複合危機の最終局面』5つの教訓】",
         "url": "https://www.youtube.com/watch?v=wF8XSBi8CgQ",
@@ -1937,33 +1947,23 @@
         "title": "支配の物語を捨て自分を生きる｜お金・歴史・陰謀論は「作られた物語」なのか？｜支配のナラティブから自由になる",
         "url": "https://www.youtube.com/watch?v=VOZpy6-LCu4",
         "published_at": "2026-07-20T10:01:01+00:00"
-      },
-      {
-        "title": "14億人の虚構とAIの自己崩壊｜完璧な支配の幻想が崩れる時",
-        "url": "https://www.youtube.com/watch?v=9hA-vrX1a8s",
-        "published_at": "2026-07-09T11:11:56+00:00"
-      },
-      {
-        "title": "完璧な支配の幻想：人間の独裁者とAIのディストピア｜「歴史の狡知」が暴く、絶対統制（アンダーコントロール）が必ず自壊する5つの理由",
-        "url": "https://www.youtube.com/watch?v=P2VHp4mp9aE",
-        "published_at": "2026-07-09T07:35:55+00:00"
       }
     ],
     "note": [
       {
-        "title": "2026年熊本地震の現場から――10年前の経験は、私たちに何を残したのか｜水、在宅避難、支援物資、AI。西原村で交わされた対話から考える「次の復興」のかたち",
-        "url": "https://note.com/club_pyramid/n/ne75487c38b45",
-        "published_at": "2026-08-24T23:29:52+09:00"
+        "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
+        "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
+        "published_at": "2026-09-01T01:41:32+09:00"
       },
       {
-        "title": "「国債の金利は年利？」から見えてきた日本経済の深い構造――経世済民、再分配、AI・ロボット時代の新しい社会へ",
-        "url": "https://note.com/club_pyramid/n/nba138b712dc6",
-        "published_at": "2026-08-24T09:58:20+09:00"
+        "title": "悠久の大義を、いま改めて考える――国家のために死ぬ言葉から、未来のために生きる言葉へ",
+        "url": "https://note.com/club_pyramid/n/n207821cb0c55",
+        "published_at": "2026-08-31T22:36:13+09:00"
       },
       {
-        "title": "「小さなブログを作るだけ」のはずが、AIと一緒に自前CMSまで作ってしまった話",
-        "url": "https://note.com/club_pyramid/n/nd5a6f2e4ecea",
-        "published_at": "2026-08-23T12:21:22+09:00"
+        "title": "Chat・Work・CodexとGoogle AI｜AIを一つに決めるのではなく、「仕事の置き場所」を決める時代へ",
+        "url": "https://note.com/club_pyramid/n/nf33b1d8c12b8",
+        "published_at": "2026-08-31T21:32:56+09:00"
       }
     ],
     "ameba": [
@@ -3151,18 +3151,18 @@
       }
     ],
     "collection": {
-      "source": "managed_sites_snapshot",
-      "http_unavailable": 0,
-      "retrieved": 48,
       "retained_previous": 0,
-      "reject_count": 0,
-      "status": "success",
+      "source": "managed_sites_snapshot",
       "failed": 0,
+      "target_sites": 48,
+      "status": "success",
+      "retrieved": 48,
+      "finished_at": "2026-08-31T18:27:38.438670+09:00",
       "started_at": "2026-08-31T18:27:34.656379+09:00",
       "http_available": 48,
-      "finished_at": "2026-08-31T18:27:38.438670+09:00",
       "attempted": 48,
-      "target_sites": 48
+      "reject_count": 0,
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -3438,7 +3438,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-09-01T05:38:15.423962+09:00",
+    "generated_at": "2026-09-01T05:53:31.650272+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3614,7 +3614,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-09-01T05:40:00+09:00",
+        "next_run": "2026-09-02T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3717,9 +3717,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-01T05:33:15.423962+09:00",
-        "last_success": "2026-09-01T05:33:15.423962+09:00",
-        "next_run": "2026-09-01T05:53:15.423962+09:00",
+        "last_run": "2026-09-01T05:48:31.650272+09:00",
+        "last_success": "2026-09-01T05:48:31.650272+09:00",
+        "next_run": "2026-09-01T06:08:31.650272+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3732,9 +3732,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-01T05:23:15.423962+09:00",
-        "last_success": "2026-09-01T05:23:15.423962+09:00",
-        "next_run": "2026-09-01T06:08:15.423962+09:00",
+        "last_run": "2026-09-01T05:38:31.650272+09:00",
+        "last_success": "2026-09-01T05:38:31.650272+09:00",
+        "next_run": "2026-09-01T06:23:31.650272+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3747,35 +3747,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-01T04:38:15.423962+09:00",
-        "last_success": "2026-09-01T04:38:15.423962+09:00",
-        "next_run": "2026-09-01T08:38:15.423962+09:00",
+        "last_run": "2026-09-01T04:53:31.650272+09:00",
+        "last_success": "2026-09-01T04:53:31.650272+09:00",
+        "next_run": "2026-09-01T08:53:31.650272+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-01T05:38:09+09:00",
+    "generated_at": "2026-09-01T05:53:25+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-09-01T05:22:54+09:00",
-        "last_success_at": "2026-09-01T05:22:54+09:00",
+        "last_attempt_at": "2026-09-01T05:38:10+09:00",
+        "last_success_at": "2026-09-01T05:38:10+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-09-01T05:22:54+09:00",
-        "last_success_at": "2026-09-01T05:22:54+09:00",
+        "last_attempt_at": "2026-09-01T05:38:11+09:00",
+        "last_success_at": "2026-09-01T05:38:11+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-09-01T05:22:55+09:00",
-        "last_success_at": "2026-09-01T05:22:55+09:00",
+        "last_attempt_at": "2026-09-01T05:38:12+09:00",
+        "last_success_at": "2026-09-01T05:38:12+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3818,9 +3818,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-08-31T20:38:09.737Z",
-    "last_success_at": "2026-08-31T20:38:09.737Z",
-    "last_attempt_at": "2026-08-31T20:38:09.737Z",
+    "generated_at": "2026-08-31T20:53:26.229Z",
+    "last_success_at": "2026-08-31T20:53:26.229Z",
+    "last_attempt_at": "2026-08-31T20:53:26.229Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
