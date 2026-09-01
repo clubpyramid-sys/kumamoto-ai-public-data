@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n08a6abf86c32",
+      "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
+      "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
+      "published_at": "2026-09-01T08:22:25+09:00",
+      "summary": "中島美嘉の『WILL』を久しぶりに思い出した。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309072016/rectangle_large_type_2_a0bfddaa4ad1703dbb65e847f58e218f.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n0f327cdd222d",
       "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
       "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nd7a8ea6b52b6",
-      "title": "次の災害に備える――AIで「地域の今」を見えるようにする",
-      "url": "https://note.com/club_pyramid/n/nd7a8ea6b52b6",
-      "published_at": "2026-08-09T08:03:29+09:00",
-      "summary": "今回の熊本地震を経験して、次に何か起きたときのために、ひとつ準備しておいたらいいのではないかと思った仕組みがある。 災害が発生したとき、私たちはまず「何が起きたのか」を知ろうとする。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/301723888/rectangle_large_type_2_858ad6f9de51f85055c1508e2fb8dd7d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "ca881f58686850b4c62f2445b87e1f2ae5c34925ba7e8e201299314d90ba3cd2",
-  "generated_at": "2026-08-31T20:40:15Z"
+  "content_hash": "71a746444b20e715e9f380d77353f62089152314dc22b1147a3bbf3c5864331e",
+  "generated_at": "2026-09-01T20:40:13Z"
 }

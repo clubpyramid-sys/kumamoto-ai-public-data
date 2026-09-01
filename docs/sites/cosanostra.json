@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n08a6abf86c32",
+      "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
+      "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
+      "published_at": "2026-09-01T08:22:25+09:00",
+      "summary": "中島美嘉の『WILL』を久しぶりに思い出した。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309072016/rectangle_large_type_2_a0bfddaa4ad1703dbb65e847f58e218f.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n0f327cdd222d",
       "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
       "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-18T10:14:41+09:00",
       "summary": "最近、Grokをかなり頻繁に使うようになった。とくにX（Twitter）との相性はよく、リアルタイム検索、短い投稿文の発想、トレンドを踏まえた言葉選び、少しクセのある文章へのリライトなどでは非常に使いやすい。しかし便利だからと何でもGrokに任せていると、当然ながら週間の利用制限がどんどん減っていく。実際、私の環境では一時期、週間利用枠がほぼ上限に近いところまで到達し、「本当にGrokを使いたい仕事が残っているのに、その前段階の単純作業で利用枠を消費している」という状況になっていた。 そこで考えたのが、Hermes AgentのBOT MODEを中心に仕事そのものを分解し、Grokにしかできない仕事だけをGrokへ残し、それ以外の大部分をMac Studio上のローカルAIへ移す方法だった。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304601045/rectangle_large_type_2_238f5f9d88fa4dbf36df925d210d5fdf.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "nd4044906ee03",
-      "title": "Codexだけでは足りなかった――TailscaleでMac Studioを「どこからでも操作できるAI母艦」にした",
-      "url": "https://note.com/club_pyramid/n/nd4044906ee03",
-      "published_at": "2026-08-18T10:07:41+09:00",
-      "summary": "2026年に入ってから、AIを使った仕事のやり方は急速に「チャットで質問する」段階から、「自分のコンピューター上でAIエージェントに実際の仕事をさせる」段階へ移ってきた。私自身もMac StudioをAI処理の母艦として使い、Codex、Google Antigravity、Hermes Agent、OllamaによるローカルAI、各種Pythonスクリプト、Web開発環境などを動かすようになっているのだが、ここで一つ大きな問題が出てきた。それは、AIが賢くなればなるほど、逆に「そのAIが動いているMacそのものへ、いつでもどこからでもアクセスしたい」という要求が強くなってくることである。 OpenAIのCodexについては、この問題がかなり早い段階で解決された。現在のChatGPTモバイルアプリにはRemote機能があり、接続されたMacやWindows上で動いているChatGPTやCodexの作業を、iPhoneやiPadから確認し、指示を追加し、承認し、作業を継続できる。OpenAI自身も「Codexをどこからでも使う」という方向を明確に打ち出しており、モバイル端末から接続先コン",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304599793/rectangle_large_type_2_cdc94f078dd1de178993e240a87a977c.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "3cce4f9f2c4d5d2eac441c095c3664199b1201a283e08725af9ff7c2848be311",
-  "generated_at": "2026-08-31T20:40:46Z"
+  "content_hash": "3b355cfb245407d5993bf91220cc8042888ff4bad12eb4724562ac4d1ceb8e4f",
+  "generated_at": "2026-09-01T20:40:42Z"
 }
