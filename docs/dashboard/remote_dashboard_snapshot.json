@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-02T05:20:12.400489+09:00",
+  "generated_at": "2026-09-02T05:35:25.434193+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3151,18 +3151,18 @@
       }
     ],
     "collection": {
-      "http_unavailable": 0,
-      "attempted": 48,
-      "http_available": 48,
-      "target_sites": 48,
-      "reject_count": 0,
-      "source": "managed_sites_snapshot",
-      "finished_at": "2026-09-01T18:39:50.956313+09:00",
       "started_at": "2026-09-01T18:39:41.682704+09:00",
       "failed": 0,
-      "retrieved": 48,
+      "source": "managed_sites_snapshot",
+      "target_sites": 48,
+      "http_available": 48,
+      "reject_count": 0,
+      "attempted": 48,
       "status": "success",
-      "retained_previous": 0
+      "retrieved": 48,
+      "finished_at": "2026-09-01T18:39:50.956313+09:00",
+      "retained_previous": 0,
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -3364,7 +3364,7 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-01T08:03:30.513879+09:00",
+    "generated_at": "2026-09-02T05:30:09.084680+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
@@ -3378,18 +3378,18 @@
         "service": "codex",
         "display_name": "Codex",
         "status": "available",
-        "weekly_remaining_percent": 54,
+        "weekly_remaining_percent": 13,
         "weekly_reset_at": "2026-09-07T12:13:00+09:00",
         "credits_remaining": 0,
-        "captured_at": "2026-09-01T05:20:00+09:00",
+        "captured_at": "2026-09-02T05:20:00+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Usage画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-09-01T05:20:00+09:00",
-        "last_attempt_at": "2026-09-01T05:30:09+09:00",
+        "last_success_at": "2026-09-02T05:20:00+09:00",
+        "last_attempt_at": "2026-09-02T05:30:09+09:00",
         "failure_reason": null
       },
       {
@@ -3398,48 +3398,48 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 31,
-        "gemini_five_hour_remaining_percent": 100,
-        "claude_gpt_weekly_remaining_percent": 0,
-        "claude_gpt_five_hour_remaining_percent": null,
-        "claude_gpt_five_hour_not_applicable": true,
-        "captured_at": "2026-09-01T08:02:09+09:00",
-        "capture_method": "chrome_dom",
+        "gemini_weekly_remaining_percent": 25,
+        "gemini_five_hour_remaining_percent": 73,
+        "claude_gpt_weekly_remaining_percent": 100,
+        "claude_gpt_five_hour_remaining_percent": 100,
+        "claude_gpt_five_hour_not_applicable": false,
+        "captured_at": "2026-09-02T05:30:05+09:00",
+        "capture_method": "electron_cdp_dom",
         "update_state": "ready",
         "freshness": "fresh",
-        "source_label": "自動／Models & Usage Web",
+        "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-09-01T08:02:09+09:00",
-        "last_attempt_at": "2026-09-01T08:02:09+09:00",
+        "last_success_at": "2026-09-02T05:30:05+09:00",
+        "last_attempt_at": "2026-09-02T05:30:05+09:00",
         "failure_reason": null
       },
       {
         "service": "grok",
         "display_name": "Grok",
         "status": "available",
-        "weekly_used_percent": 1,
-        "weekly_remaining_percent": 99,
+        "weekly_used_percent": 11,
+        "weekly_remaining_percent": 89,
         "weekly_reset_at": "2026-09-08T03:21:00+09:00",
-        "grok_build_used_percent": 1,
+        "grok_build_used_percent": 11,
         "chat_used_percent": null,
         "extra_usage_credits": 0,
-        "captured_at": "2026-09-01T05:20:07+09:00",
+        "captured_at": "2026-09-02T05:20:09+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-09-01T05:20:07+09:00",
-        "last_attempt_at": "2026-09-01T05:30:09+09:00",
+        "last_success_at": "2026-09-02T05:20:09+09:00",
+        "last_attempt_at": "2026-09-02T05:30:09+09:00",
         "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-09-02T05:20:12.668412+09:00",
+    "generated_at": "2026-09-02T05:35:25.807231+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3645,7 +3645,7 @@
         "execution_type": "launchd",
         "last_run": "2026-09-02T05:30:00+0900",
         "last_success": "2026-09-02T05:30:00+0900",
-        "next_run": "2026-09-02T05:30:00+09:00",
+        "next_run": "2026-09-03T05:30:00+09:00",
         "notes": "各AIモデル・APIのトークン消費量と費用集計。"
       },
       {
@@ -3718,9 +3718,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-02T05:15:12.668412+09:00",
-        "last_success": "2026-09-02T05:15:12.668412+09:00",
-        "next_run": "2026-09-02T05:35:12.668412+09:00",
+        "last_run": "2026-09-02T05:30:25.807231+09:00",
+        "last_success": "2026-09-02T05:30:25.807231+09:00",
+        "next_run": "2026-09-02T05:50:25.807231+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3733,9 +3733,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-02T05:05:12.668412+09:00",
-        "last_success": "2026-09-02T05:05:12.668412+09:00",
-        "next_run": "2026-09-02T05:50:12.668412+09:00",
+        "last_run": "2026-09-02T05:20:25.807231+09:00",
+        "last_success": "2026-09-02T05:20:25.807231+09:00",
+        "next_run": "2026-09-02T06:05:25.807231+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3748,35 +3748,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-02T04:20:12.668412+09:00",
-        "last_success": "2026-09-02T04:20:12.668412+09:00",
-        "next_run": "2026-09-02T08:20:12.668412+09:00",
+        "last_run": "2026-09-02T04:35:25.807231+09:00",
+        "last_success": "2026-09-02T04:35:25.807231+09:00",
+        "next_run": "2026-09-02T08:35:25.807231+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-02T05:20:01+09:00",
+    "generated_at": "2026-09-02T05:35:21+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-09-02T05:04:50+09:00",
-        "last_success_at": "2026-09-02T05:04:50+09:00",
+        "last_attempt_at": "2026-09-02T05:20:05+09:00",
+        "last_success_at": "2026-09-02T05:20:05+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-09-02T05:04:50+09:00",
-        "last_success_at": "2026-09-02T05:04:50+09:00",
+        "last_attempt_at": "2026-09-02T05:20:06+09:00",
+        "last_success_at": "2026-09-02T05:20:06+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-09-02T05:04:50+09:00",
-        "last_success_at": "2026-09-02T05:04:50+09:00",
+        "last_attempt_at": "2026-09-02T05:20:06+09:00",
+        "last_success_at": "2026-09-02T05:20:06+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3789,9 +3789,9 @@
       },
       "ai_agent": {
         "state": "completed",
-        "last_attempt_at": "2026-09-01T07:51:09+09:00",
-        "last_success_at": "2026-09-01T07:51:09+09:00",
-        "message": "収集完了。1件の正本は状態確認が必要です",
+        "last_attempt_at": "2026-09-02T05:20:06+09:00",
+        "last_success_at": "2026-09-02T05:20:06+09:00",
+        "message": "収集完了。2件の正本は状態確認が必要です",
         "error_code": ""
       },
       "ai_chat": {
@@ -3810,8 +3810,8 @@
       },
       "ai_usage": {
         "state": "completed",
-        "last_attempt_at": "2026-09-01T08:02:09+09:00",
-        "last_success_at": "2026-09-01T08:02:09+09:00",
+        "last_attempt_at": "2026-09-02T05:30:05+09:00",
+        "last_success_at": "2026-09-02T05:30:05+09:00",
         "message": "更新完了",
         "error_code": ""
       }
@@ -3819,9 +3819,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-09-01T20:20:04.551Z",
-    "last_success_at": "2026-09-01T20:20:04.551Z",
-    "last_attempt_at": "2026-09-01T20:20:04.551Z",
+    "generated_at": "2026-09-01T20:35:21.683Z",
+    "last_success_at": "2026-09-01T20:35:21.683Z",
+    "last_attempt_at": "2026-09-01T20:35:21.683Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
