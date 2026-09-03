@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n547eda5d1bc8",
+      "title": "Amazonの次に来るもの｜一本のプリンター動画から見えた、「思考を物質化する時代」の始まり",
+      "url": "https://note.com/club_pyramid/n/n547eda5d1bc8",
+      "published_at": "2026-09-03T11:56:14+09:00",
+      "summary": "先日、一本のプリンターの動画を見た。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309782186/rectangle_large_type_2_24db9fb951d8bc444dc704c5b4f59729.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n08a6abf86c32",
       "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
       "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-22T12:13:05+09:00",
       "summary": "気がつけば、HDDやSSDが何台も増えていた。 昔の写真。動画。Webサイトのバックアップ。仕事の資料。イベントの記録。制作途中のファイル。完成したデータ。旧Macからコピーしたフォルダ。念のため残したZIP。そして、「たぶんどこかに残っているはず」のファイルたち。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/305848647/rectangle_large_type_2_f97ff6b455e5a82bea1d613fd60eea4d.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n9fe7678211b5",
-      "title": "Grokを使い潰さない。Hermes AgentのBOT MODEで「AI編集部」を作ってみた",
-      "url": "https://note.com/club_pyramid/n/n9fe7678211b5",
-      "published_at": "2026-08-18T10:14:41+09:00",
-      "summary": "最近、Grokをかなり頻繁に使うようになった。とくにX（Twitter）との相性はよく、リアルタイム検索、短い投稿文の発想、トレンドを踏まえた言葉選び、少しクセのある文章へのリライトなどでは非常に使いやすい。しかし便利だからと何でもGrokに任せていると、当然ながら週間の利用制限がどんどん減っていく。実際、私の環境では一時期、週間利用枠がほぼ上限に近いところまで到達し、「本当にGrokを使いたい仕事が残っているのに、その前段階の単純作業で利用枠を消費している」という状況になっていた。 そこで考えたのが、Hermes AgentのBOT MODEを中心に仕事そのものを分解し、Grokにしかできない仕事だけをGrokへ残し、それ以外の大部分をMac Studio上のローカルAIへ移す方法だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304601045/rectangle_large_type_2_238f5f9d88fa4dbf36df925d210d5fdf.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "ceacd2a57fe54999ebeb2a46bf90aa159b56a7e989b862ce723e5796de567b1b",
-  "generated_at": "2026-09-01T20:40:42Z"
+  "content_hash": "34a633b3c30168eecdfa129b3f4878828fb4e0441d7cff239d8b658075980093",
+  "generated_at": "2026-09-03T20:40:44Z"
 }

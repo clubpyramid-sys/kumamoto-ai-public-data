@@ -10,6 +10,18 @@
   },
   "items": [
     {
+      "id": "n547eda5d1bc8",
+      "title": "Amazonの次に来るもの｜一本のプリンター動画から見えた、「思考を物質化する時代」の始まり",
+      "url": "https://note.com/club_pyramid/n/n547eda5d1bc8",
+      "published_at": "2026-09-03T11:56:14+09:00",
+      "summary": "先日、一本のプリンターの動画を見た。 最初の感想は単純だった。 「これは、すごいな」 映っていたのは、xToolの「O1 Omni」という新しいタイプのプリンターだった。 一般的な家庭用プリンターの延長として考えると、かなり不思議な機械である。 紙に文字や写真を印刷するだけではない。 アクリル、木材、金属、ガラスのような物体へ直接印刷する。 Tシャツやバッグのような布にもデザインを入れる。 転写フィルムを使えば、プリンターへ直接入れにくい物にもデザインを移せる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309782186/rectangle_large_type_2_24db9fb951d8bc444dc704c5b4f59729.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 0,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine"
+    },
+    {
       "id": "n08a6abf86c32",
       "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
       "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
@@ -17,7 +29,7 @@
       "summary": "中島美嘉の『WILL』を久しぶりに思い出した。 この曲が世に出てから、もうほぼ四半世紀になる。 2000年代初頭。 今振り返ると、あの時代には今とは違う種類の「重力」があったように思う。 夢があっても、お金がない。 何かを作りたくても、技術がない。 映画を作ろうとすれば、大勢のスタッフと莫大な資金が必要になる。 本を出そうと思えば、出版社や編集者や印刷、流通という仕組みを通らなければならない。 サービスを作りたくても、エンジニアを雇う必要がある。 「やりたい",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309072016/rectangle_large_type_2_a0bfddaa4ad1703dbb65e847f58e218f.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 1,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -29,7 +41,7 @@
       "summary": "ここ数日、映像制作に本格的に着手していて、かなり強烈に感じていることがあります。 ChatGPTの映像制作における「指揮能力」が、少し前とは別物になっている。 単にプロンプトが上手くなったとか、画像生成が綺麗になったとか、そういう話ではありません。 「こんな映像が見たい」 という、人間側のかなり曖昧な希望を受け取って、 構図、時間の流れ、カメラ、光、音、間、象徴、感情、次のカットへの接続まで含めて、ひとつの映像作品として組み立ててくる。 しかも、かなりの精度で。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309023349/rectangle_large_type_2_ce14fd6f4e8f6b472b34368c1363ec31.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 2,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -41,7 +53,7 @@
       "summary": "「悠久の大義」という言葉がある。 いまの日常生活では、ほとんど耳にすることのない言葉だ。 「悠久」とは、果てしなく長い時間。 「大義」とは、自分自身の利益や都合を超えて守るべき、大きな目的や道理。 つまり「悠久の大義」とは、文字どおりに読めば、 自分一人の人生を超え、長い歴史の中で守り続けられるべき大きな目的 ということになる。 しかし、この言葉には重い歴史がある。 1941年の『戦陣訓』には、こう記された。 「身心一切の力を尽くし、従容として悠久の大義に生",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308972850/rectangle_large_type_2_36d2f2368d21a05c075f00cd64e568e1.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -53,7 +65,7 @@
       "summary": "AIを使い込んでいると、いつの間にか「ChatGPTとGeminiはどちらが上か」「CodexとAntigravityはどちらが強いか」という比較をしてしまいます。 でも最近は、少し違う見方をするようになりました。 一番賢いAIを一つ選ぶ必要はない。 それより、 どの仕事を、どのAIに置くのか。 こちらの方が重要です。 ChatGPTにはChat、Work、Codexがあります。一方Google側にはGemini、Gemini Notebook、Gmail、Goo",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308945378/rectangle_large_type_2_e93d8dbb44860ec518c6de2373f1dd15.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 3,
+      "magazine_position": 4,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -65,7 +77,7 @@
       "summary": "最近、私のMac Studioは「作業に使うパソコン」というより、少しずつ「AIチームが働く事務所」のようになってきました。 私が寝ていても、外出していても、決められた時間になるとMac Studioが自分で起き、情報を集め、データを整理し、AIが文章を作り、メールで報告し、Webの情報を更新し、バックアップまで取ります。 さらに最近、この自動化をもう一段進めました。 ただ「自動で動かす」のではなく、それぞれの仕事について、 何時に動かすのか。 何をきっかけに動くのか",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308782460/rectangle_large_type_2_159931a8261de0eca53593a3a4d5663c.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 4,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -77,7 +89,7 @@
       "summary": "2026年8月、熊本は再び大きな地震に見舞われました。 2016年の熊本地震から、ちょうど10年。 人間の感覚では長い10年ですが、地球の時間から見れば、ほんの一瞬なのかもしれません。 10年前に被災した人たちの中には、あの時の揺れ、停電、断水、避難所の空気、全国から駆けつけてくれた人たちの姿を、今でも鮮明に覚えている人がいます。 そして今回、再び大きな災害が起きたことで、その10年間に私たちは何を学び、何を変えることができ、そして何が変わらないまま残されていたのかが",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306690605/rectangle_large_type_2_798c5661ca03471c720ef9e69178f601.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 6,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -89,7 +101,7 @@
       "summary": "最初は、本当に単純な疑問だった。 「国債の金利は年利なのか？」 そこから、「10年国債なら10年間でいくらになるのか」「いま日本国債の金利はそんなに高いのか」「だったら銀行から安い金利で借りて国債を買えば利益が出るのではないか」と考えていった。 ところが、現在の国債金利、企業向け融資金利、日銀の政策金利、企業倒産、GDP、輸出、海外投資収益、家計消費、社会保険料、消費税、金融資産などを一つずつ追いかけていくと、いつの間にか話は「国債で儲かるか」という資産運用の話ではなく",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306466999/rectangle_large_type_2_ced283e368fb4a95af9711a1da7bd6b6.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -101,7 +113,7 @@
       "summary": "最初は、そんな大げさなものを作るつもりではなかった。 あるコミュニティサイトに、開催情報や開催後のレポート、ちょっとした読み物を掲載できる、小さなブログ機能が欲しかっただけだ。 既存サイトはすでに動いている。全面リニューアルをしたいわけでもない。昔から使っている制作環境や静的HTMLも残したい。 だから当初のイメージは、かなり単純だった。 「管理画面から記事を書いて、サイトに最新記事が数件表示されればいい」 その程度だった。 ところがAIと一緒に作り始めると、話は",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306171145/rectangle_large_type_2_c62d6fbb5556f198703cf54f4f6807cc.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -113,7 +125,7 @@
       "summary": "気がつけば、HDDやSSDが何台も増えていた。 昔の写真。動画。Webサイトのバックアップ。仕事の資料。イベントの記録。制作途中のファイル。完成したデータ。旧Macからコピーしたフォルダ。念のため残したZIP。そして、「たぶんどこかに残っているはず」のファイルたち。 一つ一つは大切だから捨てられない。 しかし保存量がTB単位になり、HDDが何台にも増えてくると、次第に奇妙な状態になる。 データは確かに存在している。 しかし、「どこに何があるのか」が分からない。 こ",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/305848647/rectangle_large_type_2_f97ff6b455e5a82bea1d613fd60eea4d.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 8,
+      "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -125,7 +137,7 @@
       "summary": "最近、Grokをかなり頻繁に使うようになった。とくにX（Twitter）との相性はよく、リアルタイム検索、短い投稿文の発想、トレンドを踏まえた言葉選び、少しクセのある文章へのリライトなどでは非常に使いやすい。しかし便利だからと何でもGrokに任せていると、当然ながら週間の利用制限がどんどん減っていく。実際、私の環境では一時期、週間利用枠がほぼ上限に近いところまで到達し、「本当にGrokを使いたい仕事が残っているのに、その前段階の単純作業で利用枠を消費している」という状況になっ",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304601045/rectangle_large_type_2_238f5f9d88fa4dbf36df925d210d5fdf.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 9,
+      "magazine_position": 10,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -137,7 +149,7 @@
       "summary": "2026年に入ってから、AIを使った仕事のやり方は急速に「チャットで質問する」段階から、「自分のコンピューター上でAIエージェントに実際の仕事をさせる」段階へ移ってきた。私自身もMac StudioをAI処理の母艦として使い、Codex、Google Antigravity、Hermes Agent、OllamaによるローカルAI、各種Pythonスクリプト、Web開発環境などを動かすようになっているのだが、ここで一つ大きな問題が出てきた。それは、AIが賢くなればなるほど、逆",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304599793/rectangle_large_type_2_cdc94f078dd1de178993e240a87a977c.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 10,
+      "magazine_position": 11,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -149,7 +161,7 @@
       "summary": "ここしばらく、既存Webサイトのリニューアル、ブログ機能の自前CMS化、地域イベント情報アプリ、公開データの整理など、いくつものWeb案件をAIと一緒に進めながら、「ChatGPT、Codex、Antigravityをどう分担させると一番速いのか」を実際の作業で試してきました。その結果、かなりはっきりしてきたことがあります。 普通のWebサイトを更新する仕事と、新しいWebシステムやWebアプリを作る仕事は、同じ「Web制作」と呼ばれていても、AIの使い方を分けた方がいい。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304582200/rectangle_large_type_2_f04e06ba497576b191c8485ffa409fc3.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 11,
+      "magazine_position": 12,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -161,24 +173,12 @@
       "summary": "外山恒一氏をめぐって2024年から2026年にかけて起きた一連の出来事について調べ始めた当初、私はこれを外山氏個人の判断や対人関係の問題として分析していた。しかし本人のnote、獄中声明、公判関連の文章、過去の活動史、周辺人物の公開発信などを集めていくにつれて、どうもそれだけでは説明がつかないと感じるようになった。政治運動の問題として見ると見えるものがある一方で見えなくなるものがあり、人間関係の破綻として見ると別のものが浮かぶが、それだけでは教養強化合宿という教育システム、B",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304094827/rectangle_large_type_2_5a46ae15244832603d02585975d1a231.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 12,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine"
-    },
-    {
-      "id": "nb4522b13dd09",
-      "title": "AIは「勉強してから使うもの」ではない――学校で身についた学び方が、AI時代の壁になる",
-      "url": "https://note.com/club_pyramid/n/nb4522b13dd09",
-      "published_at": "2026-08-15T16:12:12+09:00",
-      "summary": "AIの話をしていると、「自分も使ってみたいけれど、まず勉強しないといけないですね」と言う人がいる。 とても真面目な言葉なのだけれど、私は最近、この「まず勉強しなければならない」という感覚そのものが、AIを使ううえでは少し邪魔になるのではないかと思うようになった。 もちろん、勉強することが悪いわけではない。AIには知っておいたほうがいいことがたくさんある。個人情報や著作権、情報の真偽、セキュリティの問題もある。会社で本格的に導入するのであれば、一定のルールや教育も必要になる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/303716703/rectangle_large_type_2_acdf161fcbc77cd4cd9d121b019fa32c.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "magazine_position": 13,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     }
   ],
   "item_count": 14,
-  "content_hash": "490ab7995b9f29fcab9732d13a4adb7e0e5e6c49312b73bec74859c18c24676d",
-  "generated_at": "2026-09-01T20:40:14Z"
+  "content_hash": "100c5f0057555bb46431599d38edaa3c4aaffbcb76f8833e35388f8350871976",
+  "generated_at": "2026-09-03T20:40:16Z"
 }
