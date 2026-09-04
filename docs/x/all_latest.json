@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-09-05T06:02:54+09:00",
   "items": [
+    {
+      "id": "2095956352212578754",
+      "title": "今夜の開催も 女性の方を送り届けて終了です これより撤収です",
+      "text": "今夜の開催も 女性の方を送り届けて終了です これより撤収です",
+      "url": "https://x.com/K_Ero_Gentleman/status/2095956352212578754",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-04T19:25:10Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2095926533621948479",
+      "title": "事後のまったりご歓談？😊",
+      "text": "事後のまったりご歓談？😊",
+      "url": "https://x.com/K_Ero_Gentleman/status/2095926533621948479",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-04T17:26:40Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2095884148670136516",
       "title": "男性お待ち兼ねの 今夜の真打の女性がお越しです💕",
@@ -257,30 +281,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-08-28T11:55:18Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2093303117370855522",
-      "title": "情況が膠着してます笑 新たな燃料投下求む💗 https://t.co/pvinIU7jzv",
-      "text": "情況が膠着してます笑 新たな燃料投下求む💗 https://t.co/pvinIU7jzv",
-      "url": "https://x.com/K_Ero_Gentleman/status/2093303117370855522",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-28T11:42:09Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2093290810225856602",
-      "title": "若いイケメン来た✨✨✨✨✨",
-      "text": "若いイケメン来た✨✨✨✨✨",
-      "url": "https://x.com/K_Ero_Gentleman/status/2093290810225856602",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-28T10:53:15Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "84895debc4aec59400d9bf7961755dbb93e3f05688847c3a617d85d3dc0a521d",
-  "generated_at": "2026-09-04T20:40:43Z"
+  "content_hash": "f253b3e893335aedd011ba8507752ad8f06451257fca30004dbb0b0d928e79c5",
+  "generated_at": "2026-09-04T21:02:55Z"
 }
