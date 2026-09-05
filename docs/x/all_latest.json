@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-09-06T06:02:13+09:00",
   "items": [
+    {
+      "id": "2096301974304268354",
+      "title": "🎭 9月12日（土）夜｜熊本・街中 FREEDOM & LIBERTY PARTY ― どこまでも自由だ。― 土曜の夜くらい、 肩書きも、役割も、いつもの自分も",
+      "text": "🎭 9月12日（土）夜｜熊本・街中 FREEDOM & LIBERTY PARTY ― どこまでも自由だ。― 土曜の夜くらい、 肩書きも、役割も、いつもの自分も、少しだけ置いてきませんか。 9月12日（土）の夜、熊本・街中のプライベート空間で 「フリーダム＆リバティーパーティー」を開催します✨… pic.twitter.com/68hM7WsXEj",
+      "url": "https://x.com/club_kumamoto/status/2096301974304268354",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-09-05T18:18:32Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2096190884014641447",
       "title": "🎭 9月8日（火）｜九品寺開催 今回は、これまでとは全く異なる新しい会場での開催です✨ さらに、女性リラクゼーションセラピストのお二人をお招きしての特別開催とな",
@@ -538,18 +550,6 @@
       "media": []
     },
     {
-      "id": "2087807370957340675",
-      "title": "伯爵が 9月14日（月）〜18日（金）に 九州にカムバックするので 秘密クラブを連日開催しますよ",
-      "text": "伯爵が 9月14日（月）〜18日（金）に 九州にカムバックするので 秘密クラブを連日開催しますよ",
-      "url": "https://x.com/club_kumamoto/status/2087807370957340675",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-13T07:44:01Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2086970137346011306",
       "title": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
       "text": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "841cb97588aff032dd6c67b2fd6aa2cc3257b865b568e3c1c6ce3b90b303c172",
-  "generated_at": "2026-09-05T20:40:51Z"
+  "content_hash": "11950f8f3fbcfce00aa1b5c57269ba928f178eed69f047b720225f7dddc0919a",
+  "generated_at": "2026-09-05T21:02:14Z"
 }
