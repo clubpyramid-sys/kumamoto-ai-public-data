@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-05T06:02:54+09:00",
+  "last_source_update_at": "2026-09-05T21:05:33+09:00",
   "items": [
+    {
+      "id": "2096190884014641447",
+      "title": "🎭 9月8日（火）｜九品寺開催 今回は、これまでとは全く異なる新しい会場での開催です✨ さらに、女性リラクゼーションセラピストのお二人をお招きしての特別開催とな",
+      "text": "🎭 9月8日（火）｜九品寺開催 今回は、これまでとは全く異なる新しい会場での開催です✨ さらに、女性リラクゼーションセラピストのお二人をお招きしての特別開催となります💆‍♀️💆‍♀️ 会場は熊本・九品寺のプライベート空間。… pic.twitter.com/BSBhb9Atdi",
+      "url": "https://x.com/club_kumamoto/status/2096190884014641447",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-09-05T10:57:06Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2095956352212578754",
       "title": "今夜の開催も 女性の方を送り届けて終了です これより撤収です",
@@ -29,6 +41,18 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-04T17:26:40Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2095904085803434097",
+      "title": "真夜中過ぎの盛り上がり💓",
+      "text": "真夜中過ぎの盛り上がり💓",
+      "url": "https://x.com/K_Ero_Gentleman/status/2095904085803434097",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-04T15:57:28Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -269,18 +293,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-08-28T13:02:58Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2093306428526321748",
-      "title": "女性ご指導でイケメンよるマッサージ💆‍♀️始まりました💕",
-      "text": "女性ご指導でイケメンよるマッサージ💆‍♀️始まりました💕",
-      "url": "https://x.com/K_Ero_Gentleman/status/2093306428526321748",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-08-28T11:55:18Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -533,18 +545,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-08-13T07:44:01Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2087735989758489022",
-      "title": "https://t.co/MBKjc2jkHM",
-      "text": "https://t.co/MBKjc2jkHM",
-      "url": "https://x.com/club_kumamoto/status/2087735989758489022",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-13T03:00:22Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "f253b3e893335aedd011ba8507752ad8f06451257fca30004dbb0b0d928e79c5",
-  "generated_at": "2026-09-04T21:02:55Z"
+  "content_hash": "1a5e7e0a73dfbc23cebad09a81f7c1708d01aae5efea9fcd3f7d02a76b6457ad",
+  "generated_at": "2026-09-05T12:05:36Z"
 }
