@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n12b9148e1497",
+      "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
+      "url": "https://note.com/club_pyramid/n/n12b9148e1497",
+      "published_at": "2026-09-07T11:09:32+09:00",
+      "summary": "『VIVANT』を見ていると、どうにも妙な感覚が残る。 もちろん、そもそも別班という秘密組織が世界を飛び回るドラマなのだから、荒唐無稽なところがあって当然である。しかし2026年の第2シーズンを見続けていると、単なるスパイアクションとして片付けるには、いろいろなものが妙に現実と重なりすぎている。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311138243/rectangle_large_type_2_ebfe3b8f77a5bbf727f581e86eedebde.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n05b543850f6d",
       "title": "世界は美しいのに。――AIが労働を終わらせたあと、人間は何のために生きるのか",
       "url": "https://note.com/club_pyramid/n/n05b543850f6d",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nb4522b13dd09",
-      "title": "AIは「勉強してから使うもの」ではない――学校で身についた学び方が、AI時代の壁になる",
-      "url": "https://note.com/club_pyramid/n/nb4522b13dd09",
-      "published_at": "2026-08-15T16:12:12+09:00",
-      "summary": "AIの話をしていると、「自分も使ってみたいけれど、まず勉強しないといけないですね」と言う人がいる。 とても真面目な言葉なのだけれど、私は最近、この「まず勉強しなければならない」という感覚そのものが、AIを使ううえでは少し邪魔になるのではないかと思うようになった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/303716703/rectangle_large_type_2_acdf161fcbc77cd4cd9d121b019fa32c.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "4f153ed70767cc527aeabf4f2b97279b67142563ce3531b19cc518f58bd866b7",
-  "generated_at": "2026-09-06T20:40:19Z"
+  "content_hash": "c0a3b95b894357f2450a3165711f1e7e4d66a92684ee8bbc6736970aa17ea686",
+  "generated_at": "2026-09-07T20:40:13Z"
 }

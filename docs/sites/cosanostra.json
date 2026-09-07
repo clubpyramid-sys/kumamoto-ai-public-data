@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n12b9148e1497",
+      "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
+      "url": "https://note.com/club_pyramid/n/n12b9148e1497",
+      "published_at": "2026-09-07T11:09:32+09:00",
+      "summary": "『VIVANT』を見ていると、どうにも妙な感覚が残る。 もちろん、そもそも別班という秘密組織が世界を飛び回るドラマなのだから、荒唐無稽なところがあって当然である。しかし2026年の第2シーズンを見続けていると、単なるスパイアクションとして片付けるには、いろいろなものが妙に現実と重なりすぎている。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311138243/rectangle_large_type_2_ebfe3b8f77a5bbf727f581e86eedebde.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n05b543850f6d",
       "title": "世界は美しいのに。――AIが労働を終わらせたあと、人間は何のために生きるのか",
       "url": "https://note.com/club_pyramid/n/n05b543850f6d",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-31T12:24:31+09:00",
       "summary": "最近、私のMac Studioは「作業に使うパソコン」というより、少しずつ「AIチームが働く事務所」のようになってきました。 私が寝ていても、外出していても、決められた時間になるとMac Studioが自分で起き、情報を集め、データを整理し、AIが文章を作り、メールで報告し、Webの情報を更新し、バックアップまで取ります。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308782460/rectangle_large_type_2_159931a8261de0eca53593a3a4d5663c.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "ne75487c38b45",
-      "title": "2026年熊本地震の現場から――10年前の経験は、私たちに何を残したのか｜水、在宅避難、支援物資、AI。西原村で交わされた対話から考える「次の復興」のかたち",
-      "url": "https://note.com/club_pyramid/n/ne75487c38b45",
-      "published_at": "2026-08-24T23:29:52+09:00",
-      "summary": "2026年8月、熊本は再び大きな地震に見舞われました。 2016年の熊本地震から、ちょうど10年。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306690605/rectangle_large_type_2_798c5661ca03471c720ef9e69178f601.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "310dc732e9983cc57db0992def73b385b8156c0490125bee72caef6e0342a421",
-  "generated_at": "2026-09-06T20:40:55Z"
+  "content_hash": "3f97a85ff5d9d769b974c40e46311716f671ba62532a3275e989665287b4219e",
+  "generated_at": "2026-09-07T20:40:48Z"
 }
