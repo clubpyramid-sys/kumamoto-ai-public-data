@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n76eab57ed5fc",
+      "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
+      "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
+      "published_at": "2026-09-08T11:51:07+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311490779/rectangle_large_type_2_2b5b43d03798b1a8beaf1afc357f6970.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n12b9148e1497",
       "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
       "url": "https://note.com/club_pyramid/n/n12b9148e1497",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n895027c2f948",
-      "title": "外山恒一事件を4つのAIに分析させたら、「共同体の寿命」が見えてきた｜ChatGPT、Grok、Fable5、Gemini――2026年のAIは複雑な人間事件をどこまで読み解けるのか",
-      "url": "https://note.com/club_pyramid/n/n895027c2f948",
-      "published_at": "2026-08-16T18:53:43+09:00",
-      "summary": "外山恒一氏をめぐって2024年から2026年にかけて起きた一連の出来事について調べ始めた当初、私はこれを外山氏個人の判断や対人関係の問題として分析していた。しかし本人のnote、獄中声明、公判関連の文章、過去の活動史、周辺人物の公開発信などを集めていくにつれて、どうもそれだけでは説明がつかないと感じるようになった。政治運動の問題として見ると見えるものがある一方で見えなくなるものがあり、人間関係の破綻として見ると別のものが浮かぶが、それだけでは教養強化合宿という教育システム、BARという物理的な場、若い参加者同士のネットワーク、外山氏自身の文章力、政治運動特有の言語文化、さらに警察・検察・裁判所という外部制度までを一つの説明に収めることができない。 そこで途中から発想を変え、「一つのAIに正解を出させる」のではなく、性格も得意分野も違う複数のAIに同じ事件を別々の角度から分析させ、その回答同士を衝突させてみることにした。使ったのはChatGPT、Grok、Fable5、Geminiである。GeminiについてはWeb全体を調べるDeep Researchだけでなく、これまで集めた本人資料",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304094827/rectangle_large_type_2_5a46ae15244832603d02585975d1a231.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "c0a3b95b894357f2450a3165711f1e7e4d66a92684ee8bbc6736970aa17ea686",
-  "generated_at": "2026-09-07T20:40:13Z"
+  "content_hash": "6d086e49b1117fb18556277c1da26694ec6cca3bf50a51448f4f4b4e30d9f06a",
+  "generated_at": "2026-09-08T20:40:12Z"
 }

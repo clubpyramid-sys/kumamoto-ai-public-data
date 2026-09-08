@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n76eab57ed5fc",
+      "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
+      "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
+      "published_at": "2026-09-08T11:51:07+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311490779/rectangle_large_type_2_2b5b43d03798b1a8beaf1afc357f6970.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n12b9148e1497",
       "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
       "url": "https://note.com/club_pyramid/n/n12b9148e1497",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-31T21:32:56+09:00",
       "summary": "AIを使い込んでいると、いつの間にか「ChatGPTとGeminiはどちらが上か」「CodexとAntigravityはどちらが強いか」という比較をしてしまいます。 でも最近は、少し違う見方をするようになりました。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308945378/rectangle_large_type_2_e93d8dbb44860ec518c6de2373f1dd15.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n967c1827e536",
-      "title": "Mac Studioを「24時間働くAIチームの事務所」にしてみた｜AI、Web、SNS、メール、バックアップまで自動で動く1日の運行スケジュール",
-      "url": "https://note.com/club_pyramid/n/n967c1827e536",
-      "published_at": "2026-08-31T12:24:31+09:00",
-      "summary": "最近、私のMac Studioは「作業に使うパソコン」というより、少しずつ「AIチームが働く事務所」のようになってきました。 私が寝ていても、外出していても、決められた時間になるとMac Studioが自分で起き、情報を集め、データを整理し、AIが文章を作り、メールで報告し、Webの情報を更新し、バックアップまで取ります。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308782460/rectangle_large_type_2_159931a8261de0eca53593a3a4d5663c.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "3f97a85ff5d9d769b974c40e46311716f671ba62532a3275e989665287b4219e",
-  "generated_at": "2026-09-07T20:40:48Z"
+  "content_hash": "618e03fccb5bb7964be1bac2bb7ae119550193653a70161bf42a4397949fa832",
+  "generated_at": "2026-09-08T20:40:39Z"
 }
