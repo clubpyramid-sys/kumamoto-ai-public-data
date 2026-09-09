@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-09T06:02:22+09:00",
+  "last_source_update_at": "2026-09-09T15:02:40+09:00",
   "items": [
+    {
+      "id": "2097437824379441662",
+      "title": "無事ミッション完了🫡",
+      "text": "無事ミッション完了🫡",
+      "url": "https://x.com/K_Ero_Gentleman/status/2097437824379441662",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-08T21:32:00Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2097393434399330622",
       "title": "女性の方を送り届けて 補給して最後の朝のミッションと 撤収に向けて👍🏻",
@@ -233,18 +245,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-08T04:06:36Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2097173568283128039",
-      "title": "行動開始です",
-      "text": "行動開始です",
-      "url": "https://x.com/K_Ero_Gentleman/status/2097173568283128039",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-08T04:01:56Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "8770c1a208b4f8e24a60c89fdc742dc975d3356d27b9e45c22e64e31eb24732b",
-  "generated_at": "2026-09-08T21:02:23Z"
+  "content_hash": "9d16a062c7d898e4a35997a77655b178164286c503c62ef1aecdd9433636e8c7",
+  "generated_at": "2026-09-09T06:02:40Z"
 }
