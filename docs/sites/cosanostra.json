@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "nc69c0572c3b4",
+      "title": "AIを使う時代から、AIに働いてもらう時代へ｜AIエージェントが変える仕事、組織、知識、地域、そして人間の役割",
+      "url": "https://note.com/club_pyramid/n/nc69c0572c3b4",
+      "published_at": "2026-09-11T03:11:58+09:00",
+      "summary": "生成AIが一般に知られるようになった当初、多くの人にとってAIとは「質問すると答えてくれる便利な道具」だった。分からないことを尋ねれば説明してくれる。メールの文章を書かせることができる。長い資料を要約してくれる。企画のアイデアを出してもらうこともできる。この段階でも十分に大きな変化だったが、現在起きている変化は、それよりもう一段深い。AIは単に文章を返すだけの存在から、目的を与えられると資料を読み、必要な作業を考え、ファイルを操作し、成果物を作り、途中で問題が起きれば別の方法を試し、人間へ確認を求めながら仕事を進める存在へ移りつつある。いわゆる「AIエージェント」である。 この変化を理解するうえで重要なのは、「チャットAIがさらに賢くなった」とだけ考えないことだ。チャットAIでは、人間が問いを出し、AIが答えを返すという一往復が基本だった。AIエージェントになると、人間は一つひとつの作業を指示するのではなく、「最終的にどういう状態にしたいのか」という目的を渡すことになる。たとえばWebサイトを改善する場合、従来なら「この文章を書き換えて、この色を変えて、このHTMLを修正して」と人間が",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/312398230/rectangle_large_type_2_8c1465e1e3e92d5c17ec6d23163cb0d4.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n76eab57ed5fc",
       "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
       "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
@@ -108,18 +120,6 @@
       "published_at": "2026-08-31T22:36:13+09:00",
       "summary": "「悠久の大義」という言葉がある。 いまの日常生活では、ほとんど耳にすることのない言葉だ。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308972850/rectangle_large_type_2_36d2f2368d21a05c075f00cd64e568e1.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "nf33b1d8c12b8",
-      "title": "Chat・Work・CodexとGoogle AI｜AIを一つに決めるのではなく、「仕事の置き場所」を決める時代へ",
-      "url": "https://note.com/club_pyramid/n/nf33b1d8c12b8",
-      "published_at": "2026-08-31T21:32:56+09:00",
-      "summary": "AIを使い込んでいると、いつの間にか「ChatGPTとGeminiはどちらが上か」「CodexとAntigravityはどちらが強いか」という比較をしてしまいます。 でも最近は、少し違う見方をするようになりました。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308945378/rectangle_large_type_2_e93d8dbb44860ec518c6de2373f1dd15.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "618e03fccb5bb7964be1bac2bb7ae119550193653a70161bf42a4397949fa832",
-  "generated_at": "2026-09-08T20:40:39Z"
+  "content_hash": "03032ba49af285843901df7a1eab676d1fe6a804b17d4514843f1b4c9c76687b",
+  "generated_at": "2026-09-10T20:40:38Z"
 }
