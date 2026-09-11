@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-03T20:05:40.819903+09:00",
+  "generated_at": "2026-09-11T13:08:52.822392+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -391,7 +391,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-05-25T13:14:09.779905+09:00",
+        "manual_status": "external",
+        "manual_status_label": "外部待ち",
+        "chat_updated_at": "2026-09-06T15:42:50+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -424,7 +426,9 @@
         "publication_evidence_type": "insufficient_evidence",
         "publication_group_size": 2,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-05-25T13:14:09.779905+09:00",
+        "manual_status": "external",
+        "manual_status_label": "外部待ち",
+        "chat_updated_at": "2026-09-06T15:42:50+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1397,7 +1401,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": false,
-        "chat_updated_at": "2026-07-22T00:45:06.624373+09:00",
+        "manual_status": "handover",
+        "manual_status_label": "引き継ぎ済",
+        "chat_updated_at": "2026-09-11T13:03:26+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1430,7 +1436,9 @@
         "publication_evidence_type": "generic_url_only",
         "publication_group_size": 2,
         "publication_group_inherited": true,
-        "chat_updated_at": "2026-07-22T00:45:06.624373+09:00",
+        "manual_status": "handover",
+        "manual_status_label": "引き継ぎ済",
+        "chat_updated_at": "2026-09-11T13:03:26+09:00",
         "chat_update_matched": true,
         "chat_update_match_type": "registered_conversation_id",
         "conversation_length": {
@@ -1903,8 +1911,8 @@
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-09-01T08:22:25+09:00",
-      "weekly_count": 5
+      "latest_at": "2026-09-11T03:11:58+09:00",
+      "weekly_count": 6
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1951,19 +1959,19 @@
     ],
     "note": [
       {
-        "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
-        "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
-        "published_at": "2026-09-01T08:22:25+09:00"
+        "title": "AIを使う時代から、AIに働いてもらう時代へ｜AIエージェントが変える仕事、組織、知識、地域、そして人間の役割",
+        "url": "https://note.com/club_pyramid/n/nc69c0572c3b4",
+        "published_at": "2026-09-11T03:11:58+09:00"
       },
       {
-        "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
-        "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
-        "published_at": "2026-09-01T01:41:32+09:00"
+        "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
+        "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
+        "published_at": "2026-09-08T11:51:07+09:00"
       },
       {
-        "title": "悠久の大義を、いま改めて考える――国家のために死ぬ言葉から、未来のために生きる言葉へ",
-        "url": "https://note.com/club_pyramid/n/n207821cb0c55",
-        "published_at": "2026-08-31T22:36:13+09:00"
+        "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
+        "url": "https://note.com/club_pyramid/n/n12b9148e1497",
+        "published_at": "2026-09-07T11:09:32+09:00"
       }
     ],
     "ameba": [
@@ -2271,7 +2279,7 @@
         "document_title": "Bar AZITO｜熊本・玉屋通り｜移転前店舗は2026年8月まで営業予定",
         "page_heading": "Bar AZITO (旧 秘密基地アジト)",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:28.714951+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.685034+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2290,7 +2298,7 @@
         "document_title": "300円 BAR アジト 熊本 2号店 @下通アーケードx銀座通り交差点",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.668271+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.799958+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2309,7 +2317,7 @@
         "document_title": "Magic & Bar BLACK BOX 熊本 下通アーケード",
         "page_heading": "BLACK BOX",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.878813+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.983285+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2328,7 +2336,7 @@
         "document_title": "仮面舞踏会 熊本",
         "page_heading": "仮面舞踏会 熊本 Masquerade Kumamoto",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.279737+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.637746+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2347,7 +2355,7 @@
         "document_title": "海のピラミッド｜CLUB PYRAMID 公式アーカイブ",
         "page_heading": "海のピラミッド CLUB PYRAMID 公式アーカイブ",
         "name_source": "h1",
-        "metadata_checked_at": "2026-09-03T19:04:29.502856+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.675596+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2366,7 +2374,7 @@
         "document_title": "れいわ新選組 山本太郎 九州ツアー 熊本 下通アーケードに参上！",
         "page_heading": "2019.10.16 れいわ新選組 山本太郎",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.460553+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.127962+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2385,7 +2393,7 @@
         "document_title": "熊本「仮想通貨」決済可能 店舗一覧",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.366311+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.140573+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2404,7 +2412,7 @@
         "document_title": "革命債権",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.314779+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.998878+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2423,7 +2431,7 @@
         "document_title": "Qanon日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
         "page_heading": "Qanon 日本支部",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.405661+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.082790+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2442,7 +2450,7 @@
         "document_title": "COSA NOSTRA JAPAN｜熊本から始まる創造と互助のネットワーク",
         "page_heading": "COSA NOSTRA JAPAN 善人は、結ばれたとき、はじめて力になる。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:28.504535+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.162768+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2461,7 +2469,7 @@
         "document_title": "天草プロジェクト | 地域資源の共創と海の未来を紡ぐ総合サイト",
         "page_heading": "AMAKUSA PROJECT 天草プロジェクト",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.747165+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.444332+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2480,7 +2488,7 @@
         "document_title": "旧Webアーカイブ入口",
         "page_heading": "旧Webアーカイブ入口",
         "name_source": "title",
-        "metadata_checked_at": "2026-09-03T19:04:31.017730+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.782269+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2499,7 +2507,7 @@
         "document_title": "CLUB KUMAMOTO | CLUB KUMAMOTO",
         "page_heading": "CLUB KUMAMOTO",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.951435+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.263152+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2518,7 +2526,7 @@
         "document_title": "COSA NOSTRA JAPAN 2025",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.802066+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.209552+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2537,7 +2545,7 @@
         "document_title": "INFO SHOP 大都会門司港",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.963722+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.235278+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2556,7 +2564,7 @@
         "document_title": "買取ドットコム of 買取ドットコム",
         "page_heading": "遺品整理から家の売却まで",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:31.012694+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.806873+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2575,7 +2583,7 @@
         "document_title": "欅の森 | 欅の森",
         "page_heading": "欅けやきの森",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:31.052232+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.780334+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2594,7 +2602,7 @@
         "document_title": "熊本AI研究所｜熊本からAIを社会へ実装する",
         "page_heading": "熊本から、AIを社会へ実装する。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.662122+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.278449+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2613,7 +2621,7 @@
         "document_title": "Private Salon LUNA｜熊本ルナ｜女性の相談・案内サロン",
         "page_heading": "女性の毎日に、 必要な人・場所・情報を そっとつなぐ。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.734917+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.434878+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2632,7 +2640,7 @@
         "document_title": "天草「月の塩」ブランドサイト | 満月大潮の海水から生まれた天然塩",
         "page_heading": "TSUKI NO SHIO 天草 月の塩",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.852875+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.519085+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2651,7 +2659,7 @@
         "document_title": "長嶺東 AIシェアオフィス｜熊本市東区の審査制コワーキング・レンタルスペース",
         "page_heading": "小さく始めて、AIで育てる。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.685698+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.394676+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2670,7 +2678,7 @@
         "document_title": "おもけん｜人とAIが共に育む未来のむらづくり",
         "page_heading": "人とAIが共に育む、未来のむらづくり。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.984126+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.224406+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2689,7 +2697,7 @@
         "document_title": "伸陽｜古いものに、次の人生を。買取ドットコムとケヤキの森をつなぐ熊本・玉名の地域拠点",
         "page_heading": "古いものに、次の人生を。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.985671+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.661262+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2708,7 +2716,7 @@
         "document_title": "Sweets Buffet",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:28.971713+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.370127+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2727,7 +2735,7 @@
         "document_title": "KONOKO | 宮崎県小林市から自然と暮らしを提案するブランド",
         "page_heading": "KONOKO",
         "name_source": "h1",
-        "metadata_checked_at": "2026-09-03T19:04:28.129279+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.766407+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2746,7 +2754,7 @@
         "document_title": "kumamotodeai.com | kumamotodeai.com",
         "page_heading": "Connecting Hearts in Kumamoto",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:28.142629+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.819034+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2765,7 +2773,7 @@
         "document_title": "くまもとイベントどっとコム | 熊本のイベント・カルチャー・交流のポータル",
         "page_heading": "くまもとイベントどっとコム",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:29.311077+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.664578+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2784,7 +2792,7 @@
         "document_title": "アフター コロナ／パンデミック後の世界bottom_arrowbottom_arrow",
         "page_heading": "アフター コロナ あるいは ウイズ コロナ／パンデミック後の世界",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.070126+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.859669+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2803,7 +2811,7 @@
         "document_title": "対ウイルス（新型コロナ COVID-19）熊本・九州 NBC（Nuclear Biological Chemical）民間防護隊bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.027003+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.609687+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2822,7 +2830,7 @@
         "document_title": "革命xクーデター",
         "page_heading": "革命Xクーデター",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.590604+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.212624+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2841,7 +2849,7 @@
         "document_title": "熊本困窮者党 令和新撰組 熊本勝手連bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "山本太郎氏への直訴状（あるいは 建白書）",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.806175+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.240317+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2860,7 +2868,7 @@
         "document_title": "経世済民 救国党",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.610132+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.067119+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2879,7 +2887,7 @@
         "document_title": "日本 革命・クーデター計画2025v2",
         "page_heading": "日本革命・クーデター計画",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.665171+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.188783+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2898,7 +2906,7 @@
         "document_title": "革命債権2025bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:31.169881+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:57.215789+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2917,7 +2925,7 @@
         "document_title": "QANON日本支部 米国でのQanonの活動に呼応し、日本を救う計画",
         "page_heading": "Qanon 日本支部",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.635579+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.121890+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2936,7 +2944,7 @@
         "document_title": "2007〜2011、日本で起きた知られざるスクウォット（建物占拠）闘争bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "2007〜2011、日本で起きた知られざるスクウォット／建物占拠 闘争",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.090993+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.783545+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2955,7 +2963,7 @@
         "document_title": "トークン 暗号通貨 x 地域通貨bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "地域通貨 x 暗号通貨（トークン；token）",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.131523+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.744352+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2974,7 +2982,7 @@
         "document_title": "くまもと解放区bottom_arrowbottom_arrowbottom_arrowbottom_arrow",
         "page_heading": "AZITO ONLINE",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.984973+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.676825+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -2993,7 +3001,7 @@
         "document_title": "ひろみチャンネル〜霊界通信〜｜熊本の霊感・霊視・YouTube配信",
         "page_heading": "見えない世界からのメッセージを、明日へ進む力に。",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.274279+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.850453+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3012,7 +3020,7 @@
         "document_title": "Masquerade Party Kumamoto｜仮面舞踏会 熊本",
         "page_heading": "MASQUERADE マスカレード・パーティー熊本",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.526488+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.913343+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3031,7 +3039,7 @@
         "document_title": "MASQUERADE CLUB KUMAMOTO｜マスカレードクラブ熊本",
         "page_heading": "MASQUERADE CLUB KUMAMOTOマスカレードクラブ熊本",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:30.539300+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:56.770080+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3050,7 +3058,7 @@
         "document_title": "海のピラミッド／CLUB PYRAMID of /pyramid/",
         "page_heading": "海のピラミッド／CLUB PYRAMID",
         "name_source": "og:title",
-        "metadata_checked_at": "2026-09-03T19:04:29.246572+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.621097+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3069,7 +3077,7 @@
         "document_title": "宇城市政を刷新する会｜宇城・三角 地域自立構想・政策活動プラットフォーム",
         "page_heading": "海からひらく、宇城の未来。",
         "name_source": "title",
-        "metadata_checked_at": "2026-09-03T19:04:29.874654+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:55.256318+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3088,7 +3096,7 @@
         "document_title": "熊本秘密クラブ｜熊本の会員制プライベートサロン",
         "page_heading": "仮面をまとい、日常をほどく。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:29.327927+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.598881+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3107,7 +3115,7 @@
         "document_title": "くまもとウエディング",
         "page_heading": "Kumamoto Wedding",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:28.679832+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.707124+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3126,7 +3134,7 @@
         "document_title": "STARLIGHT CAFE & WEDDING｜熊本から、星空の祝福を未来へ",
         "page_heading": "星空の下、人生の節目を映画にする。",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:28.458389+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:53.885482+09:00",
         "collection_state": "",
         "last_checked_at": ""
       },
@@ -3145,29 +3153,29 @@
         "document_title": "Sweets Buffet Princess｜甘い王国とプリンセス・サーガ",
         "page_heading": "Sweets BuffetPrincess",
         "name_source": "og:site_name",
-        "metadata_checked_at": "2026-09-03T19:04:29.222507+09:00",
+        "metadata_checked_at": "2026-09-10T19:40:54.531274+09:00",
         "collection_state": "",
         "last_checked_at": ""
       }
     ],
     "collection": {
-      "retained_previous": 0,
-      "http_unavailable": 0,
+      "source": "managed_sites_snapshot",
+      "retained_previous": 1,
+      "http_available": 47,
       "attempted": 48,
       "target_sites": 48,
-      "retrieved": 48,
-      "finished_at": "2026-09-03T19:04:31.179560+09:00",
-      "http_available": 48,
-      "failed": 0,
-      "source": "managed_sites_snapshot",
+      "retrieved": 47,
       "reject_count": 0,
-      "started_at": "2026-09-03T19:04:27.698943+09:00",
-      "status": "success"
+      "started_at": "2026-09-10T19:40:52.625864+09:00",
+      "failed": 1,
+      "status": "partial",
+      "http_unavailable": 0,
+      "finished_at": "2026-09-10T19:41:08.229174+09:00"
     }
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-03T05:20:06+09:00",
+    "generated_at": "2026-09-11T05:20:07+09:00",
     "data_state": "partial",
     "summary": {
       "blocked": 0,
@@ -3179,9 +3187,9 @@
       "paused": 0,
       "reassessment": 0,
       "source_missing": 0,
-      "stale": 2,
+      "stale": 3,
       "total": 7,
-      "unchanged": 5,
+      "unchanged": 4,
       "unknown": 0,
       "updated": 0,
       "working": 4
@@ -3211,7 +3219,7 @@
         "public_summary": "複数AIの正本管理基盤を運用中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-AI-WEB-SNS-PROGRESS-DASHBOARD",
@@ -3237,7 +3245,7 @@
         "public_summary": "AI・WEB・SNSの進捗を所有者限定で確認するダッシュボード (Version 48)",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-09-01T00:51:16+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-AZITO",
@@ -3262,7 +3270,7 @@
         "public_summary": "AZITO 3.0 の公開準備を進行中",
         "source_state": "stale",
         "source_last_modified_at": "2026-07-29T21:19:51+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-COSANOSTRA-JP",
@@ -3284,9 +3292,9 @@
         "publication_status": "published_confirmed",
         "automation_status": "not_applicable",
         "public_summary": "cosanostra.jp の公開サイトを保守中",
-        "source_state": "unchanged",
+        "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-SECRET-CLUB-JP",
@@ -3310,7 +3318,7 @@
         "public_summary": "構造化本文レンダラーのローカル候補QA完了。KSC本番は旧JS/CSSのため手動FTP待ち",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-31T09:43:44+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTOEVENT-COM",
@@ -3334,7 +3342,7 @@
         "public_summary": "kumamotoevent.com の公開サイトを保守中",
         "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-AI-LABORATORY",
@@ -3358,13 +3366,13 @@
         "public_summary": "熊本AI研究所のWeb知識基盤を制作準備中",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-09-03T05:20:06+09:00"
+        "collected_at": "2026-09-11T05:20:07+09:00"
       }
     ]
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-03T05:30:06.433509+09:00",
+    "generated_at": "2026-09-11T05:30:06.235238+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
@@ -3378,18 +3386,18 @@
         "service": "codex",
         "display_name": "Codex",
         "status": "available",
-        "weekly_remaining_percent": 8,
-        "weekly_reset_at": "2026-09-07T12:13:00+09:00",
+        "weekly_remaining_percent": 6,
+        "weekly_reset_at": "2026-09-16T12:27:00+09:00",
         "credits_remaining": 0,
-        "captured_at": "2026-09-03T05:20:01+09:00",
+        "captured_at": "2026-09-11T05:20:01+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Usage画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-09-03T05:20:01+09:00",
-        "last_attempt_at": "2026-09-03T05:30:06+09:00",
+        "last_success_at": "2026-09-11T05:20:01+09:00",
+        "last_attempt_at": "2026-09-11T05:30:06+09:00",
         "failure_reason": null
       },
       {
@@ -3398,48 +3406,48 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 25,
-        "gemini_five_hour_remaining_percent": 73,
+        "gemini_weekly_remaining_percent": 74,
+        "gemini_five_hour_remaining_percent": 100,
         "claude_gpt_weekly_remaining_percent": 100,
         "claude_gpt_five_hour_remaining_percent": 100,
         "claude_gpt_five_hour_not_applicable": false,
-        "captured_at": "2026-09-02T05:30:05+09:00",
+        "captured_at": "2026-09-06T05:30:06+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "failed",
         "freshness": "stale",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "failed",
-        "last_success_at": "2026-09-02T05:30:05+09:00",
-        "last_attempt_at": "2026-09-03T05:30:06+09:00",
+        "last_success_at": "2026-09-06T05:30:06+09:00",
+        "last_attempt_at": "2026-09-11T05:30:06+09:00",
         "failure_reason": "Antigravity画面へ接続できません"
       },
       {
         "service": "grok",
         "display_name": "Grok",
         "status": "available",
-        "weekly_used_percent": 19,
-        "weekly_remaining_percent": 81,
-        "weekly_reset_at": "2026-09-08T03:21:00+09:00",
-        "grok_build_used_percent": 19,
+        "weekly_used_percent": 29,
+        "weekly_remaining_percent": 71,
+        "weekly_reset_at": "2026-09-15T03:21:00+09:00",
+        "grok_build_used_percent": 29,
         "chat_used_percent": null,
         "extra_usage_credits": 0,
-        "captured_at": "2026-09-03T05:20:08+09:00",
+        "captured_at": "2026-09-11T05:20:24+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-09-03T05:20:08+09:00",
-        "last_attempt_at": "2026-09-03T05:30:06+09:00",
+        "last_success_at": "2026-09-11T05:20:24+09:00",
+        "last_attempt_at": "2026-09-11T05:30:06+09:00",
         "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-09-03T20:05:41.203805+09:00",
+    "generated_at": "2026-09-11T13:08:53.168599+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3478,9 +3486,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "hardware_pmset",
-        "last_run": "2026-09-03T04:50:00+0900",
-        "last_success": "2026-09-03T04:50:00+0900",
-        "next_run": "2026-09-04T04:50:00+09:00",
+        "last_run": "2026-09-11T04:50:00+0900",
+        "last_success": "2026-09-11T04:50:00+0900",
+        "next_run": "2026-09-12T04:50:00+09:00",
         "notes": "ハードウェア自動起動。朝のバッチ群実行に先立ち稼働開始。"
       },
       {
@@ -3493,8 +3501,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
         "next_run": "常時稼働",
         "notes": "ローカルLLM (qwen2.5-coder, gemma4等) 推論サービス常駐。"
       },
@@ -3508,8 +3516,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
         "next_run": "常時稼働",
         "notes": "自律エージェントオーケストレーション基盤常駐。"
       },
@@ -3523,8 +3531,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
         "next_run": "常時稼働",
         "notes": "マルチチャネルエージェント通信ゲートウェイ常駐。"
       },
@@ -3538,8 +3546,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
         "next_run": "常時稼働",
         "notes": "Codex LLMリクエストルーティング基盤常駐。"
       },
@@ -3553,8 +3561,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
         "next_run": "常時稼働",
         "notes": "Webブラウザ会話セッション状態のローカル記録サービス常駐。"
       },
@@ -3568,9 +3576,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
-        "next_run": "2026-09-04T05:00:00+09:00",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
+        "next_run": "2026-09-12T05:00:00+09:00",
         "notes": "Hermes Agentで収集したX日次まとめ投稿を生成・公開。"
       },
       {
@@ -3583,9 +3591,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T05:10:00+0900",
-        "last_success": "2026-09-03T05:10:00+0900",
-        "next_run": "2026-09-04T05:10:00+09:00",
+        "last_run": "2026-09-11T05:10:00+0900",
+        "last_success": "2026-09-11T05:10:00+0900",
+        "next_run": "2026-09-12T05:10:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:10)。Google Calendar APIからローカルカレンダーDBへの日次同期。"
       },
       {
@@ -3598,9 +3606,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T05:55:00+0900",
-        "last_success": "2026-09-03T05:55:00+0900",
-        "next_run": "2026-09-04T05:55:00+09:00",
+        "last_run": "2026-09-11T05:55:00+0900",
+        "last_success": "2026-09-11T05:55:00+0900",
+        "next_run": "2026-09-12T05:55:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:55)。朝の収集・集計完了後にサマリーメール送信。"
       },
       {
@@ -3615,7 +3623,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-09-04T05:40:00+09:00",
+        "next_run": "2026-09-12T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3630,7 +3638,7 @@
         "execution_type": "launchd",
         "last_run": "2026-08-31T09:43:47+09:00",
         "last_success": "2026-08-31T09:43:47+09:00",
-        "next_run": "2026-09-04T05:20:00+09:00",
+        "next_run": "2026-09-12T05:20:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:20)。全7プロジェクトの状態を正常収集・監査。"
       },
       {
@@ -3643,9 +3651,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T05:30:00+0900",
-        "last_success": "2026-09-03T05:30:00+0900",
-        "next_run": "2026-09-04T05:30:00+09:00",
+        "last_run": "2026-09-11T05:30:00+0900",
+        "last_success": "2026-09-11T05:30:00+0900",
+        "next_run": "2026-09-12T05:30:00+09:00",
         "notes": "各AIモデル・APIのトークン消費量と費用集計。"
       },
       {
@@ -3658,9 +3666,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "hermes_cron",
-        "last_run": "2026-09-03T08:00:00+0900",
-        "last_success": "2026-09-03T08:00:00+0900",
-        "next_run": "2026-09-04T06:10:00+09:00",
+        "last_run": "2026-09-11T08:00:00+0900",
+        "last_success": "2026-09-11T08:00:00+0900",
+        "next_run": "2026-09-12T06:10:00+09:00",
         "notes": "Hermes AgentによるSNS・ニュース・特定アカウントの定時調査。"
       },
       {
@@ -3675,7 +3683,7 @@
         "execution_type": "launchd",
         "last_run": "2026-08-31T08:49:15+09:00",
         "last_success": "2026-08-31T08:49:15+09:00",
-        "next_run": "2026-09-04T12:00:00+09:00",
+        "next_run": "2026-09-12T12:00:00+09:00",
         "notes": "Phase 2-Eで12:00正式有効化。restic暗号化差分バックアップ。初回定時実行待ち。"
       },
       {
@@ -3688,9 +3696,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T05:00:00+0900",
-        "last_success": "2026-09-03T05:00:00+0900",
-        "next_run": "2026-09-03T21:00:00+09:00",
+        "last_run": "2026-09-11T05:00:00+0900",
+        "last_success": "2026-09-11T05:00:00+0900",
+        "next_run": "2026-09-11T15:00:00+09:00",
         "notes": "Xフィードの定期更新・公開データ同期。"
       },
       {
@@ -3703,9 +3711,9 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-02T17:00:00+0900",
-        "last_success": "2026-09-02T17:00:00+0900",
-        "next_run": "2026-09-04T17:00:00+09:00",
+        "last_run": "2026-09-10T17:00:00+0900",
+        "last_success": "2026-09-10T17:00:00+0900",
+        "next_run": "2026-09-11T17:00:00+09:00",
         "notes": "夕方の自動集計日報メール送信。"
       },
       {
@@ -3718,9 +3726,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T20:00:41.203805+09:00",
-        "last_success": "2026-09-03T20:00:41.203805+09:00",
-        "next_run": "2026-09-03T20:20:41.203805+09:00",
+        "last_run": "2026-09-11T13:03:53.168599+09:00",
+        "last_success": "2026-09-11T13:03:53.168599+09:00",
+        "next_run": "2026-09-11T13:23:53.168599+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3733,9 +3741,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T19:50:41.203805+09:00",
-        "last_success": "2026-09-03T19:50:41.203805+09:00",
-        "next_run": "2026-09-03T20:35:41.203805+09:00",
+        "last_run": "2026-09-11T12:53:53.168599+09:00",
+        "last_success": "2026-09-11T12:53:53.168599+09:00",
+        "next_run": "2026-09-11T13:38:53.168599+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3748,50 +3756,50 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-03T19:05:41.203805+09:00",
-        "last_success": "2026-09-03T19:05:41.203805+09:00",
-        "next_run": "2026-09-03T23:05:41.203805+09:00",
+        "last_run": "2026-09-11T12:08:53.168599+09:00",
+        "last_success": "2026-09-11T12:08:53.168599+09:00",
+        "next_run": "2026-09-11T16:08:53.168599+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-03T20:05:32+09:00",
+    "generated_at": "2026-09-11T13:08:47+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T19:50:22+09:00",
-        "last_success_at": "2026-09-03T19:50:22+09:00",
+        "last_attempt_at": "2026-09-11T12:53:40+09:00",
+        "last_success_at": "2026-09-11T12:53:40+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T19:50:23+09:00",
-        "last_success_at": "2026-09-03T19:50:23+09:00",
+        "last_attempt_at": "2026-09-11T12:53:40+09:00",
+        "last_success_at": "2026-09-11T12:53:40+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T19:50:23+09:00",
-        "last_success_at": "2026-09-03T19:50:23+09:00",
+        "last_attempt_at": "2026-09-11T12:53:40+09:00",
+        "last_success_at": "2026-09-11T12:53:40+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "web": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T19:04:31+09:00",
-        "last_success_at": "2026-09-03T19:04:31+09:00",
-        "message": "更新完了",
-        "error_code": ""
+        "last_attempt_at": "2026-09-10T19:41:08+09:00",
+        "last_success_at": "2026-09-10T19:41:08+09:00",
+        "message": "一部更新。取得失敗サイトは前回値を保持しました",
+        "error_code": "acquisition_failed"
       },
       "ai_agent": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T05:20:06+09:00",
-        "last_success_at": "2026-09-03T05:20:06+09:00",
-        "message": "収集完了。2件の正本は状態確認が必要です",
+        "last_attempt_at": "2026-09-11T05:20:07+09:00",
+        "last_success_at": "2026-09-11T05:20:07+09:00",
+        "message": "収集完了。3件の正本は状態確認が必要です",
         "error_code": ""
       },
       "ai_chat": {
@@ -3803,15 +3811,15 @@
       },
       "x": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T15:02:13+09:00",
-        "last_success_at": "2026-09-03T15:02:13+09:00",
+        "last_attempt_at": "2026-09-11T06:05:14+09:00",
+        "last_success_at": "2026-09-11T06:05:14+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ai_usage": {
         "state": "completed",
-        "last_attempt_at": "2026-09-03T05:20:08+09:00",
-        "last_success_at": "2026-09-03T05:20:08+09:00",
+        "last_attempt_at": "2026-09-11T05:20:24+09:00",
+        "last_success_at": "2026-09-11T05:20:24+09:00",
         "message": "一部更新。前回値を保持しているサービスがあります",
         "error_code": "ai_usage_partial"
       }
@@ -3819,102 +3827,133 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-09-03T11:05:33.664Z",
-    "last_success_at": "2026-09-03T11:05:33.664Z",
-    "last_attempt_at": "2026-09-03T11:05:33.664Z",
+    "generated_at": "2026-09-11T04:08:48.218Z",
+    "last_success_at": "2026-09-11T04:08:48.218Z",
+    "last_attempt_at": "2026-09-11T04:08:48.218Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
     "recent_window_days": 7,
     "window_counts": {
-      "threads_24h": 0,
-      "threads_3d": 0,
-      "threads_7d": 3,
-      "projects_24h": 0,
-      "projects_3d": 0,
-      "projects_7d": 3
+      "threads_24h": 4,
+      "threads_3d": 6,
+      "threads_7d": 11,
+      "projects_24h": 4,
+      "projects_3d": 6,
+      "projects_7d": 10
     },
     "summary": {
-      "total_recent_threads": 3,
-      "displayed_threads": 3,
-      "total_recent_projects": 3,
-      "displayed_projects": 3,
-      "total_attention_items": 1,
-      "displayed_attention_items": 1
+      "total_recent_threads": 11,
+      "displayed_threads": 5,
+      "total_recent_projects": 10,
+      "displayed_projects": 5,
+      "total_attention_items": 0,
+      "displayed_attention_items": 0
     },
     "recent_threads": [
       {
-        "thread_id": "a5e0c2b3fa8b0632be4cdf6e6a2993291e780024b24963befa2f05397ad689cc",
-        "title": "占いアプリ作成",
-        "project": "占いアプリ作成",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
-        "status": "owner_waiting",
-        "status_label": "本人判断待ち",
-        "state_recorded_at": "2026-08-30T04:12:24.000Z",
+        "thread_id": "e0303f4402a7c2e831d64718bfddffbebe99142e09c6819c1bb91e61a2d3baa8",
+        "title": "🎭AI時代生き残り戦略4",
+        "project": "🎭AI時代生き残り戦略4",
+        "category": "イベント",
+        "status": "working",
+        "status_label": "作業中",
+        "state_recorded_at": "2026-09-11T04:04:51.000Z",
         "activity_type": "state_recorded",
         "source": "chrome_extension"
       },
       {
-        "thread_id": "abfa34dc124f884fdf22f2c7a22834d410688408a873ed4c355a6f9d47d88ece",
-        "title": "AI書籍出版4",
-        "project": "AI書籍出版4",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
+        "thread_id": "f28e42d5560d9afee222fa4e5c32ae5e1e19a5f1d0c2d7cd67b21f2f3249003d",
+        "title": "KSC開催告知",
+        "project": "KSC開催告知",
+        "category": "イベント",
         "status": "working",
         "status_label": "作業中",
-        "state_recorded_at": "2026-08-30T02:47:53.000Z",
+        "state_recorded_at": "2026-09-11T04:04:47.000Z",
         "activity_type": "state_recorded",
         "source": "chrome_extension"
       },
       {
-        "thread_id": "fc83ca08960a7a1f636eb31d8fb466f015d4b11d2e60e57dd1cfeaee9d6c5fdf",
-        "title": "タスク管理ダッシュボード2",
-        "project": "タスク管理ダッシュボード2",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
+        "thread_id": "645f53f778581f7306517a82ae380e04f6f4c3272511160cf105df14fd3b8341",
+        "title": "KSC BLOG",
+        "project": "KSC BLOG",
+        "category": "イベント",
         "status": "working",
         "status_label": "作業中",
-        "state_recorded_at": "2026-08-29T01:40:42.000Z",
+        "state_recorded_at": "2026-09-11T04:04:43.000Z",
+        "activity_type": "state_recorded",
+        "source": "chrome_extension"
+      },
+      {
+        "thread_id": "a6e5e747b8d1d3f3c1dbe81230e84b84d446370f2bf5db0edd219afab81e2f52",
+        "title": "🎭AI時代生き残り戦略3",
+        "project": "🎭AI時代生き残り戦略3",
+        "category": "イベント",
+        "status": "handover",
+        "status_label": "引き継ぎ済",
+        "state_recorded_at": "2026-09-11T04:03:26.000Z",
+        "activity_type": "state_recorded",
+        "source": "chrome_extension"
+      },
+      {
+        "thread_id": "a299ce6f7c09aabc46d2d151fae92c9fce2bf0b5bbc5649a7992d9d66619d108",
+        "title": "経営・ビジネス",
+        "project": "経営・ビジネス",
+        "category": "ChatGPT",
+        "status": "working",
+        "status_label": "作業中",
+        "state_recorded_at": "2026-09-09T15:20:35.000Z",
         "activity_type": "state_recorded",
         "source": "chrome_extension"
       }
     ],
     "recent_projects": [
       {
-        "project": "占いアプリ作成",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
+        "project": "🎭AI時代生き残り戦略4",
+        "category": "イベント",
         "record_count": 1,
-        "state_recorded_at": "2026-08-30T04:12:24.000Z",
-        "status": "owner_waiting",
-        "status_label": "本人判断待ち",
-        "latest_thread_title": "占いアプリ作成"
-      },
-      {
-        "project": "AI書籍出版4",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
-        "record_count": 1,
-        "state_recorded_at": "2026-08-30T02:47:53.000Z",
+        "state_recorded_at": "2026-09-11T04:04:51.000Z",
         "status": "working",
         "status_label": "作業中",
-        "latest_thread_title": "AI書籍出版4"
+        "latest_thread_title": "🎭AI時代生き残り戦略4"
       },
       {
-        "project": "タスク管理ダッシュボード2",
-        "category": "Mac｜iOS｜AI｜IT｜SNS",
+        "project": "KSC開催告知",
+        "category": "イベント",
         "record_count": 1,
-        "state_recorded_at": "2026-08-29T01:40:42.000Z",
+        "state_recorded_at": "2026-09-11T04:04:47.000Z",
         "status": "working",
         "status_label": "作業中",
-        "latest_thread_title": "タスク管理ダッシュボード2"
+        "latest_thread_title": "KSC開催告知"
+      },
+      {
+        "project": "KSC BLOG",
+        "category": "イベント",
+        "record_count": 1,
+        "state_recorded_at": "2026-09-11T04:04:43.000Z",
+        "status": "working",
+        "status_label": "作業中",
+        "latest_thread_title": "KSC BLOG"
+      },
+      {
+        "project": "🎭AI時代生き残り戦略3",
+        "category": "イベント",
+        "record_count": 1,
+        "state_recorded_at": "2026-09-11T04:03:26.000Z",
+        "status": "handover",
+        "status_label": "引き継ぎ済",
+        "latest_thread_title": "🎭AI時代生き残り戦略3"
+      },
+      {
+        "project": "経営・ビジネス",
+        "category": "ChatGPT",
+        "record_count": 1,
+        "state_recorded_at": "2026-09-09T15:20:35.000Z",
+        "status": "working",
+        "status_label": "作業中",
+        "latest_thread_title": "経営・ビジネス"
       }
     ],
-    "attention_items": [
-      {
-        "thread_id": "a5e0c2b3fa8b0632be4cdf6e6a2993291e780024b24963befa2f05397ad689cc",
-        "title": "占いアプリ作成",
-        "project": "占いアプリ作成",
-        "reason": "本人判断待ち",
-        "state_recorded_at": "2026-08-30T04:12:24.000Z",
-        "source": "chrome_extension"
-      }
-    ]
+    "attention_items": []
   }
 }
