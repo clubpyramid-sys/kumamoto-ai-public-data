@@ -7,8 +7,44 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-10T00:06:32+09:00",
+  "last_source_update_at": "2026-09-11T15:05:51+09:00",
   "items": [
+    {
+      "id": "2098266961755168878",
+      "title": "一度参加すると、なぜまた来たくなるのか。熊本秘密クラブの高いリピート率を掘り下げると、そこには「人間関係のリアルタイム演算」という主催者の仕事があった。その延長",
+      "text": "一度参加すると、なぜまた来たくなるのか。熊本秘密クラブの高いリピート率を掘り下げると、そこには「人間関係のリアルタイム演算」という主催者の仕事があった。その延長線上に見えてきたのが、主催者を支えるAIバトラーという未来だ。 https://t.co/qTMSem3XLw",
+      "url": "https://x.com/club_kumamoto/status/2098266961755168878",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-09-11T04:26:42Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2098258052730474987",
+      "title": "明日、土曜の夜に開催ですhttps://t.co/OlmxmGn34d",
+      "text": "明日、土曜の夜に開催ですhttps://t.co/OlmxmGn34d",
+      "url": "https://x.com/kumamonsupport/status/2098258052730474987",
+      "handle": "kumamonsupport",
+      "display_name": "Kumamoto Secret Club➕東京支局",
+      "published_at": "2026-09-11T03:51:18Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2098256178086379765",
+      "title": "天然知能搭載自走式生体ディルド",
+      "text": "天然知能搭載自走式生体ディルド",
+      "url": "https://x.com/K_Ero_Gentleman/status/2098256178086379765",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-11T03:43:51Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2097594591608553553",
       "title": "🎭【9月後半の開催情報｜12日・15日・16日】 9月後半は、雰囲気のまったく違う2つの特別開催です✨ 🗽 9月12日（土）夜｜熊本・街中 FREEDOM & ",
@@ -245,18 +281,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-08T06:26:38Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2097192726223843469",
-      "title": "ただいま女性の方と合流待ち",
-      "text": "ただいま女性の方と合流待ち",
-      "url": "https://x.com/K_Ero_Gentleman/status/2097192726223843469",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-08T05:18:04Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -509,18 +533,6 @@
       "handle": "kumamonsupport",
       "display_name": "KSC",
       "published_at": "2026-08-15T06:22:25Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2088451543838388654",
-      "title": "https://t.co/jMTivf4ON5",
-      "text": "https://t.co/jMTivf4ON5",
-      "url": "https://x.com/club_kumamoto/status/2088451543838388654",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-08-15T02:23:44Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1043,21 +1055,9 @@
       "is_reply": false,
       "is_repost": false,
       "media": []
-    },
-    {
-      "id": "2062908420353851866",
-      "title": "pic.twitter.com/1eFD48cnQh",
-      "text": "pic.twitter.com/1eFD48cnQh",
-      "url": "https://x.com/kumamonsupport/status/2062908420353851866",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-06-05T14:44:29Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
     }
   ],
   "item_count": 80,
-  "content_hash": "d88e2caaa0f008f033cd0eaa8802c5be96d01b5289f571d382ef312336faebe4",
-  "generated_at": "2026-09-10T21:05:15Z"
+  "content_hash": "59e79db895b617b75f959e47dfb2558a5d1144eea0e6e72ed2e68ae04b129fc2",
+  "generated_at": "2026-09-11T06:05:51Z"
 }
