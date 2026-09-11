@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-11T15:05:51+09:00",
+  "last_source_update_at": "2026-09-12T00:06:14+09:00",
   "items": [
+    {
+      "id": "2098386373757825485",
+      "title": "明日は17時前には開催スタートできそうです😉 ご参加希望の方は、当日まずX（Twitter）をご確認ください🌙 開催スタートのアナウンスが出ましたら、上通り周辺",
+      "text": "明日は17時前には開催スタートできそうです😉 ご参加希望の方は、当日まずX（Twitter）をご確認ください🌙 開催スタートのアナウンスが出ましたら、上通り周辺までお越しのうえDMをお願いいたします。 こちらで確認後、会場をご案内いたします。 https://t.co/W2PQoKY5Ma https://t.co/K3ldBlLMmG",
+      "url": "https://x.com/K_Ero_Gentleman/status/2098386373757825485",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-11T12:21:12Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2098266961755168878",
       "title": "一度参加すると、なぜまた来たくなるのか。熊本秘密クラブの高いリピート率を掘り下げると、そこには「人間関係のリアルタイム演算」という主催者の仕事があった。その延長",
@@ -269,18 +281,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-08T06:46:30Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2097209979615031561",
-      "title": "開催スタートです 皆さまのお越しをお待ちしてます https://t.co/0bzsnuRAdX",
-      "text": "開催スタートです 皆さまのお越しをお待ちしてます https://t.co/0bzsnuRAdX",
-      "url": "https://x.com/K_Ero_Gentleman/status/2097209979615031561",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-08T06:26:38Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "59e79db895b617b75f959e47dfb2558a5d1144eea0e6e72ed2e68ae04b129fc2",
-  "generated_at": "2026-09-11T06:05:51Z"
+  "content_hash": "c635cc1a8d3622edd9a5bc9d729ff6c07e1e12ab37848cf06f3b2db7745cdf1f",
+  "generated_at": "2026-09-11T15:06:15Z"
 }
