@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-12T00:06:14+09:00",
+  "last_source_update_at": "2026-09-12T15:07:42+09:00",
   "items": [
+    {
+      "id": "2098644981049331871",
+      "title": "会場にn向かいます",
+      "text": "会場にn向かいます",
+      "url": "https://x.com/K_Ero_Gentleman/status/2098644981049331871",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-12T05:28:49Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2098620394035175843",
+      "title": "行動開始です https://t.co/sHxmcET7Pe",
+      "text": "行動開始です https://t.co/sHxmcET7Pe",
+      "url": "https://x.com/K_Ero_Gentleman/status/2098620394035175843",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-12T03:51:07Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2098386373757825485",
       "title": "明日は17時前には開催スタートできそうです😉 ご参加希望の方は、当日まずX（Twitter）をご確認ください🌙 開催スタートのアナウンスが出ましたら、上通り周辺",
@@ -257,30 +281,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-08T08:25:44Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2097236903733133453",
-      "title": "いじめられたい男性来ないかなぁ と女性の方がおっしゃってます❤️",
-      "text": "いじめられたい男性来ないかなぁ と女性の方がおっしゃってます❤️",
-      "url": "https://x.com/K_Ero_Gentleman/status/2097236903733133453",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-08T08:13:37Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2097214979112042962",
-      "title": "女性の方とお話ししながら 男性の皆さまのご到着お待ちしてます",
-      "text": "女性の方とお話ししながら 男性の皆さまのご到着お待ちしてます",
-      "url": "https://x.com/K_Ero_Gentleman/status/2097214979112042962",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-08T06:46:30Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1058,6 +1058,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "c635cc1a8d3622edd9a5bc9d729ff6c07e1e12ab37848cf06f3b2db7745cdf1f",
-  "generated_at": "2026-09-11T21:03:12Z"
+  "content_hash": "fd105ca762f83d5184e32f8e53ec9f843ca4f45f426e4980ffdefd1d2b9b7074",
+  "generated_at": "2026-09-12T06:07:43Z"
 }
