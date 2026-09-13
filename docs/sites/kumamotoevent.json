@@ -6,6 +6,30 @@
   },
   "note_items": [
     {
+      "id": "n7ff63e5d9e16",
+      "title": "『ファイト・クラブ』の結末はAIだったのか？――誰も計画していない「グレート・リセット」の正体",
+      "url": "https://note.com/club_pyramid/n/n7ff63e5d9e16",
+      "published_at": "2026-09-13T14:59:12+09:00",
+      "summary": "映画『ファイト・クラブ』のラストシーンを、いま改めて思い出す。 ファイト・クラブ (吹替版) link.amazon 440円 (2026年09月13日 14:57時点詳しくはこちら) Amazon.co.jpで購入する 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313232343/rectangle_large_type_2_a40753c0909a50ffe812f7e1b08eb113.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "n180386498d19",
+      "title": "Solでもトークンは溶ける。だから私は「ローカルAI部隊」と「クラウドAI部隊」を同時に動かす",
+      "url": "https://note.com/club_pyramid/n/n180386498d19",
+      "published_at": "2026-09-13T14:15:58+09:00",
+      "summary": "Mac Studioをフル稼働させながら、ChatGPT・Codex・Geminiでマルチタスクするという働き方 GPT-6 Astraを使い始めて、まず驚いたのはその能力だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313220621/rectangle_large_type_2_077316fce3086826a37668d72b316872.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "nc69c0572c3b4",
       "title": "AIを使う時代から、AIに働いてもらう時代へ｜AIエージェントが変える仕事、組織、知識、地域、そして人間の役割",
       "url": "https://note.com/club_pyramid/n/nc69c0572c3b4",
@@ -96,30 +120,6 @@
       "published_at": "2026-09-01T08:22:25+09:00",
       "summary": "中島美嘉の『WILL』を久しぶりに思い出した。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309072016/rectangle_large_type_2_a0bfddaa4ad1703dbb65e847f58e218f.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n0f327cdd222d",
-      "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
-      "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
-      "published_at": "2026-09-01T01:41:32+09:00",
-      "summary": "ここ数日、映像制作に本格的に着手していて、かなり強烈に感じていることがあります。 ChatGPTの映像制作における「指揮能力」が、少し前とは別物になっている。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309023349/rectangle_large_type_2_ce14fd6f4e8f6b472b34368c1363ec31.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n207821cb0c55",
-      "title": "悠久の大義を、いま改めて考える――国家のために死ぬ言葉から、未来のために生きる言葉へ",
-      "url": "https://note.com/club_pyramid/n/n207821cb0c55",
-      "published_at": "2026-08-31T22:36:13+09:00",
-      "summary": "「悠久の大義」という言葉がある。 いまの日常生活では、ほとんど耳にすることのない言葉だ。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308972850/rectangle_large_type_2_36d2f2368d21a05c075f00cd64e568e1.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "0938393e9fd20400b19e98a84dd4dd9abaece2a89e41c37e93694ba77fbefa05",
-  "generated_at": "2026-09-10T20:40:38Z"
+  "content_hash": "447690ce10e75af64b99e36fe0662f617bc388add430e118a31976bc946509a2",
+  "generated_at": "2026-09-13T20:40:52Z"
 }

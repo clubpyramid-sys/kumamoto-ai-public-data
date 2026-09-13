@@ -9,6 +9,28 @@
   },
   "items": [
     {
+      "id": "n7ff63e5d9e16",
+      "title": "『ファイト・クラブ』の結末はAIだったのか？――誰も計画していない「グレート・リセット」の正体",
+      "url": "https://note.com/club_pyramid/n/n7ff63e5d9e16",
+      "published_at": "2026-09-13T14:59:12+09:00",
+      "summary": "映画『ファイト・クラブ』のラストシーンを、いま改めて思い出す。 ファイト・クラブ (吹替版) link.amazon 440円 (2026年09月13日 14:57時点詳しくはこちら) Amazon.co.jpで購入する 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313232343/rectangle_large_type_2_a40753c0909a50ffe812f7e1b08eb113.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n180386498d19",
+      "title": "Solでもトークンは溶ける。だから私は「ローカルAI部隊」と「クラウドAI部隊」を同時に動かす",
+      "url": "https://note.com/club_pyramid/n/n180386498d19",
+      "published_at": "2026-09-13T14:15:58+09:00",
+      "summary": "Mac Studioをフル稼働させながら、ChatGPT・Codex・Geminiでマルチタスクするという働き方 GPT-6 Astraを使い始めて、まず驚いたのはその能力だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313220621/rectangle_large_type_2_077316fce3086826a37668d72b316872.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "nc69c0572c3b4",
       "title": "AIを使う時代から、AIに働いてもらう時代へ｜AIエージェントが変える仕事、組織、知識、地域、そして人間の役割",
       "url": "https://note.com/club_pyramid/n/nc69c0572c3b4",
@@ -205,31 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n33045dfa633c",
-      "title": "Webサイト更新はChatGPT、Webシステム開発はCodex Sites、仕上げと本番移植はAntigravity｜BiNDからレンタルサーバーへ移ると見えてきた、AI時代のWeb制作の新しい分業",
-      "url": "https://note.com/club_pyramid/n/n33045dfa633c",
-      "published_at": "2026-08-18T08:45:32+09:00",
-      "summary": "ここしばらく、既存Webサイトのリニューアル、ブログ機能の自前CMS化、地域イベント情報アプリ、公開データの整理など、いくつものWeb案件をAIと一緒に進めながら、「ChatGPT、Codex、Antigravityをどう分担させると一番速いのか」を実際の作業で試してきました。その結果、かなりはっきりしてきたことがあります。 普通のWebサイトを更新する仕事と、新しいWebシステムやWebアプリを作る仕事は、同じ「Web制作」と呼ばれていても、AIの使い方を分けた方がいい。そしてさらに、そのWebアプリを現在契約しているレンタルサーバーへ組み込み、長期運用できる形へ仕上げる仕事も、別の工程として考えた方がいい。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304582200/rectangle_large_type_2_f04e06ba497576b191c8485ffa409fc3.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n284d49d910a2",
-      "title": "自由消費が蒸発する社会――人は「楽しさ」ではなく「正気を保つため」に金を使う",
-      "url": "https://note.com/club_pyramid/n/n284d49d910a2",
-      "published_at": "2026-08-18T08:37:36+09:00",
-      "summary": "日本経済について語るとき、GDPが何％伸びた、実質賃金が何％下がった、物価が何％上昇した、個人消費が何％減った、といった数字が並ぶ。しかし、長く街の商売や人の動きを見ていると、こうしたマクロの数字と、飲食店、旅行、イベント、夜の街、娯楽、趣味、ファッションなどの現場で感じる景気との間には、ときに説明がつかないほど大きな開きがある。経済全体では数％しか悪化していないはずなのに、街では「客が半分になった」「人がまったく動かない」「以前なら埋まっていたイベントが成立しない」ということが起こる。この違和感を考えているうちに、経済全体の平均値を見るのではなく、家計の中にある「絶対に払わなければならない金」と「削ろうと思えば削れる金」を分けて考えた方が、今の日本で起きていることをはるかにうまく説明できるのではないかと思うようになった。 仮に一つの家計の支出を100とし、そのうち80が家賃、住宅ローン、税金、社会保険料、電気、ガス、水道、通信、最低限の食費、移動費、保険、車の維持費といった、短期間には簡単に削れない支出だったとする。残りの20が、外食、旅行、飲み会、イベント、服、美容、趣味、レジャー",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/304580787/rectangle_large_type_2_7ed99f3f5adc9694cf7a32a4332e3cd0.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "d5c857b758e969d85dac0b7d8e54b26b8db59b3f7928196a72403e40ca9b679e",
-  "generated_at": "2026-09-10T20:40:11Z"
+  "content_hash": "948108b203b4b7d27d9c7d703530d9682264e43ea8deacce72a2805036c9c177",
+  "generated_at": "2026-09-13T20:40:18Z"
 }
