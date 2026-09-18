@@ -6,6 +6,45 @@
   },
   "note_items": [
     {
+      "id": "n55795fd3758b",
+      "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
+      "url": "https://note.com/club_pyramid/n/n55795fd3758b",
+      "published_at": "2026-09-18T19:46:56+09:00",
+      "summary": "Hermes Agentを使っていて、最近かなり印象が変わってきました。 最初は、 「ローカルAIを使えるAIエージェント」 くらいの認識でした。 QwenなどをMac Studioで動かし、Webを調べたり、ファイルを読んだり、ターミナルを操作したりする。 それだけでも十分面白かったのですが、最近のHermesを見ていると、どうも目指しているところがもっと先にあります。 特にそれを感じたのが、 Bot Mode と、 Memory Graph / Lear",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314988116/rectangle_large_type_2_3066679b5d8da2368d7257eb905218d5.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 0,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "n84674556cfd6",
+      "title": "CodexやAntigravityを使っている人ほど、Hermes Agentが面白い理由｜「もう一つのコーディングAI」ではなく、AIたちを常駐させる“仕事場”として見る",
+      "url": "https://note.com/club_pyramid/n/n84674556cfd6",
+      "published_at": "2026-09-18T17:53:18+09:00",
+      "summary": "CodexやGoogle Antigravityをすでに使っている人がHermes Agentを見ると、最初はこう思うかもしれません。 「これもAIにコードを書かせるソフトなのでは？」 確かに、Hermesにもターミナル操作、ファイル編集、Web検索、ブラウザ操作、コード実行、複数AIへの仕事の分担などがあります。表面的にはCodexやAntigravityと重なる部分がかなりあります。 しかし、実際に使ってみると立ち位置が少し違います。 Codexは、OpenAI自",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314954024/rectangle_large_type_2_ea0f28e17cd8a9655d9e1ccf7666b885.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 1,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "nd2a329b6c96f",
+      "title": "Hermes Agentって何？｜会話しながら「調べる・考える・作業する」を一つにまとめたAI",
+      "url": "https://note.com/club_pyramid/n/nd2a329b6c96f",
+      "published_at": "2026-09-18T15:48:41+09:00",
+      "summary": "AIというと、多くの人はまず「質問に答えてくれるもの」を思い浮かべるかもしれません。 たとえば、 わからないことを聞く。 文章を書いてもらう。 アイデアを出してもらう。 そうした使い方です。 もちろん、それだけでも十分便利です。 けれどHermes Agentは、そこからもう一歩先へ進もうとしている道具です。 ひとことで言うなら、 Hermesは、会話しながら一緒に作業できるAIです。 ただ返事を返して終わりではありません。 文章を考えるだけでもありません。 資",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314915640/rectangle_large_type_2_67e4d7172c4edc8aa2e9d72101b3f7b1.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 2,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n7ff63e5d9e16",
       "title": "『ファイト・クラブ』の結末はAIだったのか？――誰も計画していない「グレート・リセット」の正体",
       "url": "https://note.com/club_pyramid/n/n7ff63e5d9e16",
@@ -13,7 +52,7 @@
       "summary": "映画『ファイト・クラブ』のラストシーンを、いま改めて思い出す。 夜の街。 主人公とマーラが手をつなぎ、その向こうで巨大な金融ビル群が次々と崩れ落ちていく。 プロジェクト・メイヘムが目指していたのは、金融機関が保有する債務記録を破壊し、人々の借金を消し去ることだった。 社会を一度、ゼロに戻す。 乱暴に言えば、そういう「リセット」の物語だった。 1999年にこの映画を見たとき、これは極端な反資本主義の寓話だった。 ところが2026年のいま、奇妙なことを考えてしまう。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313232343/rectangle_large_type_2_a40753c0909a50ffe812f7e1b08eb113.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -26,7 +65,7 @@
       "summary": "Mac Studioをフル稼働させながら、ChatGPT・Codex・Geminiでマルチタスクするという働き方GPT-6 Astraを使い始めて、まず驚いたのはその能力だった。 難しい設計判断や、複雑な問題の整理では明らかに強い。 しかし、もう一つ驚いたことがある。 利用枠がものすごい勢いで減る。 そこで「普段の仕事はSolでやればいい」と考える。 実際、それはかなり正しい。 大量のコードを読む。 実装する。 テストする。 ファイルを調査する。 こういう",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313220621/rectangle_large_type_2_077316fce3086826a37668d72b316872.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 4,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -39,7 +78,7 @@
       "summary": "生成AIが一般に知られるようになった当初、多くの人にとってAIとは「質問すると答えてくれる便利な道具」だった。分からないことを尋ねれば説明してくれる。メールの文章を書かせることができる。長い資料を要約してくれる。企画のアイデアを出してもらうこともできる。この段階でも十分に大きな変化だったが、現在起きている変化は、それよりもう一段深い。AIは単に文章を返すだけの存在から、目的を与えられると資料を読み、必要な作業を考え、ファイルを操作し、成果物を作り、途中で問題が起きれば別の方法",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/312398230/rectangle_large_type_2_8c1465e1e3e92d5c17ec6d23163cb0d4.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -52,7 +91,7 @@
       "summary": "サイモン＆ガーファンクルの「明日に架ける橋」。 原題は Bridge over Troubled Water。 直訳すれば、「荒れた水の上に架かる橋」という意味になる。 私は昔からこの曲が好きだった。 けれど、最近あらためて歌詞の意味を考えてみると、この「橋」という言葉が、単なる美しい比喩以上のものに思えてきた。 人と人。 右と左。 若者と高齢者。 行政と市民。 都市と地方。 現実と理想。 過去と未来。 そしてこれからは、人間とAI。 いま世界には、",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311490779/rectangle_large_type_2_2b5b43d03798b1a8beaf1afc357f6970.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 3,
+      "magazine_position": 6,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -65,7 +104,7 @@
       "summary": "『VIVANT』を見ていると、どうにも妙な感覚が残る。 もちろん、そもそも別班という秘密組織が世界を飛び回るドラマなのだから、荒唐無稽なところがあって当然である。しかし2026年の第2シーズンを見続けていると、単なるスパイアクションとして片付けるには、いろいろなものが妙に現実と重なりすぎている。 最初に引っ掛かったのは制作規模だった。 日曜劇場としては異例の2クール、つまり半年間の放送。アゼルバイジャンやタイを含め、約1年にわたる国内外での撮影。TBS自身が「超異例」と",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311138243/rectangle_large_type_2_ebfe3b8f77a5bbf727f581e86eedebde.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 4,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -78,7 +117,7 @@
       "summary": "「もし明日から、働かなくても生活できるだけのお金が毎月振り込まれるとしたら？」 そんな問いから始まる動画を見た。 AIとロボットが人間の仕事を代替し、ベーシックインカムによって生活が保障される未来。 一見すると、それは楽園のように見える。 満員電車に乗らなくていい。 嫌な上司に頭を下げなくていい。 生活費のためだけに、やりたくもない仕事を続けなくていい。 ところが動画は、その未来を「第二の共産主義」と呼び、むしろ人間を絶望へ向かわせるディストピアになるのではない",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310770986/rectangle_large_type_2_e2555121677a3b478846ea7c2dc2de5c.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -91,46 +130,7 @@
       "summary": "SoftBank World 2026で、孫正義氏がかなり踏み込んだAI時代の未来像を語った。 100兆個のAIエージェント。 10億体規模のヒューマノイド。 2040年には、AI・ASIを中心とする経済が世界GDPの約20％を占める。 そして、人間中心の社会から「AIエージェント中心の社会」へ移行していく。 超大企業のトップが、ここまで明確に未来の数字を置き、自分自身の巨大な投資と人生をそこへ賭けると公言する。 これは素直にすごいと思う。 孫氏は、経営に必要な",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310760636/rectangle_large_type_2_631a1d4e3d971d1e39379df285235218.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n3ea69f98dd8d",
-      "title": "Astra、Sol、Terra、Luna × Chat、Work、Codex｜AIを「一番強いモデル」で選ぶ時代から、「仕事に合わせてチーム編成する」時代へ",
-      "url": "https://note.com/club_pyramid/n/n3ea69f98dd8d",
-      "published_at": "2026-09-06T09:48:12+09:00",
-      "summary": "2026年になって、ChatGPTの使い方がかなり変わってきた。 以前は単純だった。 「どのモデルが一番賢いのか」 を考えて、そのモデルを使えばよかった。 しかしGPT-6 Astra、GPT-5.6 Sol、Terra、Lunaのように役割の違うモデルが揃い、さらにChat、Work、Codexという異なる「仕事場」まで存在するようになると、単純なモデル性能ランキングでは整理できなくなってきた。 今重要なのは、 どのAIが一番強いか ではなく、 どの仕事を、",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310753829/rectangle_large_type_2_2d78de1184761bce37d77f76b31b2be9.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n0f327cdd222d",
-      "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
-      "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
-      "published_at": "2026-09-01T01:41:32+09:00",
-      "summary": "ここ数日、映像制作に本格的に着手していて、かなり強烈に感じていることがあります。 ChatGPTの映像制作における「指揮能力」が、少し前とは別物になっている。 単にプロンプトが上手くなったとか、画像生成が綺麗になったとか、そういう話ではありません。 「こんな映像が見たい」 という、人間側のかなり曖昧な希望を受け取って、 構図、時間の流れ、カメラ、光、音、間、象徴、感情、次のカットへの接続まで含めて、ひとつの映像作品として組み立ててくる。 しかも、かなりの精度で。",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309023349/rectangle_large_type_2_ce14fd6f4e8f6b472b34368c1363ec31.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 10,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "nf33b1d8c12b8",
-      "title": "Chat・Work・CodexとGoogle AI｜AIを一つに決めるのではなく、「仕事の置き場所」を決める時代へ",
-      "url": "https://note.com/club_pyramid/n/nf33b1d8c12b8",
-      "published_at": "2026-08-31T21:32:56+09:00",
-      "summary": "AIを使い込んでいると、いつの間にか「ChatGPTとGeminiはどちらが上か」「CodexとAntigravityはどちらが強いか」という比較をしてしまいます。 でも最近は、少し違う見方をするようになりました。 一番賢いAIを一つ選ぶ必要はない。 それより、 どの仕事を、どのAIに置くのか。 こちらの方が重要です。 ChatGPTにはChat、Work、Codexがあります。一方Google側にはGemini、Gemini Notebook、Gmail、Goo",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308945378/rectangle_large_type_2_e93d8dbb44860ec518c6de2373f1dd15.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 12,
+      "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine",
       "selection_mode": "automatic"
@@ -290,6 +290,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "d740fb4131c60ae3ad6fdb10825da91bcb2e258ce7dc44bec7c72e6cd22fd88b",
-  "generated_at": "2026-09-13T20:40:52Z"
+  "content_hash": "d4323df4d268dc9af7ef861d4ba5a781336d206f67f1621363ccd8d291d239d0",
+  "generated_at": "2026-09-18T20:40:43Z"
 }
