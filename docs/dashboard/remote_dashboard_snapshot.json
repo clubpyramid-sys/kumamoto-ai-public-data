@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-19T05:31:01.967537+09:00",
+  "generated_at": "2026-09-19T05:46:16.565085+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1911,8 +1911,8 @@
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-09-13T14:59:12+09:00",
-      "weekly_count": 2
+      "latest_at": "2026-09-18T19:46:56+09:00",
+      "weekly_count": 5
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1959,19 +1959,19 @@
     ],
     "note": [
       {
-        "title": "『ファイト・クラブ』の結末はAIだったのか？――誰も計画していない「グレート・リセット」の正体",
-        "url": "https://note.com/club_pyramid/n/n7ff63e5d9e16",
-        "published_at": "2026-09-13T14:59:12+09:00"
+        "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
+        "url": "https://note.com/club_pyramid/n/n55795fd3758b",
+        "published_at": "2026-09-18T19:46:56+09:00"
       },
       {
-        "title": "Solでもトークンは溶ける。だから私は「ローカルAI部隊」と「クラウドAI部隊」を同時に動かす",
-        "url": "https://note.com/club_pyramid/n/n180386498d19",
-        "published_at": "2026-09-13T14:15:58+09:00"
+        "title": "CodexやAntigravityを使っている人ほど、Hermes Agentが面白い理由｜「もう一つのコーディングAI」ではなく、AIたちを常駐させる“仕事場”として見る",
+        "url": "https://note.com/club_pyramid/n/n84674556cfd6",
+        "published_at": "2026-09-18T17:53:18+09:00"
       },
       {
-        "title": "AIを使う時代から、AIに働いてもらう時代へ｜AIエージェントが変える仕事、組織、知識、地域、そして人間の役割",
-        "url": "https://note.com/club_pyramid/n/nc69c0572c3b4",
-        "published_at": "2026-09-11T03:11:58+09:00"
+        "title": "Hermes Agentって何？｜会話しながら「調べる・考える・作業する」を一つにまとめたAI",
+        "url": "https://note.com/club_pyramid/n/nd2a329b6c96f",
+        "published_at": "2026-09-18T15:48:41+09:00"
       }
     ],
     "ameba": [
@@ -3159,18 +3159,18 @@
       }
     ],
     "collection": {
-      "target_sites": 48,
-      "http_unavailable": 0,
-      "failed": 0,
-      "reject_count": 0,
-      "retrieved": 48,
+      "finished_at": "2026-09-18T20:53:15.738628+09:00",
       "http_available": 48,
-      "retained_previous": 0,
+      "http_unavailable": 0,
+      "retrieved": 48,
+      "target_sites": 48,
+      "started_at": "2026-09-18T20:53:11.950206+09:00",
       "status": "success",
       "source": "managed_sites_snapshot",
-      "attempted": 48,
-      "started_at": "2026-09-18T20:53:11.950206+09:00",
-      "finished_at": "2026-09-18T20:53:15.738628+09:00"
+      "failed": 0,
+      "reject_count": 0,
+      "retained_previous": 0,
+      "attempted": 48
     }
   },
   "project_portfolio": {
@@ -3447,7 +3447,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-09-19T05:31:02.241768+09:00",
+    "generated_at": "2026-09-19T05:46:16.800038+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3623,7 +3623,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-09-19T05:40:00+09:00",
+        "next_run": "2026-09-20T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3726,9 +3726,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-19T05:26:02.241768+09:00",
-        "last_success": "2026-09-19T05:26:02.241768+09:00",
-        "next_run": "2026-09-19T05:46:02.241768+09:00",
+        "last_run": "2026-09-19T05:41:16.800038+09:00",
+        "last_success": "2026-09-19T05:41:16.800038+09:00",
+        "next_run": "2026-09-19T06:01:16.800038+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3741,9 +3741,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-19T05:16:02.241768+09:00",
-        "last_success": "2026-09-19T05:16:02.241768+09:00",
-        "next_run": "2026-09-19T06:01:02.241768+09:00",
+        "last_run": "2026-09-19T05:31:16.800038+09:00",
+        "last_success": "2026-09-19T05:31:16.800038+09:00",
+        "next_run": "2026-09-19T06:16:16.800038+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3756,35 +3756,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-09-19T04:31:02.241768+09:00",
-        "last_success": "2026-09-19T04:31:02.241768+09:00",
-        "next_run": "2026-09-19T08:31:02.241768+09:00",
+        "last_run": "2026-09-19T04:46:16.800038+09:00",
+        "last_success": "2026-09-19T04:46:16.800038+09:00",
+        "next_run": "2026-09-19T08:46:16.800038+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-19T05:30:56+09:00",
+    "generated_at": "2026-09-19T05:46:11+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-09-19T05:15:40+09:00",
-        "last_success_at": "2026-09-19T05:15:40+09:00",
+        "last_attempt_at": "2026-09-19T05:30:58+09:00",
+        "last_success_at": "2026-09-19T05:30:58+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-09-19T05:15:40+09:00",
-        "last_success_at": "2026-09-19T05:15:40+09:00",
+        "last_attempt_at": "2026-09-19T05:30:58+09:00",
+        "last_success_at": "2026-09-19T05:30:58+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-09-19T05:15:40+09:00",
-        "last_success_at": "2026-09-19T05:15:40+09:00",
+        "last_attempt_at": "2026-09-19T05:30:58+09:00",
+        "last_success_at": "2026-09-19T05:30:58+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3827,9 +3827,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-09-18T20:30:57.024Z",
-    "last_success_at": "2026-09-18T20:30:57.024Z",
-    "last_attempt_at": "2026-09-18T20:30:57.024Z",
+    "generated_at": "2026-09-18T20:46:11.733Z",
+    "last_success_at": "2026-09-18T20:46:11.733Z",
+    "last_attempt_at": "2026-09-18T20:46:11.733Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
