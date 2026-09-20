@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-09-20T09:14:19.169564+09:00",
+  "generated_at": "2026-09-20T09:33:10.047885+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3159,17 +3159,17 @@
       }
     ],
     "collection": {
-      "retained_previous": 0,
-      "http_unavailable": 0,
-      "status": "success",
-      "finished_at": "2026-09-19T21:16:38.191986+09:00",
-      "source": "managed_sites_snapshot",
-      "target_sites": 48,
-      "http_available": 48,
-      "retrieved": 48,
-      "reject_count": 0,
-      "started_at": "2026-09-19T21:16:30.429863+09:00",
       "attempted": 48,
+      "http_unavailable": 0,
+      "source": "managed_sites_snapshot",
+      "started_at": "2026-09-19T21:16:30.429863+09:00",
+      "http_available": 48,
+      "reject_count": 0,
+      "retained_previous": 0,
+      "retrieved": 48,
+      "status": "success",
+      "target_sites": 48,
+      "finished_at": "2026-09-19T21:16:38.191986+09:00",
       "failed": 0
     }
   },
@@ -3765,26 +3765,26 @@
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-09-20T09:14:11+09:00",
+    "generated_at": "2026-09-20T09:30:42+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-09-20T08:59:01+09:00",
-        "last_success_at": "2026-09-20T08:59:01+09:00",
+        "last_attempt_at": "2026-09-20T09:14:14+09:00",
+        "last_success_at": "2026-09-20T09:14:14+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-09-20T08:59:01+09:00",
-        "last_success_at": "2026-09-20T08:59:01+09:00",
+        "last_attempt_at": "2026-09-20T09:14:14+09:00",
+        "last_success_at": "2026-09-20T09:14:14+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-09-20T08:59:01+09:00",
-        "last_success_at": "2026-09-20T08:59:01+09:00",
+        "last_attempt_at": "2026-09-20T09:14:15+09:00",
+        "last_success_at": "2026-09-20T09:14:15+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3827,9 +3827,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-09-20T00:14:12.651Z",
-    "last_success_at": "2026-09-20T00:14:12.651Z",
-    "last_attempt_at": "2026-09-20T00:14:12.651Z",
+    "generated_at": "2026-09-20T00:30:44.883Z",
+    "last_success_at": "2026-09-20T00:30:44.883Z",
+    "last_attempt_at": "2026-09-20T00:30:44.883Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
