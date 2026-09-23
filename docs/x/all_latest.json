@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-23T06:09:09+09:00",
+  "last_source_update_at": "2026-09-23T21:09:23+09:00",
   "items": [
+    {
+      "id": "2102648567697662245",
+      "title": "今回は女性の方、カップルさん、女装の方などご無料招待です😉 https://t.co/vrBvwoUoFP",
+      "text": "今回は女性の方、カップルさん、女装の方などご無料招待です😉 https://t.co/vrBvwoUoFP",
+      "url": "https://x.com/K_Ero_Gentleman/status/2102648567697662245",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-23T06:37:38Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2102481705433190635",
       "title": "月曜の夜に下通にて https://t.co/vrBvwoUoFP",
@@ -449,18 +461,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-12T20:09:15Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2098849159881318417",
-      "title": "今夜も解散です👍🏻",
-      "text": "今夜も解散です👍🏻",
-      "url": "https://x.com/K_Ero_Gentleman/status/2098849159881318417",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-12T19:00:09Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1021,6 +1021,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "b631322f329ce278f97270733607eed2dda57c9a0ad0e4438fec309abda528bc",
-  "generated_at": "2026-09-22T21:09:10Z"
+  "content_hash": "13fbdc55722dce31821da2c87d91f528b75d004bbdbc470fbe010c078439efd8",
+  "generated_at": "2026-09-23T12:09:25Z"
 }
