@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "na31156d874a6",
+      "title": "AIは人類を覚醒させるのか？｜20世紀型人生ゲームの終わりと「お前は何をしにこの世界に来た？」という問い",
+      "url": "https://note.com/club_pyramid/n/na31156d874a6",
+      "published_at": "2026-09-25T14:03:15+09:00",
+      "summary": "ある動画を見ていて、どうにも腑に落ちないものを感じた。テーマは「実力主義の罠」だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/317329678/rectangle_large_type_2_54676526d61a8f79418483f41b93d2ca.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n55795fd3758b",
       "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
       "url": "https://note.com/club_pyramid/n/n55795fd3758b",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nd5a6f2e4ecea",
-      "title": "「小さなブログを作るだけ」のはずが、AIと一緒に自前CMSまで作ってしまった話",
-      "url": "https://note.com/club_pyramid/n/nd5a6f2e4ecea",
-      "published_at": "2026-08-23T12:21:22+09:00",
-      "summary": "最初は、そんな大げさなものを作るつもりではなかった。 あるコミュニティサイトに、開催情報や開催後のレポート、ちょっとした読み物を掲載できる、小さなブログ機能が欲しかっただけだ。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/306171145/rectangle_large_type_2_c62d6fbb5556f198703cf54f4f6807cc.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "6e96c453f086b29908643cab8318eceba0424ba647cbab3376e6fab1f3b8c466",
-  "generated_at": "2026-09-18T20:40:11Z"
+  "content_hash": "6f6ad92506cc61e95bfaf7c2656aca2ea9283d946663eb19aff87dabb7a3abae",
+  "generated_at": "2026-09-25T20:40:29Z"
 }

@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "na31156d874a6",
+      "title": "AIは人類を覚醒させるのか？｜20世紀型人生ゲームの終わりと「お前は何をしにこの世界に来た？」という問い",
+      "url": "https://note.com/club_pyramid/n/na31156d874a6",
+      "published_at": "2026-09-25T14:03:15+09:00",
+      "summary": "ある動画を見ていて、どうにも腑に落ちないものを感じた。テーマは「実力主義の罠」だった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/317329678/rectangle_large_type_2_54676526d61a8f79418483f41b93d2ca.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n55795fd3758b",
       "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
       "url": "https://note.com/club_pyramid/n/n55795fd3758b",
@@ -108,18 +120,6 @@
       "published_at": "2026-09-06T10:40:53+09:00",
       "summary": "「もし明日から、働かなくても生活できるだけのお金が毎月振り込まれるとしたら？」 そんな問いから始まる動画を見た。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310770986/rectangle_large_type_2_e2555121677a3b478846ea7c2dc2de5c.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "ncab64fcf8637",
-      "title": "孫正義は未来を見ている。だが、その未来は孫正義すら飲み込むかもしれない",
-      "url": "https://note.com/club_pyramid/n/ncab64fcf8637",
-      "published_at": "2026-09-06T10:10:13+09:00",
-      "summary": "SoftBank World 2026で、孫正義氏がかなり踏み込んだAI時代の未来像を語った。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310760636/rectangle_large_type_2_631a1d4e3d971d1e39379df285235218.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "44c48b49e04de80b94ca4c3d273684294a8931529e77f95ecbacadd1e6cde3a9",
-  "generated_at": "2026-09-18T20:40:43Z"
+  "content_hash": "15819f09a96c14a16cbd98257473bbb66fced4184e803bb825faa30f3ab812ec",
+  "generated_at": "2026-09-25T20:41:05Z"
 }
