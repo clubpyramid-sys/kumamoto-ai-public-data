@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-09-29T15:13:37+09:00",
+  "last_source_update_at": "2026-10-01T00:02:55+09:00",
   "items": [
+    {
+      "id": "2105183033708147032",
+      "title": "今週の金曜の夜に下通りにて https://t.co/BKvS8BFoOZ",
+      "text": "今週の金曜の夜に下通りにて https://t.co/BKvS8BFoOZ",
+      "url": "https://x.com/K_Ero_Gentleman/status/2105183033708147032",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-09-30T06:28:42Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2104628878664937647",
       "title": "丑三つ時にディープな会話が続いてます✨✨✨✨✨💕",
@@ -269,18 +281,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-22T16:19:58Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2102418620915863623",
-      "title": "ちょっと男手の本数が足りません🤣 https://t.co/DCoJnSpHlh",
-      "text": "ちょっと男手の本数が足りません🤣 https://t.co/DCoJnSpHlh",
-      "url": "https://x.com/K_Ero_Gentleman/status/2102418620915863623",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-22T15:23:54Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1016,6 +1016,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "000065c673b44fae5475aec9264c8b6724214ee57710acb847eaa2141416572b",
-  "generated_at": "2026-09-29T21:07:38Z"
+  "content_hash": "3ea6339af960e5be859ab0ab06c67e3c872d85a93b54c7813c23c7e120f95bcf",
+  "generated_at": "2026-09-30T15:02:57Z"
 }
