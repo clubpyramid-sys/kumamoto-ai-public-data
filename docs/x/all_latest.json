@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-10T06:05:18+09:00",
   "items": [
     {
       "id": "2108564994724123118",
@@ -77,6 +77,42 @@
       "handle": "kumamonsupport",
       "display_name": "Kumamoto Secret Club➕東京支局",
       "published_at": "2026-10-08T16:25:35Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2108231633665212545",
+      "title": "カップルさんご到着で9人目の女性の方ご来場？だっけ？？？💕",
+      "text": "カップルさんご到着で9人目の女性の方ご来場？だっけ？？？💕",
+      "url": "https://x.com/K_Ero_Gentleman/status/2108231633665212545",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-08T16:22:45Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2108215487717101877",
+      "title": "伝説のカップルさんが5組目でご登場？？？？？？",
+      "text": "伝説のカップルさんが5組目でご登場？？？？？？",
+      "url": "https://x.com/K_Ero_Gentleman/status/2108215487717101877",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-08T15:18:35Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2108214212682248502",
+      "title": "まだまだ参加者増えてます❤️",
+      "text": "まだまだ参加者増えてます❤️",
+      "url": "https://x.com/K_Ero_Gentleman/status/2108214212682248502",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-08T15:13:31Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -365,42 +401,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-09-30T06:28:42Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2104628878664937647",
-      "title": "丑三つ時にディープな会話が続いてます✨✨✨✨✨💕",
-      "text": "丑三つ時にディープな会話が続いてます✨✨✨✨✨💕",
-      "url": "https://x.com/K_Ero_Gentleman/status/2104628878664937647",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-28T17:46:41Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2104622791886791116",
-      "title": "高度な大人の駆け引きが💕 https://t.co/vrBvwoUoFP",
-      "text": "高度な大人の駆け引きが💕 https://t.co/vrBvwoUoFP",
-      "url": "https://x.com/K_Ero_Gentleman/status/2104622791886791116",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-28T17:22:30Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2104591068587241690",
-      "title": "女性たちに弄ばれる男性💕 https://t.co/vrBvwoUoFP",
-      "text": "女性たちに弄ばれる男性💕 https://t.co/vrBvwoUoFP",
-      "url": "https://x.com/K_Ero_Gentleman/status/2104591068587241690",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-28T15:16:26Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "2710c9d527a9f1b0555243331e3f6fa19fb2a3b12d28e9e6d24adfd59236fb73",
-  "generated_at": "2026-10-09T20:40:49Z"
+  "content_hash": "e4ab4af026e0968dc9c9a4c616b1f69f66c8c4a882446b5a73cd726738478769",
+  "generated_at": "2026-10-09T21:05:19Z"
 }
