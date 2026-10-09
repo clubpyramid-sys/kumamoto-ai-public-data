@@ -9,6 +9,28 @@
   },
   "items": [
     {
+      "id": "nc33b10e83af6",
+      "title": "AIの使い方を学ぶ前に、仕事そのものを設計し直そう｜AIエージェント実践ワークショップ｜スライドと一緒に考える、仕事と未来の再設計",
+      "url": "https://note.com/club_pyramid/n/nc33b10e83af6",
+      "published_at": "2026-10-09T22:01:31+09:00",
+      "summary": "このページは、AIエージェント実践ワークショップに参加する皆さんのためのガイドです。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322579328/rectangle_large_type_2_57ba442d0acde2cd3bd9cf3363406871.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n048638a095c6",
+      "title": "AIが何でも教えてくれる時代に、人はなぜ集まるのか――AIエージェントが変えるのは仕事の速さではなく、仕事そのものの構造かもしれない",
+      "url": "https://note.com/club_pyramid/n/n048638a095c6",
+      "published_at": "2026-10-09T21:42:34+09:00",
+      "summary": "今や、分からないことがあればChatGPTに聞けばいい。専門的な知識を調べたければインターネットに膨大な資料があり、YouTubeには初心者向けから専門家向けまで、さまざまな解説動画が公開されている。AIの操作方法にしても、わざわざ誰かに教えてもらわなくても、AI自身に質問すればかなりのところまで教えてくれる。もちろんAIの回答がいつも正しいとは限らないし、実際に試さなければ分からないこともある。それでも、知識を得るための環境が、ひと昔前とは比較にならないほど豊かになったことは間違いない。 そんな時代に、わざわざ休日の朝から時間を使い、交通費や参加費を払い、遠くまで出かけて、人の話を聞きに集まるのはなぜなのだろう。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322571514/rectangle_large_type_2_3f5e506d25e9902f9792fcb9802f1397.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n8aea6eabca52",
       "title": "『ディスクロージャー・デイ』最後の「Listen」の先にある言葉——宇宙人との遭遇ではなく、人類の覚醒を描いた映画",
       "url": "https://note.com/club_pyramid/n/n8aea6eabca52",
@@ -205,31 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "nf33b1d8c12b8",
-      "title": "Chat・Work・CodexとGoogle AI｜AIを一つに決めるのではなく、「仕事の置き場所」を決める時代へ",
-      "url": "https://note.com/club_pyramid/n/nf33b1d8c12b8",
-      "published_at": "2026-08-31T21:32:56+09:00",
-      "summary": "AIを使い込んでいると、いつの間にか「ChatGPTとGeminiはどちらが上か」「CodexとAntigravityはどちらが強いか」という比較をしてしまいます。 でも最近は、少し違う見方をするようになりました。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308945378/rectangle_large_type_2_e93d8dbb44860ec518c6de2373f1dd15.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n967c1827e536",
-      "title": "Mac Studioを「24時間働くAIチームの事務所」にしてみた｜AI、Web、SNS、メール、バックアップまで自動で動く1日の運行スケジュール",
-      "url": "https://note.com/club_pyramid/n/n967c1827e536",
-      "published_at": "2026-08-31T12:24:31+09:00",
-      "summary": "最近、私のMac Studioは「作業に使うパソコン」というより、少しずつ「AIチームが働く事務所」のようになってきました。 私が寝ていても、外出していても、決められた時間になるとMac Studioが自分で起き、情報を集め、データを整理し、AIが文章を作り、メールで報告し、Webの情報を更新し、バックアップまで取ります。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/308782460/rectangle_large_type_2_159931a8261de0eca53593a3a4d5663c.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "ac0428bddaa966b44f2fd4bf863a280ca4efe2c5ad965e9baf684fefc02eb758",
-  "generated_at": "2026-10-08T20:40:17Z"
+  "content_hash": "1bf3d263913a38990f40f5f0c65e8ab31c14a0d90c009d4485716103ea0af771",
+  "generated_at": "2026-10-09T20:40:12Z"
 }
