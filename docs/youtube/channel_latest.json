@@ -9,6 +9,20 @@
   },
   "items": [
     {
+      "id": "gbi5IEBQAMk",
+      "title": "AIエージェント時代の業務再設計｜AIで間違った目的地へ最速で向かうな｜AIエージェントが変える仕事と人間の未来",
+      "url": "https://www.youtube.com/watch?v=gbi5IEBQAMk",
+      "published_at": "2026-10-10T13:24:27+00:00",
+      "description": "**AIで間違った目的地へ最速で向かうな。** AIがどれほど賢くなり、仕事を速く処理できるようになっても、そもそも目指している目的が間違っていたら、何の意味があるのでしょうか？ 2026年10月10日、熊本市西区の河内アカデミーで開催された「AIエージェント実践勉強会」。 さまざまな仕事や活動に携わる参加者との対話から、AIの便利な使い方を超えた、本質的な問いが生まれました。 **「AIに何をさせるか」ではなく、「私たちは何を実現したいのか」。** 今回の動画では、当日の約7時間半の録音から整理した記事をもとに、AIエージェントが変える仕事、組織、教育、知識、地域社会、そして人間の役割について考察しています。 【主な内容】 ・AIの知識ならネットで学べる時代に、なぜ人はわざわざ集まるのか？ ・AIチャットから、実際に仕事を進めるAIエージェントへの変化 ・業務を効率化する前に、その仕事が本当に必要なのかを考える ・目的、情報収集、作業、判断、成果物、承認という仕事の分解方法 ・被災地の井戸復旧計画から考える、目標設定とAIの役割 ・写真による現場分析、Webアプリ制作、教育用AI、AIスタッフの可能性 ・過去のYouTube動画、会議録、ブログを知識資産へ変える方法 ・ChatGPT、Gemini、Claude、ローカルAIなどによるAIチームの役割分担 ・災害支援、自然環境、地域活動にAIを活用する可能性 ・AIに仕事を任せても、人間が手放してはいけない判断と責任 ・AIが働く時代に、人間は何をするのか？ AIによって、これまで人手や時間、専門技術の不足で実現できなかったことが、個人や小さな組織でも可能になり始めています。 しかし、AIが仕事をするようになるほど、人間には「何のために働くのか」「何を作りたいのか」「どんな未来を実現したいのか」という問いが残ります。 AIは、目的地までの道筋を考え、驚くべき速度で仕事を進めてくれるかもしれません。 けれども、**その目的地が本当に自分の望む場所なのかを決めるのは、人間です。** AIを使う人から、AIに働いてもらう人へ。 そして、その先へ。 もし明日から、あなたの仕事を手伝う優秀なAIスタッフが10人増えたら、あなたは今と同じ仕事のやり方を続けますか？ そして、もしAIが何でも手伝ってくれるとしたら、あなたは本当は",
+      "duration": "PT7M27S",
+      "duration_seconds": 447,
+      "thumbnail_url": "https://i.ytimg.com/vi/gbi5IEBQAMk/sddefault.jpg",
+      "playlist_position": 1,
+      "channel_title": "海のピラミッド@熊本",
+      "source_id": "youtube-channel-clubpyramid",
+      "source_type": "youtube_channel"
+    },
+    {
       "id": "CFysTpjmoWI",
       "title": "AIエージェント時代に向けた仕事の再設計",
       "url": "https://www.youtube.com/watch?v=CFysTpjmoWI",
@@ -17,7 +31,7 @@
       "duration": "PT6M28S",
       "duration_seconds": 388,
       "thumbnail_url": "https://i.ytimg.com/vi/CFysTpjmoWI/sddefault.jpg",
-      "playlist_position": 1,
+      "playlist_position": 2,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -31,7 +45,7 @@
       "duration": "PT8M1S",
       "duration_seconds": 481,
       "thumbnail_url": "https://i.ytimg.com/vi/yaQToCWzSKA/maxresdefault.jpg",
-      "playlist_position": 2,
+      "playlist_position": 3,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -45,7 +59,7 @@
       "duration": "PT2H51M43S",
       "duration_seconds": 10303,
       "thumbnail_url": "https://i.ytimg.com/vi/QTtpms6ip_Q/maxresdefault.jpg",
-      "playlist_position": 3,
+      "playlist_position": 4,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -59,7 +73,7 @@
       "duration": "PT8M2S",
       "duration_seconds": 482,
       "thumbnail_url": "https://i.ytimg.com/vi/E3hbcIO3OR0/sddefault.jpg",
-      "playlist_position": 4,
+      "playlist_position": 5,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -73,7 +87,7 @@
       "duration": "PT8M45S",
       "duration_seconds": 525,
       "thumbnail_url": "https://i.ytimg.com/vi/SYzDPsHZTSk/sddefault.jpg",
-      "playlist_position": 5,
+      "playlist_position": 6,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -87,7 +101,7 @@
       "duration": "PT7M27S",
       "duration_seconds": 447,
       "thumbnail_url": "https://i.ytimg.com/vi/wF8XSBi8CgQ/maxresdefault.jpg",
-      "playlist_position": 6,
+      "playlist_position": 7,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -101,7 +115,7 @@
       "duration": "PT10M7S",
       "duration_seconds": 607,
       "thumbnail_url": "https://i.ytimg.com/vi/q3D_fuIyy3Q/maxresdefault.jpg",
-      "playlist_position": 7,
+      "playlist_position": 8,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -115,7 +129,7 @@
       "duration": "PT8M53S",
       "duration_seconds": 533,
       "thumbnail_url": "https://i.ytimg.com/vi/tQONUYlfG8s/maxresdefault.jpg",
-      "playlist_position": 8,
+      "playlist_position": 9,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -129,7 +143,7 @@
       "duration": "PT9M13S",
       "duration_seconds": 553,
       "thumbnail_url": "https://i.ytimg.com/vi/iDRiDIOuSoQ/maxresdefault.jpg",
-      "playlist_position": 9,
+      "playlist_position": 10,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -143,7 +157,7 @@
       "duration": "PT17M24S",
       "duration_seconds": 1044,
       "thumbnail_url": "https://i.ytimg.com/vi/VOZpy6-LCu4/maxresdefault.jpg",
-      "playlist_position": 10,
+      "playlist_position": 11,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -157,7 +171,7 @@
       "duration": "PT23M",
       "duration_seconds": 1380,
       "thumbnail_url": "https://i.ytimg.com/vi/9hA-vrX1a8s/maxresdefault.jpg",
-      "playlist_position": 11,
+      "playlist_position": 12,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -171,7 +185,7 @@
       "duration": "PT9M21S",
       "duration_seconds": 561,
       "thumbnail_url": "https://i.ytimg.com/vi/P2VHp4mp9aE/maxresdefault.jpg",
-      "playlist_position": 12,
+      "playlist_position": 13,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -185,7 +199,7 @@
       "duration": "PT4M45S",
       "duration_seconds": 285,
       "thumbnail_url": "https://i.ytimg.com/vi/dK30nUo18Do/maxresdefault.jpg",
-      "playlist_position": 13,
+      "playlist_position": 14,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -199,7 +213,7 @@
       "duration": "PT8M25S",
       "duration_seconds": 505,
       "thumbnail_url": "https://i.ytimg.com/vi/hkQzqOBfGsU/maxresdefault.jpg",
-      "playlist_position": 14,
+      "playlist_position": 15,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -213,7 +227,7 @@
       "duration": "PT16M46S",
       "duration_seconds": 1006,
       "thumbnail_url": "https://i.ytimg.com/vi/ck8gwakpXsM/maxresdefault.jpg",
-      "playlist_position": 15,
+      "playlist_position": 16,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -227,7 +241,7 @@
       "duration": "PT9M7S",
       "duration_seconds": 547,
       "thumbnail_url": "https://i.ytimg.com/vi/mul6AiYDT1E/maxresdefault.jpg",
-      "playlist_position": 16,
+      "playlist_position": 17,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -241,7 +255,7 @@
       "duration": "PT10M24S",
       "duration_seconds": 624,
       "thumbnail_url": "https://i.ytimg.com/vi/kITexg4rK7I/maxresdefault.jpg",
-      "playlist_position": 17,
+      "playlist_position": 18,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -255,7 +269,7 @@
       "duration": "PT4M46S",
       "duration_seconds": 286,
       "thumbnail_url": "https://i.ytimg.com/vi/faOpVTs4KNo/maxresdefault.jpg",
-      "playlist_position": 18,
+      "playlist_position": 19,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -269,20 +283,6 @@
       "duration": "PT7M58S",
       "duration_seconds": 478,
       "thumbnail_url": "https://i.ytimg.com/vi/ugyXntTjQuY/maxresdefault.jpg",
-      "playlist_position": 19,
-      "channel_title": "海のピラミッド@熊本",
-      "source_id": "youtube-channel-clubpyramid",
-      "source_type": "youtube_channel"
-    },
-    {
-      "id": "XJuSDvTMvQg",
-      "title": "The Smartphone Trick That Saved the Supercomputers",
-      "url": "https://www.youtube.com/watch?v=XJuSDvTMvQg",
-      "published_at": "2026-06-11T23:31:31+00:00",
-      "description": "",
-      "duration": "PT5M19S",
-      "duration_seconds": 319,
-      "thumbnail_url": "https://i.ytimg.com/vi/XJuSDvTMvQg/maxresdefault.jpg",
       "playlist_position": 20,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
@@ -290,6 +290,6 @@
     }
   ],
   "item_count": 20,
-  "content_hash": "442bfdda4916a128c7f97636e527e535f109e19069d1eaefa61fbc3301808572",
-  "generated_at": "2026-10-09T20:40:49Z"
+  "content_hash": "1f8ebf495683aa47c0d6d253a12ec951bc86421489bf9156b9869c000894eb39",
+  "generated_at": "2026-10-10T20:40:55Z"
 }
