@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-10-10T06:05:18+09:00",
+  "last_source_update_at": "2026-10-10T21:05:55+09:00",
   "items": [
     {
       "id": "2108564994724123118",
@@ -89,6 +89,30 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-10-08T16:22:45Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2108225775485034915",
+      "title": "10月24日（土）は、夕方から翌朝まで—— 熊本秘密クラブの特別開催です✨ 今回のテーマは、 「FREEDOM & LIBERTY PARTY」 — どこまでも",
+      "text": "10月24日（土）は、夕方から翌朝まで—— 熊本秘密クラブの特別開催です✨ 今回のテーマは、 「FREEDOM & LIBERTY PARTY」 — どこまでも自由だ。— そして今回は、 東京からスペシャルゲストをお迎えします🗼✨ https://t.co/gnOluA4buz",
+      "url": "https://x.com/kumamonsupport/status/2108225775485034915",
+      "handle": "kumamonsupport",
+      "display_name": "Kumamoto Secret Club➕東京支局",
+      "published_at": "2026-10-08T15:59:28Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2108225342641172759",
+      "title": "県外からお越しのカップルさんは20時に来られるそうです😉 https://t.co/7HjftxechP",
+      "text": "県外からお越しのカップルさんは20時に来られるそうです😉 https://t.co/7HjftxechP",
+      "url": "https://x.com/club_kumamoto/status/2108225342641172759",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-10-08T15:57:45Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -694,18 +718,6 @@
       "media": []
     },
     {
-      "id": "2096301974304268354",
-      "title": "🎭 9月12日（土）夜｜熊本・街中 FREEDOM & LIBERTY PARTY ― どこまでも自由だ。― 土曜の夜くらい、 肩書きも、役割も、いつもの自分も",
-      "text": "🎭 9月12日（土）夜｜熊本・街中 FREEDOM & LIBERTY PARTY ― どこまでも自由だ。― 土曜の夜くらい、 肩書きも、役割も、いつもの自分も、少しだけ置いてきませんか。 9月12日（土）の夜、熊本・街中のプライベート空間で 「フリーダム＆リバティーパーティー」を開催します✨… pic.twitter.com/68hM7WsXEj",
-      "url": "https://x.com/club_kumamoto/status/2096301974304268354",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-09-05T18:18:32Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2092661860525023245",
       "title": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
       "text": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
@@ -833,18 +845,6 @@
       "handle": "kumamonsupport",
       "display_name": "KSC",
       "published_at": "2026-07-19T12:08:27Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2078711813441794244",
-      "title": "7月24日（金）の夜から明け方にかけて、 熊本・上通りエリアにて開催です https://t.co/tqnHTHKAZK",
-      "text": "7月24日（金）の夜から明け方にかけて、 熊本・上通りエリアにて開催です https://t.co/tqnHTHKAZK",
-      "url": "https://x.com/kumamonsupport/status/2078711813441794244",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-07-19T05:21:31Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "e4ab4af026e0968dc9c9a4c616b1f69f66c8c4a882446b5a73cd726738478769",
-  "generated_at": "2026-10-09T21:05:19Z"
+  "content_hash": "916190d21893a914a7485ac712a59399bda92e0cda974d9faf0794b8a5a20899",
+  "generated_at": "2026-10-10T12:05:56Z"
 }
