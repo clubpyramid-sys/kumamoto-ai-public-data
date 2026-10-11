@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-12T05:35:04.304560+09:00",
+  "generated_at": "2026-10-12T05:50:31.545268+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1905,14 +1905,14 @@
     "youtube_account": {
       "name": "CLUB PYRAMID",
       "url": "https://www.youtube.com/@CLUBPYRAMID/videos",
-      "latest_at": "2026-10-10T22:24:27+09:00",
-      "weekly_count": 3
+      "latest_at": "2026-10-11T11:10:48+09:00",
+      "weekly_count": 6
     },
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-10-10T22:00:33+09:00",
-      "weekly_count": 4
+      "latest_at": "2026-10-11T17:55:22+09:00",
+      "weekly_count": 6
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1921,6 +1921,21 @@
       "weekly_count": 0
     },
     "youtube": [
+      {
+        "title": "AI活用前の目的の明確化",
+        "url": "https://www.youtube.com/watch?v=4AWyJ8ZZ8dc",
+        "published_at": "2026-10-11T02:10:48+00:00"
+      },
+      {
+        "title": "AIと会話する孤独な現場",
+        "url": "https://www.youtube.com/watch?v=aVylVT7kD4o",
+        "published_at": "2026-10-11T01:02:49+00:00"
+      },
+      {
+        "title": "孤独を癒やす：AIの対話力がもたらす力",
+        "url": "https://www.youtube.com/watch?v=diHIozyH9hE",
+        "published_at": "2026-10-11T00:50:24+00:00"
+      },
       {
         "title": "AIエージェント時代の業務再設計｜AIで間違った目的地へ最速で向かうな｜AIエージェントが変える仕事と人間の未来",
         "url": "https://www.youtube.com/watch?v=gbi5IEBQAMk",
@@ -1940,38 +1955,23 @@
         "title": "２０２７ 熊本地震から約２ヶ月 熊本市〜八代市 4K撮影 国道５７号線↔︎３号線↔︎八代市役所",
         "url": "https://www.youtube.com/watch?v=QTtpms6ip_Q",
         "published_at": "2026-10-01T20:41:37+00:00"
-      },
-      {
-        "title": "崩壊の解剖学：AIが紐解くコミュニティ｜4つのAIが暴いた「共同体の寿命」：外山恒一事件から学ぶ、組織が崩壊する真の理由",
-        "url": "https://www.youtube.com/watch?v=E3hbcIO3OR0",
-        "published_at": "2026-08-16T10:16:16+00:00"
-      },
-      {
-        "title": "カリスマ的共同体のAI解剖；4つのAIが「外山恒一事件」を解剖した結果：共同体の寿命と、成功が生んだ致命的な脆弱性",
-        "url": "https://www.youtube.com/watch?v=SYzDPsHZTSk",
-        "published_at": "2026-08-16T09:48:36+00:00"
-      },
-      {
-        "title": "2026年熊本地震：復興か、縮小再編か【2026年熊本地震が突きつける「復興」の終わり――私たちが直面する『複合危機の最終局面』5つの教訓】",
-        "url": "https://www.youtube.com/watch?v=wF8XSBi8CgQ",
-        "published_at": "2026-08-01T07:39:31+00:00"
       }
     ],
     "note": [
       {
+        "title": "AIは社会をどう変えるのか？ ――河内アカデミーでの対話から考える、AI時代の新しい社会設計",
+        "url": "https://note.com/club_pyramid/n/n5ce8c6f39b6a",
+        "published_at": "2026-10-11T17:55:22+09:00"
+      },
+      {
+        "title": "Cloudflareとは何者なのか？――インターネットの交通整理から、AI時代の社会インフラへ",
+        "url": "https://note.com/club_pyramid/n/n24721c89e2dd",
+        "published_at": "2026-10-11T11:50:09+09:00"
+      },
+      {
         "title": "AIに仕事を任せる前に、私たちは何をしたいのか。｜河内アカデミーで交わされた、AIエージェントと仕事、知識、地域、そして人間の未来をめぐる対話",
         "url": "https://note.com/club_pyramid/n/n4a221a678291",
         "published_at": "2026-10-10T22:00:33+09:00"
-      },
-      {
-        "title": "AIの使い方を学ぶ前に、仕事そのものを設計し直そう｜AIエージェント実践ワークショップ｜スライドと一緒に考える、仕事と未来の再設計",
-        "url": "https://note.com/club_pyramid/n/nc33b10e83af6",
-        "published_at": "2026-10-09T22:01:31+09:00"
-      },
-      {
-        "title": "AIが何でも教えてくれる時代に、人はなぜ集まるのか――AIエージェントが変えるのは仕事の速さではなく、仕事そのものの構造かもしれない",
-        "url": "https://note.com/club_pyramid/n/n048638a095c6",
-        "published_at": "2026-10-09T21:42:34+09:00"
       }
     ],
     "ameba": [
@@ -3159,18 +3159,18 @@
       }
     ],
     "collection": {
-      "http_available": 48,
-      "attempted": 48,
-      "http_unavailable": 0,
-      "retained_previous": 0,
-      "started_at": "2026-10-12T00:23:12.642544+09:00",
-      "status": "success",
       "source": "managed_sites_snapshot",
+      "status": "success",
+      "http_unavailable": 0,
       "target_sites": 48,
-      "reject_count": 0,
-      "failed": 0,
       "retrieved": 48,
-      "finished_at": "2026-10-12T00:23:17.063206+09:00"
+      "reject_count": 0,
+      "started_at": "2026-10-12T00:23:12.642544+09:00",
+      "attempted": 48,
+      "finished_at": "2026-10-12T00:23:17.063206+09:00",
+      "retained_previous": 0,
+      "http_available": 48,
+      "failed": 0
     }
   },
   "project_portfolio": {
@@ -3447,7 +3447,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-12T05:35:04.939857+09:00",
+    "generated_at": "2026-10-12T05:50:31.868563+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3623,7 +3623,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-10-12T05:40:00+09:00",
+        "next_run": "2026-10-13T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3726,9 +3726,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-12T05:30:04.939857+09:00",
-        "last_success": "2026-10-12T05:30:04.939857+09:00",
-        "next_run": "2026-10-12T05:50:04.939857+09:00",
+        "last_run": "2026-10-12T05:45:31.868563+09:00",
+        "last_success": "2026-10-12T05:45:31.868563+09:00",
+        "next_run": "2026-10-12T06:05:31.868563+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3741,9 +3741,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-12T05:20:04.939857+09:00",
-        "last_success": "2026-10-12T05:20:04.939857+09:00",
-        "next_run": "2026-10-12T06:05:04.939857+09:00",
+        "last_run": "2026-10-12T05:35:31.868563+09:00",
+        "last_success": "2026-10-12T05:35:31.868563+09:00",
+        "next_run": "2026-10-12T06:20:31.868563+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3756,35 +3756,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-12T04:35:04.939857+09:00",
-        "last_success": "2026-10-12T04:35:04.939857+09:00",
-        "next_run": "2026-10-12T08:35:04.939857+09:00",
+        "last_run": "2026-10-12T04:50:31.868563+09:00",
+        "last_success": "2026-10-12T04:50:31.868563+09:00",
+        "next_run": "2026-10-12T08:50:31.868563+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-12T05:34:49+09:00",
+    "generated_at": "2026-10-12T05:50:20+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-10-12T05:19:29+09:00",
-        "last_success_at": "2026-10-12T05:19:29+09:00",
+        "last_attempt_at": "2026-10-12T05:34:55+09:00",
+        "last_success_at": "2026-10-12T05:34:55+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-10-12T05:19:29+09:00",
-        "last_success_at": "2026-10-12T05:19:29+09:00",
+        "last_attempt_at": "2026-10-12T05:34:56+09:00",
+        "last_success_at": "2026-10-12T05:34:56+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-10-12T05:19:30+09:00",
-        "last_success_at": "2026-10-12T05:19:30+09:00",
+        "last_attempt_at": "2026-10-12T05:34:56+09:00",
+        "last_success_at": "2026-10-12T05:34:56+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3827,9 +3827,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-10-11T20:34:51.565Z",
-    "last_success_at": "2026-10-11T20:34:51.565Z",
-    "last_attempt_at": "2026-10-11T20:34:51.565Z",
+    "generated_at": "2026-10-11T20:50:23.834Z",
+    "last_success_at": "2026-10-11T20:50:23.834Z",
+    "last_attempt_at": "2026-10-11T20:50:23.834Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
