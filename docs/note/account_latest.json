@@ -9,12 +9,34 @@
   },
   "items": [
     {
+      "id": "n5ce8c6f39b6a",
+      "title": "AIは社会をどう変えるのか？ ――河内アカデミーでの対話から考える、AI時代の新しい社会設計",
+      "url": "https://note.com/club_pyramid/n/n5ce8c6f39b6a",
+      "published_at": "2026-10-11T17:55:22+09:00",
+      "summary": "昨日の河内アカデミーでの約7時間半の対話を、仕事やAI活用という枠を超えて、社会全体へ敷衍してみると、かなり大きな変化が見えてきます。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323201343/rectangle_large_type_2_77919a1fd829bacff6eeb7688b2353f5.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n24721c89e2dd",
+      "title": "Cloudflareとは何者なのか？――インターネットの交通整理から、AI時代の社会インフラへ",
+      "url": "https://note.com/club_pyramid/n/n24721c89e2dd",
+      "published_at": "2026-10-11T11:50:09+09:00",
+      "summary": "インターネットを長く使ってきた人でも、Cloudflare（クラウドフレア）という名前には、あまり馴染みがないかもしれません。 ところが、私たちが日常的に閲覧しているWebサイトや利用しているオンラインサービスの中には、このCloudflareのネットワークを経由しているものが数多くあります。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323097206/rectangle_large_type_2_f8953205334b06c958aecc2195fded64.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n4a221a678291",
       "title": "AIに仕事を任せる前に、私たちは何をしたいのか。｜河内アカデミーで交わされた、AIエージェントと仕事、知識、地域、そして人間の未来をめぐる対話",
       "url": "https://note.com/club_pyramid/n/n4a221a678291",
       "published_at": "2026-10-10T22:00:33+09:00",
       "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322925747/rectangle_large_type_2_9eb4f9d3f9145db01004d88f15603a3b.png?width=800",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323058958/rectangle_large_type_2_54d12fcc9210ef2bdb29c9f4b06195b4.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
@@ -205,31 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n08a6abf86c32",
-      "title": "WILLからAntigravityへ｜100万人のBuzzより、未来の誰か一人へのロングラブレター",
-      "url": "https://note.com/club_pyramid/n/n08a6abf86c32",
-      "published_at": "2026-09-01T08:22:25+09:00",
-      "summary": "中島美嘉の『WILL』を久しぶりに思い出した。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309072016/rectangle_large_type_2_a0bfddaa4ad1703dbb65e847f58e218f.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n0f327cdd222d",
-      "title": "「映像を作れる人」より「何を見せたいかを持つ人」が強くなる——生成AIの進歩が、ついに“意志の時代”を連れてきた",
-      "url": "https://note.com/club_pyramid/n/n0f327cdd222d",
-      "published_at": "2026-09-01T01:41:32+09:00",
-      "summary": "ここ数日、映像制作に本格的に着手していて、かなり強烈に感じていることがあります。 ChatGPTの映像制作における「指揮能力」が、少し前とは別物になっている。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309023349/rectangle_large_type_2_ce14fd6f4e8f6b472b34368c1363ec31.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "df93ce66ebeee0e1775a50ef6496d0a1c284d1ebde7f61a1ee4175356efa74b4",
-  "generated_at": "2026-10-10T20:40:09Z"
+  "content_hash": "ba83380834a226c31724fb2e4bbdabf5213a075c3f5c8c6e5ca5c425b47d5497",
+  "generated_at": "2026-10-11T20:40:34Z"
 }
