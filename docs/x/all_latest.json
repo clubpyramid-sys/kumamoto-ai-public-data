@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-12T06:04:29+09:00",
   "items": [
+    {
+      "id": "2109278313340649896",
+      "title": "🎭【熊本秘密クラブ｜10月後半の開催案内】 10月後半は、趣向の異なる3回の開催を予定しています😊✨ 🌙 10月17日（土）｜SATURDAY NIGHT 📍熊",
+      "text": "🎭【熊本秘密クラブ｜10月後半の開催案内】 10月後半は、趣向の異なる3回の開催を予定しています😊✨ 🌙 10月17日（土）｜SATURDAY NIGHT 📍熊本・下通りエリア 週末の夜、いつもとは違う人たちとの出会いや会話を楽しみながら、自由で気ままな大人の時間を🥂✨ 🌿… pic.twitter.com/zda06g1QoJ",
+      "url": "https://x.com/club_kumamoto/status/2109278313340649896",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-10-11T13:41:53Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2108564994724123118",
       "title": "🎭【10月21日（水）｜癒しのリラクゼーション開催のお知らせ】 熊本秘密クラブでは、10月21日（水）、熊本・上通りエリアにて、心と身体をゆっくり癒すリラクゼー",
@@ -706,18 +718,6 @@
       "media": []
     },
     {
-      "id": "2097594591608553553",
-      "title": "🎭【9月後半の開催情報｜12日・15日・16日】 9月後半は、雰囲気のまったく違う2つの特別開催です✨ 🗽 9月12日（土）夜｜熊本・街中 FREEDOM & ",
-      "text": "🎭【9月後半の開催情報｜12日・15日・16日】 9月後半は、雰囲気のまったく違う2つの特別開催です✨ 🗽 9月12日（土）夜｜熊本・街中 FREEDOM & LIBERTY PARTY ― どこまでも自由だ。― 土曜の夜くらい、肩書きも役割も、いつもの自分も少しだけ置いてきませんか。 会場は街中のプライベート空間。… pic.twitter.com/3f3trP6tDE",
-      "url": "https://x.com/club_kumamoto/status/2097594591608553553",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-09-09T07:54:56Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2092661860525023245",
       "title": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
       "text": "🎭 8月28日（金）｜上通り 夕方から翌29日（土）明け方まで。 途中参加・途中退出自由で開催します。 https://t.co/gnOluA4buz",
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "1bcbd0dcd813366a1f2ffcdb42610ad2d41faafcc0527810af22070adc37b7e1",
-  "generated_at": "2026-10-11T20:41:31Z"
+  "content_hash": "f8220739b0b6fb6e8be7b581e93274330eaf478af8aa233167e997305ef8dc4e",
+  "generated_at": "2026-10-11T21:04:30Z"
 }
