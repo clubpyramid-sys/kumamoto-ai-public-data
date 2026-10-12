@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-13T05:26:06.176637+09:00",
+  "generated_at": "2026-10-13T05:41:20.685653+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3159,18 +3159,18 @@
       }
     ],
     "collection": {
-      "retrieved": 48,
+      "status": "success",
       "failed": 0,
-      "attempted": 48,
-      "http_unavailable": 0,
       "retained_previous": 0,
-      "target_sites": 48,
+      "started_at": "2026-10-13T00:34:57.552657+09:00",
       "finished_at": "2026-10-13T00:35:04.038219+09:00",
+      "target_sites": 48,
+      "retrieved": 48,
       "http_available": 48,
       "source": "managed_sites_snapshot",
       "reject_count": 0,
-      "status": "success",
-      "started_at": "2026-10-13T00:34:57.552657+09:00"
+      "attempted": 48,
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
@@ -3372,7 +3372,7 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-12T05:30:08.577398+09:00",
+    "generated_at": "2026-10-13T05:30:05.948314+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
@@ -3397,7 +3397,7 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-10-05T05:20:00+09:00",
-        "last_attempt_at": "2026-10-12T05:30:08+09:00",
+        "last_attempt_at": "2026-10-13T05:30:05+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       },
       {
@@ -3406,48 +3406,48 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 95,
-        "gemini_five_hour_remaining_percent": 69,
+        "gemini_weekly_remaining_percent": 92,
+        "gemini_five_hour_remaining_percent": 100,
         "claude_gpt_weekly_remaining_percent": 70,
-        "claude_gpt_five_hour_remaining_percent": 41,
+        "claude_gpt_five_hour_remaining_percent": 100,
         "claude_gpt_five_hour_not_applicable": false,
-        "captured_at": "2026-10-12T05:30:05+09:00",
+        "captured_at": "2026-10-13T05:30:02+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-10-12T05:30:05+09:00",
-        "last_attempt_at": "2026-10-12T05:30:05+09:00",
+        "last_success_at": "2026-10-13T05:30:02+09:00",
+        "last_attempt_at": "2026-10-13T05:30:02+09:00",
         "failure_reason": null
       },
       {
         "service": "grok",
         "display_name": "Grok",
         "status": "available",
-        "weekly_used_percent": 76,
-        "weekly_remaining_percent": 24,
-        "weekly_reset_at": "2026-10-13T03:21:00+09:00",
+        "weekly_used_percent": 1,
+        "weekly_remaining_percent": 99,
+        "weekly_reset_at": "2026-10-20T03:21:00+09:00",
         "grok_build_used_percent": null,
         "chat_used_percent": null,
         "extra_usage_credits": 0,
-        "captured_at": "2026-10-12T05:20:38+09:00",
+        "captured_at": "2026-10-13T05:20:39+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-10-12T05:20:38+09:00",
-        "last_attempt_at": "2026-10-12T05:30:08+09:00",
+        "last_success_at": "2026-10-13T05:20:39+09:00",
+        "last_attempt_at": "2026-10-13T05:30:05+09:00",
         "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-13T05:26:06.414956+09:00",
+    "generated_at": "2026-10-13T05:41:21.012427+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3623,7 +3623,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-10-13T05:40:00+09:00",
+        "next_run": "2026-10-14T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3653,7 +3653,7 @@
         "execution_type": "launchd",
         "last_run": "2026-10-13T05:30:00+0900",
         "last_success": "2026-10-13T05:30:00+0900",
-        "next_run": "2026-10-13T05:30:00+09:00",
+        "next_run": "2026-10-14T05:30:00+09:00",
         "notes": "各AIモデル・APIのトークン消費量と費用集計。"
       },
       {
@@ -3726,9 +3726,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-13T05:21:06.414956+09:00",
-        "last_success": "2026-10-13T05:21:06.414956+09:00",
-        "next_run": "2026-10-13T05:41:06.414956+09:00",
+        "last_run": "2026-10-13T05:36:21.012427+09:00",
+        "last_success": "2026-10-13T05:36:21.012427+09:00",
+        "next_run": "2026-10-13T05:56:21.012427+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3741,9 +3741,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-13T05:11:06.414956+09:00",
-        "last_success": "2026-10-13T05:11:06.414956+09:00",
-        "next_run": "2026-10-13T05:56:06.414956+09:00",
+        "last_run": "2026-10-13T05:26:21.012427+09:00",
+        "last_success": "2026-10-13T05:26:21.012427+09:00",
+        "next_run": "2026-10-13T06:11:21.012427+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3756,35 +3756,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-13T04:26:06.414956+09:00",
-        "last_success": "2026-10-13T04:26:06.414956+09:00",
-        "next_run": "2026-10-13T08:26:06.414956+09:00",
+        "last_run": "2026-10-13T04:41:21.012427+09:00",
+        "last_success": "2026-10-13T04:41:21.012427+09:00",
+        "next_run": "2026-10-13T08:41:21.012427+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-13T05:25:59+09:00",
+    "generated_at": "2026-10-13T05:41:15+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-10-13T05:10:27+09:00",
-        "last_success_at": "2026-10-13T05:10:27+09:00",
+        "last_attempt_at": "2026-10-13T05:26:01+09:00",
+        "last_success_at": "2026-10-13T05:26:01+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-10-13T05:10:28+09:00",
-        "last_success_at": "2026-10-13T05:10:28+09:00",
+        "last_attempt_at": "2026-10-13T05:26:02+09:00",
+        "last_success_at": "2026-10-13T05:26:02+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-10-13T05:10:28+09:00",
-        "last_success_at": "2026-10-13T05:10:28+09:00",
+        "last_attempt_at": "2026-10-13T05:26:02+09:00",
+        "last_success_at": "2026-10-13T05:26:02+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3818,8 +3818,8 @@
       },
       "ai_usage": {
         "state": "completed",
-        "last_attempt_at": "2026-10-12T05:30:05+09:00",
-        "last_success_at": "2026-10-12T05:30:05+09:00",
+        "last_attempt_at": "2026-10-13T05:30:02+09:00",
+        "last_success_at": "2026-10-13T05:30:02+09:00",
         "message": "一部更新。前回値を保持しているサービスがあります",
         "error_code": "ai_usage_partial"
       }
@@ -3827,9 +3827,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-10-12T20:26:00.266Z",
-    "last_success_at": "2026-10-12T20:26:00.266Z",
-    "last_attempt_at": "2026-10-12T20:26:00.266Z",
+    "generated_at": "2026-10-12T20:41:15.919Z",
+    "last_success_at": "2026-10-12T20:41:15.919Z",
+    "last_attempt_at": "2026-10-12T20:41:15.919Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
