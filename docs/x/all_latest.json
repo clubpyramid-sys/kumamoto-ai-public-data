@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-14T06:02:44+09:00",
   "items": [
+    {
+      "id": "2110049756928147897",
+      "title": "そろそろチルアウト",
+      "text": "そろそろチルアウト",
+      "url": "https://x.com/K_Ero_Gentleman/status/2110049756928147897",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-13T16:47:19Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2109278313340649896",
       "title": "🎭【熊本秘密クラブ｜10月後半の開催案内】 10月後半は、趣向の異なる3回の開催を予定しています😊✨ 🌙 10月17日（土）｜SATURDAY NIGHT 📍熊",
@@ -425,18 +437,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-10-02T13:02:20Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2105183033708147032",
-      "title": "今週の金曜の夜に下通りにて https://t.co/BKvS8BFoOZ",
-      "text": "今週の金曜の夜に下通りにて https://t.co/BKvS8BFoOZ",
-      "url": "https://x.com/K_Ero_Gentleman/status/2105183033708147032",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-09-30T06:28:42Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "aeaa46d4e6c64cf2ea7ce50b33aaceb8fb355e6b80714416aecd4efd45b37894",
-  "generated_at": "2026-10-12T20:41:02Z"
+  "content_hash": "1a5f877093e3b084d67b5562edd9a0d44cb7cbed34e008bb7b784b3dd778ef79",
+  "generated_at": "2026-10-13T21:02:45Z"
 }
