@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-15T16:42:43.050839+09:00",
+  "generated_at": "2026-10-15T16:57:57.833649+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -3163,18 +3163,18 @@
       }
     ],
     "collection": {
+      "attempted": 48,
+      "source": "managed_sites_snapshot",
+      "target_sites": 48,
+      "retrieved": 48,
       "reject_count": 0,
       "retained_previous": 0,
       "finished_at": "2026-10-15T00:46:52.005555+09:00",
-      "target_sites": 48,
+      "http_available": 48,
+      "http_unavailable": 0,
       "started_at": "2026-10-15T00:46:44.784016+09:00",
       "status": "success",
-      "failed": 0,
-      "retrieved": 48,
-      "http_unavailable": 0,
-      "http_available": 48,
-      "attempted": 48,
-      "source": "managed_sites_snapshot"
+      "failed": 0
     }
   },
   "project_portfolio": {
@@ -3451,7 +3451,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-15T16:42:43.369566+09:00",
+    "generated_at": "2026-10-15T16:57:58.131482+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3730,9 +3730,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-15T16:37:43.369566+09:00",
-        "last_success": "2026-10-15T16:37:43.369566+09:00",
-        "next_run": "2026-10-15T16:57:43.369566+09:00",
+        "last_run": "2026-10-15T16:52:58.131482+09:00",
+        "last_success": "2026-10-15T16:52:58.131482+09:00",
+        "next_run": "2026-10-15T17:12:58.131482+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3745,9 +3745,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-15T16:27:43.369566+09:00",
-        "last_success": "2026-10-15T16:27:43.369566+09:00",
-        "next_run": "2026-10-15T17:12:43.369566+09:00",
+        "last_run": "2026-10-15T16:42:58.131482+09:00",
+        "last_success": "2026-10-15T16:42:58.131482+09:00",
+        "next_run": "2026-10-15T17:27:58.131482+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3760,35 +3760,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-15T15:42:43.369566+09:00",
-        "last_success": "2026-10-15T15:42:43.369566+09:00",
-        "next_run": "2026-10-15T19:42:43.369566+09:00",
+        "last_run": "2026-10-15T15:57:58.131482+09:00",
+        "last_success": "2026-10-15T15:57:58.131482+09:00",
+        "next_run": "2026-10-15T19:57:58.131482+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-15T16:42:36+09:00",
+    "generated_at": "2026-10-15T16:57:51+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-10-15T16:27:23+09:00",
-        "last_success_at": "2026-10-15T16:27:23+09:00",
+        "last_attempt_at": "2026-10-15T16:42:38+09:00",
+        "last_success_at": "2026-10-15T16:42:38+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-10-15T16:27:24+09:00",
-        "last_success_at": "2026-10-15T16:27:24+09:00",
+        "last_attempt_at": "2026-10-15T16:42:39+09:00",
+        "last_success_at": "2026-10-15T16:42:39+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-10-15T16:27:24+09:00",
-        "last_success_at": "2026-10-15T16:27:24+09:00",
+        "last_attempt_at": "2026-10-15T16:42:39+09:00",
+        "last_success_at": "2026-10-15T16:42:39+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3831,9 +3831,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-10-15T07:42:37.221Z",
-    "last_success_at": "2026-10-15T07:42:37.221Z",
-    "last_attempt_at": "2026-10-15T07:42:37.221Z",
+    "generated_at": "2026-10-15T07:57:52.506Z",
+    "last_success_at": "2026-10-15T07:57:52.506Z",
+    "last_attempt_at": "2026-10-15T07:57:52.506Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
