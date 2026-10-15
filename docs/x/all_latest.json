@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-16T06:02:13+09:00",
   "items": [
     {
       "id": "2110068315519689077",
@@ -53,6 +53,18 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-10-13T15:03:07Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2110006438617923819",
+      "title": "火曜の夜なのに 平日の夜なのに 異様な盛り上がり💕💕💕💕💕💕",
+      "text": "火曜の夜なのに 平日の夜なのに 異様な盛り上がり💕💕💕💕💕💕",
+      "url": "https://x.com/K_Ero_Gentleman/status/2110006438617923819",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-13T13:55:11Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -365,18 +377,6 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-10-04T06:05:53Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2106081461413740594",
-      "title": "ちょっと小腹が空いたので沖縄料理を食べに😋",
-      "text": "ちょっと小腹が空いたので沖縄料理を食べに😋",
-      "url": "https://x.com/K_Ero_Gentleman/status/2106081461413740594",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-10-02T17:58:44Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "2a5e40fe9d8fb21b2ab19e97e02cce584c09f4ef78095774d0cebf0b34f7468c",
-  "generated_at": "2026-10-15T20:40:58Z"
+  "content_hash": "940d8bed65193c41c203bb12e631f46456933e9fbc88c31e874de1d978443ab0",
+  "generated_at": "2026-10-15T21:02:13Z"
 }
