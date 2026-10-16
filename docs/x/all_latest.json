@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-17T06:03:25+09:00",
   "items": [
     {
       "id": "2110068315519689077",
@@ -77,6 +77,18 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-10-11T13:41:53Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2109167150745403871",
+      "title": "熊本秘密クラブでは、10月21日（水）、熊本・上通りエリアにて、心と身体をゆっくり癒すリラクゼーション企画を開催いたします🌿✨ https://t.co/gnO",
+      "text": "熊本秘密クラブでは、10月21日（水）、熊本・上通りエリアにて、心と身体をゆっくり癒すリラクゼーション企画を開催いたします🌿✨ https://t.co/gnOluA4buz",
+      "url": "https://x.com/kumamonsupport/status/2109167150745403871",
+      "handle": "kumamonsupport",
+      "display_name": "Kumamoto Secret Club➕東京支局",
+      "published_at": "2026-10-11T06:20:09Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -838,18 +850,6 @@
       "media": []
     },
     {
-      "id": "2078814222004420890",
-      "title": "9月の中旬に伯爵カムバックです👍🏻",
-      "text": "9月の中旬に伯爵カムバックです👍🏻",
-      "url": "https://x.com/kumamonsupport/status/2078814222004420890",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-07-19T12:08:27Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2078020114897846560",
       "title": "近々、カラオケ女子会やりますか😊",
       "text": "近々、カラオケ女子会やりますか😊",
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "b631fc2b53ab4bbc5e2c9ac57e7b4a9650907518af6cace72035f659919e31e7",
-  "generated_at": "2026-10-16T20:41:17Z"
+  "content_hash": "914501aab976ddb779d725f6aeba9a1bf4698aebb166bbd1d74f8765c8fcd300",
+  "generated_at": "2026-10-16T21:03:26Z"
 }
