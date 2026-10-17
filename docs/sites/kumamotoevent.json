@@ -6,6 +6,42 @@
   },
   "note_items": [
     {
+      "id": "n3719a527c425",
+      "title": "税理士も弁護士も、AIで準備してから相談する時代へ──専門家の限られた時間を、最も価値の高い判断に使う",
+      "url": "https://note.com/club_pyramid/n/n3719a527c425",
+      "published_at": "2026-10-17T12:27:22+09:00",
+      "summary": "最近、自分の会社の決算書と税務申告書を、GPT-6と一緒に作成している。 これが、想像していた以上に面白い。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325275652/rectangle_large_type_2_f84f39abcda993853fff872d7db228c6.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "nd342b63a0cf1",
+      "title": "AIが知識を教える時代に、人間は何のために集まるのか。――河内アカデミーでの実験と、AI同士が仕事をする「アフターAI社会」の設計について",
+      "url": "https://note.com/club_pyramid/n/nd342b63a0cf1",
+      "published_at": "2026-10-17T12:19:19+09:00",
+      "summary": "先日公開した、河内アカデミーでのAIエージェント勉強会についての記事に、うれしいコメントをいただいた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325272599/rectangle_large_type_2_df83d4324847153870c66625eaa8ae6a.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "n7cfc397a8118",
+      "title": "AIにメール管理を任せようとしたら、「安全に止めること」の方が難しかった話｜Mac StudioとローカルAIで挑戦する、MAIL INTELLIGENCE開発記録",
+      "url": "https://note.com/club_pyramid/n/n7cfc397a8118",
+      "published_at": "2026-10-17T11:18:20+09:00",
+      "summary": "AIにメールを読ませて、迷惑メールを見分け、重要な連絡を拾い上げ、毎日の報告書を作ってもらう。 そんな「自分専用のメール秘書」を作り始めました。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325255199/rectangle_large_type_2_a3be3440536ed38d62f9f29c1f52e1cb.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n5ce8c6f39b6a",
       "title": "AIは社会をどう変えるのか？ ――河内アカデミーでの対話から考える、AI時代の新しい社会設計",
       "url": "https://note.com/club_pyramid/n/n5ce8c6f39b6a",
@@ -84,42 +120,6 @@
       "published_at": "2026-09-27T15:24:06+09:00",
       "summary": "革命という言葉の向こう側で、私が20年近く考え続けてきたこと 「革命」「クーデター」。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/318089535/rectangle_large_type_2_630c611617647f308c6a7fea4dda3a5b.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "na31156d874a6",
-      "title": "AIは人類を覚醒させるのか？｜20世紀型人生ゲームの終わりと「お前は何をしにこの世界に来た？」という問い",
-      "url": "https://note.com/club_pyramid/n/na31156d874a6",
-      "published_at": "2026-09-25T14:03:15+09:00",
-      "summary": "ある動画を見ていて、どうにも腑に落ちないものを感じた。テーマは「実力主義の罠」だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/317329678/rectangle_large_type_2_54676526d61a8f79418483f41b93d2ca.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n55795fd3758b",
-      "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
-      "url": "https://note.com/club_pyramid/n/n55795fd3758b",
-      "published_at": "2026-09-18T19:46:56+09:00",
-      "summary": "Hermes Agentを使っていて、最近かなり印象が変わってきました。 最初は、 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314988116/rectangle_large_type_2_3066679b5d8da2368d7257eb905218d5.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n84674556cfd6",
-      "title": "CodexやAntigravityを使っている人ほど、Hermes Agentが面白い理由｜「もう一つのコーディングAI」ではなく、AIたちを常駐させる“仕事場”として見る",
-      "url": "https://note.com/club_pyramid/n/n84674556cfd6",
-      "published_at": "2026-09-18T17:53:18+09:00",
-      "summary": "CodexやGoogle Antigravityをすでに使っている人がHermes Agentを見ると、最初はこう思うかもしれません。 「これもAIにコードを書かせるソフトなのでは？」 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314954024/rectangle_large_type_2_ea0f28e17cd8a9655d9e1ccf7666b885.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "cc6bd83c39ef20023c40dd234eddd587f26e08d9707d63469ce2e0587deb3077",
-  "generated_at": "2026-10-11T20:41:31Z"
+  "content_hash": "9bcb09f25381820676f2b00d4b8ad1c73242a5f1eeb03ad1c9735b83a0d3e0f9",
+  "generated_at": "2026-10-17T20:41:20Z"
 }

@@ -9,6 +9,39 @@
   },
   "items": [
     {
+      "id": "n3719a527c425",
+      "title": "税理士も弁護士も、AIで準備してから相談する時代へ──専門家の限られた時間を、最も価値の高い判断に使う",
+      "url": "https://note.com/club_pyramid/n/n3719a527c425",
+      "published_at": "2026-10-17T12:27:22+09:00",
+      "summary": "最近、自分の会社の決算書と税務申告書を、GPT-6と一緒に作成している。 これが、想像していた以上に面白い。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325275652/rectangle_large_type_2_f84f39abcda993853fff872d7db228c6.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "nd342b63a0cf1",
+      "title": "AIが知識を教える時代に、人間は何のために集まるのか。――河内アカデミーでの実験と、AI同士が仕事をする「アフターAI社会」の設計について",
+      "url": "https://note.com/club_pyramid/n/nd342b63a0cf1",
+      "published_at": "2026-10-17T12:19:19+09:00",
+      "summary": "先日公開した、河内アカデミーでのAIエージェント勉強会についての記事に、うれしいコメントをいただいた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325272599/rectangle_large_type_2_df83d4324847153870c66625eaa8ae6a.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n7cfc397a8118",
+      "title": "AIにメール管理を任せようとしたら、「安全に止めること」の方が難しかった話｜Mac StudioとローカルAIで挑戦する、MAIL INTELLIGENCE開発記録",
+      "url": "https://note.com/club_pyramid/n/n7cfc397a8118",
+      "published_at": "2026-10-17T11:18:20+09:00",
+      "summary": "AIにメールを読ませて、迷惑メールを見分け、重要な連絡を拾い上げ、毎日の報告書を作ってもらう。 そんな「自分専用のメール秘書」を作り始めました。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325255199/rectangle_large_type_2_a3be3440536ed38d62f9f29c1f52e1cb.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n5ce8c6f39b6a",
       "title": "AIは社会をどう変えるのか？ ――河内アカデミーでの対話から考える、AI時代の新しい社会設計",
       "url": "https://note.com/club_pyramid/n/n5ce8c6f39b6a",
@@ -194,42 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "ncab64fcf8637",
-      "title": "孫正義は未来を見ている。だが、その未来は孫正義すら飲み込むかもしれない",
-      "url": "https://note.com/club_pyramid/n/ncab64fcf8637",
-      "published_at": "2026-09-06T10:10:13+09:00",
-      "summary": "SoftBank World 2026で、孫正義氏がかなり踏み込んだAI時代の未来像を語った。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310760636/rectangle_large_type_2_631a1d4e3d971d1e39379df285235218.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n3ea69f98dd8d",
-      "title": "Astra、Sol、Terra、Luna × Chat、Work、Codex｜AIを「一番強いモデル」で選ぶ時代から、「仕事に合わせてチーム編成する」時代へ",
-      "url": "https://note.com/club_pyramid/n/n3ea69f98dd8d",
-      "published_at": "2026-09-06T09:48:12+09:00",
-      "summary": "2026年になって、ChatGPTの使い方がかなり変わってきた。 以前は単純だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310753829/rectangle_large_type_2_2d78de1184761bce37d77f76b31b2be9.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n547eda5d1bc8",
-      "title": "Amazonの次に来るもの｜一本のプリンター動画から見えた、「思考を物質化する時代」の始まり",
-      "url": "https://note.com/club_pyramid/n/n547eda5d1bc8",
-      "published_at": "2026-09-03T11:56:14+09:00",
-      "summary": "先日、一本のプリンターの動画を見た。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/309782186/rectangle_large_type_2_24db9fb951d8bc444dc704c5b4f59729.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "ba83380834a226c31724fb2e4bbdabf5213a075c3f5c8c6e5ca5c425b47d5497",
-  "generated_at": "2026-10-11T20:40:34Z"
+  "content_hash": "9e5e38b9db2400a43f28a89b9048fa26790562a0e4155e2d7d1e168a41e0482a",
+  "generated_at": "2026-10-17T20:40:24Z"
 }
