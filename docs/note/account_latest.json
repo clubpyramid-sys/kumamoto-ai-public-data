@@ -9,6 +9,39 @@
   },
   "items": [
     {
+      "id": "naafe01ca8af7",
+      "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
+      "url": "https://note.com/club_pyramid/n/naafe01ca8af7",
+      "published_at": "2026-10-18T17:06:11+09:00",
+      "summary": "AIエージェントを日常的に使うようになると、ひとつ気になってくることがあります。 それは、トークンと利用枠の消費です。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325734415/rectangle_large_type_2_42ab26d03ebed7cea91d668a9e3cef07.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n56eafb30f6e7",
+      "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
+      "url": "https://note.com/club_pyramid/n/n56eafb30f6e7",
+      "published_at": "2026-10-18T17:04:57+09:00",
+      "summary": "AIエージェントを日常的に使うようになると、ひとつ気になってくることがあります。 それは、トークンと利用枠の消費です。 続きをみる",
+      "thumbnail_url": null,
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
+      "id": "n8fc4868860c4",
+      "title": "AIに9つのWebサイトを管理させようとしたら、AIを管理するシステムまで必要になった話｜AIエージェントとの共同開発で見えてきた、自動化の可能性と落とし穴",
+      "url": "https://note.com/club_pyramid/n/n8fc4868860c4",
+      "published_at": "2026-10-18T09:32:08+09:00",
+      "summary": "最近、AIを使ったWebサイトやアプリケーションの制作が、私の日常になっています。 以前なら、プログラムを書けなければ実現できなかったアイデアも、今ではAIに相談しながら形にできるようになりました。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325590303/rectangle_large_type_2_6e763332923f9e6434991fd9d63f0678.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n3719a527c425",
       "title": "税理士も弁護士も、AIで準備してから相談する時代へ──専門家の限られた時間を、最も価値の高い判断に使う",
       "url": "https://note.com/club_pyramid/n/n3719a527c425",
@@ -194,42 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n76eab57ed5fc",
-      "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
-      "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
-      "published_at": "2026-09-08T11:51:07+09:00",
-      "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311490779/rectangle_large_type_2_2b5b43d03798b1a8beaf1afc357f6970.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n12b9148e1497",
-      "title": "『VIVANT』から見えてきたポスト戦後日本｜「東のイギリス」とAI・ロボット国家の未来",
-      "url": "https://note.com/club_pyramid/n/n12b9148e1497",
-      "published_at": "2026-09-07T11:09:32+09:00",
-      "summary": "『VIVANT』を見ていると、どうにも妙な感覚が残る。 もちろん、そもそも別班という秘密組織が世界を飛び回るドラマなのだから、荒唐無稽なところがあって当然である。しかし2026年の第2シーズンを見続けていると、単なるスパイアクションとして片付けるには、いろいろなものが妙に現実と重なりすぎている。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311138243/rectangle_large_type_2_ebfe3b8f77a5bbf727f581e86eedebde.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
-      "id": "n05b543850f6d",
-      "title": "世界は美しいのに。――AIが労働を終わらせたあと、人間は何のために生きるのか",
-      "url": "https://note.com/club_pyramid/n/n05b543850f6d",
-      "published_at": "2026-09-06T10:40:53+09:00",
-      "summary": "「もし明日から、働かなくても生活できるだけのお金が毎月振り込まれるとしたら？」 そんな問いから始まる動画を見た。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/310770986/rectangle_large_type_2_e2555121677a3b478846ea7c2dc2de5c.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "9e5e38b9db2400a43f28a89b9048fa26790562a0e4155e2d7d1e168a41e0482a",
-  "generated_at": "2026-10-17T20:40:24Z"
+  "content_hash": "5a613ea2fab9c5dbec5c9878f13a574f8a434eaf2255118c797361ec16f0a252",
+  "generated_at": "2026-10-18T20:40:15Z"
 }
