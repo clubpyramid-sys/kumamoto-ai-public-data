@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-19T06:03:22+09:00",
   "items": [
+    {
+      "id": "2111462974175203379",
+      "title": "テキーラ取り寄せ始まりました笑",
+      "text": "テキーラ取り寄せ始まりました笑",
+      "url": "https://x.com/K_Ero_Gentleman/status/2111462974175203379",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-17T14:22:56Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2111456718488293751",
       "title": "3人目の女性の方もお越しで ジェンガに参加❣️",
@@ -149,6 +161,18 @@
       "handle": "kumamonsupport",
       "display_name": "Kumamoto Secret Club➕東京支局",
       "published_at": "2026-10-11T06:20:09Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2109166923665777052",
+      "title": "10月17日（土）は、熊本・下通りエリアにて開催いたします✨ 🌙 SATURDAY NIGHT 土曜日の熊本の夜。 賑やかな繁華街から少しだけ日常を離れて、自由",
+      "text": "10月17日（土）は、熊本・下通りエリアにて開催いたします✨ 🌙 SATURDAY NIGHT 土曜日の熊本の夜。 賑やかな繁華街から少しだけ日常を離れて、自由で気ままな時間を楽しんでみませんか？🥂✨ https://t.co/gnOluA4buz",
+      "url": "https://x.com/kumamonsupport/status/2109166923665777052",
+      "handle": "kumamonsupport",
+      "display_name": "Kumamoto Secret Club➕東京支局",
+      "published_at": "2026-10-11T06:19:15Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -365,18 +389,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-10-08T13:41:11Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2108189522760753216",
-      "title": "6人目の女性の方ご到着です❣️ https://t.co/eDnucU66N3",
-      "text": "6人目の女性の方ご到着です❣️ https://t.co/eDnucU66N3",
-      "url": "https://x.com/K_Ero_Gentleman/status/2108189522760753216",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-10-08T13:35:25Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -790,18 +802,6 @@
       "media": []
     },
     {
-      "id": "2086970137346011306",
-      "title": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
-      "text": "明日はプロの女性エステティシャン2名様がご来場かも😉 午後から明け方まで開催予定です https://t.co/AGrJhz12n1",
-      "url": "https://x.com/kumamonsupport/status/2086970137346011306",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-08-11T00:17:09Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2079963984812487033",
       "title": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
       "text": "7月30日の木曜日に西銀座通りのBARで開催です🎤 https://t.co/zsaM6pMIE2",
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "c0a03ec4216c265ac01e3ada79e18bb1a71fa60588d0c4b2af5bd3523ad6b04d",
-  "generated_at": "2026-10-18T20:41:02Z"
+  "content_hash": "f5c359626e84794471d356a375727581e6e615447268d649bd5ebf80a9d97665",
+  "generated_at": "2026-10-18T21:03:23Z"
 }
