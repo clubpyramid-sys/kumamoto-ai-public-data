@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-19T05:26:45.375399+09:00",
+  "generated_at": "2026-10-19T05:42:04.121309+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1915,8 +1915,8 @@
     "note_account": {
       "name": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "url": "https://note.com/club_pyramid/",
-      "latest_at": "2026-10-17T12:27:22+09:00",
-      "weekly_count": 3
+      "latest_at": "2026-10-18T17:06:11+09:00",
+      "weekly_count": 6
     },
     "ameba_account": {
       "name": "スターライト・ウエディング",
@@ -1963,19 +1963,19 @@
     ],
     "note": [
       {
-        "title": "税理士も弁護士も、AIで準備してから相談する時代へ──専門家の限られた時間を、最も価値の高い判断に使う",
-        "url": "https://note.com/club_pyramid/n/n3719a527c425",
-        "published_at": "2026-10-17T12:27:22+09:00"
+        "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
+        "url": "https://note.com/club_pyramid/n/naafe01ca8af7",
+        "published_at": "2026-10-18T17:06:11+09:00"
       },
       {
-        "title": "AIが知識を教える時代に、人間は何のために集まるのか。――河内アカデミーでの実験と、AI同士が仕事をする「アフターAI社会」の設計について",
-        "url": "https://note.com/club_pyramid/n/nd342b63a0cf1",
-        "published_at": "2026-10-17T12:19:19+09:00"
+        "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
+        "url": "https://note.com/club_pyramid/n/n56eafb30f6e7",
+        "published_at": "2026-10-18T17:04:57+09:00"
       },
       {
-        "title": "AIにメール管理を任せようとしたら、「安全に止めること」の方が難しかった話｜Mac StudioとローカルAIで挑戦する、MAIL INTELLIGENCE開発記録",
-        "url": "https://note.com/club_pyramid/n/n7cfc397a8118",
-        "published_at": "2026-10-17T11:18:20+09:00"
+        "title": "AIに9つのWebサイトを管理させようとしたら、AIを管理するシステムまで必要になった話｜AIエージェントとの共同開発で見えてきた、自動化の可能性と落とし穴",
+        "url": "https://note.com/club_pyramid/n/n8fc4868860c4",
+        "published_at": "2026-10-18T09:32:08+09:00"
       }
     ],
     "ameba": [
@@ -3163,18 +3163,18 @@
       }
     ],
     "collection": {
-      "http_available": 48,
-      "attempted": 48,
-      "started_at": "2026-10-19T01:06:36.134181+09:00",
       "status": "success",
       "failed": 0,
-      "finished_at": "2026-10-19T01:06:43.127310+09:00",
-      "source": "managed_sites_snapshot",
-      "target_sites": 48,
       "retained_previous": 0,
-      "retrieved": 48,
+      "started_at": "2026-10-19T01:06:36.134181+09:00",
+      "http_unavailable": 0,
+      "attempted": 48,
+      "finished_at": "2026-10-19T01:06:43.127310+09:00",
       "reject_count": 0,
-      "http_unavailable": 0
+      "http_available": 48,
+      "target_sites": 48,
+      "source": "managed_sites_snapshot",
+      "retrieved": 48
     }
   },
   "project_portfolio": {
@@ -3376,7 +3376,7 @@
   },
   "ai_usage": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-18T05:30:08.730143+09:00",
+    "generated_at": "2026-10-19T05:30:05.358524+09:00",
     "data_state": "ready",
     "summary": {
       "services": 3,
@@ -3401,7 +3401,7 @@
         "verified": true,
         "collection_status": "waiting",
         "last_success_at": "2026-10-05T05:20:00+09:00",
-        "last_attempt_at": "2026-10-18T05:30:08+09:00",
+        "last_attempt_at": "2026-10-19T05:30:05+09:00",
         "failure_reason": "Chrome拡張の次回取得待ち"
       },
       {
@@ -3410,48 +3410,48 @@
         "status": "available",
         "plan": "Google AI Pro",
         "ai_credit_overages": false,
-        "gemini_weekly_remaining_percent": 92,
-        "gemini_five_hour_remaining_percent": 100,
-        "claude_gpt_weekly_remaining_percent": 70,
+        "gemini_weekly_remaining_percent": 67,
+        "gemini_five_hour_remaining_percent": 80,
+        "claude_gpt_weekly_remaining_percent": 100,
         "claude_gpt_five_hour_remaining_percent": 100,
         "claude_gpt_five_hour_not_applicable": false,
-        "captured_at": "2026-10-18T05:30:05+09:00",
+        "captured_at": "2026-10-19T05:30:02+09:00",
         "capture_method": "electron_cdp_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Models & Usage",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-10-18T05:30:05+09:00",
-        "last_attempt_at": "2026-10-18T05:30:05+09:00",
+        "last_success_at": "2026-10-19T05:30:02+09:00",
+        "last_attempt_at": "2026-10-19T05:30:02+09:00",
         "failure_reason": null
       },
       {
         "service": "grok",
         "display_name": "Grok",
         "status": "available",
-        "weekly_used_percent": 17,
-        "weekly_remaining_percent": 83,
+        "weekly_used_percent": 19,
+        "weekly_remaining_percent": 81,
         "weekly_reset_at": "2026-10-20T03:21:00+09:00",
         "grok_build_used_percent": null,
         "chat_used_percent": null,
         "extra_usage_credits": 0,
-        "captured_at": "2026-10-18T05:20:40+09:00",
+        "captured_at": "2026-10-19T05:20:41+09:00",
         "capture_method": "chrome_dom",
         "update_state": "ready",
         "freshness": "fresh",
         "source_label": "自動／Grok使用量画面",
         "verified": true,
         "collection_status": "active",
-        "last_success_at": "2026-10-18T05:20:40+09:00",
-        "last_attempt_at": "2026-10-18T05:30:08+09:00",
+        "last_success_at": "2026-10-19T05:20:41+09:00",
+        "last_attempt_at": "2026-10-19T05:30:05+09:00",
         "failure_reason": null
       }
     ]
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-19T05:26:45.665464+09:00",
+    "generated_at": "2026-10-19T05:42:04.343923+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 19,
@@ -3627,7 +3627,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-10-19T05:40:00+09:00",
+        "next_run": "2026-10-20T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3657,7 +3657,7 @@
         "execution_type": "launchd",
         "last_run": "2026-10-19T05:30:00+0900",
         "last_success": "2026-10-19T05:30:00+0900",
-        "next_run": "2026-10-19T05:30:00+09:00",
+        "next_run": "2026-10-20T05:30:00+09:00",
         "notes": "各AIモデル・APIのトークン消費量と費用集計。"
       },
       {
@@ -3730,9 +3730,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-19T05:21:45.665464+09:00",
-        "last_success": "2026-10-19T05:21:45.665464+09:00",
-        "next_run": "2026-10-19T05:41:45.665464+09:00",
+        "last_run": "2026-10-19T05:37:04.343923+09:00",
+        "last_success": "2026-10-19T05:37:04.343923+09:00",
+        "next_run": "2026-10-19T05:57:04.343923+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3745,9 +3745,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-19T05:11:45.665464+09:00",
-        "last_success": "2026-10-19T05:11:45.665464+09:00",
-        "next_run": "2026-10-19T05:56:45.665464+09:00",
+        "last_run": "2026-10-19T05:27:04.343923+09:00",
+        "last_success": "2026-10-19T05:27:04.343923+09:00",
+        "next_run": "2026-10-19T06:12:04.343923+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3760,35 +3760,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-10-19T04:26:45.665464+09:00",
-        "last_success": "2026-10-19T04:26:45.665464+09:00",
-        "next_run": "2026-10-19T08:26:45.665464+09:00",
+        "last_run": "2026-10-19T04:42:04.343923+09:00",
+        "last_success": "2026-10-19T04:42:04.343923+09:00",
+        "next_run": "2026-10-19T08:42:04.343923+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-19T05:26:38+09:00",
+    "generated_at": "2026-10-19T05:41:53+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-10-19T05:11:25+09:00",
-        "last_success_at": "2026-10-19T05:11:25+09:00",
+        "last_attempt_at": "2026-10-19T05:26:40+09:00",
+        "last_success_at": "2026-10-19T05:26:40+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-10-19T05:11:25+09:00",
-        "last_success_at": "2026-10-19T05:11:25+09:00",
+        "last_attempt_at": "2026-10-19T05:26:41+09:00",
+        "last_success_at": "2026-10-19T05:26:41+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-10-19T05:11:25+09:00",
-        "last_success_at": "2026-10-19T05:11:25+09:00",
+        "last_attempt_at": "2026-10-19T05:26:41+09:00",
+        "last_success_at": "2026-10-19T05:26:41+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3822,8 +3822,8 @@
       },
       "ai_usage": {
         "state": "completed",
-        "last_attempt_at": "2026-10-18T05:30:05+09:00",
-        "last_success_at": "2026-10-18T05:30:05+09:00",
+        "last_attempt_at": "2026-10-19T05:30:02+09:00",
+        "last_success_at": "2026-10-19T05:30:02+09:00",
         "message": "一部更新。前回値を保持しているサービスがあります",
         "error_code": "ai_usage_partial"
       }
@@ -3831,9 +3831,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-10-18T20:26:39.281Z",
-    "last_success_at": "2026-10-18T20:26:39.281Z",
-    "last_attempt_at": "2026-10-18T20:26:39.281Z",
+    "generated_at": "2026-10-18T20:41:54.844Z",
+    "last_success_at": "2026-10-18T20:41:54.844Z",
+    "last_attempt_at": "2026-10-18T20:41:54.844Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
