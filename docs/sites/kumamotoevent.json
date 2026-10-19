@@ -18,18 +18,6 @@
       "selection_mode": "automatic"
     },
     {
-      "id": "n56eafb30f6e7",
-      "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
-      "url": "https://note.com/club_pyramid/n/n56eafb30f6e7",
-      "published_at": "2026-10-18T17:04:57+09:00",
-      "summary": "AIエージェントを日常的に使うようになると、ひとつ気になってくることがあります。 それは、トークンと利用枠の消費です。 続きをみる",
-      "thumbnail_url": null,
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
       "id": "n8fc4868860c4",
       "title": "AIに9つのWebサイトを管理させようとしたら、AIを管理するシステムまで必要になった話｜AIエージェントとの共同開発で見えてきた、自動化の可能性と落とし穴",
       "url": "https://note.com/club_pyramid/n/n8fc4868860c4",
@@ -120,6 +108,18 @@
       "published_at": "2026-10-09T22:01:31+09:00",
       "summary": "このページは、AIエージェント実践ワークショップに参加する皆さんのためのガイドです。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322579328/rectangle_large_type_2_57ba442d0acde2cd3bd9cf3363406871.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
+      "id": "n048638a095c6",
+      "title": "AIが何でも教えてくれる時代に、人はなぜ集まるのか――AIエージェントが変えるのは仕事の速さではなく、仕事そのものの構造かもしれない",
+      "url": "https://note.com/club_pyramid/n/n048638a095c6",
+      "published_at": "2026-10-09T21:42:34+09:00",
+      "summary": "今や、分からないことがあればChatGPTに聞けばいい。専門的な知識を調べたければインターネットに膨大な資料があり、YouTubeには初心者向けから専門家向けまで、さまざまな解説動画が公開されている。AIの操作方法にしても、わざわざ誰かに教えてもらわなくても、AI自身に質問すればかなりのところまで教えてくれる。もちろんAIの回答がいつも正しいとは限らないし、実際に試さなければ分からないこともある。それでも、知識を得るための環境が、ひと昔前とは比較にならないほど豊かになったことは間違いない。 そんな時代に、わざわざ休日の朝から時間を使い、交通費や参加費を払い、遠くまで出かけて、人の話を聞きに集まるのはなぜなのだろう。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322571514/rectangle_large_type_2_3f5e506d25e9902f9792fcb9802f1397.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "62b921d5b3e56025be655a96931be41d4268e27294568cbc6bc50df72b939c39",
-  "generated_at": "2026-10-18T20:41:02Z"
+  "content_hash": "73448fa7b94e818ce36cc70980b8df5631721738d9e5d73d01f75e99528a8439",
+  "generated_at": "2026-10-19T20:41:04Z"
 }

@@ -20,17 +20,6 @@
       "source_type": "note_account"
     },
     {
-      "id": "n56eafb30f6e7",
-      "title": "AIエージェントのトークンを使わずに、ChatGPTのチャットだけでGoogle Driveを整理してみた〜ファイル整理から、AIが資料を探しやすい「知識の図書館」づくりまで〜",
-      "url": "https://note.com/club_pyramid/n/n56eafb30f6e7",
-      "published_at": "2026-10-18T17:04:57+09:00",
-      "summary": "AIエージェントを日常的に使うようになると、ひとつ気になってくることがあります。 それは、トークンと利用枠の消費です。 続きをみる",
-      "thumbnail_url": null,
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
-    },
-    {
       "id": "n8fc4868860c4",
       "title": "AIに9つのWebサイトを管理させようとしたら、AIを管理するシステムまで必要になった話｜AIエージェントとの共同開発で見えてきた、自動化の可能性と落とし穴",
       "url": "https://note.com/club_pyramid/n/n8fc4868860c4",
@@ -227,9 +216,20 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
+    },
+    {
+      "id": "n76eab57ed5fc",
+      "title": "『明日に架ける橋』をいま聴き直す――分断の時代に「橋になる」ということ",
+      "url": "https://note.com/club_pyramid/n/n76eab57ed5fc",
+      "published_at": "2026-09-08T11:51:07+09:00",
+      "summary": "続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/311490779/rectangle_large_type_2_2b5b43d03798b1a8beaf1afc357f6970.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "5a613ea2fab9c5dbec5c9878f13a574f8a434eaf2255118c797361ec16f0a252",
-  "generated_at": "2026-10-18T20:40:15Z"
+  "content_hash": "9b1b936599566bbcb72ab23290859118f4518e19ff0c3c9c4f904002e2dc4aa9",
+  "generated_at": "2026-10-19T20:40:14Z"
 }
