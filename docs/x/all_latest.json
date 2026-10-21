@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-22T06:04:50+09:00",
   "items": [
+    {
+      "id": "2112933433299398879",
+      "title": "ようやく援軍が到着か💡",
+      "text": "ようやく援軍が到着か💡",
+      "url": "https://x.com/K_Ero_Gentleman/status/2112933433299398879",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-21T15:46:01Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2112488235691888869",
+      "title": "明日はよもぎ蒸しとマッサージあります 人数限定ですが女性の方は無料です https://t.co/4yBsxdqNR0 pic.twitter.com/gOiU",
+      "text": "明日はよもぎ蒸しとマッサージあります 人数限定ですが女性の方は無料です https://t.co/4yBsxdqNR0 pic.twitter.com/gOiUNF2jTf",
+      "url": "https://x.com/kumamoto_luna/status/2112488235691888869",
+      "handle": "kumamoto_luna",
+      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
+      "published_at": "2026-10-20T10:16:58Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2111462974175203379",
       "title": "テキーラ取り寄せ始まりました笑",
@@ -377,18 +401,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-10-08T13:51:44Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2108190973385949189",
-      "title": "ロープ🪢アートのワークショップ始まりました❤️",
-      "text": "ロープ🪢アートのワークショップ始まりました❤️",
-      "url": "https://x.com/K_Ero_Gentleman/status/2108190973385949189",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-10-08T13:41:11Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -991,21 +1003,9 @@
           "url": "https://video.twimg.com/amplify_video/2072988022480711680/vid/avc1/544x544/r_bEy-sTT_wtv0We.mp4?tag=25"
         }
       ]
-    },
-    {
-      "id": "2072161616335143210",
-      "title": "明日、木曜の夜に新市街で開催決定です👍🏻",
-      "text": "明日、木曜の夜に新市街で開催決定です👍🏻",
-      "url": "https://x.com/kumamoto_luna/status/2072161616335143210",
-      "handle": "kumamoto_luna",
-      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
-      "published_at": "2026-07-01T03:33:22Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
     }
   ],
   "item_count": 80,
-  "content_hash": "d55c232cfdf6d368d351e460aa0b8ffdb0a420a7799fe1956a2b55a2d60defb2",
-  "generated_at": "2026-10-21T20:41:18Z"
+  "content_hash": "8e111417942e1b7db272a0fc1b0277a5c04da32fcf6153e53cf27da1bdfc8baf",
+  "generated_at": "2026-10-21T21:04:51Z"
 }
