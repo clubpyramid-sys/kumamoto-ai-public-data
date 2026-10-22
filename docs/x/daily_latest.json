@@ -7,8 +7,20 @@
     "url": "https://x.com/SEA_PYRAMID"
   },
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
-  "last_source_update_at": "2026-10-22T05:07:06+09:00",
+  "last_source_update_at": "2026-10-23T05:02:43+09:00",
   "items": [
+    {
+      "id": "2113225610256584920",
+      "title": "💬10/31（土）「熊本秘密結社」のしゃべり場 17時以降〜20時過ぎ頃 📍Nomad Space（中央街4-25 ロゼ銀座ビル） 歴史、社会、都市伝説、UFO",
+      "text": "💬10/31（土）「熊本秘密結社」のしゃべり場 17時以降〜20時過ぎ頃 📍Nomad Space（中央街4-25 ロゼ銀座ビル） 歴史、社会、都市伝説、UFO、AI、未来など。気になることを自由に語りませんか？ 参加希望の方はDMへ🎭 pic.twitter.com/Pcgm7CHtgf",
+      "url": "https://x.com/SEA_PYRAMID/status/2113225610256584920",
+      "handle": "SEA_PYRAMID",
+      "display_name": "海のピラミッド▲熊本",
+      "published_at": "2026-10-22T11:07:01Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2112455189966073879",
       "title": "🎭「熊本秘密結社」のしゃべり場 10/24（土）午後〜20時過ぎ頃 会場：Be-9ビル5F（熊本市中央区南坪井町10-1） 普段なかなか話せない疑問や考えを持ち",
@@ -65,6 +77,18 @@
       "handle": "CLUB_PYRAMID",
       "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
       "published_at": "2026-10-20T07:51:39Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2112451415566401873",
+      "title": "🤖【熊本・AI相談会】 10/21（水）午後〜20時過ぎ頃 会場：Be-9ビル5F（熊本市中央区南坪井町10-1） 初心者歓迎！仕事や暮らし、創作へのAI活用を",
+      "text": "🤖【熊本・AI相談会】 10/21（水）午後〜20時過ぎ頃 会場：Be-9ビル5F（熊本市中央区南坪井町10-1） 初心者歓迎！仕事や暮らし、創作へのAI活用を気軽に相談しませんか？ 参加希望の方はDMください😊 pic.twitter.com/tIyAQG0U8e",
+      "url": "https://x.com/CLUB_PYRAMID/status/2112451415566401873",
+      "handle": "CLUB_PYRAMID",
+      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
+      "published_at": "2026-10-20T07:50:39Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -358,30 +382,6 @@
       "media": []
     },
     {
-      "id": "2039185922189938798",
-      "title": "異常な言論弾圧を許すな。 これは誰か一人の問題ではない。 社会全体の問題だ。#言論弾圧 #外山恒一@toyama_info2026 @toyamakoichi ",
-      "text": "異常な言論弾圧を許すな。 これは誰か一人の問題ではない。 社会全体の問題だ。#言論弾圧 #外山恒一@toyama_info2026 @toyamakoichi pic.twitter.com/OJQjUlU2BG",
-      "url": "https://x.com/SEA_PYRAMID/status/2039185922189938798",
-      "handle": "SEA_PYRAMID",
-      "display_name": "海のピラミッド▲熊本",
-      "published_at": "2026-04-01T03:39:44Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "1900498571365110224",
-      "title": "#財務省解体デモ #熊本 https://t.co/bB61GdEXXz",
-      "text": "#財務省解体デモ #熊本 https://t.co/bB61GdEXXz",
-      "url": "https://x.com/CLUB_PYRAMID/status/1900498571365110224",
-      "handle": "CLUB_PYRAMID",
-      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
-      "published_at": "2025-03-14T10:45:43Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "1805900783449473499",
       "title": "絵も好き 延々、一緒に色んな“青”を集めてみたいな",
       "text": "絵も好き 延々、一緒に色んな“青”を集めてみたいな",
@@ -491,6 +491,6 @@
     }
   ],
   "item_count": 40,
-  "content_hash": "6360e8aac4abc16f77678a79ceae6b5a42208ee9438fda7ba280cc6a92e3e8eb",
-  "generated_at": "2026-10-21T20:07:07Z"
+  "content_hash": "e0647315bc515fa4fa892b2f69060b2aed2354e6e48a08d68faaba69e6981166",
+  "generated_at": "2026-10-22T20:02:44Z"
 }
