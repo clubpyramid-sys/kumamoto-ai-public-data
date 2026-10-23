@@ -36,6 +36,16 @@
       "url": "https://note.com/club_pyramid/m/m28cf0da750b4",
       "output": "note/magazines/m28cf0da750b4.json",
       "max_items": 20
+    },
+    {
+      "enabled": true,
+      "source_id": "note-magazine-spiritual-deep",
+      "type": "magazine",
+      "magazine_key": "m2157dca2c642",
+      "title": "見えない糸で結ばれた、思想・宗教・スピリチュアルの深層へ。",
+      "url": "https://note.com/club_pyramid/m/m2157dca2c642",
+      "output": "note/magazines/m2157dca2c642.json",
+      "max_items": 20
     }
   ],
   "youtube": [

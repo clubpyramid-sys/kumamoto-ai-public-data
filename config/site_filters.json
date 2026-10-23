@@ -33,6 +33,17 @@
       "exclude_keywords": [],
       "note_limit": 10,
       "youtube_limit": 10
+    },
+    "labelleverte_ai": {
+      "title": "美しき緑の星",
+      "output": "sites/labelleverte_ai.json",
+      "note_source_ids": ["note-magazine-spiritual-deep"],
+      "youtube_source_ids": [],
+      "note_keywords": [],
+      "youtube_keywords": [],
+      "exclude_keywords": [],
+      "note_limit": 10,
+      "youtube_limit": 0
     }
   }
 }
