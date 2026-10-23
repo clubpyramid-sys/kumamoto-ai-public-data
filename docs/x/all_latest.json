@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-24T06:06:22+09:00",
   "items": [
     {
       "id": "2113255623836229826",
@@ -29,6 +29,30 @@
       "handle": "club_kumamoto",
       "display_name": "MASQUERADE CLUB KUMAMOTO",
       "published_at": "2026-10-22T13:02:11Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2113234789197312369",
+      "title": "昨夜は深夜のラスト2時間の追い上げが素晴らしかった💕💕💕💕💕💕💕💕💕💕💕",
+      "text": "昨夜は深夜のラスト2時間の追い上げが素晴らしかった💕💕💕💕💕💕💕💕💕💕💕",
+      "url": "https://x.com/K_Ero_Gentleman/status/2113234789197312369",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-22T11:43:30Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2112960073098269145",
+      "title": "ノーリミット✨✨✨✨✨ https://t.co/HykHBbPESC",
+      "text": "ノーリミット✨✨✨✨✨ https://t.co/HykHBbPESC",
+      "url": "https://x.com/K_Ero_Gentleman/status/2112960073098269145",
+      "handle": "K_Ero_Gentleman",
+      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
+      "published_at": "2026-10-21T17:31:52Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -437,30 +461,6 @@
       "handle": "K_Ero_Gentleman",
       "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
       "published_at": "2026-10-08T14:13:44Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2108198457630666791",
-      "title": "目隠しゲーム？❤️",
-      "text": "目隠しゲーム？❤️",
-      "url": "https://x.com/K_Ero_Gentleman/status/2108198457630666791",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-10-08T14:10:55Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2108193629395448031",
-      "title": "拘束され目隠しをされ女性たちに弄ばれる男性💕",
-      "text": "拘束され目隠しをされ女性たちに弄ばれる男性💕",
-      "url": "https://x.com/K_Ero_Gentleman/status/2108193629395448031",
-      "handle": "K_Ero_Gentleman",
-      "display_name": "変態紳士@熊本⇄東京|元東大生・現社長",
-      "published_at": "2026-10-08T13:51:44Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "6dccbc857944c28e9bf91250aa50545367dd248f3236ed38b63a293a47253960",
-  "generated_at": "2026-10-23T00:16:08Z"
+  "content_hash": "8a437cbe4d033f21dfc2c748f3396f2f5d233bf6b95a07e00d72884aebcba936",
+  "generated_at": "2026-10-23T21:06:22Z"
 }
