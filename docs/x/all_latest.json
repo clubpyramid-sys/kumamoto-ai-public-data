@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-10-26T06:01:42+09:00",
+  "last_source_update_at": "2026-08-29T00:03:06+09:00",
   "items": [
     {
       "id": "2114051664881893570",
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "51a6a0128d7875dc17585491c4075d3acacade24c6d8a328c03dda5cbf6598c8",
-  "generated_at": "2026-10-25T21:01:43Z"
+  "content_hash": "af6bdedb802760eb5225a27cdeed82d2422e1dfa347c7ba48b9eaa952a9869cf",
+  "generated_at": "2026-10-26T20:40:50Z"
 }

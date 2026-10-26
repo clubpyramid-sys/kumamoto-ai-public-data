@@ -10,6 +10,30 @@
   },
   "items": [
     {
+      "id": "nd8303ecaed4b",
+      "title": "5か月かけて開発したメール管理AIを、ある日あっさり止めることにした話――OpenClawからHermes、Qwen、Gemini、そしてMuseへ。AIと一緒に開発した5か月間の記録",
+      "url": "https://note.com/club_pyramid/n/nd8303ecaed4b",
+      "published_at": "2026-10-26T09:33:24+09:00",
+      "summary": "2026年10月25日。 私は、それまで約5か月にわたって開発してきたAIメール管理システム「MAIL INTELLIGENCE」の開発を、いったん中止することにした。 技術的に行き詰まったからではない。 予算がなくなったからでもない。 新しく登場したAIが、私たちが苦労して作っていた機能のかなりの部分を、普通の会話だけで実行できるようになっていたからだ。 思わず笑ってしまった。 AIを使ってソフトウェアを開発していたら、AIそのものの進歩の方が速かったのである。",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/328593216/rectangle_large_type_2_8b144d54be83d6334a8463162e97050f.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 0,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine"
+    },
+    {
+      "id": "ne45b80f81c94",
+      "title": "AIエージェントを開発していたら、AIの進化でその開発が不要になりかけた話―― AIが進化する速さに、AIを使った開発さえ追いつけなくなる時代",
+      "url": "https://note.com/club_pyramid/n/ne45b80f81c94",
+      "published_at": "2026-10-26T08:57:03+09:00",
+      "summary": "2026年10月、私はあるAIシステムの開発に取り組んでいました。 名前は「Hermes × LOCAL AI ORCHESTRATOR」。 なんだか大げさな名前ですが、やりたかったことは実に単純です。 自分のMacにいるAIエージェントに仕事を頼み、途中で止まっても続きから再開できて、過去の仕事から経験を積んでいく。 そんな、自分専用のAIアシスタントを育てたかったのです。 ところが、開発がかなり進んだところで、思わぬ問題が出てきました。 「これ、Hermesが",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/328586394/rectangle_large_type_2_b48ffb3d5fc6f32cd4a87823c917bc62.png?width=800",
+      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
+      "magazine_position": 1,
+      "source_id": "note-magazine-ai-future",
+      "source_type": "note_magazine"
+    },
+    {
       "id": "n8fc4868860c4",
       "title": "AIに9つのWebサイトを管理させようとしたら、AIを管理するシステムまで必要になった話｜AIエージェントとの共同開発で見えてきた、自動化の可能性と落とし穴",
       "url": "https://note.com/club_pyramid/n/n8fc4868860c4",
@@ -17,7 +41,7 @@
       "summary": "最近、AIを使ったWebサイトやアプリケーションの制作が、私の日常になっています。 以前なら、プログラムを書けなければ実現できなかったアイデアも、今ではAIに相談しながら形にできるようになりました。 こんなアプリが欲しい。こんな機能を追加したい。ここのデザインを変えたい。 人間が希望を伝えると、AIが設計を考え、プログラムを書き、動作を確認してくれます。 もちろん、すべてが一度で完成するわけではありません。何度も修正を繰り返し、別のAIにも意見を聞きながら、少しずつ完",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325590303/rectangle_large_type_2_6e763332923f9e6434991fd9d63f0678.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 0,
+      "magazine_position": 2,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -29,7 +53,7 @@
       "summary": "最近、自分の会社の決算書と税務申告書を、GPT-6と一緒に作成している。 これが、想像していた以上に面白い。 最初は、税理士に依頼していた決算・申告業務を、どこまでAIで処理できるのか試してみようという程度の考えだった。 銀行の入出金明細、クレジットカードの利用履歴、過去の決算書、税務申告書、契約書、債権者からの通知書。 こうした資料を次々にAIに読み込ませ、勘定科目を整理し、重複計上を探し、過去の帳簿と照合していく。 すると、単に数字を集計するだけでは終わらなかっ",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325275652/rectangle_large_type_2_f84f39abcda993853fff872d7db228c6.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 1,
+      "magazine_position": 3,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -41,7 +65,7 @@
       "summary": "先日公開した、河内アカデミーでのAIエージェント勉強会についての記事に、うれしいコメントをいただいた。 一つは、実際に勉強会へ参加された方からのもので、自分自身を見つめ直し、大切な部分を固めるきっかけになったという趣旨の感想だった。もう一つは、記事の中で紹介した「毎月の報告書を速く作る前に、そもそも誰が何のために読んでいるのかを考える」という例について、不要な仕事まで自動化して残してしまわないという順番が重要なのだ、という共感だった。 どちらも、今回の勉強会で私が本当に考",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325272599/rectangle_large_type_2_df83d4324847153870c66625eaa8ae6a.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 2,
+      "magazine_position": 4,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -53,7 +77,7 @@
       "summary": "AIにメールを読ませて、迷惑メールを見分け、重要な連絡を拾い上げ、毎日の報告書を作ってもらう。 そんな「自分専用のメール秘書」を作り始めました。 使うのは、手元のMac StudioとローカルAI。そして、複数のAIエージェントたちです。 毎日大量に届くメールを人間が一通ずつ確認するのは、なかなか面倒です。 かといって、重要な問い合わせや連絡を見落とすわけにもいきません。 ならばAIに任せればいい。 最初は、比較的単純な自動化の話だと思っていました。 ところが開",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325255199/rectangle_large_type_2_a3be3440536ed38d62f9f29c1f52e1cb.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 3,
+      "magazine_position": 5,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -65,7 +89,7 @@
       "summary": "昨日の河内アカデミーでの約7時間半の対話を、仕事やAI活用という枠を超えて、社会全体へ敷衍してみると、かなり大きな変化が見えてきます。 私が考えるのは、AIは産業革命やインターネット革命の延長であると同時に、人間が社会を組み立ててきた基本的な前提そのものを変えてしまう可能性があるということです。 しかも、単に人間の仕事がAIに置き換わるという話ではありません。 もっと根本的な変化です。 これまで私たちの社会は、「人間の知識、能力、時間、人数には限界がある」という前提で",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323201343/rectangle_large_type_2_77919a1fd829bacff6eeb7688b2353f5.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 4,
+      "magazine_position": 6,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -77,7 +101,7 @@
       "summary": "インターネットを長く使ってきた人でも、Cloudflare（クラウドフレア）という名前には、あまり馴染みがないかもしれません。 ところが、私たちが日常的に閲覧しているWebサイトや利用しているオンラインサービスの中には、このCloudflareのネットワークを経由しているものが数多くあります。 Cloudflareは、簡単に言えば、インターネット上の通信を整理し、Webサイトを高速化し、外部からの攻撃を防ぎ、さまざまなサービスを安全につなぐための巨大なインフラ企業です。",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323097206/rectangle_large_type_2_f8953205334b06c958aecc2195fded64.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 5,
+      "magazine_position": 7,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -89,7 +113,7 @@
       "summary": "2026年10月10日。三連休の初日、熊本市西区の河内アカデミーで、AIエージェントをテーマにした勉強会が開かれた。 秋の行楽日和に、わざわざ郊外の会場まで足を運び、朝から夕方までAIについて学ぼうという人たちが集まってきた。仕事も年齢も経験もさまざまで、すでに日常業務にAIを組み込んでいる人もいれば、これから本格的に使ってみようと考えている人もいる。個人で事業を営む人、教育やコンテンツ制作に関わる人、現場の仕事に携わる人、地域活動に取り組む人など、関心の方向も一様では",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323058958/rectangle_large_type_2_54d12fcc9210ef2bdb29c9f4b06195b4.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 6,
+      "magazine_position": 8,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -101,7 +125,7 @@
       "summary": "このページは、AIエージェント実践ワークショップに参加する皆さんのためのガイドです。 会場で投影する全15枚のスライドと同じ順番で構成しています。スライドの番号を確認しながら読み進め、自分の仕事について考えたり、ほかの参加者と意見を交換したりする際に活用してください。 今回の目的は、ChatGPTやAIエージェントの操作方法を覚えることだけではありません。皆さんが現在行っている仕事をもう一度見つめ直し、その仕事をAIが存在することを前提に組み立て直したら、どのような可能性",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322579328/rectangle_large_type_2_57ba442d0acde2cd3bd9cf3363406871.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 7,
+      "magazine_position": 9,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -113,7 +137,7 @@
       "summary": "今や、分からないことがあればChatGPTに聞けばいい。専門的な知識を調べたければインターネットに膨大な資料があり、YouTubeには初心者向けから専門家向けまで、さまざまな解説動画が公開されている。AIの操作方法にしても、わざわざ誰かに教えてもらわなくても、AI自身に質問すればかなりのところまで教えてくれる。もちろんAIの回答がいつも正しいとは限らないし、実際に試さなければ分からないこともある。それでも、知識を得るための環境が、ひと昔前とは比較にならないほど豊かになったこと",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322571514/rectangle_large_type_2_3f5e506d25e9902f9792fcb9802f1397.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 8,
+      "magazine_position": 10,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -125,7 +149,7 @@
       "summary": "なぜ高度な文明に必要なのは、知能でも科学技術でもなく「共感力」なのか。そして人類は、誰かに救われるのを待つ文明から卒業できるのか。 スティーヴン・スピルバーグ監督の映画『ディスクロージャー・デイ』を観て、最後の「Listen...（聞いて）」の後に続く言葉を考えていたら、ずいぶん壮大なところまで思考が広がってしまった。 宇宙人との遭遇、地球外文明、国家による情報隠蔽、科学技術の格差、宗教、神、そして人類の進化。そうした話を突き詰めていくと、結局のところ、ひとつの問いに行き",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/322038983/rectangle_large_type_2_2169037312b9ecab06f7338a9dc8002a.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 9,
+      "magazine_position": 11,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -137,7 +161,7 @@
       "summary": "革命という言葉の向こう側で、私が20年近く考え続けてきたこと 「革命」「クーデター」。 この二つの言葉だけを切り取れば、ずいぶん物騒に聞こえる（笑）。 けれど、私が長い間考えてきたことの中心にあるのは、誰かを倒したいとか、何かを破壊したいとか、そんな単純な話ではない。 もっと根本的な話だ。 私たちは、本当にこの社会をこのまま次の世代へ渡していいのだろうか。 そして、もし今の仕組みではうまくいかない部分があるのなら、それを「仕方がない」と諦めるのではなく、自分たちで",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/318089535/rectangle_large_type_2_630c611617647f308c6a7fea4dda3a5b.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 10,
+      "magazine_position": 12,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     },
@@ -149,36 +173,12 @@
       "summary": "ある動画を見ていて、どうにも腑に落ちないものを感じた。テーマは「実力主義の罠」だった。 身分制度が解体され、誰にでも挑戦する機会が開かれた結果、現代人は失敗の理由を社会や身分のせいにできなくなり、「成功できなかったのは自分の能力や努力が足りなかったからだ」と自己責任として引き受けるようになった。そのため現代人、とりわけ若者は、自分自身を責め続けることになったのではないか。動画では、失敗の説明責任が社会から個人へ移ったという構図がかなり重要な位置を占めている。 なるほど、そ",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/317329678/rectangle_large_type_2_54676526d61a8f79418483f41b93d2ca.png?width=800",
       "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 11,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine"
-    },
-    {
-      "id": "n55795fd3758b",
-      "title": "Hermes Agentは「AIチャット」ではなくなってきた｜Bot Mode、Learning Journey、Grok Botとの違い、そしてCodex・Antigravityとの使い分け",
-      "url": "https://note.com/club_pyramid/n/n55795fd3758b",
-      "published_at": "2026-09-18T19:46:56+09:00",
-      "summary": "Hermes Agentを使っていて、最近かなり印象が変わってきました。 最初は、 「ローカルAIを使えるAIエージェント」 くらいの認識でした。 QwenなどをMac Studioで動かし、Webを調べたり、ファイルを読んだり、ターミナルを操作したりする。 それだけでも十分面白かったのですが、最近のHermesを見ていると、どうも目指しているところがもっと先にあります。 特にそれを感じたのが、 Bot Mode と、 Memory Graph / Lear",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314988116/rectangle_large_type_2_3066679b5d8da2368d7257eb905218d5.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
-      "magazine_position": 12,
-      "source_id": "note-magazine-ai-future",
-      "source_type": "note_magazine"
-    },
-    {
-      "id": "n84674556cfd6",
-      "title": "CodexやAntigravityを使っている人ほど、Hermes Agentが面白い理由｜「もう一つのコーディングAI」ではなく、AIたちを常駐させる“仕事場”として見る",
-      "url": "https://note.com/club_pyramid/n/n84674556cfd6",
-      "published_at": "2026-09-18T17:53:18+09:00",
-      "summary": "CodexやGoogle Antigravityをすでに使っている人がHermes Agentを見ると、最初はこう思うかもしれません。 「これもAIにコードを書かせるソフトなのでは？」 確かに、Hermesにもターミナル操作、ファイル編集、Web検索、ブラウザ操作、コード実行、複数AIへの仕事の分担などがあります。表面的にはCodexやAntigravityと重なる部分がかなりあります。 しかし、実際に使ってみると立ち位置が少し違います。 Codexは、OpenAI自",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/314954024/rectangle_large_type_2_ea0f28e17cd8a9655d9e1ccf7666b885.png?width=800",
-      "author": "海のピラミッド▲熊本／COSA NOSTRA JAPAN",
       "magazine_position": 13,
       "source_id": "note-magazine-ai-future",
       "source_type": "note_magazine"
     }
   ],
   "item_count": 14,
-  "content_hash": "e8d11c9a656432a25b395437cee3d10225bca7d4232a468dba63394c3778bc2d",
-  "generated_at": "2026-10-19T20:40:15Z"
+  "content_hash": "54189a7f3f2a15c0c639fc8ad6fe1bd74c63f5e90217f9352e2fcf824215ae33",
+  "generated_at": "2026-10-26T20:40:11Z"
 }
