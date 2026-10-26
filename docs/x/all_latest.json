@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-27T06:06:35+09:00",
   "items": [
+    {
+      "id": "2114497969303294099",
+      "title": "九品寺の夜は、新しい空間で開いた。 これまでとは異なる会場。女性リラクゼーションセラピストのお二人を迎えての特別開催。夕方から、途中参加・途中退出は自由。初参加",
+      "text": "九品寺の夜は、新しい空間で開いた。 これまでとは異なる会場。女性リラクゼーションセラピストのお二人を迎えての特別開催。夕方から、途中参加・途中退出は自由。初参加・お一人参加も歓迎という案内どおり、人数は大きく膨らまず、それぞれのペースで進んでいった。 https://t.co/vdhMEUKlXn",
+      "url": "https://x.com/club_kumamoto/status/2114497969303294099",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-10-25T23:22:56Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2114051664881893570",
       "title": "午前3時 盛り上がってます💕💕💕💕💕",
@@ -694,18 +706,6 @@
       "media": []
     },
     {
-      "id": "2099890611042275696",
-      "title": "🎭【9月22日（火）開催決定】 熊本秘密クラブ、次回開催が決まりました✨ 9月22日（火）は、 敬老の日と秋分の日に挟まれた「国民の休日」。 そして翌23日は秋",
-      "text": "🎭【9月22日（火）開催決定】 熊本秘密クラブ、次回開催が決まりました✨ 9月22日（火）は、 敬老の日と秋分の日に挟まれた「国民の休日」。 そして翌23日は秋分の日です🍂 今回は、県外から熊本へお越しになるカップルさんの来熊に合わせて、特別に開催することになりました😊… pic.twitter.com/xDziSNxeAG",
-      "url": "https://x.com/club_kumamoto/status/2099890611042275696",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-09-15T15:58:30Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2099717550779347231",
       "title": "pic.twitter.com/4eyOA7UP0Q",
       "text": "pic.twitter.com/4eyOA7UP0Q",
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "af6bdedb802760eb5225a27cdeed82d2422e1dfa347c7ba48b9eaa952a9869cf",
-  "generated_at": "2026-10-26T20:40:50Z"
+  "content_hash": "4bb99f5892dd31a7e265dcbaa7c256c5853a5b6688061124ddf77e2f32c9dc75",
+  "generated_at": "2026-10-26T21:06:36Z"
 }
