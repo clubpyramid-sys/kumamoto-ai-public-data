@@ -7,8 +7,32 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-10-29T06:01:54+09:00",
   "items": [
+    {
+      "id": "2115334851666837870",
+      "title": "11月最初の土曜日は、熊本・下通りエリアにて開催いたします😊✨ https://t.co/gnOluA4buz",
+      "text": "11月最初の土曜日は、熊本・下通りエリアにて開催いたします😊✨ https://t.co/gnOluA4buz",
+      "url": "https://x.com/kumamonsupport/status/2115334851666837870",
+      "handle": "kumamonsupport",
+      "display_name": "Kumamoto Secret Club➕東京支局",
+      "published_at": "2026-10-28T06:48:24Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2115330594355982841",
+      "title": "🎭【11月7日（土）｜熊本秘密クラブ開催のお知らせ】 11月最初の土曜日は、熊本・下通りエリアにて開催いたします😊✨ 🌙 SATURDAY NIGHT 📅 11",
+      "text": "🎭【11月7日（土）｜熊本秘密クラブ開催のお知らせ】 11月最初の土曜日は、熊本・下通りエリアにて開催いたします😊✨ 🌙 SATURDAY NIGHT 📅 11月7日（土） 📍 熊本・下通りエリア 週末の熊本の夜。 賑やかな街の中から少しだけ日常を離れて、自由で気ままな大人の時間を楽しんでみませんか？🥂✨… pic.twitter.com/0Fd3hYg5Xl",
+      "url": "https://x.com/club_kumamoto/status/2115330594355982841",
+      "handle": "club_kumamoto",
+      "display_name": "MASQUERADE CLUB KUMAMOTO",
+      "published_at": "2026-10-28T06:31:29Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2114497969303294099",
       "title": "九品寺の夜は、新しい空間で開いた。 これまでとは異なる会場。女性リラクゼーションセラピストのお二人を迎えての特別開催。夕方から、途中参加・途中退出は自由。初参加",
@@ -694,18 +718,6 @@
       "media": []
     },
     {
-      "id": "2100202132859449507",
-      "title": "🎭【9月20日（日）開催のお知らせ】 熊本秘密クラブでは、 9月20日（日） に 上通りエリア にて開催いたします✨ 今回は、 敬老の日の前日 休日前夜 という",
-      "text": "🎭【9月20日（日）開催のお知らせ】 熊本秘密クラブでは、 9月20日（日） に 上通りエリア にて開催いたします✨ 今回は、 敬老の日の前日 休日前夜 という少し特別なタイミングでもあり、 午後から明け方まで、いつもより長めにゆったり過ごせる 癒しの開催 を予定しております。… pic.twitter.com/ZyAYNpaTv7",
-      "url": "https://x.com/club_kumamoto/status/2100202132859449507",
-      "handle": "club_kumamoto",
-      "display_name": "MASQUERADE CLUB KUMAMOTO",
-      "published_at": "2026-09-16T12:36:22Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "2099717550779347231",
       "title": "pic.twitter.com/4eyOA7UP0Q",
       "text": "pic.twitter.com/4eyOA7UP0Q",
@@ -785,18 +797,6 @@
       "handle": "kumamonsupport",
       "display_name": "KSC",
       "published_at": "2026-08-26T17:14:01Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2091426682922307917",
-      "title": "🎭 8月26日（水）九品寺にて開催します https://t.co/gnOluA4buz",
-      "text": "🎭 8月26日（水）九品寺にて開催します https://t.co/gnOluA4buz",
-      "url": "https://x.com/kumamonsupport/status/2091426682922307917",
-      "handle": "kumamonsupport",
-      "display_name": "KSC",
-      "published_at": "2026-08-23T07:25:52Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -1006,6 +1006,6 @@
     }
   ],
   "item_count": 80,
-  "content_hash": "941496ce81f0ce64ee982a965a603bacb6131b67b8e2fd71298808a4cdad084c",
-  "generated_at": "2026-10-28T20:40:51Z"
+  "content_hash": "5a4e22e0596a62923d5683b142ec36a4b4afeb704478bc336c0e0a1028c54e31",
+  "generated_at": "2026-10-28T21:01:55Z"
 }
