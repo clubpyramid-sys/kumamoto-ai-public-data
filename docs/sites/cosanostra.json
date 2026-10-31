@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n2bcde909a7f4",
+      "title": "「空き家」ではなかった。── 海のピラミッドに灯をともした人々の記録",
+      "url": "https://note.com/club_pyramid/n/n2bcde909a7f4",
+      "published_at": "2026-10-31T09:34:36+09:00",
+      "summary": "COSA NOSTRA JAPAN 歴史物語｜第1回 2007年、熊本県宇城市の三角港に、奇妙な光景があった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/330403647/rectangle_large_type_2_dac955b040abac2e62b15721bf35029b.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "nd8303ecaed4b",
       "title": "5か月かけて開発したメール管理AIを、ある日あっさり止めることにした話――OpenClawからHermes、Qwen、Gemini、そしてMuseへ。AIと一緒に開発した5か月間の記録",
       "url": "https://note.com/club_pyramid/n/nd8303ecaed4b",
@@ -108,18 +120,6 @@
       "published_at": "2026-10-11T11:50:09+09:00",
       "summary": "インターネットを長く使ってきた人でも、Cloudflare（クラウドフレア）という名前には、あまり馴染みがないかもしれません。 ところが、私たちが日常的に閲覧しているWebサイトや利用しているオンラインサービスの中には、このCloudflareのネットワークを経由しているものが数多くあります。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323097206/rectangle_large_type_2_f8953205334b06c958aecc2195fded64.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n4a221a678291",
-      "title": "AIに仕事を任せる前に、私たちは何をしたいのか。｜河内アカデミーで交わされた、AIエージェントと仕事、知識、地域、そして人間の未来をめぐる対話",
-      "url": "https://note.com/club_pyramid/n/n4a221a678291",
-      "published_at": "2026-10-10T22:00:33+09:00",
-      "summary": "続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323058958/rectangle_large_type_2_54d12fcc9210ef2bdb29c9f4b06195b4.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "c0a8fc9efb0de7fd33db1da28bb6d60de75157a252cb69d0880e2335acef79bb",
-  "generated_at": "2026-10-26T20:40:51Z"
+  "content_hash": "fa66ef604d7e89ff3914857734cabaa6cc9c99421c879c2eaa2b8b6f826d41b0",
+  "generated_at": "2026-10-31T20:40:52Z"
 }

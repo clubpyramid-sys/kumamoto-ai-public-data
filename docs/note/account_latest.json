@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "n2bcde909a7f4",
+      "title": "「空き家」ではなかった。── 海のピラミッドに灯をともした人々の記録",
+      "url": "https://note.com/club_pyramid/n/n2bcde909a7f4",
+      "published_at": "2026-10-31T09:34:36+09:00",
+      "summary": "COSA NOSTRA JAPAN 歴史物語｜第1回 2007年、熊本県宇城市の三角港に、奇妙な光景があった。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/330403647/rectangle_large_type_2_dac955b040abac2e62b15721bf35029b.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "nd8303ecaed4b",
       "title": "5か月かけて開発したメール管理AIを、ある日あっさり止めることにした話――OpenClawからHermes、Qwen、Gemini、そしてMuseへ。AIと一緒に開発した5か月間の記録",
       "url": "https://note.com/club_pyramid/n/nd8303ecaed4b",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "n180386498d19",
-      "title": "Solでもトークンは溶ける。だから私は「ローカルAI部隊」と「クラウドAI部隊」を同時に動かす",
-      "url": "https://note.com/club_pyramid/n/n180386498d19",
-      "published_at": "2026-09-13T14:15:58+09:00",
-      "summary": "Mac Studioをフル稼働させながら、ChatGPT・Codex・Geminiでマルチタスクするという働き方 GPT-6 Astraを使い始めて、まず驚いたのはその能力だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/313220621/rectangle_large_type_2_077316fce3086826a37668d72b316872.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "135f9912db541a2dcdab80ef16e30c100398cf02f7ca53c7078467492d8e5d45",
-  "generated_at": "2026-10-26T20:40:10Z"
+  "content_hash": "1c5ebf2e89a4639c2f9668e1bd2e1f08922bec5f3fe35451e7db364a9ca6d72a",
+  "generated_at": "2026-10-31T20:40:12Z"
 }
