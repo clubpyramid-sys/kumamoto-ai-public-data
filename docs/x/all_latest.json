@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-11-08T06:05:50+09:00",
   "items": [
+    {
+      "id": "2118932517592150046",
+      "title": "🌱11/16（月）熊本「人生の作戦会議」開催！ 仕事、経営、人間関係、これからの生き方。話して整理し、次の一歩を一緒に考えませんか？ 🕑14〜20時 📍Be-9",
+      "text": "🌱11/16（月）熊本「人生の作戦会議」開催！ 仕事、経営、人間関係、これからの生き方。話して整理し、次の一歩を一緒に考えませんか？ 🕑14〜20時 📍Be-9ビル5F 💰一般1,000円／学生500円 💬個別相談30分1,000円（参加費込） 📩予約はメッセージで！ pic.twitter.com/0fXDmO358u",
+      "url": "https://x.com/kumamoto_luna/status/2118932517592150046",
+      "handle": "kumamoto_luna",
+      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
+      "published_at": "2026-11-07T05:04:14Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2117113237821178310",
       "title": "11月16日（月）の夜、熊本・上通りエリアにて開催いたします😊✨ https://t.co/gnOluA4buz",
@@ -986,26 +998,9 @@
           "url": "https://video.twimg.com/amplify_video/2073214888986771456/vid/avc1/1280x720/4vuLewQZlixgHfCM.mp4?tag=28"
         }
       ]
-    },
-    {
-      "id": "2072988082195108048",
-      "title": "金曜の夜、自分のペースを尊重しながら、少しだけ相談しやすさを試してみる。決めなくていい、ただここにいるだけでいい。Private Salon LUNA 熊本は、",
-      "text": "金曜の夜、自分のペースを尊重しながら、少しだけ相談しやすさを試してみる。決めなくていい、ただここにいるだけでいい。Private Salon LUNA 熊本は、そんな柔らかな距離感をそっと用意しています。 https://t.co/y3gVWm5jlj",
-      "url": "https://x.com/kumamoto_luna/status/2072988082195108048",
-      "handle": "kumamoto_luna",
-      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
-      "published_at": "2026-07-03T10:17:27Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2072988022480711680/vid/avc1/544x544/r_bEy-sTT_wtv0We.mp4?tag=25"
-        }
-      ]
     }
   ],
   "item_count": 80,
-  "content_hash": "81050d692603e9069cf62185da8651deddc7102f113a8d8c973efae006e2918e",
-  "generated_at": "2026-11-07T20:41:04Z"
+  "content_hash": "35c0ac01c4c1cdf904c6d9811b6017c06c28060cdc3a509fc46a09aa86421371",
+  "generated_at": "2026-11-07T21:05:51Z"
 }
