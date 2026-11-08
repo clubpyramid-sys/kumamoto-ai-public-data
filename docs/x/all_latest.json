@@ -7,7 +7,7 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-11-09T06:06:41+09:00",
   "items": [
     {
       "id": "2118932517592150046",
@@ -17,6 +17,30 @@
       "handle": "kumamoto_luna",
       "display_name": "Private Salon LUNA｜熊本ルナ🌙",
       "published_at": "2026-11-07T05:04:14Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2118932467642200506",
+      "title": "🌱11/16（月）熊本「人生の作戦会議」開催！ 仕事、経営、人間関係、これからの生き方。話して整理し、次の一歩を一緒に考えませんか？ 🕑14〜20時 📍Be-9",
+      "text": "🌱11/16（月）熊本「人生の作戦会議」開催！ 仕事、経営、人間関係、これからの生き方。話して整理し、次の一歩を一緒に考えませんか？ 🕑14〜20時 📍Be-9ビル5F 💰一般1,000円／学生500円 💬個別相談30分1,000円（参加費込） 📩予約はメッセージで！ pic.twitter.com/0fXDmO358u",
+      "url": "https://x.com/kumamoto_luna/status/2118932467642200506",
+      "handle": "kumamoto_luna",
+      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
+      "published_at": "2026-11-07T05:04:02Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2118928541471658145",
+      "title": "🌱本日11/7（土）17〜20時「人生の作戦会議」開催！ 仕事・経営・人間関係・将来のこと。話して、整理して、次の一歩へ😊 📍駕町通りと銀座通りの交差点近く 💰",
+      "text": "🌱本日11/7（土）17〜20時「人生の作戦会議」開催！ 仕事・経営・人間関係・将来のこと。話して、整理して、次の一歩へ😊 📍駕町通りと銀座通りの交差点近く 💰一般1,000円／学生500円 💬個別相談30分1,000円（参加費込み） 📩予約はDMで！ pic.twitter.com/h14Sy59KnJ",
+      "url": "https://x.com/kumamoto_luna/status/2118928541471658145",
+      "handle": "kumamoto_luna",
+      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
+      "published_at": "2026-11-07T04:48:26Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -969,38 +993,9 @@
           "url": "https://video.twimg.com/amplify_video/2073476131349745664/vid/avc1/1280x720/2SuhKh1R9pLXGs2u.mp4?tag=28"
         }
       ]
-    },
-    {
-      "id": "2073475150897697159",
-      "title": "pic.twitter.com/Bv2UoKCc99",
-      "text": "pic.twitter.com/Bv2UoKCc99",
-      "url": "https://x.com/kumamoto_luna/status/2073475150897697159",
-      "handle": "kumamoto_luna",
-      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
-      "published_at": "2026-07-04T18:32:53Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
-      "id": "2073214948940087800",
-      "title": "土曜の夜、自分のペースを大切に。相談だけでも大丈夫です。安心できる距離感で、LUNAの空間はあなたを優しく迎えます。 https://t.co/W9EQ9Zl1",
-      "text": "土曜の夜、自分のペースを大切に。相談だけでも大丈夫です。安心できる距離感で、LUNAの空間はあなたを優しく迎えます。 https://t.co/W9EQ9Zl1x5",
-      "url": "https://x.com/kumamoto_luna/status/2073214948940087800",
-      "handle": "kumamoto_luna",
-      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
-      "published_at": "2026-07-04T01:18:56Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2073214888986771456/vid/avc1/1280x720/4vuLewQZlixgHfCM.mp4?tag=28"
-        }
-      ]
     }
   ],
   "item_count": 80,
-  "content_hash": "c32a9336406e9e6f5fe0f313ec57734cb58752d1dd62627da3767b1990ba190b",
-  "generated_at": "2026-11-08T20:40:53Z"
+  "content_hash": "941a702897d2eb16b2ea8bdf840559ace307decc675792fe9e6536e2a4a1c929",
+  "generated_at": "2026-11-08T21:06:42Z"
 }
