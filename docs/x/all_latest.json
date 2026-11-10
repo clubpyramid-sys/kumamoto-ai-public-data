@@ -7,8 +7,20 @@
     "url": "https://x.com/club_kumamoto"
   },
   "collection_method": "Hermes Agent with Grok",
-  "last_source_update_at": "2026-08-29T00:03:06+09:00",
+  "last_source_update_at": "2026-11-11T06:02:43+09:00",
   "items": [
+    {
+      "id": "2119965679080358223",
+      "title": "「寝るだけで体が整う」未来装置メドベッドは都市伝説？ 実はその構想を現実化した技術が日本に実在します。食品の鮮度保持から生まれ、マットに寝るだけで水分子を微細振",
+      "text": "「寝るだけで体が整う」未来装置メドベッドは都市伝説？ 実はその構想を現実化した技術が日本に実在します。食品の鮮度保持から生まれ、マットに寝るだけで水分子を微細振動させ自律神経をケア。東大研究やアパホテルも導入する国産技術です。疲れが抜けない方は動画で👇#DENBA #睡眠改善 pic.twitter.com/zk72m0fSL5",
+      "url": "https://x.com/kumamoto_luna/status/2119965679080358223",
+      "handle": "kumamoto_luna",
+      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
+      "published_at": "2026-11-10T01:29:39Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
     {
       "id": "2119734061497520315",
       "title": "🌿 DENBA体験会開催！ 昨年12月から使い始め、眠りが深くなり、朝の疲れが軽くなったような実感が。電源の入れ忘れに気づいた日も🤣 百聞は一見にしかず！😊 📍",
@@ -966,26 +978,9 @@
           "url": "https://video.twimg.com/amplify_video/2074726783262633984/vid/avc1/720x1280/TXgc_k5J6bf-WWt-.mp4?tag=28"
         }
       ]
-    },
-    {
-      "id": "2074433074998448477",
-      "title": "火曜の夜。自分のペースを尊重しながら、相談だけでも大丈夫です。安心できる境界線の中で、ゆっくりと。柔らかな空気で待っています。 https://t.co/mhU",
-      "text": "火曜の夜。自分のペースを尊重しながら、相談だけでも大丈夫です。安心できる境界線の中で、ゆっくりと。柔らかな空気で待っています。 https://t.co/mhU0Matp0U",
-      "url": "https://x.com/kumamoto_luna/status/2074433074998448477",
-      "handle": "kumamoto_luna",
-      "display_name": "Private Salon LUNA｜熊本ルナ🌙",
-      "published_at": "2026-07-07T09:59:20Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2074433063971659776/vid/avc1/464x688/2NP6tSO20ad2EfB7.mp4?tag=25"
-        }
-      ]
     }
   ],
   "item_count": 80,
-  "content_hash": "206c69ea5e550af758391262fdd9cafcf355b27f9c8126677721335c26fa1553",
-  "generated_at": "2026-11-10T20:40:51Z"
+  "content_hash": "feedcc11b089bf0e6134759a588ff8ef6feea99b04b64ce6de8e995713e88091",
+  "generated_at": "2026-11-10T21:02:44Z"
 }
