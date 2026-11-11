@@ -7,7 +7,7 @@
     "url": "https://x.com/SEA_PYRAMID"
   },
   "collection_method": "Hermes Agent with Grok x_search and X oEmbed",
-  "last_source_update_at": "2026-11-10T05:08:29+09:00",
+  "last_source_update_at": "2026-11-12T05:05:48+09:00",
   "items": [
     {
       "id": "2119731273103286726",
@@ -65,6 +65,18 @@
       "handle": "STARLIGHT_CAFE_",
       "display_name": "STARLIGHT CAFE & WEDDING 熊本",
       "published_at": "2026-11-09T04:24:06Z",
+      "is_reply": false,
+      "is_repost": false,
+      "media": []
+    },
+    {
+      "id": "2119646791604011469",
+      "title": "🤖11/13（金）17〜20時、熊本AI研究所のAI相談会！ ChatGPT、仕事や暮らしのAI活用、画像・動画、AIエージェントまで気軽に話しましょう😊 📍N",
+      "text": "🤖11/13（金）17〜20時、熊本AI研究所のAI相談会！ ChatGPT、仕事や暮らしのAI活用、画像・動画、AIエージェントまで気軽に話しましょう😊 📍Nomad Space（駕町通り×銀座通り近く） 💰一般1,000円／学生500円 参加希望はDMへ！ pic.twitter.com/VDPNYpuokI",
+      "url": "https://x.com/CLUB_PYRAMID/status/2119646791604011469",
+      "handle": "CLUB_PYRAMID",
+      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
+      "published_at": "2026-11-09T04:22:30Z",
       "is_reply": false,
       "is_repost": false,
       "media": []
@@ -370,18 +382,6 @@
       "media": []
     },
     {
-      "id": "2070138704560308246",
-      "title": "海のピラミッド／CLUB PYRAMID 正史｜第4部；記録をどう残すか――歴史書・Webアーカイブ・未来の読者へhttps://t.co/BLWfIWcHly",
-      "text": "海のピラミッド／CLUB PYRAMID 正史｜第4部；記録をどう残すか――歴史書・Webアーカイブ・未来の読者へhttps://t.co/BLWfIWcHly pic.twitter.com/Vj1YyDw1U8",
-      "url": "https://x.com/CLUB_PYRAMID/status/2070138704560308246",
-      "handle": "CLUB_PYRAMID",
-      "display_name": "海のピラミッド▲熊本▲三角▲宇城市▲CLUB PYRAMID",
-      "published_at": "2026-06-25T13:35:03Z",
-      "is_reply": false,
-      "is_repost": false,
-      "media": []
-    },
-    {
       "id": "1805900783449473499",
       "title": "絵も好き 延々、一緒に色んな“青”を集めてみたいな",
       "text": "絵も好き 延々、一緒に色んな“青”を集めてみたいな",
@@ -491,6 +491,6 @@
     }
   ],
   "item_count": 40,
-  "content_hash": "b095cd01cdeb93f76e14631531780f6ad3152c86693adbf6944130c12bf5f6ce",
-  "generated_at": "2026-11-09T20:08:30Z"
+  "content_hash": "4c8b1bc60758a934bbcc08141946eecf77cd86d7998958b7bdf168d2d3d3a29b",
+  "generated_at": "2026-11-11T20:05:49Z"
 }
