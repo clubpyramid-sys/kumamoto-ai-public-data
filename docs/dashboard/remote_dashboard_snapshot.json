@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-13T08:45:42.708049+09:00",
+  "generated_at": "2026-11-13T08:56:35.941367+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1858,52 +1858,84 @@
   "sns": {
     "x_accounts": [
       {
-        "handle": "@club_kumamoto",
-        "url": "https://x.com/club_kumamoto/status/2085314155750563908",
-        "latest_at": "2026-08-06T19:36:52+09:00",
-        "weekly_count": 0
+        "handle": "club_kumamoto",
+        "url": "https://x.com/club_kumamoto/status/2119630705986842851",
+        "latest_at": "2026-11-09T03:18:35Z",
+        "weekly_count": 2,
+        "latest_post_id": "2119630705986842851",
+        "feed_generated_at": "2026-11-12T21:07:21Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "updated"
       },
       {
-        "handle": "@kumamonsupport",
-        "url": "https://x.com/kumamonsupport/status/2086970137346011306",
-        "latest_at": "2026-08-11T09:17:09+09:00",
-        "weekly_count": 1
+        "handle": "kumamonsupport",
+        "url": "https://x.com/kumamonsupport/status/2119642260916912506",
+        "latest_at": "2026-11-09T04:04:30Z",
+        "weekly_count": 2,
+        "latest_post_id": "2119642260916912506",
+        "feed_generated_at": "2026-11-12T21:07:21Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "updated"
       },
       {
-        "handle": "@K_Ero_Gentleman",
-        "url": "https://x.com/K_Ero_Gentleman/status/2086971510544298374",
-        "latest_at": "2026-08-11T09:22:36+09:00",
-        "weekly_count": 1
+        "handle": "K_Ero_Gentleman",
+        "url": "https://x.com/K_Ero_Gentleman/status/2114051664881893570",
+        "latest_at": "2026-10-24T17:49:28Z",
+        "weekly_count": 0,
+        "latest_post_id": "2114051664881893570",
+        "feed_generated_at": "2026-11-12T21:07:21Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "retained_previous"
       },
       {
-        "handle": "@kumamoto_luna",
-        "url": "https://x.com/kumamoto_luna/status/2079963984812487033",
-        "latest_at": "2026-07-23T01:17:12+09:00",
-        "weekly_count": 0
+        "handle": "kumamoto_luna",
+        "url": "https://x.com/kumamoto_luna/status/2119965679080358223",
+        "latest_at": "2026-11-10T01:29:39Z",
+        "weekly_count": 6,
+        "latest_post_id": "2119965679080358223",
+        "feed_generated_at": "2026-11-12T21:07:21Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "updated"
       },
       {
-        "handle": "@kumamotodeai",
+        "handle": "kumamotodeai",
         "url": "https://x.com/kumamotodeai/status/2081950136398401985",
-        "latest_at": "2026-07-28T12:49:27+09:00",
-        "weekly_count": 0
+        "latest_at": "2026-07-28T03:49:27Z",
+        "weekly_count": 0,
+        "latest_post_id": "2081950136398401985",
+        "feed_generated_at": "2026-11-11T20:05:49Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "stale"
       },
       {
-        "handle": "@SEA_PYRAMID",
-        "url": "https://x.com/SEA_PYRAMID/status/2087094687580799228",
-        "latest_at": "2026-08-11T17:32:04+09:00",
-        "weekly_count": 1
+        "handle": "SEA_PYRAMID",
+        "url": "https://x.com/SEA_PYRAMID/status/2119648260520583382",
+        "latest_at": "2026-11-09T04:28:21Z",
+        "weekly_count": 6,
+        "latest_post_id": "2119648260520583382",
+        "feed_generated_at": "2026-11-11T20:05:49Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "stale"
       },
       {
-        "handle": "@CLUB_PYRAMID",
-        "url": "https://x.com/CLUB_PYRAMID/status/2083521510829089170",
-        "latest_at": "2026-08-01T20:53:32+09:00",
-        "weekly_count": 0
+        "handle": "CLUB_PYRAMID",
+        "url": "https://x.com/CLUB_PYRAMID/status/2119646791604011469",
+        "latest_at": "2026-11-09T04:22:30Z",
+        "weekly_count": 2,
+        "latest_post_id": "2119646791604011469",
+        "feed_generated_at": "2026-11-11T20:05:49Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "stale"
       },
       {
-        "handle": "@STARLIGHT_CAFE_",
-        "url": "https://x.com/STARLIGHT_CAFE_/status/2083129576625254652",
-        "latest_at": "2026-07-31T18:56:08+09:00",
-        "weekly_count": 0
+        "handle": "STARLIGHT_CAFE_",
+        "url": "https://x.com/STARLIGHT_CAFE_/status/2119731273103286726",
+        "latest_at": "2026-11-09T09:58:12Z",
+        "weekly_count": 6,
+        "latest_post_id": "2119731273103286726",
+        "feed_generated_at": "2026-11-11T20:05:49Z",
+        "counted_at": "2026-11-13T08:56:35.056945+09:00",
+        "state": "stale"
       }
     ],
     "youtube_account": {
@@ -3163,27 +3195,29 @@
       }
     ],
     "collection": {
-      "finished_at": "2026-11-13T04:57:03.666112+09:00",
-      "started_at": "2026-11-13T04:56:59.233302+09:00",
-      "http_unavailable": 0,
-      "status": "success",
-      "source": "managed_sites_snapshot",
-      "reject_count": 0,
+      "http_available": 48,
       "retrieved": 48,
+      "status": "success",
       "attempted": 48,
+      "started_at": "2026-11-13T04:56:59.233302+09:00",
+      "reject_count": 0,
       "failed": 0,
+      "finished_at": "2026-11-13T04:57:03.666112+09:00",
       "target_sites": 48,
       "retained_previous": 0,
-      "http_available": 48
+      "source": "managed_sites_snapshot",
+      "http_unavailable": 0
     }
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-01T05:20:07+09:00",
+    "generated_at": "2026-11-13T08:56:15+09:00",
     "data_state": "partial",
+    "collection_state": "ready",
+    "last_failed_at": "2026-11-13T05:20:14+09:00",
     "summary": {
       "blocked": 0,
-      "completed": 0,
+      "completed": 1,
       "error": 0,
       "external_waiting": 0,
       "failed": 0,
@@ -3191,19 +3225,19 @@
       "paused": 0,
       "reassessment": 0,
       "source_missing": 0,
-      "stale": 7,
+      "stale": 4,
       "total": 7,
       "unchanged": 0,
       "unknown": 0,
-      "updated": 0,
-      "working": 4
+      "updated": 3,
+      "working": 3
     },
     "projects": [
       {
         "project_id": "PROJECT-AI-HEADQUARTERS",
         "project_name": "AI_HEADQUARTERS",
         "project_category": "automation",
-        "phase": "operation",
+        "phase": "unknown",
         "status": "working",
         "progress_percent": null,
         "primary_agent": "Codex",
@@ -3212,18 +3246,18 @@
           "Antigravity",
           "Hermes"
         ],
-        "current_task": "PROJECT_STATUS正本の更新運用とAI Agent収集経路の監査",
+        "current_task": "Phase D2-E6 共通成果物保存規約R2の正式採用・正本統合完了",
         "blocker": null,
-        "next_action": "各案件の状態変化時にPROJECT_STATUSを更新する運用を継続する",
-        "last_result": "AI Agentの正本・collector・公開snapshotの役割を再確認",
-        "last_updated": "2026-08-30T08:27:16+09:00",
+        "next_action": "Phase D2-E6は完了して停止。次の適用・検証フェーズは別途人間指示待ち",
+        "last_result": "承認済みR2を原文のまま正本統合。索引・承認記録・正本監査ログを更新。全AI適用は未完了",
+        "last_updated": "2026-10-20T16:23:24+09:00",
         "last_agent": "Codex",
         "publication_status": "not_applicable",
         "automation_status": "running",
-        "public_summary": "複数AIの正本管理基盤を運用中",
-        "source_state": "stale",
-        "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "public_summary": "共通成果物保存規約の正式採用を完了。各AIへの適用は未完了",
+        "source_state": "updated",
+        "source_last_modified_at": "2026-10-27T15:11:37+09:00",
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-AI-WEB-SNS-PROGRESS-DASHBOARD",
@@ -3249,7 +3283,7 @@
         "public_summary": "AI・WEB・SNSの進捗を所有者限定で確認するダッシュボード (Version 48)",
         "source_state": "stale",
         "source_last_modified_at": "2026-09-01T00:51:16+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-AZITO",
@@ -3274,7 +3308,7 @@
         "public_summary": "AZITO 3.0 の公開準備を進行中",
         "source_state": "stale",
         "source_last_modified_at": "2026-07-29T21:19:51+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-COSANOSTRA-JP",
@@ -3298,7 +3332,7 @@
         "public_summary": "cosanostra.jp の公開サイトを保守中",
         "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-SECRET-CLUB-JP",
@@ -3306,47 +3340,45 @@
         "project_category": "web",
         "phase": "release_preparation",
         "status": "owner_waiting",
-        "progress_percent": null,
-        "primary_agent": "Codex",
+        "progress_percent": 100,
+        "primary_agent": "Antigravity",
         "support_agents": [
-          "Antigravity"
+          "Codex"
         ],
-        "current_task": "KSC CONTENT HUB Version 24 body_htmlレンダラーの手動FTPと本番E2E",
-        "blocker": "KSC本体4ファイルの人手FTP待ち",
-        "next_action": "FTP候補4ファイルを手動アップロードし、本番3幅E2E成功後に専用REPORT ID 9をアーカイブする",
-        "last_result": "本番Public API、ローカル候補の構造化DOM・allowlist・fallback・3幅QA、既存コンテンツ回帰を確認。READY_FOR_MANUAL_FTP",
-        "last_updated": "2026-08-31T08:16:14+09:00",
-        "last_agent": "Codex",
-        "publication_status": "published_confirmed",
+        "current_task": "指示書 No.005 LINEリンク修正・最終確認日時自動更新完了後のFTP CENTER確認待ち",
+        "blocker": "本番FTP公開は人間のボタン操作のみ",
+        "next_action": "FTP CENTER管理画面よりKSCの公開ボタン操作で本番反映",
+        "last_result": "LINEリンク完全統一(Ar-a8mXKYK)、最終確認日時動的更新・API失敗時維持・JS無効時表示、過去アーカイブ33件追記、全QAシナリオPASS",
+        "last_updated": "2026-10-31T06:05:00+09:00",
+        "last_agent": "Antigravity",
+        "publication_status": "preparing",
         "automation_status": "not_applicable",
-        "public_summary": "構造化本文レンダラーのローカル候補QA完了。KSC本番は旧JS/CSSのため手動FTP待ち",
-        "source_state": "stale",
-        "source_last_modified_at": "2026-08-31T09:43:44+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "public_summary": "LINEリンクを公式正本に完全統一し、最終確認日時の動的自動更新を配備。過去アーカイブに10/24を追記しFTP CENTERへローカル納品",
+        "source_state": "updated",
+        "source_last_modified_at": "2026-10-31T06:01:50+09:00",
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTOEVENT-COM",
         "project_name": "kumamotoevent.com",
         "project_category": "web",
-        "phase": "implementation",
-        "status": "working",
-        "progress_percent": null,
-        "primary_agent": "Codex",
-        "support_agents": [
-          "Antigravity"
-        ],
-        "current_task": "宇城・三角サイト6ページの静的HTML再構築",
+        "phase": "release_preparation",
+        "status": "completed",
+        "progress_percent": 100,
+        "primary_agent": "Antigravity",
+        "support_agents": [],
+        "current_task": "熊本秘密結社 指示書 No.003 設定整合監査・公式LINE設定統一・FTP CENTERローカル納品完了",
         "blocker": null,
-        "next_action": "旧本文の欠落なし監査とFTP候補のSHA-256一致確認を完了する",
-        "last_result": "旧原文を保護した静的再構築仕様と公開対象境界を確定",
-        "last_updated": "2026-08-02T12:20:18+09:00",
+        "next_action": "人間によるFTP CENTER管理画面での照合確認および公開ボタン操作",
+        "last_result": "設定整合監査・納品完了: 指示書 No.003に基づき公式LINEを「熊本 レジスタンス ムーブメント（https://lin.ee/zwQ3zJH）」へ全3ページ（TOP, ARCHIVE, HISTORY）で統一修正。旧URL（6ysIV4K）および旧名称（「熊本ルナ」）完全排除（残存0件）。一般1,000円、飲食各自持参・持ち寄り歓迎維持、学生500円照合、11/13 Nomad Space・11/16 Be-9ビル日程会場画像整合確認。全3ページ・5ViewportでのCDP検証全PASS。FTP CENTERへdeliver完了(Delivery ID: a8f358be5acd4…",
+        "last_updated": "2026-11-10T08:25:00+09:00",
         "last_agent": "Antigravity",
-        "publication_status": "published_confirmed",
+        "publication_status": "preparing",
         "automation_status": "healthy",
-        "public_summary": "kumamotoevent.com の公開サイトを保守中",
-        "source_state": "stale",
-        "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "public_summary": "熊本秘密結社 指示書 No.003設定整合監査完了。公式LINEを「熊本 レジスタンス ムーブメント（https://lin.ee/zwQ3zJH）」へ全3ページ統一、旧連絡先完全排除。一般1,000円/学生500円、飲食各自持参・持ち寄り歓迎、公式X維持、11/13 Nomad Space・11/16 Be-9ビル開催情報整合確認。CDP全画面幅検証合格。全40ファイルがFTP CENTERへ正常配備され台帳確定。本番FTP転送は未実施（人間のボタン操作待ち）。",
+        "source_state": "updated",
+        "source_last_modified_at": "2026-11-10T08:26:24+09:00",
+        "collected_at": "2026-11-13T08:56:15+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-AI-LABORATORY",
@@ -3370,7 +3402,7 @@
         "public_summary": "熊本AI研究所のWeb知識基盤を制作準備中",
         "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-10-01T05:20:07+09:00"
+        "collected_at": "2026-11-13T08:56:15+09:00"
       }
     ]
   },
@@ -3451,20 +3483,23 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-13T08:45:43.022452+09:00",
+    "generated_at": "2026-11-13T08:56:06.458484+09:00",
     "environment": "Mac Studio Production",
     "summary": {
-      "total_active_automations": 19,
+      "total_active_automations": 18,
       "health_counts": {
-        "green": 15,
+        "green": 14,
         "yellow": 2,
         "red": 2,
-        "gray": 0
+        "gray": 1
       },
       "status_counts": {
+        "awaiting_first_scheduled_run": 1,
+        "error": 2,
+        "retired": 1,
         "running": 6,
-        "scheduled": 9,
-        "awaiting_first_scheduled_run": 2
+        "scheduled": 8,
+        "warning": 1
       },
       "archived_legacy_automations_count": 19
     },
@@ -3490,8 +3525,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "hardware_pmset",
-        "last_run": "2026-11-13T04:50:00+0900",
-        "last_success": "2026-11-13T04:50:00+0900",
+        "last_run": "2026-11-13T04:50:00+09:00",
+        "last_success": "2026-11-13T04:50:00+09:00",
         "next_run": "2026-11-14T04:50:00+09:00",
         "notes": "ハードウェア自動起動。朝のバッチ群実行に先立ち稼働開始。"
       },
@@ -3505,8 +3540,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
+        "last_run": "2026-11-13T05:00:00+09:00",
+        "last_success": "2026-11-13T05:00:00+09:00",
         "next_run": "常時稼働",
         "notes": "ローカルLLM (qwen2.5-coder, gemma4等) 推論サービス常駐。"
       },
@@ -3517,13 +3552,13 @@
         "mechanism": "LaunchAgent Daemon",
         "schedule": "常時稼働",
         "cadence_label": "常駐デーモン",
-        "status": "stopped",
-        "health": "red",
+        "status": "warning",
+        "health": "yellow",
         "execution_type": "launchd_service",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
-        "next_run": "常時稼働",
-        "notes": "自律エージェントオーケストレーション基盤常駐。"
+        "last_run": null,
+        "last_success": null,
+        "next_run": null,
+        "notes": "期待稼働状態未確認"
       },
       {
         "automation_id": "openclaw-gateway",
@@ -3535,8 +3570,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
+        "last_run": "2026-11-13T05:00:00+09:00",
+        "last_success": "2026-11-13T05:00:00+09:00",
         "next_run": "常時稼働",
         "notes": "マルチチャネルエージェント通信ゲートウェイ常駐。"
       },
@@ -3547,13 +3582,13 @@
         "mechanism": "LaunchAgent Daemon",
         "schedule": "常時稼働",
         "cadence_label": "常駐デーモン",
-        "status": "stopped",
-        "health": "red",
+        "status": "retired",
+        "health": "gray",
         "execution_type": "launchd_service",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
-        "next_run": "常時稼働",
-        "notes": "Codex LLMリクエストルーティング基盤常駐。"
+        "last_run": null,
+        "last_success": null,
+        "next_run": null,
+        "notes": "2026-09-29 廃止。稼働監視対象外"
       },
       {
         "automation_id": "chat-state-recorder",
@@ -3565,8 +3600,8 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd_service",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
+        "last_run": "2026-11-13T05:00:00+09:00",
+        "last_success": "2026-11-13T05:00:00+09:00",
         "next_run": "常時稼働",
         "notes": "Webブラウザ会話セッション状態のローカル記録サービス常駐。"
       },
@@ -3580,8 +3615,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
+        "last_run": "2026-11-13T05:00:00+09:00",
+        "last_success": "2026-11-13T05:00:00+09:00",
         "next_run": "2026-11-14T05:00:00+09:00",
         "notes": "Hermes Agentで収集したX日次まとめ投稿を生成・公開。"
       },
@@ -3595,8 +3630,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T05:10:00+0900",
-        "last_success": "2026-11-13T05:10:00+0900",
+        "last_run": "2026-11-13T05:10:00+09:00",
+        "last_success": "2026-11-13T05:10:00+09:00",
         "next_run": "2026-11-14T05:10:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:10)。Google Calendar APIからローカルカレンダーDBへの日次同期。"
       },
@@ -3610,8 +3645,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T05:55:00+0900",
-        "last_success": "2026-11-13T05:55:00+0900",
+        "last_run": "2026-11-13T05:55:00+09:00",
+        "last_success": "2026-11-13T05:55:00+09:00",
         "next_run": "2026-11-14T05:55:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:55)。朝の収集・集計完了後にサマリーメール送信。"
       },
@@ -3637,13 +3672,13 @@
         "mechanism": "LaunchAgent",
         "schedule": "毎日 05:20",
         "cadence_label": "毎日定時",
-        "status": "scheduled",
-        "health": "green",
+        "status": "error",
+        "health": "red",
         "execution_type": "launchd",
-        "last_run": "2026-08-31T09:43:47+09:00",
-        "last_success": "2026-08-31T09:43:47+09:00",
+        "last_run": "2026-11-13T05:20:14+09:00",
+        "last_success": "2026-10-01T05:20:07+09:00",
         "next_run": "2026-11-14T05:20:00+09:00",
-        "notes": "Phase 2-H時刻最適化(05:20)。全7プロジェクトの状態を正常収集・監査。"
+        "notes": "直近の実行失敗を確認"
       },
       {
         "automation_id": "ai-usage-auto-collector",
@@ -3655,8 +3690,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T05:30:00+0900",
-        "last_success": "2026-11-13T05:30:00+0900",
+        "last_run": "2026-11-13T05:30:00+09:00",
+        "last_success": "2026-11-13T05:30:00+09:00",
         "next_run": "2026-11-14T05:30:00+09:00",
         "notes": "各AIモデル・APIのトークン消費量と費用集計。"
       },
@@ -3670,8 +3705,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "hermes_cron",
-        "last_run": "2026-11-13T08:00:00+0900",
-        "last_success": "2026-11-13T08:00:00+0900",
+        "last_run": "2026-11-13T08:00:00+09:00",
+        "last_success": "2026-11-13T08:00:00+09:00",
         "next_run": "2026-11-14T06:10:00+09:00",
         "notes": "Hermes AgentによるSNS・ニュース・特定アカウントの定時調査。"
       },
@@ -3682,13 +3717,13 @@
         "mechanism": "LaunchAgent",
         "schedule": "毎日 12:00",
         "cadence_label": "毎日定時",
-        "status": "awaiting_first_scheduled_run",
-        "health": "yellow",
+        "status": "error",
+        "health": "red",
         "execution_type": "launchd",
-        "last_run": "2026-08-31T08:49:15+09:00",
-        "last_success": "2026-08-31T08:49:15+09:00",
+        "last_run": "2026-11-12T12:00:05+09:00",
+        "last_success": "2026-10-21T12:26:42+09:00",
         "next_run": "2026-11-13T12:00:00+09:00",
-        "notes": "Phase 2-Eで12:00正式有効化。restic暗号化差分バックアップ。初回定時実行待ち。"
+        "notes": "直近の実行失敗を確認"
       },
       {
         "automation_id": "x-feed-regular",
@@ -3700,8 +3735,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T05:00:00+0900",
-        "last_success": "2026-11-13T05:00:00+0900",
+        "last_run": "2026-11-13T05:00:00+09:00",
+        "last_success": "2026-11-13T05:00:00+09:00",
         "next_run": "2026-11-13T15:00:00+09:00",
         "notes": "Xフィードの定期更新・公開データ同期。"
       },
@@ -3715,8 +3750,8 @@
         "status": "scheduled",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-12T17:00:00+0900",
-        "last_success": "2026-11-12T17:00:00+0900",
+        "last_run": "2026-11-12T17:00:00+09:00",
+        "last_success": "2026-11-12T17:00:00+09:00",
         "next_run": "2026-11-13T17:00:00+09:00",
         "notes": "夕方の自動集計日報メール送信。"
       },
@@ -3730,9 +3765,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T08:40:43.022452+09:00",
-        "last_success": "2026-11-13T08:40:43.022452+09:00",
-        "next_run": "2026-11-13T09:00:43.022452+09:00",
+        "last_run": "2026-11-13T08:51:06.458484+09:00",
+        "last_success": "2026-11-13T08:51:06.458484+09:00",
+        "next_run": "2026-11-13T09:11:06.458484+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3745,9 +3780,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T08:30:43.022452+09:00",
-        "last_success": "2026-11-13T08:30:43.022452+09:00",
-        "next_run": "2026-11-13T09:15:43.022452+09:00",
+        "last_run": "2026-11-13T08:41:06.458484+09:00",
+        "last_success": "2026-11-13T08:41:06.458484+09:00",
+        "next_run": "2026-11-13T09:26:06.458484+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3760,9 +3795,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-13T07:45:43.022452+09:00",
-        "last_success": "2026-11-13T07:45:43.022452+09:00",
-        "next_run": "2026-11-13T11:45:43.022452+09:00",
+        "last_run": "2026-11-13T07:56:06.458484+09:00",
+        "last_success": "2026-11-13T07:56:06.458484+09:00",
+        "next_run": "2026-11-13T11:56:06.458484+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
