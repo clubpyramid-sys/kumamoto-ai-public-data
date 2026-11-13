@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "n4901a38dc016",
+      "title": "努力できる人だけを愛する社会は、愛のある社会なのか｜「衣食足りて礼節を知る」――自己責任論を超えて、人間の自由を取り戻す",
+      "url": "https://note.com/club_pyramid/n/n4901a38dc016",
+      "published_at": "2026-11-13T12:45:05+09:00",
+      "summary": "世の中には、こんな言葉が溢れている。 「努力が足りない」 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/335532074/rectangle_large_type_2_da63bf9a26121e6c702f05ac51708cc8.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n59488a69c0c4",
       "title": "「送ったのに返事がない」の正体。InstagramのDMを全部開けたら、1年前のお客様が眠っていた。",
       "url": "https://note.com/club_pyramid/n/n59488a69c0c4",
@@ -108,18 +120,6 @@
       "published_at": "2026-10-17T11:18:20+09:00",
       "summary": "AIにメールを読ませて、迷惑メールを見分け、重要な連絡を拾い上げ、毎日の報告書を作ってもらう。 そんな「自分専用のメール秘書」を作り始めました。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325255199/rectangle_large_type_2_a3be3440536ed38d62f9f29c1f52e1cb.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n5ce8c6f39b6a",
-      "title": "AIは社会をどう変えるのか？ ――河内アカデミーでの対話から考える、AI時代の新しい社会設計",
-      "url": "https://note.com/club_pyramid/n/n5ce8c6f39b6a",
-      "published_at": "2026-10-11T17:55:22+09:00",
-      "summary": "昨日の河内アカデミーでの約7時間半の対話を、仕事やAI活用という枠を超えて、社会全体へ敷衍してみると、かなり大きな変化が見えてきます。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/323201343/rectangle_large_type_2_77919a1fd829bacff6eeb7688b2353f5.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "8a783090952cd8fff1997f3a655fa2fa809cc4e488390438f8a4c5064b7b1166",
-  "generated_at": "2026-11-10T20:40:51Z"
+  "content_hash": "6e25a9175e4e4c4f60cd09568b527c459108f2fbb066570182cdcf523a652cce",
+  "generated_at": "2026-11-13T20:40:50Z"
 }
