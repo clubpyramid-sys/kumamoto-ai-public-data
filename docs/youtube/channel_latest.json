@@ -9,6 +9,20 @@
   },
   "items": [
     {
+      "id": "BHXhiP4jkqA",
+      "title": "熊本イベントアプリ×地域AI",
+      "url": "https://www.youtube.com/watch?v=BHXhiP4jkqA",
+      "published_at": "2026-11-18T07:28:43+00:00",
+      "description": "",
+      "duration": "PT8M6S",
+      "duration_seconds": 486,
+      "thumbnail_url": "https://i.ytimg.com/vi/BHXhiP4jkqA/maxresdefault.jpg",
+      "playlist_position": 1,
+      "channel_title": "海のピラミッド@熊本",
+      "source_id": "youtube-channel-clubpyramid",
+      "source_type": "youtube_channel"
+    },
+    {
       "id": "4AWyJ8ZZ8dc",
       "title": "AI活用前の目的の明確化",
       "url": "https://www.youtube.com/watch?v=4AWyJ8ZZ8dc",
@@ -17,7 +31,7 @@
       "duration": "PT7M44S",
       "duration_seconds": 464,
       "thumbnail_url": "https://i.ytimg.com/vi/4AWyJ8ZZ8dc/sddefault.jpg",
-      "playlist_position": 1,
+      "playlist_position": 2,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -31,7 +45,7 @@
       "duration": "PT9M45S",
       "duration_seconds": 585,
       "thumbnail_url": "https://i.ytimg.com/vi/aVylVT7kD4o/sddefault.jpg",
-      "playlist_position": 2,
+      "playlist_position": 3,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -45,7 +59,7 @@
       "duration": "PT8M34S",
       "duration_seconds": 514,
       "thumbnail_url": "https://i.ytimg.com/vi/diHIozyH9hE/sddefault.jpg",
-      "playlist_position": 3,
+      "playlist_position": 4,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -59,7 +73,7 @@
       "duration": "PT7M27S",
       "duration_seconds": 447,
       "thumbnail_url": "https://i.ytimg.com/vi/gbi5IEBQAMk/sddefault.jpg",
-      "playlist_position": 4,
+      "playlist_position": 5,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -73,7 +87,7 @@
       "duration": "PT6M28S",
       "duration_seconds": 388,
       "thumbnail_url": "https://i.ytimg.com/vi/CFysTpjmoWI/sddefault.jpg",
-      "playlist_position": 5,
+      "playlist_position": 6,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -87,7 +101,7 @@
       "duration": "PT8M1S",
       "duration_seconds": 481,
       "thumbnail_url": "https://i.ytimg.com/vi/yaQToCWzSKA/maxresdefault.jpg",
-      "playlist_position": 6,
+      "playlist_position": 7,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -101,7 +115,7 @@
       "duration": "PT2H51M43S",
       "duration_seconds": 10303,
       "thumbnail_url": "https://i.ytimg.com/vi/QTtpms6ip_Q/maxresdefault.jpg",
-      "playlist_position": 7,
+      "playlist_position": 8,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -115,7 +129,7 @@
       "duration": "PT8M2S",
       "duration_seconds": 482,
       "thumbnail_url": "https://i.ytimg.com/vi/E3hbcIO3OR0/sddefault.jpg",
-      "playlist_position": 8,
+      "playlist_position": 9,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -129,7 +143,7 @@
       "duration": "PT8M45S",
       "duration_seconds": 525,
       "thumbnail_url": "https://i.ytimg.com/vi/SYzDPsHZTSk/sddefault.jpg",
-      "playlist_position": 9,
+      "playlist_position": 10,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -143,7 +157,7 @@
       "duration": "PT7M27S",
       "duration_seconds": 447,
       "thumbnail_url": "https://i.ytimg.com/vi/wF8XSBi8CgQ/maxresdefault.jpg",
-      "playlist_position": 10,
+      "playlist_position": 11,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -157,7 +171,7 @@
       "duration": "PT10M7S",
       "duration_seconds": 607,
       "thumbnail_url": "https://i.ytimg.com/vi/q3D_fuIyy3Q/maxresdefault.jpg",
-      "playlist_position": 11,
+      "playlist_position": 12,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -171,7 +185,7 @@
       "duration": "PT8M53S",
       "duration_seconds": 533,
       "thumbnail_url": "https://i.ytimg.com/vi/tQONUYlfG8s/maxresdefault.jpg",
-      "playlist_position": 12,
+      "playlist_position": 13,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -185,7 +199,7 @@
       "duration": "PT9M13S",
       "duration_seconds": 553,
       "thumbnail_url": "https://i.ytimg.com/vi/iDRiDIOuSoQ/maxresdefault.jpg",
-      "playlist_position": 13,
+      "playlist_position": 14,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -199,7 +213,7 @@
       "duration": "PT17M24S",
       "duration_seconds": 1044,
       "thumbnail_url": "https://i.ytimg.com/vi/VOZpy6-LCu4/maxresdefault.jpg",
-      "playlist_position": 14,
+      "playlist_position": 15,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -213,7 +227,7 @@
       "duration": "PT23M",
       "duration_seconds": 1380,
       "thumbnail_url": "https://i.ytimg.com/vi/9hA-vrX1a8s/maxresdefault.jpg",
-      "playlist_position": 15,
+      "playlist_position": 16,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -227,7 +241,7 @@
       "duration": "PT9M21S",
       "duration_seconds": 561,
       "thumbnail_url": "https://i.ytimg.com/vi/P2VHp4mp9aE/maxresdefault.jpg",
-      "playlist_position": 16,
+      "playlist_position": 17,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -241,7 +255,7 @@
       "duration": "PT4M45S",
       "duration_seconds": 285,
       "thumbnail_url": "https://i.ytimg.com/vi/dK30nUo18Do/maxresdefault.jpg",
-      "playlist_position": 17,
+      "playlist_position": 18,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -255,7 +269,7 @@
       "duration": "PT8M25S",
       "duration_seconds": 505,
       "thumbnail_url": "https://i.ytimg.com/vi/hkQzqOBfGsU/maxresdefault.jpg",
-      "playlist_position": 18,
+      "playlist_position": 19,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
       "source_type": "youtube_channel"
@@ -269,20 +283,6 @@
       "duration": "PT16M46S",
       "duration_seconds": 1006,
       "thumbnail_url": "https://i.ytimg.com/vi/ck8gwakpXsM/maxresdefault.jpg",
-      "playlist_position": 19,
-      "channel_title": "海のピラミッド@熊本",
-      "source_id": "youtube-channel-clubpyramid",
-      "source_type": "youtube_channel"
-    },
-    {
-      "id": "mul6AiYDT1E",
-      "title": "借金の正体：超・生存型財務戦略【借金の正体】常識を覆す「財務サバイバル」の極意：あなたが生き残るための5つの衝撃的視点",
-      "url": "https://www.youtube.com/watch?v=mul6AiYDT1E",
-      "published_at": "2026-06-29T13:21:00+00:00",
-      "description": "1. 導入：借金の重圧に押しつぶされそうなあなたへ 資金繰りの悪化や膨れ上がる負債。それは単なる数字の問題ではなく、人間の精神を内側から蝕む猛毒です。「返済が滞る自分は社会失格だ」「ルールを守れない人間に価値はない」――。そうした自責の念に駆られ、夜も眠れぬ日々を過ごしている方は多いでしょう。 しかし、断言します。あなたが今感じている苦しみの正体は、資本主義という巨大なシステムの「表面的なルール」に縛られているがゆえの錯覚です。私は倫理的な善悪を語るつもりはありません。本記事では、このシステムの裏側にある冷徹な「生存ロジック」を解き明かします。 読み終える頃、あなたの借金に対する視界は180度転換しているはずです。あなたの苦しみは、個人の欠陥ではなく、単なる**「システムのバグ」**に過ぎません。これは、あなたが冷酷な経済社会で生き残り、再び立ち上がるための「財務サバイバル戦略」です。 2. 戦略的視点1：あなたは「悪」ではなく、通貨の「創出者」である 多くの債務者は「他人の大切な貯金を減らしている」という罪悪感に苛まれます。しかし、それは現代経済の仕組みを誤解している証拠です。 **「信用創造（Money Creation）」という本質を理解してください。銀行は、誰かの現金を預かって、それを別の誰かに貸し出しているわけではありません。銀行が貸し出しを行う際、彼らはあなたの通帳に数字を書き込むだけ。その瞬間に、この世に「無」から新しいお金が誕生します。これを「万年筆マネー」**と呼びます。 つまり、銀行の金庫から現金が減るわけではなく、デジタル上の数字が増えるだけ。リスクを背負って多額の借金をし、その金を市場へ流したあなたこそが、この世界の通貨流通量を増やし、経済を動かした最大の貢献者に他ならないのです。 「リスクを背負って金をばらまいてくれてありがとう」というのが、資本主義社会の本音であるべきです。 分析：なぜこの視点が不可欠なのか 「自分はダメな人間だ」という倫理観の罠を脱却することは、生存戦略のスタートラインです。自分を「経済の立役者」だと再定義し、メンタルの主導権を取り戻すことで初めて、冷静な交渉や再建計画という「次の一手」が可能になります。 3. 戦略的視点2：弁護士が「自己破産」を急かす、冷徹なビジネス構造 資金がショートした際、専門家に頼るのは正攻法で",
-      "duration": "PT9M7S",
-      "duration_seconds": 547,
-      "thumbnail_url": "https://i.ytimg.com/vi/mul6AiYDT1E/maxresdefault.jpg",
       "playlist_position": 20,
       "channel_title": "海のピラミッド@熊本",
       "source_id": "youtube-channel-clubpyramid",
@@ -290,6 +290,6 @@
     }
   ],
   "item_count": 20,
-  "content_hash": "6aca22df6847e170c2b93b0b3611d2f485ca491c39d9a66c2c5e9d48685a2afa",
-  "generated_at": "2026-10-11T20:41:31Z"
+  "content_hash": "6256f4305e7c2eb8c07d18a6e575e28286dbc7387ca547a3305c3a55ea350b66",
+  "generated_at": "2026-11-18T20:40:55Z"
 }
