@@ -6,6 +6,18 @@
   },
   "note_items": [
     {
+      "id": "ne93251f4a12a",
+      "title": "知能ビッグバン ― 40万円のパソコンが世界を変える日〜知能の垂直的進化と水平的拡大、そして知的生産手段の大衆化へ〜",
+      "url": "https://note.com/club_pyramid/n/ne93251f4a12a",
+      "published_at": "2026-11-19T16:17:13+09:00",
+      "summary": "序章｜小さな実験から見えてきた巨大な文明変革 2026年11月、私はMac Studioの中で、ローカルAIエージェントに動画制作を習得させる実験を行っていた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/338021986/rectangle_large_type_2_08f4f553e8807695b999d5e9833ba043.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account",
+      "selection_mode": "automatic"
+    },
+    {
       "id": "n70c487191708",
       "title": "AIを使う時代から、AIチームを育てる時代へ。Codex・Antigravity・Hermesでつくる私のAI組織｜Fable、Carbon、Grok、ローカルLLM。世界中のAIを、一台のMac Studioで使い分ける。",
       "url": "https://note.com/club_pyramid/n/n70c487191708",
@@ -108,18 +120,6 @@
       "published_at": "2026-10-18T09:32:08+09:00",
       "summary": "最近、AIを使ったWebサイトやアプリケーションの制作が、私の日常になっています。 以前なら、プログラムを書けなければ実現できなかったアイデアも、今ではAIに相談しながら形にできるようになりました。 続きをみる",
       "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325590303/rectangle_large_type_2_6e763332923f9e6434991fd9d63f0678.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account",
-      "selection_mode": "automatic"
-    },
-    {
-      "id": "n3719a527c425",
-      "title": "税理士も弁護士も、AIで準備してから相談する時代へ──専門家の限られた時間を、最も価値の高い判断に使う",
-      "url": "https://note.com/club_pyramid/n/n3719a527c425",
-      "published_at": "2026-10-17T12:27:22+09:00",
-      "summary": "最近、自分の会社の決算書と税務申告書を、GPT-6と一緒に作成している。 これが、想像していた以上に面白い。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/325275652/rectangle_large_type_2_f84f39abcda993853fff872d7db228c6.png?width=800",
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account",
@@ -280,6 +280,6 @@
   ],
   "note_count": 10,
   "youtube_count": 10,
-  "content_hash": "57e86f58be38cba27bbf38f4af9609b6b14d9f4f8d18a95eb2e3584977e7e470",
-  "generated_at": "2026-11-18T20:40:55Z"
+  "content_hash": "04a44588fed28d0284dc63185239065c506c4ccce8d61ad4dec867a28d899f5c",
+  "generated_at": "2026-11-19T20:41:00Z"
 }

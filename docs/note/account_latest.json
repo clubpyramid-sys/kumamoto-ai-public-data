@@ -9,6 +9,17 @@
   },
   "items": [
     {
+      "id": "ne93251f4a12a",
+      "title": "知能ビッグバン ― 40万円のパソコンが世界を変える日〜知能の垂直的進化と水平的拡大、そして知的生産手段の大衆化へ〜",
+      "url": "https://note.com/club_pyramid/n/ne93251f4a12a",
+      "published_at": "2026-11-19T16:17:13+09:00",
+      "summary": "序章｜小さな実験から見えてきた巨大な文明変革 2026年11月、私はMac Studioの中で、ローカルAIエージェントに動画制作を習得させる実験を行っていた。 続きをみる",
+      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/338021986/rectangle_large_type_2_08f4f553e8807695b999d5e9833ba043.png?width=800",
+      "author": "",
+      "source_id": "note-account-club-pyramid",
+      "source_type": "note_account"
+    },
+    {
       "id": "n70c487191708",
       "title": "AIを使う時代から、AIチームを育てる時代へ。Codex・Antigravity・Hermesでつくる私のAI組織｜Fable、Carbon、Grok、ローカルLLM。世界中のAIを、一台のMac Studioで使い分ける。",
       "url": "https://note.com/club_pyramid/n/n70c487191708",
@@ -216,20 +227,9 @@
       "author": "",
       "source_id": "note-account-club-pyramid",
       "source_type": "note_account"
-    },
-    {
-      "id": "na31156d874a6",
-      "title": "AIは人類を覚醒させるのか？｜20世紀型人生ゲームの終わりと「お前は何をしにこの世界に来た？」という問い",
-      "url": "https://note.com/club_pyramid/n/na31156d874a6",
-      "published_at": "2026-09-25T14:03:15+09:00",
-      "summary": "ある動画を見ていて、どうにも腑に落ちないものを感じた。テーマは「実力主義の罠」だった。 続きをみる",
-      "thumbnail_url": "https://assets.st-note.com/production/uploads/images/317329678/rectangle_large_type_2_54676526d61a8f79418483f41b93d2ca.png?width=800",
-      "author": "",
-      "source_id": "note-account-club-pyramid",
-      "source_type": "note_account"
     }
   ],
   "item_count": 20,
-  "content_hash": "dcf6a37e030ab594b6fcb3b84a003039134fbbfa641a912d6de38e69a5687107",
-  "generated_at": "2026-11-14T20:40:14Z"
+  "content_hash": "d9be3ffb698068428fb86b087e19166532c4f45235f0d3a58e85d805aa030349",
+  "generated_at": "2026-11-19T20:40:16Z"
 }
