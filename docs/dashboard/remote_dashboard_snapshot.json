@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-21T05:08:50.436874+09:00",
+  "generated_at": "2026-11-21T05:24:10.379241+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1864,7 +1864,7 @@
         "weekly_count": 1,
         "latest_post_id": "2122328710586200181",
         "feed_generated_at": "2026-11-19T21:04:27Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "updated"
       },
       {
@@ -1874,7 +1874,7 @@
         "weekly_count": 0,
         "latest_post_id": "2119642260916912506",
         "feed_generated_at": "2026-11-19T21:04:27Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "unverified"
       },
       {
@@ -1884,7 +1884,7 @@
         "weekly_count": 0,
         "latest_post_id": "2114051664881893570",
         "feed_generated_at": "2026-11-19T21:04:27Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "retained_previous"
       },
       {
@@ -1894,7 +1894,7 @@
         "weekly_count": 1,
         "latest_post_id": "2122347819692695641",
         "feed_generated_at": "2026-11-19T21:04:27Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "updated"
       },
       {
@@ -1904,7 +1904,7 @@
         "weekly_count": 0,
         "latest_post_id": "2081950136398401985",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "unverified"
       },
       {
@@ -1914,7 +1914,7 @@
         "weekly_count": 2,
         "latest_post_id": "2122347615186727358",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "updated"
       },
       {
@@ -1924,7 +1924,7 @@
         "weekly_count": 5,
         "latest_post_id": "2123315512843305412",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "updated"
       },
       {
@@ -1934,7 +1934,7 @@
         "weekly_count": 5,
         "latest_post_id": "2122348836752622034",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-21T05:08:47.183868+09:00",
+        "counted_at": "2026-11-21T05:24:03.156308+09:00",
         "state": "retained_previous"
       }
     ],
@@ -3195,23 +3195,23 @@
       }
     ],
     "collection": {
+      "http_available": 48,
+      "retrieved": 48,
+      "status": "success",
       "started_at": "2026-11-20T06:25:28.425563+09:00",
       "attempted": 48,
-      "http_available": 48,
       "target_sites": 48,
-      "finished_at": "2026-11-20T06:25:32.704054+09:00",
-      "retrieved": 48,
-      "failed": 0,
-      "status": "success",
       "retained_previous": 0,
-      "reject_count": 0,
+      "finished_at": "2026-11-20T06:25:32.704054+09:00",
+      "source": "managed_sites_snapshot",
+      "failed": 0,
       "http_unavailable": 0,
-      "source": "managed_sites_snapshot"
+      "reject_count": 0
     }
   },
   "project_portfolio": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-20T05:20:10+09:00",
+    "generated_at": "2026-11-21T05:20:10+09:00",
     "data_state": "partial",
     "collection_state": "ready",
     "last_failed_at": "2026-11-13T05:20:14+09:00",
@@ -3257,7 +3257,7 @@
         "public_summary": "共通成果物保存規約の正式採用を完了。各AIへの適用は未完了",
         "source_state": "stale",
         "source_last_modified_at": "2026-10-27T15:11:37+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-AI-WEB-SNS-PROGRESS-DASHBOARD",
@@ -3283,7 +3283,7 @@
         "public_summary": "AI・WEB・SNSの進捗を所有者限定で確認するダッシュボード (Version 48)",
         "source_state": "stale",
         "source_last_modified_at": "2026-09-01T00:51:16+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-AZITO",
@@ -3308,7 +3308,7 @@
         "public_summary": "AZITO 3.0 の公開準備を進行中",
         "source_state": "stale",
         "source_last_modified_at": "2026-07-29T21:19:51+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-COSANOSTRA-JP",
@@ -3332,7 +3332,7 @@
         "public_summary": "cosanostra.jp の公開サイトを保守中",
         "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-SECRET-CLUB-JP",
@@ -3356,7 +3356,7 @@
         "public_summary": "LINEリンクを公式正本に完全統一し、最終確認日時の動的自動更新を配備。過去アーカイブに10/24を追記しFTP CENTERへローカル納品",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-10-31T06:01:50+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTOEVENT-COM",
@@ -3378,7 +3378,7 @@
         "public_summary": "熊本秘密結社 No.012-C 最終運営方針修正完了。過去イベントを簡素な時系列「過去の開催案内」に統一し、学生料金500円を自己申告制（学生証提示不要）へ改定、11月20日・22日の5企画すべてを明記。CDP全画面幅検証合格。全43ファイルがFTP CENTERへ正常配備され台帳確定。本番FTP転送は未実施（オーナー判断待ち）。",
         "source_state": "unchanged",
         "source_last_modified_at": "2026-11-17T15:08:51+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       },
       {
         "project_id": "PROJECT-KUMAMOTO-AI-LABORATORY",
@@ -3402,7 +3402,7 @@
         "public_summary": "熊本AI研究所のWeb知識基盤を制作準備中",
         "source_state": "stale",
         "source_last_modified_at": "2026-08-30T08:29:01+09:00",
-        "collected_at": "2026-11-20T05:20:10+09:00"
+        "collected_at": "2026-11-21T05:20:10+09:00"
       }
     ]
   },
@@ -3483,7 +3483,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-21T05:08:50.789065+09:00",
+    "generated_at": "2026-11-21T05:24:10.954258+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 18,
@@ -3632,7 +3632,7 @@
         "execution_type": "launchd",
         "last_run": "2026-11-21T05:10:00+09:00",
         "last_success": "2026-11-21T05:10:00+09:00",
-        "next_run": "2026-11-21T05:10:00+09:00",
+        "next_run": "2026-11-22T05:10:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:10)。Google Calendar APIからローカルカレンダーDBへの日次同期。"
       },
       {
@@ -3675,9 +3675,9 @@
         "status": "scheduled_wait",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-20T05:20:10+09:00",
-        "last_success": "2026-11-20T05:20:10+09:00",
-        "next_run": "2026-11-21T05:20:00+09:00",
+        "last_run": "2026-11-21T05:20:10+09:00",
+        "last_success": "2026-11-21T05:20:10+09:00",
+        "next_run": "2026-11-22T05:20:00+09:00",
         "notes": "確認済みの成功記録あり"
       },
       {
@@ -3765,9 +3765,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-21T05:03:50.789065+09:00",
-        "last_success": "2026-11-21T05:03:50.789065+09:00",
-        "next_run": "2026-11-21T05:23:50.789065+09:00",
+        "last_run": "2026-11-21T05:19:10.954258+09:00",
+        "last_success": "2026-11-21T05:19:10.954258+09:00",
+        "next_run": "2026-11-21T05:39:10.954258+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3780,9 +3780,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-21T04:53:50.789065+09:00",
-        "last_success": "2026-11-21T04:53:50.789065+09:00",
-        "next_run": "2026-11-21T05:38:50.789065+09:00",
+        "last_run": "2026-11-21T05:09:10.954258+09:00",
+        "last_success": "2026-11-21T05:09:10.954258+09:00",
+        "next_run": "2026-11-21T05:54:10.954258+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3795,35 +3795,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-21T04:08:50.789065+09:00",
-        "last_success": "2026-11-21T04:08:50.789065+09:00",
-        "next_run": "2026-11-21T08:08:50.789065+09:00",
+        "last_run": "2026-11-21T04:24:10.954258+09:00",
+        "last_success": "2026-11-21T04:24:10.954258+09:00",
+        "next_run": "2026-11-21T08:24:10.954258+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-21T05:08:44+09:00",
+    "generated_at": "2026-11-21T05:23:59+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-11-21T04:53:29+09:00",
-        "last_success_at": "2026-11-21T04:53:29+09:00",
+        "last_attempt_at": "2026-11-21T05:08:46+09:00",
+        "last_success_at": "2026-11-21T05:08:46+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-11-21T04:53:30+09:00",
-        "last_success_at": "2026-11-21T04:53:30+09:00",
+        "last_attempt_at": "2026-11-21T05:08:46+09:00",
+        "last_success_at": "2026-11-21T05:08:46+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-11-21T04:53:30+09:00",
-        "last_success_at": "2026-11-21T04:53:30+09:00",
+        "last_attempt_at": "2026-11-21T05:08:47+09:00",
+        "last_success_at": "2026-11-21T05:08:47+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3836,8 +3836,8 @@
       },
       "ai_agent": {
         "state": "completed",
-        "last_attempt_at": "2026-11-20T05:20:10+09:00",
-        "last_success_at": "2026-11-20T05:20:10+09:00",
+        "last_attempt_at": "2026-11-21T05:20:10+09:00",
+        "last_success_at": "2026-11-21T05:20:10+09:00",
         "message": "収集完了。5件の正本は状態確認が必要です",
         "error_code": ""
       },
@@ -3866,9 +3866,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-11-20T20:08:44.907Z",
-    "last_success_at": "2026-11-20T20:08:44.907Z",
-    "last_attempt_at": "2026-11-20T20:08:44.907Z",
+    "generated_at": "2026-11-20T20:24:00.584Z",
+    "last_success_at": "2026-11-20T20:24:00.584Z",
+    "last_attempt_at": "2026-11-20T20:24:00.584Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
