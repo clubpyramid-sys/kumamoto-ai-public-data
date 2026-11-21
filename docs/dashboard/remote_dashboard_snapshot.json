@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-22T05:30:32.222517+09:00",
+  "generated_at": "2026-11-22T05:45:54.266136+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1864,8 +1864,8 @@
         "weekly_count": 1,
         "latest_post_id": "2122328710586200181",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
-        "state": "retained_previous"
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
+        "state": "stale"
       },
       {
         "handle": "kumamonsupport",
@@ -1874,8 +1874,8 @@
         "weekly_count": 0,
         "latest_post_id": "2119642260916912506",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
-        "state": "retained_previous"
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
+        "state": "stale"
       },
       {
         "handle": "K_Ero_Gentleman",
@@ -1884,8 +1884,8 @@
         "weekly_count": 0,
         "latest_post_id": "2114051664881893570",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
-        "state": "retained_previous"
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
+        "state": "stale"
       },
       {
         "handle": "kumamoto_luna",
@@ -1894,8 +1894,8 @@
         "weekly_count": 1,
         "latest_post_id": "2122347819692695641",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
-        "state": "retained_previous"
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
+        "state": "stale"
       },
       {
         "handle": "kumamotodeai",
@@ -1904,7 +1904,7 @@
         "weekly_count": 0,
         "latest_post_id": "2081950136398401985",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
         "state": "stale"
       },
       {
@@ -1914,7 +1914,7 @@
         "weekly_count": 2,
         "latest_post_id": "2122347615186727358",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
         "state": "stale"
       },
       {
@@ -1924,7 +1924,7 @@
         "weekly_count": 2,
         "latest_post_id": "2123315512843305412",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
         "state": "stale"
       },
       {
@@ -1934,7 +1934,7 @@
         "weekly_count": 5,
         "latest_post_id": "2122348836752622034",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T05:30:29.014840+09:00",
+        "counted_at": "2026-11-22T05:45:45.991163+09:00",
         "state": "stale"
       }
     ],
@@ -3195,18 +3195,18 @@
       }
     ],
     "collection": {
-      "http_available": 48,
-      "http_unavailable": 0,
-      "status": "success",
       "started_at": "2026-11-21T06:40:31.628522+09:00",
       "target_sites": 48,
-      "attempted": 48,
+      "http_available": 48,
+      "http_unavailable": 0,
       "retrieved": 48,
+      "attempted": 48,
+      "finished_at": "2026-11-21T06:40:36.953783+09:00",
       "retained_previous": 0,
-      "source": "managed_sites_snapshot",
+      "status": "success",
       "reject_count": 0,
       "failed": 0,
-      "finished_at": "2026-11-21T06:40:36.953783+09:00"
+      "source": "managed_sites_snapshot"
     }
   },
   "project_portfolio": {
@@ -3483,7 +3483,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-22T05:30:32.404145+09:00",
+    "generated_at": "2026-11-22T05:45:54.577745+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 18,
@@ -3662,7 +3662,7 @@
         "execution_type": "launchd",
         "last_run": null,
         "last_success": null,
-        "next_run": "2026-11-22T05:40:00+09:00",
+        "next_run": "2026-11-23T05:40:00+09:00",
         "notes": "Phase 2-H時刻最適化(05:40)。X日次まとめ・note/YouTube/Ameba最新状態を集約しGit公開。次回自然実行待ち。"
       },
       {
@@ -3765,9 +3765,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T05:25:32.404145+09:00",
-        "last_success": "2026-11-22T05:25:32.404145+09:00",
-        "next_run": "2026-11-22T05:45:32.404145+09:00",
+        "last_run": "2026-11-22T05:40:54.577745+09:00",
+        "last_success": "2026-11-22T05:40:54.577745+09:00",
+        "next_run": "2026-11-22T06:00:54.577745+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3780,9 +3780,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T05:15:32.404145+09:00",
-        "last_success": "2026-11-22T05:15:32.404145+09:00",
-        "next_run": "2026-11-22T06:00:32.404145+09:00",
+        "last_run": "2026-11-22T05:30:54.577745+09:00",
+        "last_success": "2026-11-22T05:30:54.577745+09:00",
+        "next_run": "2026-11-22T06:15:54.577745+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3795,35 +3795,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T04:30:32.404145+09:00",
-        "last_success": "2026-11-22T04:30:32.404145+09:00",
-        "next_run": "2026-11-22T08:30:32.404145+09:00",
+        "last_run": "2026-11-22T04:45:54.577745+09:00",
+        "last_success": "2026-11-22T04:45:54.577745+09:00",
+        "next_run": "2026-11-22T08:45:54.577745+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-22T05:30:26+09:00",
+    "generated_at": "2026-11-22T05:45:42+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T05:15:14+09:00",
-        "last_success_at": "2026-11-22T05:15:14+09:00",
+        "last_attempt_at": "2026-11-22T05:30:28+09:00",
+        "last_success_at": "2026-11-22T05:30:28+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T05:15:15+09:00",
-        "last_success_at": "2026-11-22T05:15:15+09:00",
+        "last_attempt_at": "2026-11-22T05:30:28+09:00",
+        "last_success_at": "2026-11-22T05:30:28+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T05:15:15+09:00",
-        "last_success_at": "2026-11-22T05:15:15+09:00",
+        "last_attempt_at": "2026-11-22T05:30:29+09:00",
+        "last_success_at": "2026-11-22T05:30:29+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3866,9 +3866,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-11-21T20:30:26.889Z",
-    "last_success_at": "2026-11-21T20:30:26.889Z",
-    "last_attempt_at": "2026-11-21T20:30:26.889Z",
+    "generated_at": "2026-11-21T20:45:43.003Z",
+    "last_success_at": "2026-11-21T20:45:43.003Z",
+    "last_attempt_at": "2026-11-21T20:45:43.003Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
