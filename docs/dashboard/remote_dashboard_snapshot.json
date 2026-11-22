@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-22T12:08:47.320848+09:00",
+  "generated_at": "2026-11-22T12:24:08.072519+09:00",
   "privacy": {
     "profile": "public-safe",
     "contains_conversation_text": false,
@@ -1864,7 +1864,7 @@
         "weekly_count": 1,
         "latest_post_id": "2122328710586200181",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1874,7 +1874,7 @@
         "weekly_count": 0,
         "latest_post_id": "2119642260916912506",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1884,7 +1884,7 @@
         "weekly_count": 0,
         "latest_post_id": "2114051664881893570",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1894,7 +1894,7 @@
         "weekly_count": 1,
         "latest_post_id": "2122347819692695641",
         "feed_generated_at": "2026-11-20T20:40:53Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1904,7 +1904,7 @@
         "weekly_count": 0,
         "latest_post_id": "2081950136398401985",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1914,7 +1914,7 @@
         "weekly_count": 2,
         "latest_post_id": "2122347615186727358",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1924,7 +1924,7 @@
         "weekly_count": 2,
         "latest_post_id": "2123315512843305412",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       },
       {
@@ -1934,7 +1934,7 @@
         "weekly_count": 5,
         "latest_post_id": "2122348836752622034",
         "feed_generated_at": "2026-11-20T20:04:57Z",
-        "counted_at": "2026-11-22T12:08:34.688148+09:00",
+        "counted_at": "2026-11-22T12:24:03.989605+09:00",
         "state": "stale"
       }
     ],
@@ -3195,17 +3195,17 @@
       }
     ],
     "collection": {
-      "retrieved": 48,
-      "failed": 0,
-      "http_unavailable": 0,
-      "retained_previous": 0,
-      "http_available": 48,
-      "reject_count": 0,
-      "started_at": "2026-11-22T06:46:47.085996+09:00",
       "attempted": 48,
       "target_sites": 48,
-      "finished_at": "2026-11-22T06:46:52.098727+09:00",
+      "retrieved": 48,
       "status": "success",
+      "failed": 0,
+      "reject_count": 0,
+      "finished_at": "2026-11-22T06:46:52.098727+09:00",
+      "http_unavailable": 0,
+      "http_available": 48,
+      "retained_previous": 0,
+      "started_at": "2026-11-22T06:46:47.085996+09:00",
       "source": "managed_sites_snapshot"
     }
   },
@@ -3483,7 +3483,7 @@
   },
   "automation_status": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-22T12:08:49.113767+09:00",
+    "generated_at": "2026-11-22T12:24:08.426912+09:00",
     "environment": "Mac Studio Production",
     "summary": {
       "total_active_automations": 18,
@@ -3496,9 +3496,9 @@
       "status_counts": {
         "awaiting_first_scheduled_run": 1,
         "retired": 1,
-        "running": 7,
+        "running": 6,
         "scheduled": 8,
-        "scheduled_wait": 1,
+        "scheduled_wait": 2,
         "warning": 1
       },
       "archived_legacy_automations_count": 19
@@ -3717,13 +3717,13 @@
         "mechanism": "LaunchAgent",
         "schedule": "毎日 12:00",
         "cadence_label": "毎日定時",
-        "status": "running",
+        "status": "scheduled_wait",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-21T12:14:14+09:00",
-        "last_success": "2026-11-21T12:14:14+09:00",
+        "last_run": "2026-11-22T12:22:22+09:00",
+        "last_success": "2026-11-22T12:22:22+09:00",
         "next_run": "2026-11-23T12:00:00+09:00",
-        "notes": "実行中"
+        "notes": "確認済みの成功記録あり"
       },
       {
         "automation_id": "x-feed-regular",
@@ -3765,9 +3765,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T12:03:49.113767+09:00",
-        "last_success": "2026-11-22T12:03:49.113767+09:00",
-        "next_run": "2026-11-22T12:23:49.113767+09:00",
+        "last_run": "2026-11-22T12:19:08.426912+09:00",
+        "last_success": "2026-11-22T12:19:08.426912+09:00",
+        "next_run": "2026-11-22T12:39:08.426912+09:00",
         "notes": "Phase 2-A修復完了。15分周期で全ソースのメタデータを同期しスナップショット更新。"
       },
       {
@@ -3780,9 +3780,9 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T11:53:49.113767+09:00",
-        "last_success": "2026-11-22T11:53:49.113767+09:00",
-        "next_run": "2026-11-22T12:38:49.113767+09:00",
+        "last_run": "2026-11-22T12:09:08.426912+09:00",
+        "last_success": "2026-11-22T12:09:08.426912+09:00",
+        "next_run": "2026-11-22T12:54:08.426912+09:00",
         "notes": "mixi日記のローカルアーカイブ定期同期。"
       },
       {
@@ -3795,35 +3795,35 @@
         "status": "running",
         "health": "green",
         "execution_type": "launchd",
-        "last_run": "2026-11-22T11:08:49.113767+09:00",
-        "last_success": "2026-11-22T11:08:49.113767+09:00",
-        "next_run": "2026-11-22T15:08:49.113767+09:00",
+        "last_run": "2026-11-22T11:24:08.426912+09:00",
+        "last_success": "2026-11-22T11:24:08.426912+09:00",
+        "next_run": "2026-11-22T15:24:08.426912+09:00",
         "notes": "熊本シークレットクラブ イベント情報のRSS取得・公開JSON更新。"
       }
     ]
   },
   "refresh_meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-22T12:08:29+09:00",
+    "generated_at": "2026-11-22T12:24:01+09:00",
     "targets": {
       "youtube": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T11:53:08+09:00",
-        "last_success_at": "2026-11-22T11:53:08+09:00",
+        "last_attempt_at": "2026-11-22T12:08:33+09:00",
+        "last_success_at": "2026-11-22T12:08:33+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "note": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T11:53:09+09:00",
-        "last_success_at": "2026-11-22T11:53:09+09:00",
+        "last_attempt_at": "2026-11-22T12:08:34+09:00",
+        "last_success_at": "2026-11-22T12:08:34+09:00",
         "message": "更新完了",
         "error_code": ""
       },
       "ameba": {
         "state": "completed",
-        "last_attempt_at": "2026-11-22T11:53:09+09:00",
-        "last_success_at": "2026-11-22T11:53:09+09:00",
+        "last_attempt_at": "2026-11-22T12:08:34+09:00",
+        "last_success_at": "2026-11-22T12:08:34+09:00",
         "message": "更新完了",
         "error_code": ""
       },
@@ -3866,9 +3866,9 @@
   },
   "ai_chat_recent": {
     "schema_version": "1.1",
-    "generated_at": "2026-11-22T03:08:31.147Z",
-    "last_success_at": "2026-11-22T03:08:31.147Z",
-    "last_attempt_at": "2026-11-22T03:08:31.147Z",
+    "generated_at": "2026-11-22T03:24:01.913Z",
+    "last_success_at": "2026-11-22T03:24:01.913Z",
+    "last_attempt_at": "2026-11-22T03:24:01.913Z",
     "source_status": "ready",
     "source_kind": "manual_chat_states",
     "timestamp_semantics": "state_recorded_at",
